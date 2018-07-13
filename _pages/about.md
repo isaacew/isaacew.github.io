@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Alexander Von Moll, Research Engineer at Air Force Reserach Laboratory"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

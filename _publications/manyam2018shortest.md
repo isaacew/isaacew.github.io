@@ -2,7 +2,6 @@
 title: "Shortest Dubins Path to a Circle"
 collection: publications
 permalink: /publication/manyam2018shortest
-date: 2018-04-19
 venue: 'arXiv:1804.07238 [math]'
 paperurl: 'http://arxiv.org/abs/1804.07238'
 ---

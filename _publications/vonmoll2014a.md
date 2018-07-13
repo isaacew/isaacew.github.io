@@ -2,7 +2,6 @@
 title: "A Review of Exhaust Gas Temperature Sensing Techniques for Modern Turbine Engine Controls"
 collection: publications
 permalink: /publication/vonmoll2014a
-date: 2014-07-25
 venue: '50th AIAA/ASME/SAE/ASEE Joint Propulsion Conference'
 paperurl: 'http://arc.aiaa.org/doi/10.2514/6.2014-3977'
 ---
