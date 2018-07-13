@@ -2,7 +2,7 @@
 title: "Comparison of Communication Architectures and Network Topologies for Distributed Propulsion Controls"
 collection: publications
 permalink: /publication/vonmoll2013comparison
-date: 2013-01
+date: 2013-01-30 00:00:00 +0500
 venue: '59th IIS 2013'
 paperurl: 'http://www.dtic.mil/dtic/tr/fulltext/u2/a586909.pdf'
 ---

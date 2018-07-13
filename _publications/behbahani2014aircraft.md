@@ -2,6 +2,7 @@
 title: "Aircraft Integration Challenges and Opportunities for Distributed Intelligent Control, Power, Thermal Management, Diagnostic and Prognostic Systems"
 collection: publications
 permalink: /publication/behbahani2014aircraft
+date: 2014-09-30 00:00:00 +0500
 venue: 'SAE 2014 Aerospace Systems and Technology Conference'
 paperurl: 'https://doi.org/10.4271/2014-01-2161'
 ---

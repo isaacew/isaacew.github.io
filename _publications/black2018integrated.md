@@ -2,6 +2,7 @@
 title: "Integrated Fiber-Optic Sensor Network System Reliability Modeling and Analysis for Aerospace Applications"
 collection: publications
 permalink: /publication/black2018integrated
+date: 2018-01-07 00:00:00 +0500
 venue: 'AIAA SciTech'
 paperurl: 'http://arc.aiaa.org/doi/10.2514/6.2018-0714'
 ---

@@ -2,6 +2,7 @@
 title: "High-Bandwidth Fiber-Optic Pressure Sensors for High-Temperature Aerospace Applications"
 collection: publications
 permalink: /publication/moslehi2018high-bandwidth
+date: 2018-01-07 00:00:00 +0500
 venue: 'AIAA SciTech'
 paperurl: 'http://arc.aiaa.org/doi/10.2514/6.2018-0715'
 ---

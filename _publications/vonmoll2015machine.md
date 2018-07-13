@@ -2,7 +2,7 @@
 title: "Machine Learning Applications in Complex Control Systems"
 collection: publications
 permalink: /publication/vonmoll2015machine
-date: 2015-01
+date: 2015-01-30 00:00:00 +0500
 venue: 'Georgia Institute of Technology'
 paperurl: 'https://www.slideshare.net/AlexanderVonMoll/vonmollpaper'
 ---
