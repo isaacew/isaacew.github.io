@@ -140,6 +140,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor
 keep_files:
   - .git
   - .svn
@@ -148,7 +149,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: Pandoc
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -156,22 +157,22 @@ incremental: false
 
 
 # Markdown Processing
-pandoc:
-  extensions:
-    - normalize
-    - smart
-    - mathjax
-    - csl: _styles/ieee.csl
-    # - bibliography: bibliography.bib
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   smart_quotes: lsquo,rsquo,ldquo,rdquo
-#   enable_coderay: false
+# pandoc:
+#   extensions:
+#     - normalize
+#     - smart
+#     - mathjax
+#     - csl: _styles/ieee.csl
+#     # - bibliography: bibliography.bib
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 
 # Collections
@@ -260,7 +261,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
