@@ -1,5 +1,16 @@
 Alex Von Moll's personal academic website repo.
 
+Some notable differences from the original template:
+
+- I'm not using excerpts at all for the _Publications_ archive
+- For _Publications_ I added a line for author information via the YAML key `authors`
+
+## TODO
+
+- Reduce whitespace in _Publications_ archive
+- Reduce font sizing all around in _Publications_ archive
+- Tags within _Publications_ for `Journal`, `Conference`, `Thesis`, etc.
+
 # Original README (from academicpages)
 
 >  A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
