@@ -2,7 +2,7 @@
 title: "Multiple Pursuer Single Evader Border Defense Differential Game"
 collection: publications
 permalink: /publication/vonmoll2019multiple
-date: 2019-01-30 00:00:00 +0500
+date: 2019-01-11 00:00:00 +0500
 venue: 'AIAA SciTech (<b><i>Submitted for review</i></b>)'
 authors: 'A. Von Moll, E. Garcia, D. Casbeer, S. Manickam, S. C. Swar'
 excerpt_separator: ""
