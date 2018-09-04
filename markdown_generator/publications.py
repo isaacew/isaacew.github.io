@@ -93,7 +93,7 @@ for item in publications.entries:
     elif 'plain_journaltitle' in item:
         venue = item['plain_journaltitle']
     elif 'plain_school' in item:
-        venue = item['plain_school']
+        venue = item['plain_institution']
     else:
         venue = False
     
