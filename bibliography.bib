@@ -1,0 +1,173 @@
+
+@inproceedings{behbahani2014aircraft,
+  title = {Aircraft {{Integration Challenges}} and {{Opportunities}} for {{Distributed Intelligent Control}}, {{Power}}, {{Thermal Management}}, {{Diagnostic}} and {{Prognostic Systems}}},
+  doi = {10.4271/2014-01-2161},
+  abstract = {Modern propulsion system designers face challenges that require that aircraft and engine manufacturers improve performance as well as reduce the life-cycle cost (LCC). These improvements will require a more efficient, more reliable, and more advanced propulsion system. The concept of smart components is built around actively controlling the engine and the aircraft to operate optimally. Usage of smart components intelligently increases efficiency and system safety throughout the flight envelope, all while meeting environmental challenges. This approach requires an integration and optimization, both at the local level and the system level, to reduce cost. Interactions between the various subsystems must be understood through the use of modeling and simulation. This is accomplished by starting with individual subsystem models and combining them into a complete system model. Hierarchical, decentralized control reduces cost and risk by enabling integration and modularity. This process involves defining, developing, and validating against requirements for key integrated propulsion, power, and thermal management system capabilities.},
+  eventtitle = {2014 {{SAE Aerospace Systems}} and {{Technology Conference}}},
+  booktitle = {2014 {{SAE Aerospace Systems}} and {{Technology Conference}}},
+  publisher = {{SAE International}},
+  date = {2014-09},
+  author = {Behbahani, Alireza R. and Von Moll, Alex and Zeller, Robert and Ordo, James}
+}
+
+@inproceedings{vonmoll2014recent,
+  title = {Recent {{Progress}}, {{Challenges}}, and {{Future Development Needs}} of {{Thermally}}/{{Energy Efficient Fuel Actuator Pumping Systems}} for {{Military Gas Turbine Engine Applications}}},
+  abstract = {Thermal management has emerged as one of the primary challenges for modern military gas turbine engines. Fuel actuator pumping systems contribute to the challenge by constantly injecting waste heat into the fuel system. This is due to a fundamental mismatching between an actuation system with a low duty cycle and a pump which is always running. Since the pump is directly coupled to the gearbox, the detriment is twofold: horsepower is always being drawn to drive the pump, and heat is generated. Furthermore, the emergence of variable cycle engines pushes the actuation system in the direction of more effectors and more loads, which drives requirements for high pressure and high flows from the pumping system. Piston pumps have been seen as favorable for the actuation pump application due to their high single stage pressure rise capability. However reducing the number of pumping components alone has not solved the thermal management issue. Variable displacement pumps have been designed to operate over a range of conditions in order to deliver flow more appropriately as demanded by the control system. These pumps allow pressure and flow to be modulated independent of one another and of the pump’s rotational speed. Variable displacement pumps may be considered as a component of a partial-demand actuation pumping system. Even in a partial-demand actuation pumping system, a variable displacement pump will still be coupled to the gearbox and require some minimum flow for lubrication and cooling. On-demand actuation fuel systems deliver only the amount of flow that is being demanded at a given time so that waste heat is minimized. In other words, the duty cycle of the pumping system matches that of the actuation system. The development of an on-demand actuation fuel system will require a new architecture and new components.},
+  booktitle = {{{JANNAF Interagency Propulsion Committee}} 34th {{Airbreathing Propulsion}}},
+  publisher = {{JANNAF Interagency Propulsion Committee}},
+  date = {2014},
+  author = {Von Moll, Alexander and Semega, Ken and Behbahani, Alireza and Hoying, John}
+}
+
+@inproceedings{vonmoll2013comparison,
+  title = {Comparison of {{Communication Architectures}} and {{Network Topologies}} for {{Distributed Propulsion Controls}}},
+  url = {http://www.dtic.mil/dtic/tr/fulltext/u2/a586909.pdf},
+  abstract = {A distributed engine control system (DECS) offering flexibility and scalability is envisioned for the next generation of propulsion controls. Perhaps the most touted benefit of a DECS is the potential to reduce the amount of harnessing which connects throughout the engine. Such a system is comprised of several network sections incorporating control nodes or data concentrators (DCs). These DCs contain control logic to perform control function computations and are connected to the full authority digital engine control (FADEC) via a high-speed data communication bus. A novel approach for analyzing and evaluating three topologies–ring, star, and bus–in the context of a relevant military engine was described. In this study, the algorithm uses a particle swarm optimization process to evolve solutions to a multi-objective
+optimization problem. The results of this study indicate there is potential for large wire length savings in a distributed control architecture.},
+  booktitle = {59th {{IIS}} 2013},
+  publisher = {{ISA}},
+  date = {2013},
+  author = {Von Moll, Alexander and Behbahani, Alireza R.}
+}
+
+@inproceedings{kalyanam2018scalable,
+  title = {Scalable and {{Exact MILP Methods}} for {{UAV Persistent Visitation Problem}}},
+  volume = {Manuscript accepted for publication},
+  url = {https://sites.google.com/site/krishnakalyanam/ccta2018.pdf},
+  abstract = {We are interested in the persistent surveillance of an area of interest comprised of stations/ data nodes. The data collection task is undertaken by a UAV which autonomously executes the mission. Each node has a priority/ weight associated with it that characterizes the relative importance between timely collection of data from the nodes. In this context, a prudent performance metric is the maximal weighted time between consecutive visits to each node. We wish to minimize the maximum of this metric among all nodes for a given cycle length. Here, the cycle length refers to the total number of nodes (including repeats) visited per cycle. When the cycle length is greater than the number of nodes, some nodes, arguably ones with a higher priority, will be visited more often. We pose the problem as a Mixed Integer Linear Program (MILP), that computes the optimal visit sequence and number of visits to each node for a given cycle length. Not surprisingly, the exact method is not scalable with the number of nodes and the cycle length. We therefore present sub-optimal methods  by directly enforcing a pre-specified number of visits to each node. We present an iterative scheme that computes solutions for increasing cycle length with a recipe for updating the number of visits based on the solution from the previous iteration. We compare the optimal and sub-optimal iterative schemes and show that the sub-optimal scheme is an order of magnitude faster than the optimal scheme with minimal loss in performance.},
+  eventtitle = {Conference on {{Control Technology}} and {{Applications}}},
+  booktitle = {Conference on {{Control Technology}} and {{Applications}}},
+  publisher = {{IEEE}},
+  date = {2018-08},
+  author = {Kalyanam, Krishna and Manyam, Satyanarayana and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
+  note = {Manuscript accepted for publication}
+}
+
+@thesis{vonmoll2015machine,
+  title = {Machine {{Learning Applications}} in {{Complex Control Systems}}},
+  url = {https://www.slideshare.net/AlexanderVonMoll/vonmollpaper},
+  abstract = {The intersection between machine learning and control theory is emerging
+rapidly; many rich applications are currently being developed. This report explores one particular area of interest: trajectory optimization. The Linear Quadratic Regulator and Linear Quadratic Gaussian algorithms are introduced as predecessors to the Iterative Linear Quadratic Gaussian (iLQG) algorithm, which is re-derived in this report and demonstrated on 3 systems of interest: cartpole, double cartpole, and quadrotor. iLQG is robust and widely applicable to a vast number of different systems. Probabilistic Differential Dynamic Programming (PDDP) is introduced as an important extension to iLQG which incorporates uncertainty into the trajectory optimization process. The conceptual advances presented in this report were centered around the use of a Gaussian Process Regression Network (GPRN) to represent the unknown system dynamics in lieu of the standard Gaussian Process representation employed by PDDP. GPRNs offer a more sophisticated noise model and a more adaptive regression framework. More speciffcally, they incorporate input-dependent noise and signal correlation between multiple outputs. This should enhance the predictive capability of the algorithm to represent the unknown system dynamics. Work remains on fully incorporating GPRN into a PDDP-like algorithm: effort continues in the areas of understanding variational Bayes and variational message passing for learning GPRN hyperparameters, and in creating a MATLAB implementation.},
+  institution = {{Georgia Institute of Technology}},
+  type = {MS Special Project},
+  date = {2015},
+  author = {Von Moll, Alexander},
+  note = {Special Project AE8900}
+}
+
+@inproceedings{vonmoll2018pursuit-evasion,
+  location = {{Dallas, TX}},
+  title = {Pursuit-Evasion of an {{Evader}} by {{Multiple Pursuers}}},
+  url = {avonmoll.github.io/files/mp1e.pdf},
+  abstract = {In this paper, we extend the well-studied results of the two-pursuer, single-evader differential game to any number of pursuers. The main objective of this investigation is to exploit the benefits of cooperation amongst the pursuers in order to reduce the capture time of the evader. Computational complexity is a chief concern as this problem would need to be solved in an online fashion, e.g. in the case of autonomous unmanned
+aerial vehicles. A new geometric approach to solving the game is introduced and analyzed, which changes the problem of optimizing over continuous domains to a discrete combinatoric optimization. While past efforts at solving multiple pursuer
+problems have suffered from the curse of dimensionality, the geometric algorithms put forth here are shown to be scalable. Categorization and removal of redundant pursuers is the primary means by which scalability is achieved. The solution of this problem serves as a stepping stone to more complex problems such as the M-pursuer N-evader differential game.},
+  eventtitle = {2018 {{International Conference}} on {{Unmanned Aircraft Systems}} ({{ICUAS}})},
+  date = {2018-06},
+  author = {Von Moll, Alexander and Casbeer, David W. and Garcia, Eloy and Milutinović, Dejan}
+}
+
+@inproceedings{black2018integrated,
+  title = {Integrated {{Fiber}}-{{Optic Sensor Network System Reliability Modeling}} and {{Analysis}} for {{Aerospace Applications}}},
+  url = {http://arc.aiaa.org/doi/10.2514/6.2018-0714},
+  doi = {10.2514/6.2018-0714},
+  abstract = {Next-generation integrated propulsion systems require reliable, robust, low-cost and highperformance
+sensing systems beyond what is expected to be delivered by conventional sensor networks. Emerging fiber-optic sensor networks offer distinct advantages, including multiplexability, cybersecurity, inherent EMI/RFI immunity, high speed and bandwidth, and compatibility with the avionics environment. Ongoing development of a novel reliability analysis methodology to quantify sensor network reliability in harsh environments is discussed. Failure modes, mechanisms, and effects analysis (FMMEA) was performed for jet engine environments. System design and deployment guidelines were then developed based upon experience in sensor network deployments to harsh environments. Addressing this key technology gap, an integrated fiber-optic network reliability analysis technique based upon  predictive failure models is being developed via rigorous environmental testing of critical optical and optoelectronic components comprising the sensor network. The results of this effort are expected to empower propulsion system sensing and control network engineers to enhance design and deployment for reliability.},
+  eventtitle = {{{AIAA SciTech}}},
+  booktitle = {2018 {{AIAA Information Systems}}-{{AIAA Infotech}} @ {{Aerospace}}},
+  series = {AIAA SciTech Forum},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  urldate = {2018-07-11},
+  date = {2018-01-07},
+  author = {Black, Richard J. and Moslehi, Behzad and Price, W and Sotoudeh, Vahid and Osterman, Michael and Das, Diganta and Behbahani, Alireza and Von Moll, Alexander and Semega, Kenneth}
+}
+
+@inproceedings{moslehi2018high-bandwidth,
+  title = {High-{{Bandwidth Fiber}}-{{Optic Pressure Sensors}} for {{High}}-{{Temperature Aerospace Applications}}},
+  url = {http://arc.aiaa.org/doi/10.2514/6.2018-0715},
+  abstract = {The insertion of advanced technologies into gas turbine engines is expected to reduce costs and improve performance. Engines will be getting smaller and hotter for efficiency reasons, requiring diverse types of sensors, in particular pressure and temperature sensors, with extended and enhanced performance. Emerging fiber-optic sensing approaches could provide a unique solution to surpassing the limitations and burden of conventional sensors. Two novel multiplexable fiber optic-based pressure sensor designs are discussed for high-temperature operations up to 1,800 °F and 3,700 °F. These innovative sensor designs enable more direct measurements over long durations, resulting in higher accuracy and stability. These sensors could be used in ground test cells, in-flight control, and diagnostics and prognostic health management (PHM). Highly reliable all-optical sensor networking and interface designs with a high-speed, high-bandwidth fiber-optic backbone is also presented.},
+  eventtitle = {{{AIAA SciTech}}},
+  booktitle = {2018 {{AIAA Information Systems}}-{{AIAA Infotech}} @ {{Aerospace}}},
+  series = {AIAA SciTech Forum},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  urldate = {2018-07-11},
+  date = {2018-01-07},
+  author = {Moslehi, Behzad and Price, W and Black, Richard J. and Han, Ming and Behbahani, Alireza and Von Moll, Alexander and Semega, Kenneth},
+  doi = {10.2514/6.2018-0715}
+}
+
+@inproceedings{manyam2019shortest,
+  location = {{San Diego, CA}},
+  title = {Shortest {{Dubins Path}} to a {{Circle}}},
+  url = {http://arxiv.org/abs/1804.07238},
+  abstract = {The Dubins path problem had enormous applications in path planning for autonomous vehicles. In this paper, we consider a generalization of the Dubins path planning problem, which is to find a shortest Dubins path that starts from a given initial position and heading, and ends on a given target circle with the heading in the tangential direction. This problem has direct applications in Dubins neighborhood traveling salesman problem, obstacle avoidance Dubins path planning problem etc. We characterize the length of the four CSC paths as a function of angular position on the target circle, and derive the conditions which to find the shortest Dubins path to the target circle.},
+  eventtitle = {{{AIAA SciTech}}},
+  booktitle = {{{AIAA SciTech}}},
+  publisher = {{AIAA}},
+  urldate = {2018-07-11},
+  date = {2019-01-07},
+  keywords = {Mathematics - Optimization and Control},
+  author = {Manyam, Satyanarayana Gupta and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  note = {Accepted}
+}
+
+@inproceedings{vonmoll2014review,
+  title = {A {{Review}} of {{Exhaust Gas Temperature Sensing Techniques}} for {{Modern Turbine Engine Controls}}},
+  url = {http://arc.aiaa.org/doi/10.2514/6.2014-3977},
+  abstract = {The exhaust gas temperature (EGT) is typically defined as the gas temperature at the exit of the turbine; the sensors used to measure this parameter are considered the most vulnerable elements of the entire turbine engine instrumentation. EGT measurement is considered a key parameter for optimizing fuel economy, diagnosis, and prognosis. The reason is that turbine blade temperature is a good indicator for normal life consumption of that blade. Currently, direct sensor measurements made on turbine modules are limited due to the extremely hot environment. Exhaust gas temperature (EGT) sensors located downstream from the highest temperature sections provide a means to roughly infer the temperatures seen by the turbine blades/disks. But these sensors, which themselves are subject to frequent failures, provide a fairly inaccurate indication of the actual metal temperature profiles. This is of particular importance for high performance military turbine engines where the margin between hot-section operating conditions and material limitations is shrinking. A future state is envisioned that would use emerging pyrometric, fiber optic, and laser-based sensing to accurately assess the condition and life usage of the hot section, on a blade-by-blade basis.},
+  booktitle = {50th {{AIAA}}/{{ASME}}/{{SAE}}/{{ASEE Joint Propulsion Conference}}},
+  series = {AIAA Propulsion and Energy Forum},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  urldate = {2018-07-13},
+  date = {2014-07-25},
+  author = {Von Moll, Alexander and Behbahani, Alireza R. and Fralick, Gustave C. and Wrbanek, John D. and Hunter, Gary W.},
+  doi = {10.2514/6.2014-3977}
+}
+
+@inproceedings{vonmoll2018genetic,
+  location = {{Atlanta, GA}},
+  title = {Genetic {{Algorithm Approach}} for {{UAV Persistent Visitation Problem}}},
+  url = {https://drive.google.com/file/d/0B0yHktr7udqgZERlUHRfaXNjOWQ5ZWJwNi05bDBvOVYtbDBV/view?usp=sharing},
+  abstract = {We employ a genetic algorithm approach to solving the persistent visitation problem for UAVs. The objective is to minimize the maximum weighted revisit time over all the sites in a cyclicly repeating walk. In general, the optimal length of the walk is not known, so this method (like the exact methods) assume some fixed length. Exact methods for solving the problem have recently been put forth, however, in the absence of additional heuristics, the exact method scales poorly for problems with more than 10 sites or so. By using a genetic algorithm, performance and computation time can be traded off depending on the application. The main contributions are a novel chromosome encoding scheme and genetic operators for cyclic walks which may visit sites more than once. Examples show that the performance is comparable to exact methods with better scalability.},
+  eventtitle = {Dynamic {{Systems}} and {{Control Conference}}},
+  publisher = {{ASME}},
+  date = {2018-10},
+  author = {Von Moll, Alexander and Kalyanam, Krishna and Casbeer, David and Manyam, Satyanarayana G.},
+  note = {Accepted for presentation}
+}
+
+@inproceedings{vonmoll2019multiple,
+  location = {{San Diego, CA}},
+  title = {Multiple {{Pursuer Single Evader Border Defense Differential Game}}},
+  url = {avonmoll.github.io/files/mp1e-border.pdf},
+  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for land borders due to its long distances coupled with terrain variations. In this paper, we consider a scenario in which a team of UAVs (the pursuers)  attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder’s presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
+  eventtitle = {{{AIAA SciTech}}},
+  booktitle = {{{AIAA SciTech}}},
+  publisher = {{AIAA}},
+  date = {2019-01-11},
+  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
+  note = {Accepted}
+}
+
+@inproceedings{manyam2019coordinating,
+  location = {{San Diego, CA}},
+  title = {Coordinating {{Defender Path Planning}} for {{Optimal Target}}-{{Attacker}}-{{Defender Game}}},
+  abstract = {We present a two vehicle, cooperating path planning problem in adversarial environments. The first vehicle is the lead vehicle and its path is prescribed to accomplish a certain mission,and there exists multiple attackers along this path. The second vehicle is a defender that travelsalong the lead vehicle, and it is responsible to protect the lead vehicle from the attackers. The defender launches defender missile to intercept the attackers before it reaches the lead vehicle. The defender and lead vehicle cooperate to maximize the distance between the lead vehicle and the point of interception, while the attacker tries to minimize this distance. This sub problem is modeled as Target-Attacker-Defender (TAD) game with an objective to maximize the terminal separation distance between lead vehicle and attacker. We aim to generate an optimal pathfor the defender, such that if the TAD game is played at any point along the path, the defender should be optimally positioned that maximizes the terminal separation distance. We reduce this problem to a discrete space, and methodically pose it as a shortest path problem on a graph, the solution of which gives the discrete optimal path for the defender.},
+  eventtitle = {{{AIAA Infotech}}},
+  booktitle = {{{AIAA Infotech}}},
+  publisher = {{AIAA}},
+  date = {2019-01-11},
+  author = {Manyam, Satyanarayana G. and Casbeer, David and Von Moll, Alexander and Garcia, Eloy},
+  note = {Accepted}
+}
+
+@article{pachter2019two-on-one,
+  title = {Two-on-{{One Pursuit}}},
+  abstract = {A three agent pursuit-evasion differential game in the Euclidean plane where two pursuers engage an Evader is considered. The Pursuers are faster than the Evader and the three player have simple motion/are holonomic. Coincidence of the Evader with either one, or both Pursuers, is capture, and time of capture is the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential game is revisited and the solution of the Game of Kind is provided. Using Isaacs’ geometric method, explicit formulae for the players’ optimal state feedback strategies and the Value of the game are derived. The merits of the suboptimal Evader tactic of reducing speed, or opting to stay stationary, are examined.},
+  journaltitle = {Journal of Guidance, Control, and Dynamics},
+  date = {2019},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  note = {Submitted for review}
+}
+
+

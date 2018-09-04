@@ -3,7 +3,8 @@ title: "Coordinating Defender Path Planning for Optimal Target-Attacker-Defender
 collection: publications
 permalink: /publication/manyam2019coordinating
 date: 2019-01-11 00:00:00 +0500
-venue: 'AIAA Infotech (<b><i>Submitted or review</i></b>)'
+venue: 'AIAA Infotech (<b><i>Accepted</i></b>)'
+pubtype: 'conference'
 authors: 'S. G. Manyam, D. Casbeer, A. Von Moll, E. Garcia'
 excerpt_separator: ""
 ---
