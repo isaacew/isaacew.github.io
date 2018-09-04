@@ -4,12 +4,19 @@ Some notable differences from the original template:
 
 - I'm not using excerpts at all for the _Publications_ archive
 - For _Publications_ I added a line for author information via the YAML key `authors`
+- Added a YAML key for `pubtype` to indicate whether conference, journal, or academic (thesis)
+- Bin publications based on type on main publications page
+- Rewrote `publications.py` markdown generator to use [bibtexparser](https://bibtexparser.readthedocs.io/en/master/)
+
+Tips:
+
+- I use Zotero to manage my publications list and I automatically export to a .bib file for parsing
 
 ## TODO
 
-- Reduce whitespace in _Publications_ archive
-- Reduce font sizing all around in _Publications_ archive
-- Tags within _Publications_ for `Journal`, `Conference`, `Thesis`, etc.
+[x] Reduce whitespace in _Publications_ archive
+[x] Tags within *Publications* for `Journal`, `Conference`, `Thesis`, etc.
+[ ] Reduce font sizing all around in _Publications_ archive
 
 # Original README (from academicpages)
 
