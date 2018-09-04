@@ -14,9 +14,9 @@ Tips:
 
 ## TODO
 
-[x] Reduce whitespace in _Publications_ archive
-[x] Tags within *Publications* for `Journal`, `Conference`, `Thesis`, etc.
-[ ] Reduce font sizing all around in _Publications_ archive
+- [x] Reduce whitespace in _Publications_ archive
+- [x] Tags within *Publications* for `Journal`, `Conference`, `Thesis`, etc.
+- [ ] Reduce font sizing all around in _Publications_ archive
 
 # Original README (from academicpages)
 
