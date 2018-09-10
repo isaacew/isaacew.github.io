@@ -59,6 +59,7 @@ rapidly; many rich applications are currently being developed. This report explo
   location = {{Dallas, TX}},
   title = {Pursuit-Evasion of an {{Evader}} by {{Multiple Pursuers}}},
   url = {https://avonmoll.github.io/files/mp1e.pdf},
+  doi = {10.1109/ICUAS.2018.8453470},
   abstract = {In this paper, we extend the well-studied results of the two-pursuer, single-evader differential game to any number of pursuers. The main objective of this investigation is to exploit the benefits of cooperation amongst the pursuers in order to reduce the capture time of the evader. Computational complexity is a chief concern as this problem would need to be solved in an online fashion, e.g. in the case of autonomous unmanned
 aerial vehicles. A new geometric approach to solving the game is introduced and analyzed, which changes the problem of optimizing over continuous domains to a discrete combinatoric optimization. While past efforts at solving multiple pursuer
 problems have suffered from the curse of dimensionality, the geometric algorithms put forth here are shown to be scalable. Categorization and removal of redundant pursuers is the primary means by which scalability is achieved. The solution of this problem serves as a stepping stone to more complex problems such as the M-pursuer N-evader differential game.},
@@ -167,6 +168,33 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   journaltitle = {Journal of Guidance, Control, and Dynamics},
   date = {2019},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  note = {Submitted for review}
+}
+
+@inproceedings{manyam2019curvature,
+  title = {Curvature {{Constrained Paths Intercepting}} a {{Target}} on a {{Circular Trajectory}}},
+  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
+  eventtitle = {American {{Control Conference}}},
+  date = {2019-07-10},
+  author = {Manyam, G., Satyanarayana and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  note = {Submitted for review}
+}
+
+@inproceedings{garcia2019cooperative,
+  title = {Cooperative {{Two}}-{{Pursuer One}}-{{Evader Blocking Differential Game}}},
+  abstract = {A pursuit-evasion problem with two pursuers and one evader is considered. The evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the Evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. The problem is posed as a zero-sum differential game where the two pursuers cooperate against the evader. State feedback strategies are derived in this paper and the Value function is obtained. It is also shown that the Value function is continuous, continuously differentiable, and it satisfies the Hamilton-Jacobi-Isaacs equation.},
+  eventtitle = {American {{Control Conference}}},
+  date = {2019-07-10},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  note = {Submitted for review}
+}
+
+@article{vonmoll2019multi-pursuer,
+  title = {The {{Multi}}-{{Pursuer Single}}-{{Evader Game}}: {{A Geometric Approach}}},
+  abstract = {We consider a general pursuit-evasion differential game with three or more pursuers and a single evader, all with simple motion. It is shown that traditional means of differential game analysis is difficult for this scenario. But simple motion and min-max time to capture plus the two-person extension to Pontryagin's maximum principle imply straight-line motion at maximum speed which forms the basis of the solution using a geometric approach. Safe evader paths and policies are defined which guarantee the evader can reach its destination without getting captured by any of the pursuers, provided its destination satisfies some constraints. A linear program is used to characterize the solution and subsequently the saddle-point is computed numerically. We replace the numerical procedure with a more analytical geometric approach based on Voronoi diagrams after observing a pattern in the numerical results. The solutions derived are open-loop optimal, meaning the strategies are a saddle-point equilibrium in the open-loop sense.},
+  journaltitle = {Jounal of Intelligent \& Robotic Systems},
+  date = {2019},
+  author = {Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan and Pachter, Meir},
   note = {Submitted for review}
 }
 

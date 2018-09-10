@@ -5,6 +5,7 @@ permalink: /publication/vonmoll2018pursuit-evasion
 date: 2018-06-15 00:00:00 +0500
 venue: '2018 International Conference on Unmanned Aircraft Systems (ICUAS)'
 paperurl: 'https://avonmoll.github.io/files/mp1e.pdf'
+doi: '10.1109/ICUAS.2018.8453470'
 pubtype: 'conference'
 authors: 'A. Von Moll, D. W. Casbeer, E. Garcia, D. Milutinović'
 excerpt_separator: ""
@@ -14,3 +15,4 @@ aerial vehicles. A new geometric approach to solving the game is introduced and 
 problems have suffered from the curse of dimensionality, the geometric algorithms put forth here are shown to be scalable. Categorization and removal of redundant pursuers is the primary means by which scalability is achieved. The solution of this problem serves as a stepping stone to more complex problems such as the M-pursuer N-evader differential game.
 
 [Download paper here](https://avonmoll.github.io/files/mp1e.pdf)
+[DOI](10.1109/ICUAS.2018.8453470)
