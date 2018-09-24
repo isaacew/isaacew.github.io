@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 # coding: utf-8
 
@@ -55,7 +56,8 @@ with open("../bibliography.bib") as bibtex_file:
 for item in publications.entries:
     item = bibtexparser.customization.add_plaintext_fields(item)
     year = item['plain_year'] if 'plain_year' in item else item['plain_date'].split('-')[0]
-    key = item['plain_author'].split(',')[0].replace(' ', '').lower() + str(year) + item['plain_title'].split(' ')[0].lower()
+    key = item['ID']
+    # key = item['plain_author'].split(',')[0].replace(' ', '').lower() + str(year) + item['plain_title'].split(' ')[0].lower()
 
     md_filename = key + ".md"
     html_filename = key
