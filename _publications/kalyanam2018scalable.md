@@ -3,7 +3,7 @@ title: "Scalable and Exact MILP Methods for UAV Persistent Visitation Problem"
 collection: publications
 permalink: /publication/kalyanam2018scalable
 date: 2018-08-15 00:00:00 +0500
-venue: 'Conference on Control Technology and Applications (<b><i>Manuscript accepted for publication</i></b>)'
+venue: 'Conference on Control Technology and Applications'
 paperurl: 'https://sites.google.com/site/krishnakalyanam/ccta2018.pdf'
 pubtype: 'conference'
 authors: 'K. Kalyanam, S. Manyam, A. Von Moll, D. Casbeer, M. Pachter'

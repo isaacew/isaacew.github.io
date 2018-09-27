@@ -32,15 +32,13 @@ optimization problem. The results of this study indicate there is potential for 
 
 @inproceedings{kalyanam2018scalable,
   title = {Scalable and {{Exact MILP Methods}} for {{UAV Persistent Visitation Problem}}},
-  volume = {Manuscript accepted for publication},
   url = {https://sites.google.com/site/krishnakalyanam/ccta2018.pdf},
   abstract = {We are interested in the persistent surveillance of an area of interest comprised of stations/ data nodes. The data collection task is undertaken by a UAV which autonomously executes the mission. Each node has a priority/ weight associated with it that characterizes the relative importance between timely collection of data from the nodes. In this context, a prudent performance metric is the maximal weighted time between consecutive visits to each node. We wish to minimize the maximum of this metric among all nodes for a given cycle length. Here, the cycle length refers to the total number of nodes (including repeats) visited per cycle. When the cycle length is greater than the number of nodes, some nodes, arguably ones with a higher priority, will be visited more often. We pose the problem as a Mixed Integer Linear Program (MILP), that computes the optimal visit sequence and number of visits to each node for a given cycle length. Not surprisingly, the exact method is not scalable with the number of nodes and the cycle length. We therefore present sub-optimal methods  by directly enforcing a pre-specified number of visits to each node. We present an iterative scheme that computes solutions for increasing cycle length with a recipe for updating the number of visits based on the solution from the previous iteration. We compare the optimal and sub-optimal iterative schemes and show that the sub-optimal scheme is an order of magnitude faster than the optimal scheme with minimal loss in performance.},
   eventtitle = {Conference on {{Control Technology}} and {{Applications}}},
-  booktitle = {Conference on {{Control Technology}} and {{Applications}}},
   publisher = {{IEEE}},
   date = {2018-08},
-  author = {Kalyanam, Krishna and Manyam, Satyanarayana and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
-  note = {Manuscript accepted for publication}
+  pages = {337-342},
+  author = {Kalyanam, Krishna and Manyam, Satyanarayana and Von Moll, Alexander and Casbeer, David and Pachter, Meir}
 }
 
 @thesis{vonmoll2015machine,
@@ -79,7 +77,6 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   booktitle = {2018 {{AIAA Information Systems}}-{{AIAA Infotech}} @ {{Aerospace}}},
   series = {AIAA SciTech Forum},
   publisher = {{American Institute of Aeronautics and Astronautics}},
-  urldate = {2018-07-11},
   date = {2018-01-07},
   author = {Black, Richard J. and Moslehi, Behzad and Price, W and Sotoudeh, Vahid and Osterman, Michael and Das, Diganta and Behbahani, Alireza and Von Moll, Alexander and Semega, Kenneth}
 }
@@ -92,7 +89,6 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   booktitle = {2018 {{AIAA Information Systems}}-{{AIAA Infotech}} @ {{Aerospace}}},
   series = {AIAA SciTech Forum},
   publisher = {{American Institute of Aeronautics and Astronautics}},
-  urldate = {2018-07-11},
   date = {2018-01-07},
   author = {Moslehi, Behzad and Price, W and Black, Richard J. and Han, Ming and Behbahani, Alireza and Von Moll, Alexander and Semega, Kenneth},
   doi = {10.2514/6.2018-0715}
@@ -106,7 +102,6 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   eventtitle = {{{AIAA SciTech}}},
   booktitle = {{{AIAA SciTech}}},
   publisher = {{AIAA}},
-  urldate = {2018-07-11},
   date = {2019-01-07},
   keywords = {Mathematics - Optimization and Control},
   author = {Manyam, Satyanarayana Gupta and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
@@ -120,7 +115,6 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   booktitle = {50th {{AIAA}}/{{ASME}}/{{SAE}}/{{ASEE Joint Propulsion Conference}}},
   series = {AIAA Propulsion and Energy Forum},
   publisher = {{American Institute of Aeronautics and Astronautics}},
-  urldate = {2018-07-13},
   date = {2014-07-25},
   author = {Von Moll, Alexander and Behbahani, Alireza R. and Fralick, Gustave C. and Wrbanek, John D. and Hunter, Gary W.},
   doi = {10.2514/6.2014-3977}
@@ -172,15 +166,6 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   note = {Submitted for review}
 }
 
-@inproceedings{manyam2019curvature,
-  title = {Curvature {{Constrained Paths Intercepting}} a {{Target}} on a {{Circular Trajectory}}},
-  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
-  eventtitle = {American {{Control Conference}}},
-  date = {2019-07-10},
-  author = {Manyam, G., Satyanarayana and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
-  note = {Submitted for review}
-}
-
 @inproceedings{garcia2019cooperative,
   title = {Cooperative {{Two}}-{{Pursuer One}}-{{Evader Blocking Differential Game}}},
   abstract = {A pursuit-evasion problem with two pursuers and one evader is considered. The evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the Evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. The problem is posed as a zero-sum differential game where the two pursuers cooperate against the evader. State feedback strategies are derived in this paper and the Value function is obtained. It is also shown that the Value function is continuous, continuously differentiable, and it satisfies the Hamilton-Jacobi-Isaacs equation.},
@@ -197,6 +182,15 @@ sensing systems beyond what is expected to be delivered by conventional sensor n
   shortjournal = {JINT},
   date = {2019},
   author = {Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan and Pachter, Meir},
+  note = {Submitted for review}
+}
+
+@inproceedings{manyam2019optimal,
+  title = {Optimal {{Target Intercept Paths}} for {{Vehicles}} with {{Turn Radius Constraints}}},
+  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here has limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception path is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
+  eventtitle = {American {{Control Conference}}},
+  date = {2019-07-10},
+  author = {Manyam, Satyanarayana and Casbeer, David W. and Von Moll, Alexander and Fuchs, Zachariah},
   note = {Submitted for review}
 }
 

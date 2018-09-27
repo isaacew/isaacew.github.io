@@ -8,5 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Engineer at Air Force Research Laboratory in Dayton, OH.
-My interests are in cooperative control, multi-agent systems, differential games, and pursuit evasion.
+I am a researcher with the Control Science Center of Excellence, Aerospace Systems Directorate, Air Force Research Laboratory.
+I hold a B.S. from Ohio State (2012) and an M.S. from Georgia Institute of Technology (2016) both in Aerospace Engineering. 
+In 2011 I received the Department of Defense SMART Scholarship.
+Then in 2014 I received SMART again to pursue my M.S.
+
+
+My research interests include multi-agent systems, cooperative control, differential games, and pursuit-evasion.
