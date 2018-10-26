@@ -2,8 +2,8 @@
 title: "Genetic Algorithm Approach for UAV Persistent Visitation Problem"
 collection: publications
 permalink: /publication/vonmoll2018genetic
-date: 2018-10-15 00:00:00 +0500
-venue: 'Dynamic Systems and Control Conference (<b><i>Accepted for presentation</i></b>)'
+date: 2018-10-01 00:00:00 +0500
+venue: 'Dynamic Systems and Control Conference'
 paperurl: 'https://drive.google.com/file/d/0B0yHktr7udqgZERlUHRfaXNjOWQ5ZWJwNi05bDBvOVYtbDBV/view?usp=sharing'
 pubtype: 'conference'
 authors: 'A. Von Moll, K. Kalyanam, D. Casbeer, S. G. Manyam'

@@ -55,6 +55,8 @@ with open("../bibliography.bib") as bibtex_file:
 
 for item in publications.entries:
     item = bibtexparser.customization.add_plaintext_fields(item)
+    for k in item.keys():
+        item[k] = item[k].strip()
     year = item['plain_year'] if 'plain_year' in item else item['plain_date'].split('-')[0]
     key = item['ID']
     # key = item['plain_author'].split(',')[0].replace(' ', '').lower() + str(year) + item['plain_title'].split(' ')[0].lower()
@@ -83,7 +85,8 @@ for item in publications.entries:
     elif len(date) == 10:
         date += " 00:00:00 +0500"
     else:
-        print(date)
+        print("Date could not be parsed")
+        print(key, "'%s'"% date, len(date))
         break
     
     md += "\ndate: " + date
@@ -92,12 +95,16 @@ for item in publications.entries:
         venue = item['plain_eventtitle']
     elif 'plain_booktitle' in item:
         venue = item['plain_booktitle']
+    elif 'plain_journal' in item:
+        venue = item['plain_journal']
     elif 'plain_journaltitle' in item:
         venue = item['plain_journaltitle']
     elif 'plain_institution' in item:
         venue = item['plain_institution']
+    elif 'plain_school' in item:
+        venue = item['plain_school']
     else:
-        venue = False
+        venue = ''
     
     if 'plain_note' in item:
         note = item['plain_note']
