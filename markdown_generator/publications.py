@@ -142,7 +142,7 @@ for item in publications.entries:
         md += "\n[Download paper here](" + item['plain_url'] + ")"
     
     if 'plain_doi' in item:
-        md += "\n[DOI](" + item['plain_doi'] + ")"
+        md += "\n\nDOI: [" + item['plain_doi'] + "](https://doi.org/" + item['plain_doi'] + ")"
         
 #     md += "\nRecommended citation: " + item.citation
     
