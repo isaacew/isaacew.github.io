@@ -181,9 +181,21 @@
   title = { Scalable and Exact MILP Methods for UAV Persistent Visitation Problem },
   type = { conferencePaper },
   url = { https://sites.google.com/site/krishnakalyanam/ccta2018.pdf },
+  doi = { 10.1109/CCTA.2018.8511587 },
   year = { 2018 },
   abstract = { We are interested in the persistent surveillance of an area of interest comprised of stations/ data nodes. The data collection task is undertaken by a UAV which autonomously executes the mission. Each node has a priority/ weight associated with it that characterizes the relative importance between timely collection of data from the nodes. In this context, a prudent performance metric is the maximal weighted time between consecutive visits to each node. We wish to minimize the maximum of this metric among all nodes for a given cycle length. Here, the cycle length refers to the total number of nodes (including repeats) visited per cycle. When the cycle length is greater than the number of nodes, some nodes, arguably ones with a higher priority, will be visited more often. We pose the problem as a Mixed Integer Linear Program (MILP), that computes the optimal visit sequence and number of visits to each node for a given cycle length. Not surprisingly, the exact method is not scalable with the number of nodes and the cycle length. We therefore present sub-optimal methods  by directly enforcing a pre-specified number of visits to each node. We present an iterative scheme that computes solutions for increasing cycle length with a recipe for updating the number of visits based on the solution from the previous iteration. We compare the optimal and sub-optimal iterative schemes and show that the sub-optimal scheme is an order of magnitude faster than the optimal scheme with minimal loss in performance. },
   eventtitle = { Conference on Control Technology and Applications },
+}
+
+@article{vonmoll2019robust,
+  abstract = { Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments. },
+  author = { Von Moll, Alexander and Pachter, Meir, and Garcia, Eloy and Casbeer, David and Milutinović, Dejan },
+  date = { 2019 },
+  journal = { Dynamic Games and Applications },
+  note = { Submitted for review },
+  title = { Robust Policies for a Multiple Pursuer Single Evader Differential Game },
+  type = { journal },
+  year = { 2019 },
 }
 
 @article{pachter2019two-on-one,
@@ -217,15 +229,4 @@
   year = { 2019 },
   abstract = { We consider a general pursuit-evasion differential game with three or more pursuers and a single evader, all with simple motion. It is shown that traditional means of differential game analysis is difficult for this scenario. But simple motion and min-max time to capture plus the two-person extension to Pontryagin's maximum principle imply straight-line motion at maximum speed which forms the basis of the solution using a geometric approach. Safe evader paths and policies are defined which guarantee the evader can reach its destination without getting captured by any of the pursuers, provided its destination satisfies some constraints. A linear program is used to characterize the solution and subsequently the saddle-point is computed numerically. We replace the numerical procedure with a more analytical geometric approach based on Voronoi diagrams after observing a pattern in the numerical results. The solutions derived are open-loop optimal, meaning the strategies are a saddle-point equilibrium in the open-loop sense. },
   journal = { Jounal of Intelligent and Robotic Systems },
-}
-
-@article{vonmoll2019robust,
-  abstract = { Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments. },
-  author = { Von Moll, Alexander and Pachter, Meir, and Garcia, Eloy and Casbeer, David and Milutinović, Dejan },
-  date = { 2019 },
-  journal = { Dynamic Games and Applications },
-  note = { Submitted for review },
-  title = { Robust Policies for a Multiple Pursuer Single Evader Differential Game },
-  type = { journal },
-  year = { 2019 },
 }
