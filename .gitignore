@@ -2,7 +2,7 @@
 
 ### Bundler ###
 vendor/
-_sass/vendor/
+# _sass/vendor/
 
 ### Jekyll ###
 _site/
