@@ -3,7 +3,7 @@ title: "Two-on-One Pursuit"
 collection: publications
 permalink: /publication/pachter2019two-on-one
 date: 2019-06-15 00:00:00 +0500
-venue: 'Journal of Guidance, Control, and Dynamics (<b><i>Submitted for review</i></b>)'
+venue: 'Journal of Guidance, Control, and Dynamics (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'M. Pachter, A. Von Moll, E. Garcia, D. Casbeer, D. Milutinović'
 excerpt_separator: ""
