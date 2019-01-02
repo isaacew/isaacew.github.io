@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/macos,jekyll
 
 ### Bundler ###
-vendor/
+/vendor/
 # _sass/vendor/
 
 ### Jekyll ###
