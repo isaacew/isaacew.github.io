@@ -2,7 +2,7 @@
 title: "Recent Progress, Challenges, and Future Development Needs of Thermally/Energy Efficient Fuel Actuator Pumping Systems for Military Gas Turbine Engine Applications"
 collection: publications
 permalink: /publication/vonmoll2014recent
-date: 2014-06-15 00:00:00 +0500
+date: 2014-01-01 00:00:00 +0500
 venue: 'JANNAF Interagency Propulsion Committee 34th Airbreathing Propulsion'
 pubtype: 'conference'
 authors: 'A. Von Moll, K. Semega, A. Behbahani, J. Hoying'

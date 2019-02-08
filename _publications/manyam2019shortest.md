@@ -3,7 +3,7 @@ title: "Shortest Dubins Path to a Circle"
 collection: publications
 permalink: /publication/manyam2019shortest
 date: 2019-01-07 00:00:00 +0500
-venue: 'AIAA SciTech (<b><i>Accepted</i></b>)'
+venue: 'AIAA SciTech'
 paperurl: 'http://arxiv.org/abs/1804.07238'
 pubtype: 'conference'
 authors: 'S. G. Manyam, D. Casbeer, A. Von Moll, Z. Fuchs'
