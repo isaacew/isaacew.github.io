@@ -2,8 +2,8 @@
 title: "Curvature Constrained Paths Intercepting a Target on a Circular Trajectory"
 collection: publications
 permalink: /publication/manyam2019curvature
-date: 2019-07-10 00:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for review</i></b>)'
+date: 2019-07-10 01:00:00 +0500
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'S. Manyam, D. Casbeer, A. Von Moll, Z. Fuchs'
 excerpt_separator: ""

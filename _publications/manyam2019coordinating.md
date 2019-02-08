@@ -2,7 +2,7 @@
 title: "Coordinating Defender Path Planning for Optimal Target-Attacker-Defender Game"
 collection: publications
 permalink: /publication/manyam2019coordinating
-date: 2019-01-11 00:00:00 +0500
+date: 2019-01-11 01:00:00 +0500
 venue: 'AIAA Infotech'
 pubtype: 'conference'
 authors: 'S. G. Manyam, D. Casbeer, A. Von Moll, E. Garcia'

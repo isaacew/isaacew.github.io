@@ -2,8 +2,8 @@
 title: "Cooperative Two-Pursuer One-Evader Blocking Differential Game"
 collection: publications
 permalink: /publication/garcia2019cooperative
-date: 2019-07-10 00:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for review</i></b>)'
+date: 2019-07-10 01:00:00 +0500
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'E. Garcia, D. W. Casbeer, A. Von Moll, M. Pachter'
 excerpt_separator: ""

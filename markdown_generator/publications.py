@@ -79,11 +79,11 @@ for item in publications.entries:
         raise Exception(item)
     date = item['plain_date']
     if len(date) == 4:
-        date += "-06-15 00:00:00 +0500"
+        date += "-06-15 01:00:00 +0500"
     elif len(date) == 7:
-        date += "-15 00:00:00 +0500"
+        date += "-15 01:00:00 +0500"
     elif len(date) == 10:
-        date += " 00:00:00 +0500"
+        date += " 01:00:00 +0500"
     else:
         print("Date could not be parsed")
         print(key, "'%s'"% date, len(date))

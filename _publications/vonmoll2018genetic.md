@@ -2,7 +2,7 @@
 title: "Genetic Algorithm Approach for UAV Persistent Visitation Problem"
 collection: publications
 permalink: /publication/vonmoll2018genetic
-date: 2018-10-01 00:00:00 +0500
+date: 2018-10-01 01:00:00 +0500
 venue: 'Dynamic Systems and Control Conference'
 paperurl: 'https://drive.google.com/file/d/0B0yHktr7udqgZERlUHRfaXNjOWQ5ZWJwNi05bDBvOVYtbDBV/view?usp=sharing'
 doi: '10.1115/DSCC2018-8950'

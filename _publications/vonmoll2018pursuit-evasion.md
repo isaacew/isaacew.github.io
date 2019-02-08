@@ -2,7 +2,7 @@
 title: "Pursuit-evasion of an Evader by Multiple Pursuers"
 collection: publications
 permalink: /publication/vonmoll2018pursuit-evasion
-date: 2018-06-01 00:00:00 +0500
+date: 2018-06-01 01:00:00 +0500
 venue: '2018 International Conference on Unmanned Aircraft Systems (ICUAS)'
 paperurl: 'https://avonmoll.github.io/files/mp1e.pdf'
 doi: '10.1109/ICUAS.2018.8453470'

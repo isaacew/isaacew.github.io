@@ -2,7 +2,7 @@
 title: "Robust Policies for a Multiple Pursuer Single Evader Differential Game"
 collection: publications
 permalink: /publication/vonmoll2019robust
-date: 2019-01-01 00:00:00 +0500
+date: 2019-10-01 01:00:00 +0500
 venue: 'Dynamic Games and Applications (<b><i>Submitted for review</i></b>)'
 pubtype: 'journal'
 authors: 'A. Von Moll, M. Pachter, E. Garcia, D. Casbeer, D. Milutinović'

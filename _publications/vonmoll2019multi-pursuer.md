@@ -2,7 +2,7 @@
 title: "The Multi-Pursuer Single-Evader Game: A Geometric Approach"
 collection: publications
 permalink: /publication/vonmoll2019multi-pursuer
-date: 2019-01-02 00:00:00 +0500
+date: 2019-01-02 01:00:00 +0500
 venue: 'Journal of Intelligent and Robotic Systems'
 paperurl: 'https://avonmoll.github.io/files/mp1e-journal.pdf'
 doi: '10.1007/s10846-018-0963-9'

@@ -2,7 +2,7 @@
 title: "Multiple Pursuer Single Evader Border Defense Differential Game"
 collection: publications
 permalink: /publication/vonmoll2019multiple
-date: 2019-01-11 00:00:00 +0500
+date: 2019-01-11 01:00:00 +0500
 venue: 'AIAA SciTech'
 paperurl: 'https://avonmoll.github.io/files/mp1e-border.pdf'
 doi: '10.2514/6.2019-1162'
