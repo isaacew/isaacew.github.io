@@ -3,7 +3,7 @@ title: "Singular Trajectories in the Two Pursuer One Evader Differential Game"
 collection: publications
 permalink: /publication/pachter2019singular
 date: 2019-06-15 01:00:00 +0500
-venue: '2019 International Conference on Unmanned Aircract Systems (<b><i>Submitted for Review</i></b>)'
+venue: '2019 International Conference on Unmanned Aircract Systems (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'M. Pachter, A. Von Moll, E. Garcia, D. Casbeer, D. Milutinović'
 excerpt_separator: ""
