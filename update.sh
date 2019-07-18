@@ -1,6 +1,6 @@
 #! /bin/bash
 
-papis export --all --out bibliography.bib project:MyPubs
+papis export --all --format bibtex project:MyPubs > bibliography.bib
 RC1=$?
 if [[ $RC1 -eq 0 ]]; then
 	markdown_generator/publications.py

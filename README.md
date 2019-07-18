@@ -10,7 +10,7 @@ Some notable differences from the original template:
 
 Tips:
 
-- I use Zotero to manage my publications list and I automatically export to a .bib file for parsing
+- I use [papis](https://github.com/papis/papis) to manage my publications list and I automatically export to a .bib file for parsing
 
 ## TODO
 
