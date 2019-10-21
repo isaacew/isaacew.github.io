@@ -3,7 +3,7 @@ title: "Strategies for Defending a Coastline Against Multiple Attackers"
 collection: publications
 permalink: /publication/garcia2019strategies
 date: 2019-12-31 01:00:00 +0500
-venue: 'IEEE Conference on Decision and Control (<b><i>Submitted for Review</i></b>)'
+venue: 'IEEE Conference on Decision and Control (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'E. Garcia, A. Von Moll, D. Casbeer, M. Pachter'
 excerpt_separator: ""

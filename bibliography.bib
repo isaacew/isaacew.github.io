@@ -46,17 +46,6 @@
   year = {2019},
 }
 
-@inproceedings{manyam2019curvature,
-  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
-  author = {Manyam, Satyanarayana, G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
-  date = {2019-07-10},
-  eventtitle = {American Control Conference},
-  note = {Accepted},
-  title = {Curvature Constrained Paths Intercepting a Target on a Circular Trajectory},
-  type = {conferencePaper},
-  year = {2019},
-}
-
 @inproceedings{manyam2019coordinating,
   abstract = {We present a two vehicle, cooperating path planning problem in adversarial environments. The first vehicle is the lead vehicle and its path is prescribed to accomplish a certain mission,and there exists multiple attackers along this path. The second vehicle is a defender that travelsalong the lead vehicle, and it is responsible to protect the lead vehicle from the attackers. The defender launches defender missile to intercept the attackers before it reaches the lead vehicle. The defender and lead vehicle cooperate to maximize the distance between the lead vehicle and the point of interception, while the attacker tries to minimize this distance. This sub problem is modeled as Target-Attacker-Defender (TAD) game with an objective to maximize the terminal separation distance between lead vehicle and attacker. We aim to generate an optimal pathfor the defender, such that if the TAD game is played at any point along the path, the defender should be optimally positioned that maximizes the terminal separation distance. We reduce this problem to a discrete space, and methodically pose it as a shortest path problem on a graph, the solution of which gives the discrete optimal path for the defender.},
   author = {Manyam, Satyanarayana G. and Casbeer, David and Von Moll, Alexander and Garcia, Eloy},
@@ -111,6 +100,19 @@
   type = {conferencePaper},
   url = {http://arc.aiaa.org/doi/10.2514/6.2014-3977},
   year = {2014},
+}
+
+@inproceedings{vonmoll2020attacker,
+  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {IFAC World Congress on Automatic Control},
+  date = {2020-07-31},
+  eventtitle = {IFAC World Congress on Automatic Control},
+  location = {Berlin, Germany},
+  note = {Submitted for Review},
+  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
+  type = {conferencePaper},
+  year = {2020},
 }
 
 @inproceedings{black2018integrated,
@@ -180,6 +182,33 @@
   year = {2019},
 }
 
+@inproceedings{vonmoll2020optimal,
+  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Optimal Evasion Against Dual Pure Pursuit},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@inproceedings{weintraub2020maximum,
+  abstract = {This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.},
+  author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
+  note = {Submitted for Review},
+  title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
+  type = {conferencePaper},
+  year = {2020},
+}
+
 @inproceedings{garcia2019strategies,
   abstract = {A scenario is considered where a coastline or border is coming under attack by two aircraft. The border is guarded by a faster defender bent on intercepting both aircraft in sequence. A differential game is formulated where the defender sequentially pursues both aircraft and tries to capture them as far as possible from the border. The two aircraft execute cooperative maneuvers and try to minimize their combined distance to the border at the moment when each one is intercepted by the defender. In this paper, the regular solution of this differential game is obtained and the game singular surfaces are identified.},
   author = {Garcia, Eloy and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
@@ -187,8 +216,18 @@
   date = {2019-12-31},
   eventtitle = {IEEE Conference on Decision and Control},
   location = {Nice, France},
-  note = {Submitted for Review},
+  note = {Accepted},
   title = {Strategies for Defending a Coastline Against Multiple Attackers},
+  type = {conferencePaper},
+  year = {2019},
+}
+
+@inproceedings{manyam2019curvature,
+  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
+  author = {Manyam, Satyanarayana, G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  date = {2019-07-10},
+  eventtitle = {American Control Conference},
+  title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
   type = {conferencePaper},
   year = {2019},
 }
@@ -198,10 +237,20 @@
   author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
   date = {2019-07-10},
   eventtitle = {American Control Conference},
-  note = {Accepted},
   title = {Cooperative Two-Pursuer One-Evader Blocking Differential Game},
   type = {conferencePaper},
   year = {2019},
+}
+
+@article{milutinovic2020deterministic,
+  abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
+  author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
+  date = {2020-05-31},
+  journal = {Transactions on Automatic Control},
+  note = {Submitted for Review},
+  title = {Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game},
+  type = {article},
+  year = {2020},
 }
 
 @inproceedings{kalyanam2018scalable,
@@ -226,7 +275,6 @@
   doi = {10.1109/ICUAS.2019.8798244},
   eventtitle = {2019 International Conference on Unmanned Aircraft Systems},
   location = {Atlanta, GA},
-  note = {None},
   title = {Singular Trajectories in the Two Pursuer One Evader Differential Game},
   type = {conferencePaper},
   url = {https://avonmoll.github.io/files/2p1e-singular.pdf},

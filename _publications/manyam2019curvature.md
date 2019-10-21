@@ -1,9 +1,9 @@
 ---
-title: "Curvature Constrained Paths Intercepting a Target on a Circular Trajectory"
+title: "Optimal Dubins Paths to Intercept a Moving Target on a Circle"
 collection: publications
 permalink: /publication/manyam2019curvature
 date: 2019-07-10 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Accepted</i></b>)'
+venue: 'American Control Conference'
 pubtype: 'conference'
 authors: 'S. Manyam, D. Casbeer, A. Von Moll, Z. Fuchs'
 excerpt_separator: ""
