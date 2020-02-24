@@ -3,7 +3,7 @@ title: "Maximum Observation of a Faster Non-Maneuvering Target by a Slower Obser
 collection: publications
 permalink: /publication/weintraub2020maximum
 date: 2020-07-05 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'I. E. Weintraub, A. Von Moll, E. Garcia, D. Casbeer, Z. J. Demers, M. Pachter'
 excerpt_separator: ""

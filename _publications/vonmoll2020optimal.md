@@ -3,7 +3,7 @@ title: "Optimal Evasion Against Dual Pure Pursuit"
 collection: publications
 permalink: /publication/vonmoll2020optimal
 date: 2020-07-05 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Von Moll, Z. Fuchs, M. Pachter'
 excerpt_separator: ""

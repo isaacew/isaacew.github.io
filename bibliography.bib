@@ -1,3 +1,14 @@
+@article{milutinović2020deterministic,
+  abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
+  author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
+  date = {2020-05-31},
+  journal = {Transactions on Automatic Control},
+  note = {Submitted for Review},
+  title = {Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game},
+  type = {article},
+  year = {2020},
+}
+
 @inproceedings{manyam2019shortest,
   abstract = {The Dubins path problem had enormous applications in path planning for autonomous vehicles. In this paper, we consider a generalization of the Dubins path planning problem, which is to find a shortest Dubins path that starts from a given initial position and heading, and ends on a given target circle with the heading in the tangential direction. This problem has direct applications in Dubins neighborhood traveling salesman problem, obstacle avoidance Dubins path planning problem etc. We characterize the length of the four CSC paths as a function of angular position on the target circle, and derive the conditions which to find the shortest Dubins path to the target circle.},
   author = {Manyam, Satyanarayana Gupta and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
@@ -10,6 +21,18 @@
   type = {conferencePaper},
   url = {http://arxiv.org/abs/1804.07238},
   year = {2019},
+}
+
+@article{pachter2020cooperative,
+  abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  date = {2020-02-01},
+  doi = {10.2514/1.I010739},
+  journal = {Journal of Aerospace Information Systems},
+  title = {Cooperative Pursuit by Multiple Pursuers of a Single Evader},
+  type = {article},
+  url = {https://avonmoll.github.io/files/ManyPursuers.pdf},
+  year = {2020},
 }
 
 @inproceedings{vonmoll2014recent,
@@ -33,17 +56,6 @@
   type = {conferencePaper},
   url = {http://www.dtic.mil/dtic/tr/fulltext/u2/a586909.pdf},
   year = {2013},
-}
-
-@article{pachter2019group,
-  abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
-  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  date = {2019-10-01},
-  journal = {Journal of Aerospace Information Systems},
-  note = {Submitted for Review},
-  title = {Group Pursuit},
-  type = {article},
-  year = {2019},
 }
 
 @inproceedings{manyam2019coordinating,
@@ -88,6 +100,20 @@
   year = {2019},
 }
 
+@inproceedings{vonmoll2020optimal,
+  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
+  note = {Accepted},
+  publisher = {IEEE},
+  title = {Optimal Evasion Against Dual Pure Pursuit},
+  type = {conferencePaper},
+  year = {2020},
+}
+
 @inproceedings{vonmoll2014review,
   abstract = {The exhaust gas temperature (EGT) is typically defined as the gas temperature at the exit of the turbine; the sensors used to measure this parameter are considered the most vulnerable elements of the entire turbine engine instrumentation. EGT measurement is considered a key parameter for optimizing fuel economy, diagnosis, and prognosis. The reason is that turbine blade temperature is a good indicator for normal life consumption of that blade. Currently, direct sensor measurements made on turbine modules are limited due to the extremely hot environment. Exhaust gas temperature (EGT) sensors located downstream from the highest temperature sections provide a means to roughly infer the temperatures seen by the turbine blades/disks. But these sensors, which themselves are subject to frequent failures, provide a fairly inaccurate indication of the actual metal temperature profiles. This is of particular importance for high performance military turbine engines where the margin between hot-section operating conditions and material limitations is shrinking. A future state is envisioned that would use emerging pyrometric, fiber optic, and laser-based sensing to accurately assess the condition and life usage of the hot section, on a blade-by-blade basis.},
   author = {Von Moll, Alexander and Behbahani, Alireza R. and Fralick, Gustave C. and Wrbanek, John D. and Hunter, Gary W.},
@@ -100,19 +126,6 @@
   type = {conferencePaper},
   url = {http://arc.aiaa.org/doi/10.2514/6.2014-3977},
   year = {2014},
-}
-
-@inproceedings{vonmoll2020attacker,
-  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {IFAC World Congress on Automatic Control},
-  date = {2020-07-31},
-  eventtitle = {IFAC World Congress on Automatic Control},
-  location = {Berlin, Germany},
-  note = {Submitted for Review},
-  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
-  type = {conferencePaper},
-  year = {2020},
 }
 
 @inproceedings{black2018integrated,
@@ -159,6 +172,17 @@
   year = {2018},
 }
 
+@article{salmon2019single,
+  abstract = {An interest in border defense, surveillance, and interdiction has recently increased for a variety of reasons related to issues of illegal immigration, terrorism, drug/human trafficking, and other potential threats. UAVs offer an attractive alternative to supporting and defending various threats at borders. This article applies a differential game to define a border defense scenario where one UAV (pursuer) seeks to capture two intruders (evaders) before they reach a designated border. The evaders can be UAVs, marine/ground vehicles, or human agents, but have a lower maximum speed than the pursuer throughout the game. Simple motion is assumed for the pursuer and evaders with complete state information shared across all agents.  The game is played within a rectangular area with a parallel top and bottom border of length L and left and right borders with a length of W, for a game aspect ratio of L/W. The value of the game is the minimum distance to the bottom border achieved by the evaders at any time before capture of both evaders. Within the region where the pursuer wins, the game of degree is explored and the optimal policy for both the evaders and pursuers is derived using geometric},
+  author = {Salmon, John L. and Willey, Landon C. and Casbeer, David and Garcia, Eloy and Von Moll, Alexander},
+  date = {2019-12-31},
+  journal = {Journal of Guidance, Control, and Dynamics},
+  note = {Submitted for Review},
+  title = {Single Pursuer Multiple-Cooperative Evaders in the Border Defense Differential Game},
+  type = {article},
+  year = {2019},
+}
+
 @thesis{vonmoll2015machine,
   abstract = {The intersection between machine learning and control theory is emerging rapidly; many rich applications are currently being developed. This report explores one particular area of interest: trajectory optimization. The Linear Quadratic Regulator and Linear Quadratic Gaussian algorithms are introduced as predecessors to the Iterative Linear Quadratic Gaussian (iLQG) algorithm, which is re-derived in this report and demonstrated on 3 systems of interest: cartpole, double cartpole, and quadrotor. iLQG is robust and widely applicable to a vast number of different systems. Probabilistic Differential Dynamic Programming (PDDP) is introduced as an important extension to iLQG which incorporates uncertainty into the trajectory optimization process. The conceptual advances presented in this report were centered around the use of a Gaussian Process Regression Network (GPRN) to represent the unknown system dynamics in lieu of the standard Gaussian Process representation employed by PDDP. GPRNs offer a more sophisticated noise model and a more adaptive regression framework. More speciffcally, they incorporate input-dependent noise and signal correlation between multiple outputs. This should enhance the predictive capability of the algorithm to represent the unknown system dynamics. Work remains on fully incorporating GPRN into a PDDP-like algorithm: effort continues in the areas of understanding variational Bayes and variational message passing for learning GPRN hyperparameters, and in creating a MATLAB implementation.},
   author = {Von Moll, Alexander},
@@ -171,29 +195,27 @@
   year = {2015},
 }
 
-@article{salmon2019single,
-  abstract = {An interest in border defense, surveillance, and interdiction has recently increased for a variety of reasons related to issues of illegal immigration, terrorism, drug/human trafficking, and other potential threats. UAVs offer an attractive alternative to supporting and defending various threats at borders. This article applies a differential game to define a border defense scenario where one UAV (pursuer) seeks to capture two intruders (evaders) before they reach a designated border. The evaders can be UAVs, marine/ground vehicles, or human agents, but have a lower maximum speed than the pursuer throughout the game. Simple motion is assumed for the pursuer and evaders with complete state information shared across all agents.  The game is played within a rectangular area with a parallel top and bottom border of length L and left and right borders with a length of W, for a game aspect ratio of L/W. The value of the game is the minimum distance to the bottom border achieved by the evaders at any time before capture of both evaders. Within the region where the pursuer wins, the game of degree is explored and the optimal policy for both the evaders and pursuers is derived using geometric},
-  author = {Salmon, John L. and Willey, Landon C. and Casbeer, David and Garcia, Eloy and Von Moll, Alexander},
-  date = {2019-12-31},
-  journal = {Journal of Guidance, Control, and Dynamics},
-  note = {Submitted for Review},
-  title = {Single Pursuer Multiple-Cooperative Evaders in the Border Defense Differential Game},
-  type = {article},
-  year = {2019},
+@article{vonmoll2020multiple,
+  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
+  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
+  date = {2020-02-01},
+  doi = {10.2514/1.I010740},
+  journal = {Journal of Aerospace Information Systems},
+  publisher = {AIAA},
+  title = {Multiple Pursuer Single Evader Border Defense Differential Game},
+  type = {journal},
+  url = {https://avonmoll.github.io/files/mp1e-border.pdf},
+  year = {2020},
 }
 
-@inproceedings{vonmoll2020optimal,
-  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
-  booktitle = {American Control Conference},
-  date = {2020-07-05},
+@inproceedings{garcia2019cooperative,
+  abstract = {A pursuit-evasion problem with two pursuers and one evader is considered. The evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the Evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. The problem is posed as a zero-sum differential game where the two pursuers cooperate against the evader. State feedback strategies are derived in this paper and the Value function is obtained. It is also shown that the Value function is continuous, continuously differentiable, and it satisfies the Hamilton-Jacobi-Isaacs equation.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  date = {2019-07-10},
   eventtitle = {American Control Conference},
-  location = {Denver, CO},
-  note = {Submitted for Review},
-  publisher = {IEEE},
-  title = {Optimal Evasion Against Dual Pure Pursuit},
+  title = {Cooperative Two-Pursuer One-Evader Blocking Differential Game},
   type = {conferencePaper},
-  year = {2020},
+  year = {2019},
 }
 
 @inproceedings{weintraub2020maximum,
@@ -203,7 +225,7 @@
   date = {2020-07-05},
   eventtitle = {American Control Conference},
   location = {Denver, CO},
-  note = {Submitted for Review},
+  note = {Accepted},
   title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
   type = {conferencePaper},
   year = {2020},
@@ -222,7 +244,7 @@
   year = {2019},
 }
 
-@inproceedings{manyam2019curvature,
+@inproceedings{manyam2019optimal,
   abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
   author = {Manyam, Satyanarayana, G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
   date = {2019-07-10},
@@ -232,24 +254,16 @@
   year = {2019},
 }
 
-@inproceedings{garcia2019cooperative,
-  abstract = {A pursuit-evasion problem with two pursuers and one evader is considered. The evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the Evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. The problem is posed as a zero-sum differential game where the two pursuers cooperate against the evader. State feedback strategies are derived in this paper and the Value function is obtained. It is also shown that the Value function is continuous, continuously differentiable, and it satisfies the Hamilton-Jacobi-Isaacs equation.},
-  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
-  date = {2019-07-10},
-  eventtitle = {American Control Conference},
-  title = {Cooperative Two-Pursuer One-Evader Blocking Differential Game},
-  type = {conferencePaper},
-  year = {2019},
-}
-
-@article{milutinovic2020deterministic,
-  abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
-  author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
-  date = {2020-05-31},
-  journal = {Transactions on Automatic Control},
+@inproceedings{vonmoll2020optimalb,
+  abstract = {We extend the Turret Defense Differential Game by considering the possibility for the mobile Attacker to retreat to a particular region of the state space in lieu of engaging the Turret. In this case, the Turret cooperates with the Attacker by escorting the Attacker to the retreat surface, thereby minimizing its cost. Along the retreat trajectory, the cost associated with the Value of the Game of Engagement must be greater than the cost associated with retreating. We refer to this scenario as Optimal Constrained Retreat, wherein the aforementioned requirement is imposed as a path constraint. The optimality conditions are developed herein. We specify a boundary value problem with fixed initial state and compute the optimal trajectory numerically via backwards shooting. The corresponding trajectory contains a constrained arc wherein the path constraint associated with the Game of Engagement becomes active.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {Conference on Control Technology and Applications},
+  date = {2020-08-24},
+  eventtitle = {Conference on Control Technology and Applications},
+  location = {Montreal, Canada},
   note = {Submitted for Review},
-  title = {Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game},
-  type = {article},
+  title = {Optimal Constrained Retreat within the Turret Defense Differential Game},
+  type = {conferencePaper},
   year = {2020},
 }
 
@@ -267,6 +281,45 @@
   year = {2018},
 }
 
+@inproceedings{vonmoll2020attacker,
+  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {IFAC World Congress on Automatic Control},
+  date = {2020-07-31},
+  eventtitle = {IFAC World Congress on Automatic Control},
+  location = {Berlin, Germany},
+  note = {Submitted for Review},
+  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@article{garcia2020multiple,
+  abstract = {In this paper an N-pursuer vs. M-evader team conflict is studied. The differential game of border defense is addressed and we focus on the game of degree in the region of the state space where the pursuers are able to win. This work extends classical differential game theory to simultaneously address weapon assignments and multi-player pursuit-evasion scenarios. Saddle-point strategies that provide guaranteed performance for each team regardless of the actual strategies implemented by the opponent are devised. The players' optimal strategies require the co-design of cooperative optimal assignments and optimal guidance laws. A representative measure of performance is proposed and the Value function of the game is obtained. It is shown that the Value function is continuous, continuously differentiable, and that it satisfies the Hamilton-Jacobi-Isaacs equation - the curse of dimensionality is overcome and the optimal strategies are obtained. The cases of N=M and N>M are considered. In the latter case, cooperative guidance strategies are also developed in order for the pursuers to exploit their numerical advantage. This work provides a foundation to formally analyze complex and high-dimensional conflicts between teams of N pursuers and M evaders by means of differential game theory.},
+  author = {Garcia, Eloy and Casbeer, David W and Von Moll, Alexander and Pachter, Meir},
+  date = {2020-05-01},
+  journal = {Transactions on Automatic Control},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Multiple Pursuer Multiple Evader Differential Games},
+  type = {article},
+  year = {2020},
+}
+
+@article{vonmoll2019robust,
+  abstract = {Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments.},
+  author = {Von Moll, Alexander and Pachter, Meir and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  date = {2019-05-04},
+  doi = {10.1007/s13235-019-00313-3},
+  issue = {10},
+  journal = {Dynamic Games and Applications},
+  pages = {202-221},
+  title = {Robust Policies for a Multiple Pursuer Single Evader Differential Game},
+  type = {journal},
+  url = {https://avonmoll.github.io/files/mp1e-robust.pdf},
+  year = {2019},
+}
+
 @inproceedings{pachter2019singular,
   abstract = {The Two Cutters and Fugitive Ship game posed by Isaacs is revisited again. We discuss and analyze the singular configuration of this two-pursuer one-evader differential game. This paper addresses the question of whether or not either player has the ability to exploit the dispersal surface. Specifically, we in- vestigate the case where the Evader effectively stands still (e.g., by dithering in a small neighborhood). We show that the canonical optimal pursuit policy yields chattering in the discrete-time version of the game. As the timestep approaches zero, the capture time approaches the Value of the game, and thus the Evader is not penalized for standing still. Implications on related scenarios are discussed.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -281,27 +334,17 @@
   year = {2019},
 }
 
-@article{vonmoll2019robust,
-  abstract = {Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments.},
-  author = {Von Moll, Alexander and Pachter, Meir and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  date = {2019-05-04},
-  doi = {10.1007/s13235-019-00313-3},
-  journal = {Dynamic Games and Applications},
-  title = {Robust Policies for a Multiple Pursuer Single Evader Differential Game},
-  type = {journal},
-  url = {https://avonmoll.github.io/files/mp1e-robust.pdf},
-  year = {2019},
-}
-
 @article{pachter2019two-on-one,
   abstract = {A three agent pursuit-evasion differential game in the Euclidean plane where two pursuers engage an Evader is considered. The Pursuers are faster than the Evader and the three player have simple motion/are holonomic. Coincidence of the Evader with either one, or both Pursuers, is capture, and time of capture is the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential game is revisited and the solution of the Game of Kind is provided. Using Isaacs’ geometric method, explicit formulae for the players’ optimal state feedback strategies and the Value of the game are derived. The merits of the suboptimal Evader tactic of reducing speed, or opting to stay stationary, are examined.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  date = {2019-02-08},
+  date = {2019-07-08},
   doi = {10.2514/1.G004068},
   journal = {Journal of Guidance, Control, and Dynamics},
+  number = {7},
   title = {Two-on-One Pursuit},
   type = {article},
   url = {https://avonmoll.github.io/files/TwoCutters.pdf},
+  volume = {42},
   year = {2019},
 }
 
@@ -310,10 +353,13 @@
   author = {Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan and Pachter, Meir},
   date = {2019-01-02},
   doi = {10.1007/s10846-018-0963-9},
+  issue = {2},
   journal = {Journal of Intelligent and Robotic Systems},
+  pages = {193-207},
   title = {The Multi-Pursuer Single-Evader Game: A Geometric Approach},
   type = {article},
   url = {https://avonmoll.github.io/files/mp1e-journal.pdf},
+  volume = {96},
   year = {2019},
 }
 
@@ -326,6 +372,7 @@
   eventtitle = {2018 International Conference on Unmanned Aircraft Systems (ICUAS)},
   location = {Dallas, TX},
   pages = {133-142},
+  publisher = {IEEE},
   title = {Pursuit-evasion of an Evader by Multiple Pursuers},
   type = {conferencePaper},
   url = {https://avonmoll.github.io/files/mp1e.pdf},

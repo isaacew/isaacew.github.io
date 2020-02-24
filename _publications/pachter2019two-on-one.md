@@ -2,7 +2,7 @@
 title: "Two-on-One Pursuit"
 collection: publications
 permalink: /publication/pachter2019two-on-one
-date: 2019-02-08 01:00:00 +0500
+date: 2019-07-08 01:00:00 +0500
 venue: 'Journal of Guidance, Control, and Dynamics'
 paperurl: 'https://avonmoll.github.io/files/TwoCutters.pdf'
 doi: '10.2514/1.G004068'
