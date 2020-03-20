@@ -1,7 +1,7 @@
 ---
 title: "Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game"
 collection: publications
-permalink: /publication/milutinović2020deterministic
+permalink: /publication/milutinovic2020deterministic
 date: 2020-05-31 01:00:00 +0500
 venue: 'Transactions on Automatic Control (<b><i>Submitted for Review</i></b>)'
 pubtype: 'journal'

@@ -3,7 +3,7 @@ title: "Attacker Dispersal Surface in the Turret Defense Differential Game"
 collection: publications
 permalink: /publication/vonmoll2020attacker
 date: 2020-07-31 01:00:00 +0500
-venue: 'IFAC World Congress on Automatic Control (<b><i>Submitted for Review</i></b>)'
+venue: 'IFAC World Congress on Automatic Control (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Von Moll, Z. Fuchs'
 excerpt_separator: ""
