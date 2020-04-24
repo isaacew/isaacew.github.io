@@ -24,18 +24,6 @@
   year = {2019},
 }
 
-@article{pachter2020cooperative,
-  abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
-  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  date = {2020-02-01},
-  doi = {10.2514/1.I010739},
-  journal = {Journal of Aerospace Information Systems},
-  title = {Cooperative Pursuit by Multiple Pursuers of a Single Evader},
-  type = {article},
-  url = {https://avonmoll.github.io/files/ManyPursuers.pdf},
-  year = {2020},
-}
-
 @inproceedings{vonmoll2014recent,
   abstract = {Thermal management has emerged as one of the primary challenges for modern military gas turbine engines. Fuel actuator pumping systems contribute to the challenge by constantly injecting waste heat into the fuel system. This is due to a fundamental mismatching between an actuation system with a low duty cycle and a pump which is always running. Since the pump is directly coupled to the gearbox, the detriment is twofold: horsepower is always being drawn to drive the pump, and heat is generated. Furthermore, the emergence of variable cycle engines pushes the actuation system in the direction of more effectors and more loads, which drives requirements for high pressure and high flows from the pumping system. Piston pumps have been seen as favorable for the actuation pump application due to their high single stage pressure rise capability. However reducing the number of pumping components alone has not solved the thermal management issue. Variable displacement pumps have been designed to operate over a range of conditions in order to deliver flow more appropriately as demanded by the control system. These pumps allow pressure and flow to be modulated independent of one another and of the pump’s rotational speed. Variable displacement pumps may be considered as a component of a partial-demand actuation pumping system. Even in a partial-demand actuation pumping system, a variable displacement pump will still be coupled to the gearbox and require some minimum flow for lubrication and cooling. On-demand actuation fuel systems deliver only the amount of flow that is being demanded at a given time so that waste heat is minimized. In other words, the duty cycle of the pumping system matches that of the actuation system. The development of an on-demand actuation fuel system will require a new architecture and new components.},
   author = {Von Moll, Alexander and Semega, Ken and Behbahani, Alireza and Hoying, John},
@@ -173,6 +161,18 @@
   year = {2018},
 }
 
+@article{salmon2020single,
+  abstract = {An interest in border defense, surveillance, and interdiction has recently increased for a variety of reasons related to issues of illegal immigration, terrorism, drug/human trafficking, and other potential threats. UAVs offer an attractive alternative to supporting and defending various threats at borders. This article applies a differential game to define a border defense scenario where one UAV (pursuer) seeks to capture two intruders (evaders) before they reach a designated border. The evaders can be UAVs, marine/ground vehicles, or human agents, but have a lower maximum speed than the pursuer throughout the game. Simple motion is assumed for the pursuer and evaders with complete state information shared across all agents.  The game is played within a rectangular area with a parallel top and bottom border of length L and left and right borders with a length of W, for a game aspect ratio of L/W. The value of the game is the minimum distance to the bottom border achieved by the evaders at any time before capture of both evaders. Within the region where the pursuer wins, the game of degree is explored and the optimal policy for both the evaders and pursuers is derived using geometric},
+  author = {Salmon, John L. and Willey, Landon C. and Casbeer, David and Garcia, Eloy and Von Moll, Alexander},
+  date = {2020-03-19},
+  doi = {10.2514/1.I010766},
+  journal = {Journal of Aerospace Information Systems},
+  publisher = {AIAA},
+  title = {Single Pursuer Multiple-Cooperative Evaders in the Border Defense Differential Game},
+  type = {article},
+  year = {2020},
+}
+
 @thesis{vonmoll2015machine,
   abstract = {The intersection between machine learning and control theory is emerging rapidly; many rich applications are currently being developed. This report explores one particular area of interest: trajectory optimization. The Linear Quadratic Regulator and Linear Quadratic Gaussian algorithms are introduced as predecessors to the Iterative Linear Quadratic Gaussian (iLQG) algorithm, which is re-derived in this report and demonstrated on 3 systems of interest: cartpole, double cartpole, and quadrotor. iLQG is robust and widely applicable to a vast number of different systems. Probabilistic Differential Dynamic Programming (PDDP) is introduced as an important extension to iLQG which incorporates uncertainty into the trajectory optimization process. The conceptual advances presented in this report were centered around the use of a Gaussian Process Regression Network (GPRN) to represent the unknown system dynamics in lieu of the standard Gaussian Process representation employed by PDDP. GPRNs offer a more sophisticated noise model and a more adaptive regression framework. More speciffcally, they incorporate input-dependent noise and signal correlation between multiple outputs. This should enhance the predictive capability of the algorithm to represent the unknown system dynamics. Work remains on fully incorporating GPRN into a PDDP-like algorithm: effort continues in the areas of understanding variational Bayes and variational message passing for learning GPRN hyperparameters, and in creating a MATLAB implementation.},
   author = {Von Moll, Alexander},
@@ -185,15 +185,15 @@
   year = {2015},
 }
 
-@inproceedings{vonmoll2020optimal,
-  abstract = {We extend the Turret Defense Differential Game by considering the possibility for the mobile Attacker to retreat to a particular region of the state space in lieu of engaging the Turret. In this case, the Turret cooperates with the Attacker by escorting the Attacker to the retreat surface, thereby minimizing its cost. Along the retreat trajectory, the cost associated with the Value of the Game of Engagement must be greater than the cost associated with retreating. We refer to this scenario as Optimal Constrained Retreat, wherein the aforementioned requirement is imposed as a path constraint. The optimality conditions are developed herein. We specify a boundary value problem with fixed initial state and compute the optimal trajectory numerically via backwards shooting. The corresponding trajectory contains a constrained arc wherein the path constraint associated with the Game of Engagement becomes active.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {Conference on Control Technology and Applications},
-  date = {2020-08-24},
-  eventtitle = {Conference on Control Technology and Applications},
-  location = {Montreal, Canada},
+@inproceedings{garcia2020pride,
+  abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  booktitle = {Conference on Decision and Control},
+  date = {2020-12-08},
+  eventtitle = {Conference on Decision and Control},
+  location = {Jeju Island, South Korea},
   note = {Submitted for Review},
-  title = {Optimal Constrained Retreat within the Turret Defense Differential Game},
+  title = {Pride of Lions and Man Differential Game},
   type = {conferencePaper},
   year = {2020},
 }
@@ -222,19 +222,6 @@
   year = {2019},
 }
 
-@inproceedings{weintraub2020maximum,
-  abstract = {This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.},
-  author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
-  booktitle = {American Control Conference},
-  date = {2020-07-05},
-  eventtitle = {American Control Conference},
-  location = {Denver, CO},
-  note = {Accepted},
-  title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
-  type = {conferencePaper},
-  year = {2020},
-}
-
 @inproceedings{garcia2019strategies,
   abstract = {A scenario is considered where a coastline or border is coming under attack by two aircraft. The border is guarded by a faster defender bent on intercepting both aircraft in sequence. A differential game is formulated where the defender sequentially pursues both aircraft and tries to capture them as far as possible from the border. The two aircraft execute cooperative maneuvers and try to minimize their combined distance to the border at the moment when each one is intercepted by the defender. In this paper, the regular solution of this differential game is obtained and the game singular surfaces are identified.},
   author = {Garcia, Eloy and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
@@ -259,15 +246,15 @@
   year = {2019},
 }
 
-@article{salmon2020single,
-  abstract = {An interest in border defense, surveillance, and interdiction has recently increased for a variety of reasons related to issues of illegal immigration, terrorism, drug/human trafficking, and other potential threats. UAVs offer an attractive alternative to supporting and defending various threats at borders. This article applies a differential game to define a border defense scenario where one UAV (pursuer) seeks to capture two intruders (evaders) before they reach a designated border. The evaders can be UAVs, marine/ground vehicles, or human agents, but have a lower maximum speed than the pursuer throughout the game. Simple motion is assumed for the pursuer and evaders with complete state information shared across all agents.  The game is played within a rectangular area with a parallel top and bottom border of length L and left and right borders with a length of W, for a game aspect ratio of L/W. The value of the game is the minimum distance to the bottom border achieved by the evaders at any time before capture of both evaders. Within the region where the pursuer wins, the game of degree is explored and the optimal policy for both the evaders and pursuers is derived using geometric},
-  author = {Salmon, John L. and Willey, Landon C. and Casbeer, David and Garcia, Eloy and Von Moll, Alexander},
-  date = {2020-03-19},
-  doi = {10.2514/1.I010766},
+@article{pachter2020cooperative,
+  abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  date = {2020-02-01},
+  doi = {10.2514/1.I010739},
   journal = {Journal of Aerospace Information Systems},
-  publisher = {AIAA},
-  title = {Single Pursuer Multiple-Cooperative Evaders in the Border Defense Differential Game},
+  title = {Cooperative Pursuit by Multiple Pursuers of a Single Evader},
   type = {article},
+  url = {https://avonmoll.github.io/files/ManyPursuers.pdf},
   year = {2020},
 }
 
@@ -285,15 +272,56 @@
   year = {2018},
 }
 
-@inproceedings{vonmoll2020attacker,
-  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
+@inproceedings{vonmoll2020optimal,
+  abstract = {We extend the Turret Defense Differential Game by considering the possibility for the mobile Attacker to retreat to a particular region of the state space in lieu of engaging the Turret. In this case, the Turret cooperates with the Attacker by escorting the Attacker to the retreat surface, thereby minimizing its cost. Along the retreat trajectory, the cost associated with the Value of the Game of Engagement must be greater than the cost associated with retreating. We refer to this scenario as Optimal Constrained Retreat, wherein the aforementioned requirement is imposed as a path constraint. The optimality conditions are developed herein. We specify a boundary value problem with fixed initial state and compute the optimal trajectory numerically via backwards shooting. The corresponding trajectory contains a constrained arc wherein the path constraint associated with the Game of Engagement becomes active.},
   author = {Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {IFAC World Congress on Automatic Control},
-  date = {2020-07-31},
-  eventtitle = {IFAC World Congress on Automatic Control},
-  location = {Berlin, Germany},
+  booktitle = {Conference on Control Technology and Applications},
+  date = {2020-08-24},
+  eventtitle = {Conference on Control Technology and Applications},
+  location = {Montreal, Canada},
+  note = {Submitted for Review},
+  title = {Optimal Constrained Retreat within the Turret Defense Differential Game},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@inproceedings{weintraub2020maximum,
+  abstract = {This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.},
+  author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
   note = {Accepted},
-  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
+  title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@inproceedings{vonmoll2020evolutionary,
+  abstract = {In this paper a scenario is considered in which a group of predators cooperate to maximize the number of prey captures over a finite time horizon on a two-dimensional plane. The emphasis is on developing predator strategies, and thus the behavior of the prey agents is fixed to a Boids-like flocking model which incorporates avoidance of nearby predators. At each time instant, the predators have control authority over their heading angle; however, we restrict the headings to be governed by one of five different pre-specified behaviors. No communication occurs between the predator agents - each agent determines its own control without knowledge of what the other predators will implement; thus, the predator strategies are fully decentralized. The full state space of the system is collapsed to a set of features which is independent of the number of prey. An evolutionary algorithm is used to evolve an anchor point controller wherein the anchor point lies in the feature space and has a particular predator behavior associated, thus providing a candidate solution to the question of "what to do when". The two predator case is the focus in this work, although the ideas could be applied to larger groups of predators. The strategies resulting from the evolutionary algorithm favor aiming at the nearest prey mostly, and also avoiding having the predators getting too close and then pursuing the same prey. Thus useless behaviors are generally not present among the elite at the end of the evolutionary process.},
+  author = {Von Moll, Alexander and Androulakakis, Pavlos and Fuchs, Zachariah and Vanderelst, Dieter},
+  booktitle = {Conference on Games},
+  date = {2020-08-24},
+  eventtitle = {Conference on Games},
+  location = {Osaka, Japan},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Evolutionary Design of Cooperative Predation Strategies},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@inproceedings{vonmoll2020guarding,
+  abstract = {In this paper, the problem of guarding a circular target wherein the Defender(s) is constrained to move along its perimeter is posed and solved using a differential game theoretic approach. Both the one-Defender and two-Defender scenarios are analyzed and solved. The mobile Attacker seeks to reach the perimeter of the circular target, whereas the Defender(s) seeks to align itself with the Attacker, thereby ending the game. In the former case, the Attacker wins, and the Attacker and Defender play a zero sum differential game where the payoff/cost is the terminal angular separation. In the latter case, the Defender(s) wins, and the Attacker and Defender play a zero sum differential game where the cost/payoff is the Attacker’s terminal distance to the target. This formulation is representative of a scenario in which the Attacker inflicts damage on the target as a function of its terminal distance. The state-feedback equilibrium strategies and Value functions for the Attacker-win and Defender(s)-win scenarios are derived for both the one- and two-Defender cases, thus providing a solution to the Game of Degree. Analytic expressions for the separating surfaces between the various terminal scenarios are derived, thus providing a solution to the Game of Kind.},
+  author = {Von Moll, Alexander and Pachter, Meir and Shishika, Daigo and Fuchs, Zachariah},
+  booktitle = {Conference on Decision and Control},
+  date = {2020-12-11},
+  eventtitle = {Conference on Decision and Control},
+  location = {Jeju Island, South Korea},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Guarding a Circular Target By Patrolling its Perimeter},
   type = {conferencePaper},
   year = {2020},
 }
@@ -307,6 +335,19 @@
   publisher = {IEEE},
   title = {Multiple Pursuer Multiple Evader Differential Games},
   type = {article},
+  year = {2020},
+}
+
+@inproceedings{vonmoll2020attacker,
+  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {IFAC World Congress on Automatic Control},
+  date = {2020-07-31},
+  eventtitle = {IFAC World Congress on Automatic Control},
+  location = {Berlin, Germany},
+  note = {Accepted},
+  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
+  type = {conferencePaper},
   year = {2020},
 }
 
