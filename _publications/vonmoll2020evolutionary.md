@@ -3,7 +3,7 @@ title: "Evolutionary Design of Cooperative Predation Strategies"
 collection: publications
 permalink: /publication/vonmoll2020evolutionary
 date: 2020-08-24 01:00:00 +0500
-venue: 'Conference on Games (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Games (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Von Moll, P. Androulakakis, Z. Fuchs, D. Vanderelst'
 excerpt_separator: ""
