@@ -246,6 +246,18 @@
   year = {2019},
 }
 
+@article{manyam2020curvature,
+  abstract = {We present a path planning problem for a pursuing agent to intercept a target traveling on a circle. The target is cooperative, and its position, heading and speed are precisely known by the pursuing agent. The pursuing agent has nonholonomic motion constraints, and therefore the path traveled by the pursuing agent must satisfy the minimum turn radius constraints. We consider the class of Dubins paths as candidate solutions, and analyze the characteristics of the six modes of Dubins paths where the final position is restricted to lie on the target circle with heading in the tangential direction of the circle. For each Dubins mode, we derive the feasibility limits, discontinuities and local extrema. Using this analysis the intercepting paths are found by a systematic bisection search in the feasible regions of each of the Dubins modes. We prove that the algorithm outputs the optimal solution, if the optimal intercepting path is a Dubins path; otherwise, it outputs the best found intercepting path and a tight lower bound to the optimal solution.},
+  author = {Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and Fuchs, Zachariah},
+  date = {2020-12-31},
+  journal = {Transactions on Automation Science and Engineering},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Curvature Constrained Paths to Intercept a Target Moving on a Circle},
+  type = {article},
+  year = {2020},
+}
+
 @article{pachter2020cooperative,
   abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -255,6 +267,20 @@
   title = {Cooperative Pursuit by Multiple Pursuers of a Single Evader},
   type = {article},
   url = {https://avonmoll.github.io/files/ManyPursuers.pdf},
+  year = {2020},
+}
+
+@inproceedings{vonmoll2020evolutionary,
+  abstract = {In this paper a scenario is considered in which a group of predators cooperate to maximize the number of prey captures over a finite time horizon on a two-dimensional plane. The emphasis is on developing predator strategies, and thus the behavior of the prey agents is fixed to a Boids-like flocking model which incorporates avoidance of nearby predators. At each time instant, the predators have control authority over their heading angle; however, we restrict the headings to be governed by one of five different pre-specified behaviors. No communication occurs between the predator agents - each agent determines its own control without knowledge of what the other predators will implement; thus, the predator strategies are fully decentralized. The full state space of the system is collapsed to a set of features which is independent of the number of prey. An evolutionary algorithm is used to evolve an anchor point controller wherein the anchor point lies in the feature space and has a particular predator behavior associated, thus providing a candidate solution to the question of "what to do when". The two predator case is the focus in this work, although the ideas could be applied to larger groups of predators. The strategies resulting from the evolutionary algorithm favor aiming at the nearest prey mostly, and also avoiding having the predators getting too close and then pursuing the same prey. Thus useless behaviors are generally not present among the elite at the end of the evolutionary process.},
+  author = {Von Moll, Alexander and Androulakakis, Pavlos and Fuchs, Zachariah and Vanderelst, Dieter},
+  booktitle = {Conference on Games},
+  date = {2020-08-24},
+  eventtitle = {Conference on Games},
+  location = {Osaka, Japan},
+  note = {Accepted},
+  publisher = {IEEE},
+  title = {Evolutionary Design of Cooperative Predation Strategies},
+  type = {conferencePaper},
   year = {2020},
 }
 
@@ -298,20 +324,6 @@
   year = {2020},
 }
 
-@inproceedings{vonmoll2020evolutionary,
-  abstract = {In this paper a scenario is considered in which a group of predators cooperate to maximize the number of prey captures over a finite time horizon on a two-dimensional plane. The emphasis is on developing predator strategies, and thus the behavior of the prey agents is fixed to a Boids-like flocking model which incorporates avoidance of nearby predators. At each time instant, the predators have control authority over their heading angle; however, we restrict the headings to be governed by one of five different pre-specified behaviors. No communication occurs between the predator agents - each agent determines its own control without knowledge of what the other predators will implement; thus, the predator strategies are fully decentralized. The full state space of the system is collapsed to a set of features which is independent of the number of prey. An evolutionary algorithm is used to evolve an anchor point controller wherein the anchor point lies in the feature space and has a particular predator behavior associated, thus providing a candidate solution to the question of "what to do when". The two predator case is the focus in this work, although the ideas could be applied to larger groups of predators. The strategies resulting from the evolutionary algorithm favor aiming at the nearest prey mostly, and also avoiding having the predators getting too close and then pursuing the same prey. Thus useless behaviors are generally not present among the elite at the end of the evolutionary process.},
-  author = {Von Moll, Alexander and Androulakakis, Pavlos and Fuchs, Zachariah and Vanderelst, Dieter},
-  booktitle = {Conference on Games},
-  date = {2020-08-24},
-  eventtitle = {Conference on Games},
-  location = {Osaka, Japan},
-  note = {Accepted},
-  publisher = {IEEE},
-  title = {Evolutionary Design of Cooperative Predation Strategies},
-  type = {conferencePaper},
-  year = {2020},
-}
-
 @inproceedings{vonmoll2020guarding,
   abstract = {In this paper, the problem of guarding a circular target wherein the Defender(s) is constrained to move along its perimeter is posed and solved using a differential game theoretic approach. Both the one-Defender and two-Defender scenarios are analyzed and solved. The mobile Attacker seeks to reach the perimeter of the circular target, whereas the Defender(s) seeks to align itself with the Attacker, thereby ending the game. In the former case, the Attacker wins, and the Attacker and Defender play a zero sum differential game where the payoff/cost is the terminal angular separation. In the latter case, the Defender(s) wins, and the Attacker and Defender play a zero sum differential game where the cost/payoff is the Attacker’s terminal distance to the target. This formulation is representative of a scenario in which the Attacker inflicts damage on the target as a function of its terminal distance. The state-feedback equilibrium strategies and Value functions for the Attacker-win and Defender(s)-win scenarios are derived for both the one- and two-Defender cases, thus providing a solution to the Game of Degree. Analytic expressions for the separating surfaces between the various terminal scenarios are derived, thus providing a solution to the Game of Kind.},
   author = {Von Moll, Alexander and Pachter, Meir and Shishika, Daigo and Fuchs, Zachariah},
@@ -330,8 +342,8 @@
   abstract = {In this paper an N-pursuer vs. M-evader team conflict is studied. The differential game of border defense is addressed and we focus on the game of degree in the region of the state space where the pursuers are able to win. This work extends classical differential game theory to simultaneously address weapon assignments and multi-player pursuit-evasion scenarios. Saddle-point strategies that provide guaranteed performance for each team regardless of the actual strategies implemented by the opponent are devised. The players' optimal strategies require the co-design of cooperative optimal assignments and optimal guidance laws. A representative measure of performance is proposed and the Value function of the game is obtained. It is shown that the Value function is continuous, continuously differentiable, and that it satisfies the Hamilton-Jacobi-Isaacs equation - the curse of dimensionality is overcome and the optimal strategies are obtained. The cases of N=M and N>M are considered. In the latter case, cooperative guidance strategies are also developed in order for the pursuers to exploit their numerical advantage. This work provides a foundation to formally analyze complex and high-dimensional conflicts between teams of N pursuers and M evaders by means of differential game theory.},
   author = {Garcia, Eloy and Casbeer, David W and Von Moll, Alexander and Pachter, Meir},
   date = {2020-05-01},
+  doi = {10.1109/TAC.2020.3003840},
   journal = {Transactions on Automatic Control},
-  note = {Submitted for Review},
   publisher = {IEEE},
   title = {Multiple Pursuer Multiple Evader Differential Games},
   type = {article},
