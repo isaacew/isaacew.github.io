@@ -3,7 +3,7 @@ title: "Pride of Lions and Man Differential Game"
 collection: publications
 permalink: /publication/garcia2020pride
 date: 2020-12-08 01:00:00 +0500
-venue: 'Conference on Decision and Control (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Decision and Control (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'E. Garcia, D. W. Casbeer, A. Von Moll, M. Pachter'
 excerpt_separator: ""

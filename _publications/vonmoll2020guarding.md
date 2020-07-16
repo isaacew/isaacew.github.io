@@ -3,7 +3,7 @@ title: "Guarding a Circular Target By Patrolling its Perimeter"
 collection: publications
 permalink: /publication/vonmoll2020guarding
 date: 2020-12-11 01:00:00 +0500
-venue: 'Conference on Decision and Control (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Decision and Control (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Von Moll, M. Pachter, D. Shishika, Z. Fuchs'
 excerpt_separator: ""
