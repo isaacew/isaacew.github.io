@@ -1,12 +1,13 @@
-@article{milutinovic2020deterministic,
+@article{milutinovic2021rate,
   abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
   author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
   date = {2020-05-31},
   journal = {Transactions on Automatic Control},
   note = {Submitted for Review},
-  title = {Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game},
+  publisher = {IEEE},
+  title = {Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution},
   type = {article},
-  year = {2020},
+  year = {2021},
 }
 
 @inproceedings{manyam2019shortest,
@@ -89,20 +90,6 @@
   year = {2019},
 }
 
-@inproceedings{vonmoll2020optimalevasion,
-  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
-  booktitle = {American Control Conference},
-  date = {2020-07-05},
-  eventtitle = {American Control Conference},
-  location = {Denver, CO},
-  note = {Accepted},
-  publisher = {IEEE},
-  title = {Optimal Evasion Against Dual Pure Pursuit},
-  type = {conferencePaper},
-  year = {2020},
-}
-
 @inproceedings{vonmoll2014review,
   abstract = {The exhaust gas temperature (EGT) is typically defined as the gas temperature at the exit of the turbine; the sensors used to measure this parameter are considered the most vulnerable elements of the entire turbine engine instrumentation. EGT measurement is considered a key parameter for optimizing fuel economy, diagnosis, and prognosis. The reason is that turbine blade temperature is a good indicator for normal life consumption of that blade. Currently, direct sensor measurements made on turbine modules are limited due to the extremely hot environment. Exhaust gas temperature (EGT) sensors located downstream from the highest temperature sections provide a means to roughly infer the temperatures seen by the turbine blades/disks. But these sensors, which themselves are subject to frequent failures, provide a fairly inaccurate indication of the actual metal temperature profiles. This is of particular importance for high performance military turbine engines where the margin between hot-section operating conditions and material limitations is shrinking. A future state is envisioned that would use emerging pyrometric, fiber optic, and laser-based sensing to accurately assess the condition and life usage of the hot section, on a blade-by-blade basis.},
   author = {Von Moll, Alexander and Behbahani, Alireza R. and Fralick, Gustave C. and Wrbanek, John D. and Hunter, Gary W.},
@@ -115,6 +102,18 @@
   type = {conferencePaper},
   url = {http://arc.aiaa.org/doi/10.2514/6.2014-3977},
   year = {2014},
+}
+
+@article{manyam2020curvature,
+  abstract = {We present a path planning problem for a pursuing agent to intercept a target traveling on a circle. The target is cooperative, and its position, heading and speed are precisely known by the pursuing agent. The pursuing agent has nonholonomic motion constraints, and therefore the path traveled by the pursuing agent must satisfy the minimum turn radius constraints. We consider the class of Dubins paths as candidate solutions, and analyze the characteristics of the six modes of Dubins paths where the final position is restricted to lie on the target circle with heading in the tangential direction of the circle. For each Dubins mode, we derive the feasibility limits, discontinuities and local extrema. Using this analysis the intercepting paths are found by a systematic bisection search in the feasible regions of each of the Dubins modes. We prove that the algorithm outputs the optimal solution, if the optimal intercepting path is a Dubins path; otherwise, it outputs the best found intercepting path and a tight lower bound to the optimal solution.},
+  author = {Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and Fuchs, Zachariah},
+  date = {2020-12-31},
+  journal = {Transactions on Automation Science and Engineering},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Curvature Constrained Paths to Intercept a Target Moving on a Circle},
+  type = {article},
+  year = {2020},
 }
 
 @inproceedings{black2018integrated,
@@ -185,6 +184,31 @@
   year = {2015},
 }
 
+@inproceedings{garcia2020pride,
+  abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  booktitle = {Conference on Decision and Control},
+  date = {2020-12-08},
+  eventtitle = {Conference on Decision and Control},
+  location = {Jeju Island, South Korea},
+  note = {Accepted},
+  title = {Pride of Lions and Man Differential Game},
+  type = {conferencePaper},
+  year = {2020},
+}
+
+@article{weintraub2021maximum,
+  abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
+  author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
+  date = {2021-05-31},
+  journal = {Journal of Guidance, Control, and Navigation},
+  note = {Submitted for Review},
+  publisher = {AIAA},
+  title = {Maximum Observation of a Target by a Slower Observer in 3-D},
+  type = {article},
+  year = {2021},
+}
+
 @article{vonmoll2020multiple,
   abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
   author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
@@ -233,40 +257,18 @@
   year = {2019},
 }
 
-@article{manyam2020curvature,
-  abstract = {We present a path planning problem for a pursuing agent to intercept a target traveling on a circle. The target is cooperative, and its position, heading and speed are precisely known by the pursuing agent. The pursuing agent has nonholonomic motion constraints, and therefore the path traveled by the pursuing agent must satisfy the minimum turn radius constraints. We consider the class of Dubins paths as candidate solutions, and analyze the characteristics of the six modes of Dubins paths where the final position is restricted to lie on the target circle with heading in the tangential direction of the circle. For each Dubins mode, we derive the feasibility limits, discontinuities and local extrema. Using this analysis the intercepting paths are found by a systematic bisection search in the feasible regions of each of the Dubins modes. We prove that the algorithm outputs the optimal solution, if the optimal intercepting path is a Dubins path; otherwise, it outputs the best found intercepting path and a tight lower bound to the optimal solution.},
-  author = {Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and Fuchs, Zachariah},
-  date = {2020-12-31},
-  journal = {Transactions on Automation Science and Engineering},
-  note = {Submitted for Review},
+@inproceedings{vonmoll2020optimalevasion,
+  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  doi = {10.23919/ACC45564.2020.9147776},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
   publisher = {IEEE},
-  title = {Curvature Constrained Paths to Intercept a Target Moving on a Circle},
-  type = {article},
-  year = {2020},
-}
-
-@article{weintraub2021maximum,
-  abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
-  author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
-  date = {2021-05-31},
-  journal = {Journal of Guidance, Control, and Navigation},
-  note = {Submitted for Review},
-  publisher = {AIAA},
-  title = {Maximum Observation of a Target by a Slower Observer in 3-D},
-  type = {article},
-  year = {2021},
-}
-
-@inproceedings{garcia2020pride,
-  abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
-  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
-  booktitle = {Conference on Decision and Control},
-  date = {2020-12-08},
-  eventtitle = {Conference on Decision and Control},
-  location = {Jeju Island, South Korea},
-  note = {Accepted},
-  title = {Pride of Lions and Man Differential Game},
+  title = {Optimal Evasion Against Dual Pure Pursuit},
   type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
   year = {2020},
 }
 
@@ -328,9 +330,9 @@
   author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
   booktitle = {American Control Conference},
   date = {2020-07-05},
+  doi = {10.23919/ACC45564.2020.9147340},
   eventtitle = {American Control Conference},
   location = {Denver, CO},
-  note = {Accepted},
   title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
   type = {conferencePaper},
   year = {2020},
@@ -348,6 +350,31 @@
   year = {2020},
 }
 
+@article{vonmoll2021circular,
+  abstract = {In this paper, the problem of guarding a circular target wherein the Defender(s) is constrained to move along its perimeter is posed and solved using a differential game theoretic approach. Both the one-Defender and two-Defender scenarios are analyzed and solved. The mobile Attacker seeks to reach the perimeter of the circular target, whereas the Defender(s) seeks to align itself with the Attacker, thereby ending the game. In the former case, the Attacker wins, and the Attacker and Defender play a zero sum differential game where the payoff/cost is the terminal angular separation. In the latter case, the Defender(s) wins, and the Attacker and Defender play a zero sum differential game where the cost/payoff is the Attacker’s terminal distance to the target. This formulation is representative of a scenario in which the Attacker inflicts damage on the target as a function of its terminal distance. The state-feedback equilibrium strategies and Value functions for the Attacker-win and Defender(s)-win scenarios are derived for both the one- and two-Defender cases, thus providing a solution to the Game of Degree. Analytic expressions for the separating surfaces between the various terminal scenarios are derived, thus providing a solution to the Game of Kind.},
+  author = {Von Moll, Alexander and Pachter, Meir and Shishika, Daigo and Fuchs, Zachariah},
+  date = {2021-06-30},
+  journal = {Transactions on Automatic Control},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Circular Target Defense Differential Games},
+  type = {article},
+  year = {2021},
+}
+
+@inproceedings{vonmoll2020attacker,
+  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {IFAC World Congress on Automatic Control},
+  date = {2020-07-31},
+  eventtitle = {IFAC World Congress on Automatic Control},
+  location = {Berlin, Germany},
+  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
+  type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/attacker-dispersal-surface.pdf},
+  year = {2020},
+}
+
 @inproceedings{vonmoll2020guarding,
   abstract = {In this paper, the problem of guarding a circular target wherein the Defender(s) is constrained to move along its perimeter is posed and solved using a differential game theoretic approach. Both the one-Defender and two-Defender scenarios are analyzed and solved. The mobile Attacker seeks to reach the perimeter of the circular target, whereas the Defender(s) seeks to align itself with the Attacker, thereby ending the game. In the former case, the Attacker wins, and the Attacker and Defender play a zero sum differential game where the payoff/cost is the terminal angular separation. In the latter case, the Defender(s) wins, and the Attacker and Defender play a zero sum differential game where the cost/payoff is the Attacker’s terminal distance to the target. This formulation is representative of a scenario in which the Attacker inflicts damage on the target as a function of its terminal distance. The state-feedback equilibrium strategies and Value functions for the Attacker-win and Defender(s)-win scenarios are derived for both the one- and two-Defender cases, thus providing a solution to the Game of Degree. Analytic expressions for the separating surfaces between the various terminal scenarios are derived, thus providing a solution to the Game of Kind.},
   author = {Von Moll, Alexander and Pachter, Meir and Shishika, Daigo and Fuchs, Zachariah},
@@ -358,19 +385,6 @@
   note = {Accepted},
   publisher = {IEEE},
   title = {Guarding a Circular Target By Patrolling its Perimeter},
-  type = {conferencePaper},
-  year = {2020},
-}
-
-@inproceedings{vonmoll2020attacker,
-  abstract = {The characteristics for the solution to the Turret Defense Differential Game are explored over the parameter space. We collapse the five natural parameters of capture radius, attacker speed, turret turn rate, time penalty constant, and look-angle penalty constant into two composite parameters in order to facilitate the analysis. There exist three singular surfaces in the game, two of which have an analytic form, and one which can only be obtained numerically. We focus on the latter: the Attacker Dispersal Surface, wherein the attacker can choose between an indirect or direct route to capture. For certain parameter settings, the Attacker Dispersal Surface is present, while for others, the surface is absent. These regions in the parameter space are identified, and the numerical procedures to do so are detailed. Backwards shooting of the optimal state and adjoint dynamics features prominently in the procedures. Two pieces of numerical evidence are utilized to indicate the presence or absence of the Attacker Dispersal Surface.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {IFAC World Congress on Automatic Control},
-  date = {2020-07-31},
-  eventtitle = {IFAC World Congress on Automatic Control},
-  location = {Berlin, Germany},
-  note = {Accepted},
-  title = {Attacker Dispersal Surface in the Turret Defense Differential Game},
   type = {conferencePaper},
   year = {2020},
 }
@@ -389,20 +403,6 @@
   year = {2019},
 }
 
-@inproceedings{pachter2019singular,
-  abstract = {The Two Cutters and Fugitive Ship game posed by Isaacs is revisited again. We discuss and analyze the singular configuration of this two-pursuer one-evader differential game. This paper addresses the question of whether or not either player has the ability to exploit the dispersal surface. Specifically, we in- vestigate the case where the Evader effectively stands still (e.g., by dithering in a small neighborhood). We show that the canonical optimal pursuit policy yields chattering in the discrete-time version of the game. As the timestep approaches zero, the capture time approaches the Value of the game, and thus the Evader is not penalized for standing still. Implications on related scenarios are discussed.},
-  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  booktitle = {2019 International Conference on Unmanned Aircraft Systems},
-  date = {2019-06-15},
-  doi = {10.1109/ICUAS.2019.8798244},
-  eventtitle = {2019 International Conference on Unmanned Aircraft Systems},
-  location = {Atlanta, GA},
-  title = {Singular Trajectories in the Two Pursuer One Evader Differential Game},
-  type = {conferencePaper},
-  url = {https://avonmoll.github.io/files/2p1e-singular.pdf},
-  year = {2019},
-}
-
 @article{pachter2019two-on-one,
   abstract = {A three agent pursuit-evasion differential game in the Euclidean plane where two pursuers engage an Evader is considered. The Pursuers are faster than the Evader and the three player have simple motion/are holonomic. Coincidence of the Evader with either one, or both Pursuers, is capture, and time of capture is the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential game is revisited and the solution of the Game of Kind is provided. Using Isaacs’ geometric method, explicit formulae for the players’ optimal state feedback strategies and the Value of the game are derived. The merits of the suboptimal Evader tactic of reducing speed, or opting to stay stationary, are examined.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -414,6 +414,20 @@
   type = {article},
   url = {https://avonmoll.github.io/files/TwoCutters.pdf},
   volume = {42},
+  year = {2019},
+}
+
+@inproceedings{pachter2019singular,
+  abstract = {The Two Cutters and Fugitive Ship game posed by Isaacs is revisited again. We discuss and analyze the singular configuration of this two-pursuer one-evader differential game. This paper addresses the question of whether or not either player has the ability to exploit the dispersal surface. Specifically, we in- vestigate the case where the Evader effectively stands still (e.g., by dithering in a small neighborhood). We show that the canonical optimal pursuit policy yields chattering in the discrete-time version of the game. As the timestep approaches zero, the capture time approaches the Value of the game, and thus the Evader is not penalized for standing still. Implications on related scenarios are discussed.},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  booktitle = {2019 International Conference on Unmanned Aircraft Systems},
+  date = {2019-06-15},
+  doi = {10.1109/ICUAS.2019.8798244},
+  eventtitle = {2019 International Conference on Unmanned Aircraft Systems},
+  location = {Atlanta, GA},
+  title = {Singular Trajectories in the Two Pursuer One Evader Differential Game},
+  type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/2p1e-singular.pdf},
   year = {2019},
 }
 

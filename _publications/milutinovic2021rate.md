@@ -1,7 +1,7 @@
 ---
-title: "Deterministic Saddle Point Strategy Resolution of the Dilemma in the Wall Pursuit Game"
+title: "Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution"
 collection: publications
-permalink: /publication/milutinovic2020deterministic
+permalink: /publication/milutinovic2021rate
 date: 2020-05-31 01:00:00 +0500
 venue: 'Transactions on Automatic Control (<b><i>Submitted for Review</i></b>)'
 pubtype: 'journal'
