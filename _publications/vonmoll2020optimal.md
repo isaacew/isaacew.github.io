@@ -3,7 +3,7 @@ title: "Optimal Constrained Retreat within the Turret Defense Differential Game"
 collection: publications
 permalink: /publication/vonmoll2020optimal
 date: 2020-08-24 01:00:00 +0500
-venue: 'Conference on Control Technology and Applications (<b><i>Accepted</i></b>)'
+venue: 'Conference on Control Technology and Applications'
 pubtype: 'conference'
 authors: 'A. Von Moll, Z. Fuchs'
 excerpt_separator: ""
