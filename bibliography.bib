@@ -48,6 +48,20 @@
   year = {2013},
 }
 
+@inproceedings{vonmoll2021turret,
+  abstract = {In this paper we model and analyze a scenario in the two dimensional plane involving a mobile Attacker and stationary Defender. There are two possibilities for termination: the Attacker can collide with the Defender (engagement) or maneuver to a safe zone away from the Defender (retreat). The Defender is equipped with a directional turret which it can rotate with a bounded rate. If the turret is aligned with the Attacker's position, the Defender has a lock on the Attacker and may choose to fire on the Attacker. Thus, whether engaging or retreating, the Attacker has incentive to evade the turret's line of sight and thereby avoid being locked-on. In the case of retreat, if lock-on occurs the Defender cooperates with the Attacker by withholding fire to allow the Attacker to retreat. However, if the Attacker chooses to engage and lock-on occurs, the Defender will open fire on the Attacker. We model the scenario as a set of differential games with different cost functionals depending on the type of termination. The agents are assumed to have full state information. In the case that the Defender can align with the Attacker the pre- and post-lock portions of the game are solved individually and stitched together. The equilibrium strategies are derived in each case, and a partitioning of the state space wherein a particular termination condition is optimal is constructed.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {American Control Conference},
+  date = {2021-05-28},
+  eventtitle = {American Control Conference},
+  location = {New Orleans},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Turret Lock-on in an Engage or Retreat Game},
+  type = {conferencePaper},
+  year = {2021},
+}
+
 @inproceedings{manyam2019coordinating,
   abstract = {We present a two vehicle, cooperating path planning problem in adversarial environments. The first vehicle is the lead vehicle and its path is prescribed to accomplish a certain mission,and there exists multiple attackers along this path. The second vehicle is a defender that travelsalong the lead vehicle, and it is responsible to protect the lead vehicle from the attackers. The defender launches defender missile to intercept the attackers before it reaches the lead vehicle. The defender and lead vehicle cooperate to maximize the distance between the lead vehicle and the point of interception, while the attacker tries to minimize this distance. This sub problem is modeled as Target-Attacker-Defender (TAD) game with an objective to maximize the terminal separation distance between lead vehicle and attacker. We aim to generate an optimal pathfor the defender, such that if the TAD game is played at any point along the path, the defender should be optimally positioned that maximizes the terminal separation distance. We reduce this problem to a discrete space, and methodically pose it as a shortest path problem on a graph, the solution of which gives the discrete optimal path for the defender.},
   author = {Manyam, Satyanarayana G. and Casbeer, David and Von Moll, Alexander and Garcia, Eloy},
@@ -88,6 +102,21 @@
   type = {conferencePaper},
   url = {https://avonmoll.github.io/files/mp1e-border.pdf},
   year = {2019},
+}
+
+@inproceedings{vonmoll2020optimalevasion,
+  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  doi = {10.23919/ACC45564.2020.9147776},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
+  publisher = {IEEE},
+  title = {Optimal Evasion Against Dual Pure Pursuit},
+  type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
+  year = {2020},
 }
 
 @inproceedings{vonmoll2014review,
@@ -184,6 +213,18 @@
   year = {2015},
 }
 
+@article{garcia2021cooperative,
+  abstract = {This paper considers a pursuit-evasion problem with two cooperative pursuers and one evader. The problem is posed as a zero-sum differential game where the evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. Leveraging differential game theory, state feedback strategies are both synthesized and verified in this paper. In addition, the Barrier surface that partitions the state space into two winning sets, one for the pursuer team and one for the evader, is obtained in analytical form. Under optimal play, the winning team is determined by evaluating the associated Barrier function.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  date = {2021-12-31},
+  journal = {International Journal of Control and Automation Systems},
+  note = {Submitted for Review},
+  publisher = {Springer},
+  title = {The Cooperative Blocking Differential Game},
+  type = {article},
+  year = {2021},
+}
+
 @inproceedings{garcia2020pride,
   abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
   author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
@@ -221,70 +262,6 @@
   year = {2019},
 }
 
-@inproceedings{manyam2019optimal,
-  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
-  author = {Manyam, Satyanarayana, G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
-  date = {2019-07-10},
-  doi = {10.23919/ACC.2019.8814913},
-  eventtitle = {American Control Conference},
-  title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
-  type = {conferencePaper},
-  year = {2019},
-}
-
-@inproceedings{vonmoll2020optimalevasion,
-  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
-  booktitle = {American Control Conference},
-  date = {2020-07-05},
-  doi = {10.23919/ACC45564.2020.9147776},
-  eventtitle = {American Control Conference},
-  location = {Denver, CO},
-  publisher = {IEEE},
-  title = {Optimal Evasion Against Dual Pure Pursuit},
-  type = {conferencePaper},
-  url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
-  year = {2020},
-}
-
-@article{weintraub2021maximum,
-  abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
-  author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
-  date = {2021-05-31},
-  journal = {Journal of Guidance, Control, and Navigation},
-  note = {Submitted for Review},
-  publisher = {AIAA},
-  title = {Maximum Observation of a Target by a Slower Observer in 3-D},
-  type = {article},
-  year = {2021},
-}
-
-@inproceedings{vonmoll2021turret,
-  abstract = {In this paper we model and analyze a scenario in the two dimensional plane involving a mobile Attacker and stationary Defender. There are two possibilities for termination: the Attacker can collide with the Defender (engagement) or maneuver to a safe zone away from the Defender (retreat). The Defender is equipped with a directional turret which it can rotate with a bounded rate. If the turret is aligned with the Attacker's position, the Defender has a lock on the Attacker and may choose to fire on the Attacker. Thus, whether engaging or retreating, the Attacker has incentive to evade the turret's line of sight and thereby avoid being locked-on. In the case of retreat, if lock-on occurs the Defender cooperates with the Attacker by withholding fire to allow the Attacker to retreat. However, if the Attacker chooses to engage and lock-on occurs, the Defender will open fire on the Attacker. We model the scenario as a set of differential games with different cost functionals depending on the type of termination. The agents are assumed to have full state information. In the case that the Defender can align with the Attacker the pre- and post-lock portions of the game are solved individually and stitched together. The equilibrium strategies are derived in each case, and a partitioning of the state space wherein a particular termination condition is optimal is constructed.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {American Control Conference},
-  date = {2021-05-28},
-  eventtitle = {American Control Conference},
-  location = {New Orleans},
-  note = {Submitted for Review},
-  publisher = {IEEE},
-  title = {Turret Lock-on in an Engage or Retreat Game},
-  type = {conferencePaper},
-  year = {2021},
-}
-
-@article{garcia2021cooperative,
-  abstract = {This paper considers a pursuit-evasion problem with two cooperative pursuers and one evader. The problem is posed as a zero-sum differential game where the evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. Leveraging differential game theory, state feedback strategies are both synthesized and verified in this paper. In addition, the Barrier surface that partitions the state space into two winning sets, one for the pursuer team and one for the evader, is obtained in analytical form. Under optimal play, the winning team is determined by evaluating the associated Barrier function.},
-  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
-  date = {2021-12-31},
-  journal = {International Journal of Control and Automation Systems},
-  note = {Submitted for Review},
-  publisher = {Springer},
-  title = {The Cooperative Blocking Differential Game},
-  type = {article},
-  year = {2021},
-}
-
 @inproceedings{garcia2019strategies,
   abstract = {A scenario is considered where a coastline or border is coming under attack by two aircraft. The border is guarded by a faster defender bent on intercepting both aircraft in sequence. A differential game is formulated where the defender sequentially pursues both aircraft and tries to capture them as far as possible from the border. The two aircraft execute cooperative maneuvers and try to minimize their combined distance to the border at the moment when each one is intercepted by the defender. In this paper, the regular solution of this differential game is obtained and the game singular surfaces are identified.},
   author = {Garcia, Eloy and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
@@ -296,6 +273,29 @@
   title = {Strategies for Defending a Coastline Against Multiple Attackers},
   type = {conferencePaper},
   year = {2019},
+}
+
+@inproceedings{manyam2019optimal,
+  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
+  author = {Manyam, Satyanarayana, G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  date = {2019-07-10},
+  doi = {10.23919/ACC.2019.8814913},
+  eventtitle = {American Control Conference},
+  title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
+  type = {conferencePaper},
+  year = {2019},
+}
+
+@article{weintraub2021maximum,
+  abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
+  author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
+  date = {2020-12-15},
+  doi = {10.2514/1.G005619},
+  journal = {Journal of Guidance, Control, and Navigation},
+  publisher = {AIAA},
+  title = {Maximum Observation of a Target by a Slower Observer in Three Dimensions},
+  type = {article},
+  year = {2020},
 }
 
 @article{pachter2020cooperative,
@@ -398,6 +398,7 @@
   location = {Montreal, Canada},
   title = {Optimal Constrained Retreat within the Turret Defense Differential Game},
   type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/turret-ocr.pdf},
   year = {2020},
 }
 
