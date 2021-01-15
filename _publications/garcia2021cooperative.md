@@ -3,8 +3,8 @@ title: "The Cooperative Blocking Differential Game"
 collection: publications
 permalink: /publication/garcia2021cooperative
 date: 2021-12-31 01:00:00 +0500
-venue: 'International Journal of Control and Automation Systems (<b><i>Submitted for Review</i></b>)'
-pubtype: 'journal'
+venue: 'Conference on Control Technology and Applications (<b><i>Submitted for Review</i></b>)'
+pubtype: 'conference'
 authors: 'E. Garcia, D. W. Casbeer, A. Von Moll, M. Pachter'
 excerpt_separator: ""
 ---

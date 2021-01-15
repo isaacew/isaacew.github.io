@@ -213,44 +213,6 @@
   year = {2015},
 }
 
-@article{garcia2021cooperative,
-  abstract = {This paper considers a pursuit-evasion problem with two cooperative pursuers and one evader. The problem is posed as a zero-sum differential game where the evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. Leveraging differential game theory, state feedback strategies are both synthesized and verified in this paper. In addition, the Barrier surface that partitions the state space into two winning sets, one for the pursuer team and one for the evader, is obtained in analytical form. Under optimal play, the winning team is determined by evaluating the associated Barrier function.},
-  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
-  date = {2021-12-31},
-  journal = {International Journal of Control and Automation Systems},
-  note = {Submitted for Review},
-  publisher = {Springer},
-  title = {The Cooperative Blocking Differential Game},
-  type = {article},
-  year = {2021},
-}
-
-@inproceedings{garcia2020pride,
-  abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
-  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
-  booktitle = {Conference on Decision and Control},
-  date = {2020-12-08},
-  eventtitle = {Conference on Decision and Control},
-  location = {Jeju Island, South Korea},
-  note = {Accepted},
-  title = {Pride of Lions and Man Differential Game},
-  type = {conferencePaper},
-  year = {2020},
-}
-
-@article{vonmoll2020multiple,
-  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
-  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
-  date = {2020-02-01},
-  doi = {10.2514/1.I010740},
-  journal = {Journal of Aerospace Information Systems},
-  publisher = {AIAA},
-  title = {Multiple Pursuer Single Evader Border Defense Differential Game},
-  type = {journal},
-  url = {https://avonmoll.github.io/files/mp1e-border.pdf},
-  year = {2020},
-}
-
 @inproceedings{garcia2019cooperative,
   abstract = {A pursuit-evasion problem with two pursuers and one evader is considered. The evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the Evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. The problem is posed as a zero-sum differential game where the two pursuers cooperate against the evader. State feedback strategies are derived in this paper and the Value function is obtained. It is also shown that the Value function is continuous, continuously differentiable, and it satisfies the Hamilton-Jacobi-Isaacs equation.},
   author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
@@ -286,7 +248,7 @@
   year = {2019},
 }
 
-@article{weintraub2021maximum,
+@article{weintraub2020maximum3D,
   abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
   author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
   date = {2020-12-15},
@@ -295,6 +257,44 @@
   publisher = {AIAA},
   title = {Maximum Observation of a Target by a Slower Observer in Three Dimensions},
   type = {article},
+  year = {2020},
+}
+
+@article{vonmoll2020multiple,
+  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
+  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
+  date = {2020-02-01},
+  doi = {10.2514/1.I010740},
+  journal = {Journal of Aerospace Information Systems},
+  publisher = {AIAA},
+  title = {Multiple Pursuer Single Evader Border Defense Differential Game},
+  type = {journal},
+  url = {https://avonmoll.github.io/files/mp1e-border.pdf},
+  year = {2020},
+}
+
+@inproceedings{garcia2021cooperative,
+  abstract = {This paper considers a pursuit-evasion problem with two cooperative pursuers and one evader. The problem is posed as a zero-sum differential game where the evader aims at reaching a goal line which is protected by the pursuers. When reaching this goal is not possible, the evader strives to position itself as close as possible with respect to the goal line at the time of capture. The pursuers try to capture the evader as far as possible from the goal line. Leveraging differential game theory, state feedback strategies are both synthesized and verified in this paper. In addition, the Barrier surface that partitions the state space into two winning sets, one for the pursuer team and one for the evader, is obtained in analytical form. Under optimal play, the winning team is determined by evaluating the associated Barrier function.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  date = {2021-12-31},
+  journal = {Conference on Control Technology and Applications},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {The Cooperative Blocking Differential Game},
+  type = {conferencePaper},
+  year = {2021},
+}
+
+@inproceedings{garcia2020pride,
+  abstract = {A reach-avoid differential game with multiple players is considered in this paper. A group of defenders is in charge of capturing a spy before it leaves the game set. This paper addresses cooperation among the defenders which protect a circular area on interest and try to intercept an intelligent adversary/intruder. The optimal strategies for each team, the defenders team and the spy, are obtained. These strategies and the Value function are obtained in analytical and explicit form. Furthermore, it is verified that the Value function is continuously differentiable and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface that separates the winning regions of each team is explicitly obtained as well. Illustrative examples show the Barrier surface cross-sections of this high dimensional differential game.},
+  author = {Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir},
+  booktitle = {Conference on Decision and Control},
+  date = {2020-12-08},
+  doi = {10.1109/CDC42340.2020.9304060},
+  eventtitle = {Conference on Decision and Control},
+  location = {Jeju Island, South Korea},
+  title = {Pride of Lions and Man Differential Game},
+  type = {conferencePaper},
   year = {2020},
 }
 
@@ -307,20 +307,6 @@
   title = {Cooperative Pursuit by Multiple Pursuers of a Single Evader},
   type = {article},
   url = {https://avonmoll.github.io/files/ManyPursuers.pdf},
-  year = {2020},
-}
-
-@inproceedings{vonmoll2020evolutionary,
-  abstract = {In this paper a scenario is considered in which a group of predators cooperate to maximize the number of prey captures over a finite time horizon on a two-dimensional plane. The emphasis is on developing predator strategies, and thus the behavior of the prey agents is fixed to a Boids-like flocking model which incorporates avoidance of nearby predators. At each time instant, the predators have control authority over their heading angle; however, we restrict the headings to be governed by one of five different pre-specified behaviors. No communication occurs between the predator agents - each agent determines its own control without knowledge of what the other predators will implement; thus, the predator strategies are fully decentralized. The full state space of the system is collapsed to a set of features which is independent of the number of prey. An evolutionary algorithm is used to evolve an anchor point controller wherein the anchor point lies in the feature space and has a particular predator behavior associated, thus providing a candidate solution to the question of "what to do when". The two predator case is the focus in this work, although the ideas could be applied to larger groups of predators. The strategies resulting from the evolutionary algorithm favor aiming at the nearest prey mostly, and also avoiding having the predators getting too close and then pursuing the same prey. Thus useless behaviors are generally not present among the elite at the end of the evolutionary process.},
-  author = {Von Moll, Alexander and Androulakakis, Pavlos and Fuchs, Zachariah and Vanderelst, Dieter},
-  booktitle = {Conference on Games},
-  date = {2020-08-24},
-  eventtitle = {Conference on Games},
-  location = {Osaka, Japan},
-  publisher = {IEEE},
-  title = {Evolutionary Design of Cooperative Predation Strategies},
-  type = {conferencePaper},
-  url = {https://avonmoll.github.io/files/evolutionary-design.pdf},
   year = {2020},
 }
 
@@ -348,6 +334,21 @@
   location = {Denver, CO},
   title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
   type = {conferencePaper},
+  year = {2020},
+}
+
+@inproceedings{vonmoll2020evolutionary,
+  abstract = {In this paper a scenario is considered in which a group of predators cooperate to maximize the number of prey captures over a finite time horizon on a two-dimensional plane. The emphasis is on developing predator strategies, and thus the behavior of the prey agents is fixed to a Boids-like flocking model which incorporates avoidance of nearby predators. At each time instant, the predators have control authority over their heading angle; however, we restrict the headings to be governed by one of five different pre-specified behaviors. No communication occurs between the predator agents - each agent determines its own control without knowledge of what the other predators will implement; thus, the predator strategies are fully decentralized. The full state space of the system is collapsed to a set of features which is independent of the number of prey. An evolutionary algorithm is used to evolve an anchor point controller wherein the anchor point lies in the feature space and has a particular predator behavior associated, thus providing a candidate solution to the question of "what to do when". The two predator case is the focus in this work, although the ideas could be applied to larger groups of predators. The strategies resulting from the evolutionary algorithm favor aiming at the nearest prey mostly, and also avoiding having the predators getting too close and then pursuing the same prey. Thus useless behaviors are generally not present among the elite at the end of the evolutionary process.},
+  author = {Von Moll, Alexander and Androulakakis, Pavlos and Fuchs, Zachariah and Vanderelst, Dieter},
+  booktitle = {Conference on Games},
+  date = {2020-08-24},
+  doi = {10.1109/CoG47356.2020.9231945},
+  eventtitle = {Conference on Games},
+  location = {Osaka, Japan},
+  publisher = {IEEE},
+  title = {Evolutionary Design of Cooperative Predation Strategies},
+  type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/evolutionary-design.pdf},
   year = {2020},
 }
 
@@ -462,12 +463,13 @@
   author = {Von Moll, Alexander and Pachter, Meir and Shishika, Daigo and Fuchs, Zachariah},
   booktitle = {Conference on Decision and Control},
   date = {2020-12-11},
+  doi = {10.1109/CDC42340.2020.9304018},
   eventtitle = {Conference on Decision and Control},
   location = {Jeju Island, South Korea},
-  note = {Accepted},
   publisher = {IEEE},
   title = {Guarding a Circular Target By Patrolling its Perimeter},
   type = {conferencePaper},
+  url = {https://avonmoll.github.io/files/guarding-a-circular-target-by-patrolling-its-perimeter.pdf},
   year = {2020},
 }
 
