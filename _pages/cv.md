@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Aeronautical & Astronautical Engineering, The Ohio State University, 2012
 * M.S. in Aerospace Engineering, Georgia Institute of Technology, 2016
-* Ph.D in Electrical Engineering, University of Cincinnati, 2021 (expected)
+* Ph.D in Electrical Engineering, University of Cincinnati, 2022 (expected)
 
 Work experience
 ======
@@ -34,6 +34,7 @@ Work experience
 
 Skills
 ======
+- Julia
 - Python
 - LaTeX
 - Technical Writing
