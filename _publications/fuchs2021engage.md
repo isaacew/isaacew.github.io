@@ -3,7 +3,7 @@ title: "Engage or Retreat Differential Game with N-Targets and Distributed Defen
 collection: publications
 permalink: /publication/fuchs2021engage
 date: 2021-08-31 01:00:00 +0500
-venue: 'Conference on Controls Technology and Applications (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Controls Technology and Applications (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'Z. E. Fuchs, A. Von Moll, D. Casbeer'
 excerpt_separator: ""
