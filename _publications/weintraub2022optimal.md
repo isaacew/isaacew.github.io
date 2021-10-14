@@ -3,7 +3,7 @@ title: "An Optimal Engagement Zone Avoidance Scenario in 2-D"
 collection: publications
 permalink: /publication/weintraub2022optimal
 date: 2022-01-03 01:00:00 +0500
-venue: 'Scitech (<b><i>Submitted for Review</i></b>)'
+venue: 'Scitech (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'I. E. Weintraub, A. Von Moll, C. Carrizales, N. Hanlon, Z. Fuchs'
 excerpt_separator: ""
