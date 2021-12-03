@@ -3,7 +3,7 @@ title: "The Turret-Runner-Penetrator Differential Game with Role Selection"
 collection: publications
 permalink: /publication/vonmoll2022turret-runner-penetrator
 date: 2022-02-26 01:00:00 +0500
-venue: 'Transactions on Automatic Control (<b><i>Submitted for Review</i></b>)'
+venue: 'Transactions on Aerospace \&amp; Electronic Systems (<b><i>Submitted for Review</i></b>)'
 pubtype: 'journal'
 authors: 'A. Von Moll, D. Shishika, Z. Fuchs, M. Dorothy'
 excerpt_separator: ""
