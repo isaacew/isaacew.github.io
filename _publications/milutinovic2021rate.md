@@ -2,8 +2,8 @@
 title: "Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution"
 collection: publications
 permalink: /publication/milutinovic2021rate
-date: 2021-09-30 01:00:00 +0500
-venue: 'Transactions on Automatic Control (<b><i>Submitted for Review</i></b>)'
+date: 2021-12-30 01:00:00 +0500
+venue: 'Transactions on Automatic Control (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'D. Milutinović, D. W. Casbeer, A. Von Moll, M. Pachter, E. Garcia'
 excerpt_separator: ""
