@@ -186,9 +186,9 @@
 @article{milutinovic2021rate,
   abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
   author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
-  date = {2021-12-30},
+  date = {2021-12-27},
+  doi = {10.1109/TAC.2021.3137786},
   journal = {Transactions on Automatic Control},
-  note = {Accepted},
   publisher = {IEEE},
   title = {Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution},
   year = {2021},
@@ -411,18 +411,6 @@
   year = {2019},
 }
 
-@inproceedings{weintraub2020maximum,
-  abstract = {This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.},
-  author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
-  booktitle = {American Control Conference},
-  date = {2020-07-05},
-  doi = {10.23919/ACC45564.2020.9147340},
-  eventtitle = {American Control Conference},
-  location = {Denver, CO},
-  title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
-  year = {2020},
-}
-
 @inproceedings{garcia2019strategies,
   abstract = {A scenario is considered where a coastline or border is coming under attack by two aircraft. The border is guarded by a faster defender bent on intercepting both aircraft in sequence. A differential game is formulated where the defender sequentially pursues both aircraft and tries to capture them as far as possible from the border. The two aircraft execute cooperative maneuvers and try to minimize their combined distance to the border at the moment when each one is intercepted by the defender. In this paper, the regular solution of this differential game is obtained and the game singular surfaces are identified.},
   author = {Garcia, Eloy and Von Moll, Alexander and Casbeer, David and Pachter, Meir},
@@ -445,6 +433,18 @@
   location = {Montreal, Canada},
   title = {Optimal Constrained Retreat within the Turret Defense Differential Game},
   url = {https://avonmoll.github.io/files/turret-ocr.pdf},
+  year = {2020},
+}
+
+@inproceedings{weintraub2020maximum,
+  abstract = {This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.},
+  author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary J. L. and Pachter, Meir},
+  booktitle = {American Control Conference},
+  date = {2020-07-05},
+  doi = {10.23919/ACC45564.2020.9147340},
+  eventtitle = {American Control Conference},
+  location = {Denver, CO},
+  title = {Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer},
   year = {2020},
 }
 
@@ -491,19 +491,6 @@
   year = {2019},
 }
 
-@article{pachter2019two-on-one,
-  abstract = {A three agent pursuit-evasion differential game in the Euclidean plane where two pursuers engage an Evader is considered. The Pursuers are faster than the Evader and the three player have simple motion/are holonomic. Coincidence of the Evader with either one, or both Pursuers, is capture, and time of capture is the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential game is revisited and the solution of the Game of Kind is provided. Using Isaacs’ geometric method, explicit formulae for the players’ optimal state feedback strategies and the Value of the game are derived. The merits of the suboptimal Evader tactic of reducing speed, or opting to stay stationary, are examined.},
-  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  date = {2019-07-08},
-  doi = {10.2514/1.G004068},
-  journal = {Journal of Guidance, Control, and Dynamics},
-  number = {7},
-  title = {Two-on-One Pursuit},
-  url = {https://avonmoll.github.io/files/TwoCutters.pdf},
-  volume = {42},
-  year = {2019},
-}
-
 @article{vonmoll2019robust,
   abstract = {Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments.},
   author = {Von Moll, Alexander and Pachter, Meir and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -514,6 +501,19 @@
   pages = {202-221},
   title = {Robust Policies for a Multiple Pursuer Single Evader Differential Game},
   url = {https://avonmoll.github.io/files/mp1e-robust.pdf},
+  year = {2019},
+}
+
+@article{pachter2019two-on-one,
+  abstract = {A three agent pursuit-evasion differential game in the Euclidean plane where two pursuers engage an Evader is considered. The Pursuers are faster than the Evader and the three player have simple motion/are holonomic. Coincidence of the Evader with either one, or both Pursuers, is capture, and time of capture is the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential game is revisited and the solution of the Game of Kind is provided. Using Isaacs’ geometric method, explicit formulae for the players’ optimal state feedback strategies and the Value of the game are derived. The merits of the suboptimal Evader tactic of reducing speed, or opting to stay stationary, are examined.},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  date = {2019-07-08},
+  doi = {10.2514/1.G004068},
+  journal = {Journal of Guidance, Control, and Dynamics},
+  number = {7},
+  title = {Two-on-One Pursuit},
+  url = {https://avonmoll.github.io/files/TwoCutters.pdf},
+  volume = {42},
   year = {2019},
 }
 
