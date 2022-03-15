@@ -77,7 +77,6 @@
   date = {2021-12-31},
   doi = {10.1109/CCTA48906.2021.9658654},
   journal = {Conference on Control Technology and Applications},
-  note = {Accepted},
   publisher = {IEEE},
   title = {The Cooperative Blocking Differential Game},
   year = {2021},
@@ -183,6 +182,48 @@
   publisher = {IFAC},
   title = {One Apollonius Circle is Enough for Many Pursuit-Evasion Games},
   url = {https://arxiv.org/abs/2111.09205},
+  year = {2021},
+}
+
+@article{vonmoll2022lock-evade,
+  abstract = {In this paper we model and analyze a scenario in the two-dimensional plane involving a mobile Attacker and stationary Defender. There are two possibilities for termination: the Attacker can collide with the Defender (engagement) or maneuver to a safe zone away from the Defender (retreat). The Defender is equipped with a directional turret, which it can rotate with a bounded rate. If the turret is aligned with the Attacker’s position, the Defender has a lock on the Attacker and may choose to fire on the Attacker. Thus, whether engaging or retreating, the Attacker has incentive to evade the turret’s line of sight and thereby avoid being locked-on. In the case of retreat, if lock-on occurs the Defender cooperates with the Attacker by withholding fire to allow the Attacker to retreat. However, if the Attacker chooses to engage and lock-on occurs, the Defender will open fire on the Attacker. We model the scenario as a set of differential games with different cost functionals depending on the type of termination. The agents are assumed to have full state information. In the case that the Defender can lock onto the Attacker the pre- and post-lock portions of the game are solved individually and combined together. Otherwise, the Attacker can terminate the game prior to lock-on and the game is comprised of a single stage. The equilibrium strategies are derived in each case, and a partitioning of the state space wherein a particular goal selection is optimal is constructed.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah},
+  date = {2022-10-01},
+  journal = {Transactions on Aerospace \& Electronic Systems},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {A Lock-Evade, Engage or Retreat Game},
+  year = {2022},
+}
+
+@thesis{vonmoll2022skirmish-level,
+  abstract = {Supremacy in armed conflict comes not merely from superiority in capability or numbers but from how assets are used, down to the maneuvers of individual vehicles and munitions. This document outlines a research plan focused on skirmish-level tactics to militarily relevant scenarios. Skirmish-level refers to both the size of the adversarial engagement -- generally one vs. one, two vs. one, and/or one vs. two -- as well as the fact that the goal or objective of each team is well-established. The problem areas include pursuit-evasion and target guarding, either of which may be considered as sub-problems within military missions such as air-to-air combat, suppression/defense of ground-based assets, etc. In most cases, the tactics considered are comprised of the control policy of the agents (i.e., their spatial maneuvers), but may also include role assignment (e.g, whether to act as a decoy or striker) as well as discrete decisions (e.g., whether to engage or retreat). Skirmish-level tactics are important because they can provide insight into how to approach larger scale conflicts (many vs. many, many objectives, many decisions). Machine learning approaches such as reinforcement learning and neural networks have been demonstrated to be capable of developing controllers for large teams of agents. However, the performance of these controllers compared to the optimal (or equilibrium) policies is generally unknown. Differential Game Theory provides the means to obtain a rigorous solution to relevant scenarios in the form of saddle-point equilibrium control policies and the min/max (or max/min) cost / reward in the case of zero-sum games. When the equilibrium control policies can be obtained analytically, they are suitable for onboard / real-time implementation. Some challenges associated with the classical Differential Game Theory approach are explored herein. These challenges arise mainly due to the presence of singularities, which may appear in even the simplest differential games. The utility of skirmish-level solutions is demonstrated in (i) the multiple pursuer, single evader differential games, (ii) multi-agent turret defense scenarios, and (iii) engage or retreat scenarios. In its culmination, this work contributes differential game and optimal control solutions to novel scenarios, numerical techniques for computing singular surfaces, approximations for computationally-intensive solutions, and techniques for addressing scenarios with multiple stages or outcomes.},
+  author = {Von Moll, Alexander},
+  date = {2022-03-09},
+  school = {University of Cincinnati},
+  title = {Skirmish-Level Tactics via Game-Theoretic Analysis},
+  url = {https://avonmoll.github.io/files/dissertation.pdf},
+  year = {2022},
+}
+
+@article{vonmoll2022pure,
+  abstract = {The study of pursuit curves is valuable in the context of air-to-air combat as pure pursuit guidance (heading directly at the target) is oftentimes implemented. The problems considered in this paper concern a Pursuer, implementing pure pursuit (i.e., line of sight guidance), chasing an Evader who holds course. Previous results are applicable to the case in which capture is defined as the two agents being coincident, i.e., point capture. The focus here is on obtaining results for the more realistic case  where the pursuer is endowed with an effector whose range is finite. The scenario in which the Evader begins inside the Pursuer's effector range is also considered (i.e., escape from persistent surveillance, among other potential applications). Questions herein addressed include: does the engagement end in head-on collision or tail chase, will the Evader be captured or escape, what is the minimum distance the Pursuer will attain, for two Pursuers, is simultaneous capture/escape optimal and, if so, what is the optimal heading for the Evader (max time to capture, or min time to escape), and the feasibility for a fast Evader to escape from many Pursuers. Where possible, closed-form, analytic results are obtained, otherwise attention is given to computability with an eye towards real-time, on-board implementation.},
+  author = {Von Moll, Alexander and Pachter, Meir and Fuchs, Zachariah},
+  date = {2022-12-31},
+  journal = {Dynamic Games and Applications},
+  note = {Submitted for Review},
+  title = {Pure Pursuit},
+  year = {2022},
+}
+
+@article{milutinovic2021rate,
+  abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
+  author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
+  date = {2021-12-27},
+  doi = {10.1109/TAC.2021.3137786},
+  journal = {Transactions on Automatic Control},
+  publisher = {IEEE},
+  title = {Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution},
   year = {2021},
 }
 
@@ -358,17 +399,6 @@
   year = {2019},
 }
 
-@article{milutinovic2021rate,
-  abstract = {The scope of this work is the well-known wall pursuit game which has been used in the literature to illustrate the existence of a singular surface (dispersal line) and the associated game dilemma. We derive an analytical expression for the value function of the game and use a hold time to derive the rate of change for the loss of the time to capture along the dispersal line. Then we resolve the dilemma along the dispersal line using actions defined by the saddle point of the rate of change for the loss. Finally, we analyze the same game in a version with a non-zero hold time and show that in that case, the actions from the dispersal line have to be applied not only on the dispersal line, but in a narrow band around it. To illustrate that, we use an example to compute the band around the line.},
-  author = {Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir and Garcia, Eloy},
-  date = {2021-12-27},
-  doi = {10.1109/TAC.2021.3137786},
-  journal = {Transactions on Automatic Control},
-  publisher = {IEEE},
-  title = {Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit Game Solution},
-  year = {2021},
-}
-
 @article{pachter2020cooperative,
   abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -520,20 +550,6 @@
   year = {2019},
 }
 
-@article{vonmoll2019multi-pursuer,
-  abstract = {We consider a general pursuit-evasion differential game with three or more pursuers and a single evader, all with simple motion. It is shown that traditional means of differential game analysis is difficult for this scenario. But simple motion and min-max time to capture plus the two-person extension to Pontryagin's maximum principle imply straight-line motion at maximum speed which forms the basis of the solution using a geometric approach. Safe evader paths and policies are defined which guarantee the evader can reach its destination without getting captured by any of the pursuers, provided its destination satisfies some constraints. A linear program is used to characterize the solution and subsequently the saddle-point is computed numerically. We replace the numerical procedure with a more analytical geometric approach based on Voronoi diagrams after observing a pattern in the numerical results. The solutions derived are open-loop optimal, meaning the strategies are a saddle-point equilibrium in the open-loop sense.},
-  author = {Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan and Pachter, Meir},
-  date = {2019-01-02},
-  doi = {10.1007/s10846-018-0963-9},
-  issue = {2},
-  journal = {Journal of Intelligent and Robotic Systems},
-  pages = {193-207},
-  title = {The Multi-Pursuer Single-Evader Game: A Geometric Approach},
-  url = {https://avonmoll.github.io/files/mp1e-journal.pdf},
-  volume = {96},
-  year = {2019},
-}
-
 @inproceedings{vonmoll2018pursuit-evasion,
   abstract = {In this paper, we extend the well-studied results of the two-pursuer, single-evader differential game to any number of pursuers. The main objective of this investigation is to exploit the benefits of cooperation amongst the pursuers in order to reduce the capture time of the evader. Computational complexity is a chief concern as this problem would need to be solved in an online fashion, e.g. in the case of autonomous unmanned aerial vehicles. A new geometric approach to solving the game is introduced and analyzed, which changes the problem of optimizing over continuous domains to a discrete combinatoric optimization. While past efforts at solving multiple pursuer problems have suffered from the curse of dimensionality, the geometric algorithms put forth here are shown to be scalable. Categorization and removal of redundant pursuers is the primary means by which scalability is achieved. The solution of this problem serves as a stepping stone to more complex problems such as the M-pursuer N-evader differential game.},
   author = {Von Moll, Alexander and Casbeer, David W. and Garcia, Eloy and Milutinović, Dejan},
@@ -547,5 +563,19 @@
   title = {Pursuit-evasion of an Evader by Multiple Pursuers},
   url = {https://avonmoll.github.io/files/mp1e.pdf},
   year = {2018},
+}
+
+@article{vonmoll2019multi-pursuer,
+  abstract = {We consider a general pursuit-evasion differential game with three or more pursuers and a single evader, all with simple motion. It is shown that traditional means of differential game analysis is difficult for this scenario. But simple motion and min-max time to capture plus the two-person extension to Pontryagin's maximum principle imply straight-line motion at maximum speed which forms the basis of the solution using a geometric approach. Safe evader paths and policies are defined which guarantee the evader can reach its destination without getting captured by any of the pursuers, provided its destination satisfies some constraints. A linear program is used to characterize the solution and subsequently the saddle-point is computed numerically. We replace the numerical procedure with a more analytical geometric approach based on Voronoi diagrams after observing a pattern in the numerical results. The solutions derived are open-loop optimal, meaning the strategies are a saddle-point equilibrium in the open-loop sense.},
+  author = {Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan and Pachter, Meir},
+  date = {2019-01-02},
+  doi = {10.1007/s10846-018-0963-9},
+  issue = {2},
+  journal = {Journal of Intelligent and Robotic Systems},
+  pages = {193-207},
+  title = {The Multi-Pursuer Single-Evader Game: A Geometric Approach},
+  url = {https://avonmoll.github.io/files/mp1e-journal.pdf},
+  volume = {96},
+  year = {2019},
 }
 
