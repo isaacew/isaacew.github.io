@@ -3,7 +3,7 @@ title: "Competitive Perimeter Defense of Conical Environments"
 collection: publications
 permalink: /publication/bajaj2022competitive
 date: 2022-06-08 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Decision and Control (<b><i>Submitted for Review</i></b>)'
 paperurl: 'https://arxiv.org/pdf/2110.04667.pdf'
 pubtype: 'conference'
 authors: 'S. Bajaj, E. Torng, S. D. Bopardikar, A. Von Moll, I. Weintraub, E. Garcia, D. W. Casbeer'

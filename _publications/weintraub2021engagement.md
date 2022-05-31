@@ -3,7 +3,7 @@ title: "Engagement Zone Defense of a Non-Maneuvering Evader"
 collection: publications
 permalink: /publication/weintraub2021engagement
 date: 2021-08-31 01:00:00 +0500
-venue: 'Conference on Control Technology and Applications (<b><i>Accepted</i></b>)'
+venue: 'Conference on Control Technology and Applications'
 doi: '10.1109/CCTA48906.2021.9659042'
 pubtype: 'conference'
 authors: 'I. Weintraub, A. Von Moll, D. Casbeer, E. Garcia, M. Pachter'
