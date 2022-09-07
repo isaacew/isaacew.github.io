@@ -2,8 +2,8 @@
 title: "Comparison of Communication Architectures and Network Topologies for Distributed Propulsion Controls"
 collection: publications
 permalink: /publication/vonmoll2013comparison
-date: 2013-01-01 01:00:00 +0500
-venue: '59th IIS 2013'
+date: 2013-02-01 01:00:00 +0500
+venue: '59th IIS'
 paperurl: 'http://www.dtic.mil/dtic/tr/fulltext/u2/a586909.pdf'
 pubtype: 'conference'
 authors: 'A. Von Moll, A. R. Behbahani'

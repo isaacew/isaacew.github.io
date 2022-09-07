@@ -3,7 +3,7 @@ title: "A Lock-Evade, Engage or Retreat Game"
 collection: publications
 permalink: /publication/vonmoll2022lock-evade
 date: 2022-10-01 01:00:00 +0500
-venue: 'Transactions on Aerospace \&amp; Electronic Systems (<b><i>Submitted for Review</i></b>)'
+venue: 'None'
 pubtype: 'journal'
 authors: 'A. Von Moll, Z. Fuchs'
 excerpt_separator: ""
