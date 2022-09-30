@@ -220,8 +220,8 @@
   author = {Von Moll, Alexander and Pachter, Meir and Fuchs, Zachariah},
   date = {2022-12-31},
   journal = {Dynamic Games and Applications},
-  note = {Submitted for Review},
-  title = {Pure Pursuit},
+  note = {Accepted},
+  title = {Pure Pursuit with an Effector},
   year = {2022},
 }
 
@@ -234,6 +234,68 @@
   publisher = {AIAA},
   title = {Shortest Dubins Paths to Intercept a Target Moving on a Circle},
   year = {2022},
+}
+
+@inproceedings{pourghorban2022target,
+  abstract = {We consider a variant of the target defense problem where a single defender is tasked to capture a sequence of incoming intruders. The intruders’ objective is to breach the target boundary without being captured by the defender. As soon as the current intruder breaches the target or gets captured by the defender, the next intruder appears at a random location on a fixed circle surrounding the target. Therefore, the defender’s final location at the end of the current game becomes its initial location for the next game. Thus, the players pick strategies that are advantageous for the current as well as for the future games. Depending on the information available to the players, each game is divided into two phases: partial information and full information phase. Under some assumptions on the sensing and speed capabilities, we analyze each agent’s strategy in both phases. We derive equilibrium strategies for both the players to optimize the capture percentage using the notions of engagement surface and capture circle. We quantify the percentage of capture for both finite and infinite sequences of incoming intruders.},
+  author = {Pourghorban, Arman and Dorothy, Michael and Shishika, Daigo and Von Moll, Alexander and Maity, Dipankar},
+  booktitle = {Conference on Decision and Control},
+  date = {2022-12-14},
+  eventtitle = {Conference on Decision and Control},
+  location = {Cancun, MX},
+  publisher = {IEEE},
+  title = {Target Defense against Sequentially Arriving Attackers},
+  year = {2022},
+}
+
+@article{weintraub2023surveillance,
+  abstract = {The maximum surveillance of a target which is holding course is considered, wherein an observer vehicle aims to maximize the time that a faster target remains within a fixed-range of the observer. This entails two coupled phases: an approach phase and observation phase. In the approach phase, the observer strives to make contact with the faster target, such that in the observation phase, the observer is able to maximize the time where the target remains within range. Using Pontryagin’s Minimum Principle, the optimal control laws for the observer are found in closed-form. Example scenarios highlight various aspects of the engagement.},
+  address = {New York},
+  author = {Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Pachter, Meir},
+  date = {2023-05-31},
+  journal = {Transactions on Aerospace \& Electronic Systems},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Surveillance of a Faster Fixed-Course Target},
+  url = {http://arxiv.org/abs/2209.11289},
+  year = {2023},
+}
+
+@inproceedings{bajaj2023perimeter,
+  abstract = {We consider a perimeter defense problem in a planar conical environment comprising a single turret that has a finite range and non-zero service time. The turret seeks to defend a concentric perimeter against N ≥ 2 intruders. Upon release, each intruders move radially towards the perimeter with a fixed speed. To capture an intruder, the turret’s angle must be aligned with that of the intruder’s angle and must spend a specified capture time at that orientation. We present an online and an offline approach to this optimal problem. Specifically, for the offline approach, we establish that for general parameter regimes, this problem is equivalent to solving a Travelling Repairperson Problem with Time Windows (TRP- TW). We then identify specific parameter regimes in which there is a polynomial time algorithm that maximizes the number of intruders captured. For the online approach we present a competitive analysis technique in which we establish a fundamental guarantee on the existence of at best (N − 1)- competitive algorithms and design two online algorithms that are provably 1 and 2-competitive in specific parameter regimes.},
+  author = {Bajaj, Shivam and Bopardikar, Shaunak and Von Moll, Alexander and Torng, Eric and Casbeer, David},
+  booktitle = {American Control Conference},
+  date = {2023-05-31},
+  eventtitle = {American Control Conference},
+  location = {San Diego, USA},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Perimeter Defense using a Turret with Finite Range and Service Times},
+  year = {2023},
+}
+
+@article{bajaj2023multi-vehicle,
+  abstract = {We consider a perimeter defense problem in a planar conical environment in which M identical vehicles, each having a finite capture radius, seek to defend a concentric perimeter from mobile intruders. The intruders are released at the circumference of the environment at arbitrary times and in any number. Upon release, each intruder moves radially toward the perimeter with fixed speed. We provide a worst-case analysis of this problem. Specifically, we present a competitive analysis approach to this problem by measuring the performance of decentralized and cooperative online algorithms for the vehicles against arbitrary inputs, relative to an optimal offline algorithm that has information about entire intruder release sequence in advance. In particular, apart from the minimum number of vehicles required to capture all intruders, we establish a necessary condition on the parameter space to guarantee finite competitive- ness of any algorithm. We then design and analyze three decen- tralized and two cooperative online algorithms and characterize parameter regimes in which they have finite competitive ratios. Specifically, our first two decentralized algorithms are provably 1, and 2-competitive, respectively, whereas our third decentralized algorithm exhibit different competitive ratios in different regimes of problem parameters. Similarly, our first cooperative algorithm is 1.5-competitive and our second cooperative algorithm exhibits different competitive ratios in different regimes of problem parameters. We then provide multiple numerical plots in the parameter space to reveal additional insights into the relative performance of our algorithms and discuss an extension to the case of heterogeneous vehicles.},
+  address = {New York},
+  author = {Bajaj, Shivam and Bopardikar, Shaunak and Torng, Eric and Von Moll, Alexander and Casbeer, David W.},
+  date = {2023-06-01},
+  journal = {Transactions on Robotics and Automation},
+  note = {Submitted for Review},
+  publisher = {IEEE},
+  title = {Multi-vehicle Perimeter Defense in Conical Environments},
+  year = {2023},
+}
+
+@article{vonmoll2023turret,
+  abstract = {In this paper, a zero-sum di erential game is formulated and solved in which a mobile Evader seeks to escape from within a circle at whose ori- gin lies a stationary, turn-constrained Turret. The scenario is a variant of the famous Lady in the Lake game in which the shore-constrained Pur- suer has been replaced with the Turret. As in the former, it is assumed that the Turret's maximum angular rate is greater than the linear velocity of the Evader. Since two outcomes are possible, a Game of Kind arises - either the Evader wins by reaching the perimeter of the circle, or the Turret wins by aligning with the latter's position. A barrier surface partitions the state space into two regions corresponding to these two outcomes and a Game of Degree is solved within each region. The solutions to the Games of Degree are comprised of the Value functions (i.e., the equilibrium value of the cost/utility as a function of the state) and the saddle-point equilibrium control policies for the two players. Like the Lady in the Lake game, the equilibrium policy of the Evader is not uniquely de ned where it has angular rate advantage over the Turret. Unlike the Lady in the Lake game, the losing region for the Evader is present for all speed ratios, and there is an additional semi-permeable surface separating center- and shore-bound Evader trajectories. The solution depends heavily upon the speed ratio of the agents; in particular, there are two speed ratio regimes with distinctive solution structures.},
+  address = {New York},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Shishika, Daigo and Maity, Dipankar and Dorothy, Michael and Pachter, Meir},
+  date = {2023-12-31},
+  journal = {Advances in Dynamic Games and Applications},
+  note = {Presented at the 19th ISDG. Submitted for Review},
+  publisher = {Springer},
+  title = {Turret Escape Differential Game},
+  year = {2023},
 }
 
 @article{milutinovic2021rate,

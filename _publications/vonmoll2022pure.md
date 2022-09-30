@@ -1,9 +1,9 @@
 ---
-title: "Pure Pursuit"
+title: "Pure Pursuit with an Effector"
 collection: publications
 permalink: /publication/vonmoll2022pure
 date: 2022-12-31 01:00:00 +0500
-venue: 'Dynamic Games and Applications (<b><i>Submitted for Review</i></b>)'
+venue: 'Dynamic Games and Applications (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'A. Von Moll, M. Pachter, Z. Fuchs'
 excerpt_separator: ""
