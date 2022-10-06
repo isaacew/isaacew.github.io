@@ -14,7 +14,8 @@ import bibtexparser
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
-    "'": "&apos;"
+    "'": "&apos;",
+    "\\": ""
     }
 
 def html_escape(text):

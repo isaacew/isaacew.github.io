@@ -3,7 +3,7 @@ title: "Surveillance of a Faster Fixed-Course Target"
 collection: publications
 permalink: /publication/weintraub2023surveillance
 date: 2023-05-31 01:00:00 +0500
-venue: 'Transactions on Aerospace \&amp; Electronic Systems (<b><i>Submitted for Review</i></b>)'
+venue: 'Transactions on Aerospace &amp; Electronic Systems (<b><i>Submitted for Review</i></b>)'
 paperurl: 'http://arxiv.org/abs/2209.11289'
 pubtype: 'journal'
 authors: 'I. Weintraub, A. Von Moll, E. Garcia, D. Casbeer, M. Pachter'

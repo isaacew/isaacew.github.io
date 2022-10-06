@@ -3,7 +3,7 @@ title: "The Turret-Runner-Penetrator Differential Game with Role Selection"
 collection: publications
 permalink: /publication/vonmoll2022turret-runner-penetrator
 date: 2022-05-23 01:00:00 +0500
-venue: 'Transactions on Aerospace \&amp; Electronic Systems'
+venue: 'Transactions on Aerospace &amp; Electronic Systems'
 paperurl: 'https://avonmoll.github.io/files/trpdg-with-role-selection.pdf'
 doi: '10.1109/TAES.2022.3176599'
 pubtype: 'journal'
