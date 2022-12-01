@@ -39,11 +39,14 @@ Skills
 - LaTeX
 - Technical Writing
 
-Publications
+Awards & Recognition
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- 2022 - Excellent Reviewer -- AIAA Journal of Guidance, Control, and Dynamics
+- 2022 - University of Cincinnati Department of Electrical Engineering & Computer Science Outstanding Doctoral Dissertation Award
+- 2019 - Aerospace Control & Guidance Systems Committee Dave Ward Memorial Lecture Award
+- 2014 - AFRL Turbine Engine Division Civilian of the Year (for Excellence in Primary Job Duty)
+- 2014 - DoD SMART Scholarship
+- 2011 - DoD SMART Scholarship
   
 Talks
 ======
@@ -55,3 +58,9 @@ Service and leadership
 ======
 * Community Teaching Assistant, Databricks
     - Served as TA for online course CS105.x via edX in 2016
+
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
