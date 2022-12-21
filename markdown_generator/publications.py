@@ -51,7 +51,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(dir_path)
 
 parser = bibtexparser.bparser.BibTexParser(common_strings=True, ignore_nonstandard_types=False)
-with open("../bibliography.bib") as bibtex_file:
+with open("../mypubs.bib") as bibtex_file:
     publications = bibtexparser.load(bibtex_file, parser=parser)
 
 for item in publications.entries:
