@@ -3,7 +3,7 @@ title: "Competitive Perimeter Defense with a Turret and Mobile Vehicle"
 collection: publications
 permalink: /publication/bajaj2023competitive
 date: 2023-12-31 01:00:00 +0500
-venue: 'Frontiers in Control Engineering (<b><i>Submitted for Review</i></b>)'
+venue: 'Frontiers in Control Engineering (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'S. Bajaj, S. D. Bopardikar, A. Von Moll, E. Torng, D. W. Casbeer'
 excerpt_separator: ""

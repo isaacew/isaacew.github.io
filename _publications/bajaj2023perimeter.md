@@ -3,7 +3,7 @@ title: "Perimeter Defense using a Turret with Finite Range and Service Times"
 collection: publications
 permalink: /publication/bajaj2023perimeter
 date: 2023-05-31 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'S. Bajaj, S. Bopardikar, A. Von Moll, E. Torng, D. Casbeer'
 excerpt_separator: ""
