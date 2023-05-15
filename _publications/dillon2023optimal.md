@@ -3,7 +3,7 @@ title: "Optimal Trajectories for Aircraft Avoidance of Multiple Weapon Engagemen
 collection: publications
 permalink: /publication/dillon2023optimal
 date: 2023-12-31 01:00:00 +0500
-venue: 'Journal of Aerospace Information Systems (<b><i>Submitted for Review</i></b>)'
+venue: 'Journal of Aerospace Information Systems (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'P. M. Dillon, M. D. Zollars, I. E. Weintraub, A. Von Moll'
 excerpt_separator: ""

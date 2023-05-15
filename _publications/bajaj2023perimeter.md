@@ -1,5 +1,5 @@
 ---
-title: "Perimeter Defense using a Turret with Finite Range and Service Times"
+title: "Perimeter Defense using a Turret with Finite Range and Startup Times"
 collection: publications
 permalink: /publication/bajaj2023perimeter
 date: 2023-05-31 01:00:00 +0500
