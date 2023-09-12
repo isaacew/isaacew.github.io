@@ -1,3 +1,70 @@
+@misc{weintraub2024deterministic,
+  abstract = {Previous methods for avoiding dynamic engagement zones leverage the calculus of variations to obtain optimal path plans for avoiding risk and reaching a desired target location [1,2]. While this method is deterministic; it scales poorly as the number of engagement zones increases. Furthermore, it is inherently sensitive to initial guesses and finding local minimums can be problematic. This talk presents a novel approach that uses deterministic approaches to obtain a set of feasible flight plans for reaching the desired destination and reports when no such plan exists. Furthermore, it uses an efficient scheme for feeding initial guesses to a nonlinear program solver that provides flyable path plans that mitigate risk. Lastly, a tool is developed that measures the risk of the flight path for avoiding a large field of engagement zones, providing useful information to improve battle management.
+The solution process begins with using the location of each weapon engagement zone and associated model to obtain a Voronoi partition of the environment. This partitioning is used to construct a feasibility graph signifying navigation through each pair of weapon engagement zones. Once constructed each edge of the graph borders two opposing weapon engagement zones for which the target vehicle aims to navigate between. If the pair of engagement zones can not be penetrated due to the distance and size of those zones; then the associated edge of the graph is deleted. This process is iteratively performed until each edge has been evaluated. Upon completion of the feasibility graph, path plans are attained using graph-based search to minimize the time of arrival. Next, the provided solution is fed to a nonlinear program solver that smooths the solution or solutions from the feasibility path according to the vehicle dynamics. The resulting solutions are analyzed through a simplified simulation to assess risk and time of arrival. 
+Presented are the methods used to solve this navigational problem, results of the simulated trajectories, and future research directions.
+[1] Isaac E. Weintraub, Alexander Von Moll, Christian A. Carrizales, Nicholas Hanlon and Zachariah E. Fuchs. "An Optimal Engagement Zone Avoidance Scenario in 2-D," AIAA 2022-1587. AIAA SciTech 2022 Forum. January 2022.
+[2] Optimal Trajectories for Aircraft Avoidance of Multiple Weapon Engagement Zones, Patrick M. Dillon, Michael D. Zollars, Isaac E. Weintraub, and Alexander Von Moll, Journal of Aerospace Information Systems 0 0:0, 1-6.},
+  address = {Laurel, MD},
+  author = {Weintraub, Isaac and Wolek, Artur and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana Gupta},
+  booktitle = {AIAA Defense},
+  date = {2024-04-16},
+  eventtitle = {AIAA Defense},
+  month = {4},
+  title = {Deterministic Risk-Aware Path Planning Around Multiple Threats},
+  year = {2024},
+}
+
+@misc{vonmoll2024digitally,
+  abstract = {This talk motivates and presents a robust and novel method for improved missile guidance. The governing guidance theories as well as the benefits and trade-offs are described in detail along with simulations.},
+  address = {Laurel, MD},
+  author = {Von Moll, Alexander and Weintraub, Isaac},
+  booktitle = {AIAA Defense},
+  date = {2024-04-16},
+  eventtitle = {AIAA Defense},
+  month = {4},
+  title = {Digitally Enhanced Aim-Point for Capture for Mobile Targets},
+  year = {2024},
+}
+
+@misc{milutinovic2024stochastic,
+  abstract = {Description: Recent efforts in planning paths for a vehicle around dynamic engagement zones have been based upon optimal control solved via nonlinear program comprised of a pseudospectral direct collocation of the dynamics and constraints. The engagement zone(s) rotate and scale based upon the position and aspect angle of the vehicle, respectively. Initially, the problem setup was based upon a vehicle navigating around a stationary, gimballed threat to reach a specified goal position; the entire engagement took place on a 2D plane [1]. As a follow-on effort, two dynamic engagement zones were considered along with an added vehicle turning-rate constraint [2]. In all of these works, the solution consisted of a single optimal trajectory associated with a particular initial condition. In this presentation, three extensions are considered and demonstrated: 1) stochasticity via the inclusion of a Wiener process (Brownian motion) in the dynamics, 2) computation of an optimal feedback control law, and 3) multiple engagement zones (even beyond 2). The stochastic process may represent uncertainty due to wind, other environmental factors, or position measurement errors. In the case of a single engagement zone the stochastic process may represent the vehicle’s uncertainty about the location of the engagement zone. Regarding the feedback control law, this is a much more powerful result than a single path plan as it requires that the control law be computed once, a priori, and can then be used for any position in the state space, whereas the existing path plan-based solutions require re-computation for each new position in the state space. Having the feedback control law and Value function everywhere is also illustrative of the overall behavior of optimal trajectories – e.g., some optimal trajectories fly around while others fly between neighboring engagement zones. Lastly, the methodology can be applied to larger numbers of engagement zones. When based on Value iteration [3], the Value function computation scales at least sub-exponentially with the number of engagement zones.
+[1] Isaac E. Weintraub, Alexander Von Moll, Christian A. Carrizales, Nicholas Hanlon and Zachariah E. Fuchs. "An Optimal Engagement Zone Avoidance Scenario in 2-D," AIAA 2022-1587. AIAA SciTech 2022 Forum. January 2022.
+[2] Optimal Trajectories for Aircraft Avoidance of Multiple Weapon Engagement Zones, Patrick M. Dillon, Michael D. Zollars, Isaac E. Weintraub, and Alexander Von Moll, Journal of Aerospace Information Systems 0 0:0, 1-6.
+[3] Thrun, S., Burgard, W., and Fox, D., 2005, Probabilistic Robotics, The MIT Press, Cambridge, MA. 
+
+Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting on behalf of the author due to security restrictions in place at the AIAA Defense.},
+  address = {Laurel, MD},
+  author = {Milutinović, Dejan and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David},
+  booktitle = {AIAA Defense},
+  date = {2024-04-16},
+  eventtitle = {AIAA Defense},
+  month = {4},
+  title = {Stochastic Risk-Aware Path Planning Around Multiple Threats},
+  year = {2024},
+}
+
+@misc{vonmoll2019game,
+  address = {Williamsburg, VA},
+  author = {Von Moll, Alexander},
+  booktitle = {Aerospace Control and Guidance Systems Committee},
+  date = {2019-08-16},
+  eventtitle = {Aerospace Control and Guidance Systems Committee},
+  month = {8},
+  title = {Game Theoretic Control Strategies in Adversarial Environments},
+  year = {2019},
+}
+
+@misc{weintraub2023automatic,
+  address = {Laurel, MD},
+  author = {Weintraub, Isaac E. and Von Moll, Alexander L. and Hanlon, Nicholas},
+  booktitle = {AIAA Defense},
+  date = {2023-04-11},
+  eventtitle = {AIAA Defense},
+  month = {4},
+  title = {Automatic Engagement Zone Avoidance Theory and Practice},
+  year = {2023},
+}
+
 @inproceedings{vonmoll2024pure,
   abstract = {This investigation seeks to obtain estimates on the intercept time associated with a fast Pursuer implementing Pure Pursuit against a Target whose trajectory is a circular arc. The analytical solution of the kinematic equations of motion is not feasible and thus the baseline approach for computing the intercept time is numerical simulation, i.e., numerical integration of the kinematics. This method can obtain the intercept time in (essentially) real time for a single Pursuer against a single Target. Here, the goal is to estimate the intercept time using orders of magnitude less computational time. Although not explicitly explored in this work, the purpose of such approximations is to make feasible the rapid evaluation of Pursuer-to-Target assignments in a massive many-on-many engagement scenario wherein the intercept time may be a key measure. Several approximation methods are proposed here and their merits (or lack thereof) are demonstrated through simulation. Ultimately, assuming the Target is not actually turning may be suitable when its turn radius is relatively large, while assuming intercept occurs at the closest point on the turn circle may be suitable when its turn radius is relatively small.},
   author = {Von Moll, Alexander and Casbeer, David W. and Weintraub, Isaac E. and Pachter, Meir},
@@ -28,7 +95,7 @@
   booktitle = {2023 National Aerospace and Electronics Conference (NAECON)},
   eventtitle = {2023 National Aerospace and Electronics Conference (NAECON)},
   date = {2023-08-28},
-  note = {Submitted for Review},
+  note = {Accepted},
   location = {Dayton, OH},
   title = {Range-Limited Pursuit-Evasion},
   year = {2023},
@@ -47,11 +114,14 @@
 @article{dillon2023optimal,
   abstract = {The work herein expresses an optimal control problem for an air vehicle to reach a desired location through two dynamic keep out zones. In today’s contested world, there are many instances where air vehicles are denied a portion of the airspace when trying to reach a desired target. Under these conditions the objective is to find the optimal route to the desired location while obeying path constraints. In this work, the path constraint is defined as the enemy’s ground weapon engagement zone, and is established in a way that simulates an anti-aircraft defense system. The vehicle’s objective is to reach the desired location in minimum time while completely avoiding the engagement zone. This optimal control problem is considered in the Cartesian plane, has a fixed final state, and free final time. The dynamics of the aircraft are a function of the aircraft’s velocity and heading. The velocity of the aircraft is assumed to be constant and the vehicle’s control is its heading rate. The engagement zone, which acts as a path constraint, is dynamic in that its effective range is a function of the engagement zone’s instantaneous line of sight angle and the aircraft’s instantaneous bearing angle. The desired final location is defined to be a point opposite the engagement zone from the aircraft’s initial location. Several scenarios are conducted to show path trajectories through multiple dynamic engagement zones. Results illustrate how aircraft dynamic maneuvers can minimize total flight time to a target while maintaining a safe distance from enemy threats. Further, while investigating multiple engagement zones, it is shown that an aircraft can maintain safe separation from multiple overlapping threats by manipulating relative bearing angles and the aircraft’s heading.},
   author = {Dillon, Patrick M. and Zollars, Michael D. and Weintraub, Isaac E. and Von Moll, Alexander},
-  date = {2023-12-31},
-  note = {Accepted},
+  date = {2023-06-12},
+  doi = {10.2514/1.I011224},
+  issue = {8},
+  pages = {520--525},
   journal = {Journal of Aerospace Information Systems},
   publisher = {AIAA},
   title = {Optimal Trajectories for Aircraft Avoidance of Multiple Weapon Engagement Zones},
+  volume = {20},
   year = {2023},
 }
 
@@ -60,7 +130,7 @@
   address = {New York},
   author = {Von Moll, Alexander and Fuchs, Zachariah and Shishika, Daigo and Maity, Dipankar and Dorothy, Michael and Pachter, Meir},
   date = {2023-12-31},
-  note = {Presented at the 19th ISDG. Submitted for Review},
+  note = {Presented at the 19th ISDG. Accepted.},
   journal = {Journal of Dynamics and Games},
   publisher = {American Institute of Mathematical Sciences},
   title = {Turret Escape Differential Game},
@@ -72,7 +142,7 @@
   address = {New York},
   author = {Bajaj, Shivam and Bopardikar, Shaunak and Torng, Eric and Von Moll, Alexander and Casbeer, David W.},
   date = {2023-06-01},
-  note = {Submitted for Review},
+  note = {Accepted},
   journal = {Transactions on Robotics and Automation},
   publisher = {IEEE},
   title = {Multi-vehicle Perimeter Defense in Conical Environments},
@@ -84,8 +154,8 @@
   author = {Bajaj, Shivam and Bopardikar, Shaunak and Von Moll, Alexander and Torng, Eric and Casbeer, David},
   eventtitle = {American Control Conference},
   date = {2023-05-31},
+  doi = {10.23919/ACC55779.2023.10155838},
   location = {San Diego, USA},
-  note = {Accepted},
   location = {San Diego, USA},
   booktitle = {American Control Conference},
   publisher = {IEEE},
@@ -137,6 +207,7 @@
   author = {Von Moll, Alexander and Pachter, Meir and Fuchs, Zachariah},
   date = {2022-11-02},
   doi = {10.1007/s13235-022-00481-9},
+  pages = {961–-979},
   journal = {Dynamic Games and Applications},
   title = {Pure Pursuit with an Effector},
   url = {https://avonmoll.github.io/files/pure-pursuit-with-an-effector.pdf},
@@ -303,7 +374,7 @@
 @article{weintraub2021maximum,
   abstract = {In this work, we consider a two-agent scenario consisting of an observer and non-maneuvering target. In the scenario, the observer is considered to be maneuverable and slower than the target. The observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading and flight path angle of the observer to maximize the amount of time the target vehicle is contained within his observation radius. Using the optimal observer heading and flight path angle, the exposure time is computed, based upon the initial azimuth and elevation by which the target is captured by the observer. The special cases, where the engagement may be represented in a plane, rather than 3-D, are also provided. Presented, along with examples, are the zero-time of exposure conditions, maximum exposure time conditions, and a proof that observation is persistent under the optimal observer strategy.},
   author = {Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir},
-  date = {2020-12-15},
+  date = {2021-12-15},
   doi = {10.2514/1.G005619},
   issue = {3},
   journal = {Journal of Guidance, Control, and Navigation},

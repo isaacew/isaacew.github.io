@@ -3,7 +3,7 @@ title: "Turret Escape Differential Game"
 collection: publications
 permalink: /publication/vonmoll2023turret
 date: 2023-12-31 01:00:00 +0500
-venue: 'Journal of Dynamics and Games (<b><i>Presented at the 19th ISDG. Submitted for Review</i></b>)'
+venue: 'Journal of Dynamics and Games (<b><i>Presented at the 19th ISDG. Accepted.</i></b>)'
 pubtype: 'journal'
 authors: 'A. Von Moll, Z. Fuchs, D. Shishika, D. Maity, M. Dorothy, M. Pachter'
 excerpt_separator: ""

@@ -3,7 +3,7 @@ title: "Multi-vehicle Perimeter Defense in Conical Environments"
 collection: publications
 permalink: /publication/bajaj2023multi-vehicle
 date: 2023-06-01 01:00:00 +0500
-venue: 'Transactions on Robotics and Automation (<b><i>Submitted for Review</i></b>)'
+venue: 'Transactions on Robotics and Automation (<b><i>Accepted</i></b>)'
 pubtype: 'journal'
 authors: 'S. Bajaj, S. Bopardikar, E. Torng, A. Von Moll, D. W. Casbeer'
 excerpt_separator: ""

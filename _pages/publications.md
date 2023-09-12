@@ -7,7 +7,8 @@ author_profile: true
 
 [Journal Articles](#journal-articles)\
 [Conference Papers](#conference-papers)\
-[Academic](#academic)
+[Academic](#academic)\
+[Presentations](#presentations)
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -33,6 +34,13 @@ author_profile: true
 ## Academic
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'academic' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Presentations
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'presentation' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}

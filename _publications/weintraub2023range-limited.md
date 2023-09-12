@@ -3,7 +3,7 @@ title: "Range-Limited Pursuit-Evasion"
 collection: publications
 permalink: /publication/weintraub2023range-limited
 date: 2023-08-28 01:00:00 +0500
-venue: '2023 National Aerospace and Electronics Conference (NAECON) (<b><i>Submitted for Review</i></b>)'
+venue: '2023 National Aerospace and Electronics Conference (NAECON) (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'I. Weintraub, A. Von Moll, M. Pachter'
 excerpt_separator: ""

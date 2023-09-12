@@ -123,7 +123,8 @@ for item in publications.entries:
         
     pubtypes = {"inproceedings": "conference",
                 "article": "journal",
-                "thesis": "academic"}
+                "thesis": "academic",
+                "misc": "presentation"}
     md += "\npubtype: '" + pubtypes[item['ENTRYTYPE']] + "'"
     
 #     md += "\ncitation: '" + html_escape(item.citation) + "'"

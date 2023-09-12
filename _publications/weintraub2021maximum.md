@@ -2,7 +2,7 @@
 title: "Maximum Observation of a Target by a Slower Observer in Three Dimensions"
 collection: publications
 permalink: /publication/weintraub2021maximum
-date: 2020-12-15 01:00:00 +0500
+date: 2021-12-15 01:00:00 +0500
 venue: 'Journal of Guidance, Control, and Navigation'
 doi: '10.2514/1.G005619'
 pubtype: 'journal'
