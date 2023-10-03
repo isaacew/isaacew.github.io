@@ -3,7 +3,7 @@ title: "Pure Pursuit of a Target on a Circular Trajectory"
 collection: publications
 permalink: /publication/vonmoll2024pure
 date: 2024-01-30 01:00:00 +0500
-venue: 'AIAA SciTech (<b><i>Submitted for Review</i></b>)'
+venue: 'AIAA SciTech (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Von Moll, D. W. Casbeer, I. E. Weintraub, M. Pachter'
 excerpt_separator: ""
