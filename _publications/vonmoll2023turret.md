@@ -2,7 +2,7 @@
 title: "Turret Escape Differential Game"
 collection: publications
 permalink: /publication/vonmoll2023turret
-date: 2023-12-31 01:00:00 +0500
+date: 2023-09-01 01:00:00 +0500
 venue: 'Journal of Dynamics and Games'
 paperurl: 'https://avonmoll.github.io/files/turret-escape-differential-game.pdf'
 doi: '10.3934/jdg.2023012'

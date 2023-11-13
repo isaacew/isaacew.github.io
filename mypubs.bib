@@ -1,3 +1,40 @@
+@article{vonmoll2024basic,
+  abstract = {This paper establishes a concise definition for an Engagement Zone which describes a region of space for which a Mobile Agent must alter its current motion strategy or otherwise risk engaging with a known Threat. In the event of an engagement, the Mobile Agent may have to actively evade the Threat in order to guarantee survival. Provided the Engagement Zone definition, several fundamental engagement models are described and their corresponding Engagement Zones are derived. In each of the engagement models, the Mobile Agent is treated as an Evader; they include pursuit-evasion against a range-limited Pursuer moving with simple motion and faster speed, a variation in which the Pursuer is slower, and a turret-evasion scenario against a range-limited, turn-rate-limited Turret. The slow Pursuer Engagement Zone is applied to a path planning scenario wherein the Mobile Agent must reach a desired target in minimum time while navigating outside the dynamically changing Engagement Zone. Numerical results demonstrate the advantage of Engagement Zone-based navigation over other path plans based on circumnavigation.},
+  author = {Von Moll, Alexander and Weintraub, Isaac},
+  date = {2024-06-01},
+  note = {Submitted for Review},
+  location = {None},
+  journal = {Journal of Aerospace Information Systems},
+  publisher = {AIAA},
+  title = {Basic Engagement Zones},
+  url = {https://arxiv.org/abs/2311.06165},
+  year = {2024},
+}
+
+@article{bajaj2024shortest,
+  abstract = {In this work, we formulate a novel planar motion planning problem of a Dubins-Laser system that consists of a Dubins vehicle with an attached controllable laser. The vehicle moves with unit speed and the laser, having a finite range, can rotate in a clockwise or anti- clockwise direction with a bounded angular rate. From an arbitrary initial position and orientation of the Dubins-Laser system, the objective is to steer the system so that a given static target is within the range of the laser and the laser is oriented at it in minimum time. We characterize multiple properties of the optimal path and establish that the optimal path for the Dubins-laser system is one out of the total 13 candidates. Finally, we provide insightful numerical plots to illustrate the properties characterized in this work.},
+  author = {Bajaj, Shivam and Bhargav, Jha and Bopardikar, Shaunak D. and Von Moll, Alexander and Casbeer, David},
+  date = {2024-06-30},
+  note = {Submitted for Review},
+  location = {None},
+  journal = {Transactions on Automatic Control},
+  publisher = {IEEE},
+  title = {Shortest Trajectory of a Dubins Vehicle with a Controllable Laser},
+  year = {2024},
+}
+
+@article{jha2024linear,
+  abstract = {None},
+  author = {Jha, Bhargav and Bopardikar, Shaunak D. and Von Moll, Alexander and Casbeer, David},
+  date = {2024-06-30},
+  note = {Submitted for Review},
+  location = {None},
+  journal = {Journal of Guidance, Dynamics, and Control},
+  publisher = {AIAA},
+  title = {Linear Quadratic Guidance Law for Joint Motion Planning of a Pursuer-Turret Assembly},
+  year = {2024},
+}
+
 @inproceedings{maity2024optimal,
   abstract = {This paper investigates a partial-information pur- suit evasion game in which the Pursuer has a limited-range sensor to detect the Evader. Given a fixed final time, we derive the optimal evasion strategy for the Evader to maximize its distance from the pursuer at the end. Our analysis reveals that in certain parametric regimes, the optimal Evasion strategy involves a ‘risky’ maneuver, where the Evader’s trajectory comes extremely close to the pursuer’s sensing boundary before moving behind the Pursuer. Additionally, we explore a special case in which the Pursuer can choose the final time. In this scenario, we determine a (Nash) equilibrium pair for both the final time and the evasion strategy.},
   author = {Maity, Dipankar and Von Moll, Alexander and Shishika, Daigo and Dorothy, Michael},
@@ -126,9 +163,9 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
 }
 
 @article{bajaj2023competitive,
-  abstract = {We consider perimeter defense problem in a planar conical environment with two cooperative3 heterogeneous defenders, i.e., a turret and a mobile vehicle, that seek to defend a concentric4 perimeter against mobile intruders. Arbitrary numbers of intruders are released at the5 circumference of the environment at arbitrary time instants and locations. Upon release, they6 move radially inwards with fixed speed towards the perimeter. The defenders are heterogeneous7 in terms of their motion and capture capabilities. Specifically, the turret has a finite engagement8 range and can only turn (clockwise or anti-clockwise) in the environment with fixed angular rate9 whereas, the vehicle has a finite capture radius and can move in any direction with unit speed. We present a competitive analysis approach to this perimeter defense problem by measuring the performance of multiple cooperative online algorithms for the defenders against arbitrary inputs, relative to an optimal offline algorithm that has information about the entire input sequence in advance. Specifically, we establish necessary conditions on the parameter space to guarantee finite competitiveness of any online algorithm. We then design and analyze four cooperative online algorithms and characterize parameter regimes in which they have finite competitive ratios. In particular, our first two algorithms are 1-competitive in specific parameter regimes, our third algorithm exhibits different competitive ratios in different regimes of problem parameters, and our fourth algorithm is 1.5-competitive in specific parameter regimes. Finally, we provide multiple numerical plots in the parameter space to reveal additional insights into the relative performance of our algorithms.},
+  abstract = {We consider perimeter defense problem in a planar conical environment with two cooperative heterogeneous defenders, i.e., a turret and a mobile vehicle, that seek to defend a concentric perimeter against mobile intruders. Arbitrary numbers of intruders are released at the circumference of the environment at arbitrary time instants and locations. Upon release, they move radially inwards with fixed speed towards the perimeter. The defenders are heterogeneous in terms of their motion and capture capabilities. Specifically, the turret has a finite engagement range and can only turn (clockwise or anti-clockwise) in the environment with fixed angular rate whereas, the vehicle has a finite capture radius and can move in any direction with unit speed. We present a competitive analysis approach to this perimeter defense problem by measuring the performance of multiple cooperative online algorithms for the defenders against arbitrary inputs, relative to an optimal offline algorithm that has information about the entire input sequence in advance. Specifically, we establish necessary conditions on the parameter space to guarantee finite competitiveness of any online algorithm. We then design and analyze four cooperative online algorithms and characterize parameter regimes in which they have finite competitive ratios. In particular, our first two algorithms are 1-competitive in specific parameter regimes, our third algorithm exhibits different competitive ratios in different regimes of problem parameters, and our fourth algorithm is 1.5-competitive in specific parameter regimes. Finally, we provide multiple numerical plots in the parameter space to reveal additional insights into the relative performance of our algorithms.},
   author = {Bajaj, Shivam and Bopardikar, Shaunak D. and Von Moll, Alexander and Torng, Eric and Casbeer, David W.},
-  date = {2023-12-31},
+  date = {2023-02-27},
   doi = {10.3389/fcteg.2023.1128597},
   journal = {Frontiers in Control Engineering},
   title = {Competitive Perimeter Defense with a Turret and Mobile Vehicle},
@@ -153,7 +190,7 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   abstract = {In this paper, a zero-sum differential game is formulated and solved in which a mobile Evader seeks to escape from within a circle at whose origin lies a stationary, turn-constrained Turret. The scenario is a variant of the famous Lady in the Lake game in which the shore-constrained Pursuer has been replaced with the Turret. As in the former, it is assumed that the Turret's maximum angular rate is greater than the linear velocity of the Evader. Since two outcomes are possible, a Game of Kind arises - either the Evader wins by reaching the perimeter of the circle, or the Turret wins by aligning with the latter's position. A barrier surface partitions the state space into two regions corresponding to these two outcomes and a Game of Degree is solved within each region. The solutions to the Games of Degree are comprised of the Value functions (i.e., the equilibrium value of the cost/utility as a function of the state) and the saddle-point equilibrium control policies for the two players. Like the Lady in the Lake game, the equilibrium policy of the Evader is not uniquely de ned where it has angular rate advantage over the Turret. Unlike the Lady in the Lake game, the losing region for the Evader is present for all speed ratios, and there is an additional semi-permeable surface separating center- and shore-bound Evader trajectories. The solution depends heavily upon the speed ratio of the agents; in particular, there are two speed ratio regimes with distinctive solution structures.},
   address = {New York},
   author = {Von Moll, Alexander and Fuchs, Zachariah and Shishika, Daigo and Maity, Dipankar and Dorothy, Michael and Pachter, Meir},
-  date = {2023-12-31},
+  date = {2023-09-01},
   doi = {10.3934/jdg.2023012},
   note = {Presented at the 19th ISDG.},
   journal = {Journal of Dynamics and Games},
@@ -747,6 +784,19 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2020},
 }
 
+@inproceedings{pachter2019singular,
+  abstract = {The Two Cutters and Fugitive Ship game posed by Isaacs is revisited again. We discuss and analyze the singular configuration of this two-pursuer one-evader differential game. This paper addresses the question of whether or not either player has the ability to exploit the dispersal surface. Specifically, we in- vestigate the case where the Evader effectively stands still (e.g., by dithering in a small neighborhood). We show that the canonical optimal pursuit policy yields chattering in the discrete-time version of the game. As the timestep approaches zero, the capture time approaches the Value of the game, and thus the Evader is not penalized for standing still. Implications on related scenarios are discussed.},
+  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
+  eventtitle = {2019 International Conference on Unmanned Aircraft Systems},
+  date = {2019-06-15},
+  doi = {10.1109/ICUAS.2019.8798244},
+  location = {Atlanta, GA},
+  booktitle = {2019 International Conference on Unmanned Aircraft Systems},
+  title = {Singular Trajectories in the Two Pursuer One Evader Differential Game},
+  url = {https://avonmoll.github.io/files/2p1e-singular.pdf},
+  year = {2019},
+}
+
 @inproceedings{vonmoll2020optimalevasion,
   abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
   author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
@@ -759,19 +809,6 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   title = {Optimal Evasion Against Dual Pure Pursuit},
   url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
   year = {2020},
-}
-
-@inproceedings{pachter2019singular,
-  abstract = {The Two Cutters and Fugitive Ship game posed by Isaacs is revisited again. We discuss and analyze the singular configuration of this two-pursuer one-evader differential game. This paper addresses the question of whether or not either player has the ability to exploit the dispersal surface. Specifically, we in- vestigate the case where the Evader effectively stands still (e.g., by dithering in a small neighborhood). We show that the canonical optimal pursuit policy yields chattering in the discrete-time version of the game. As the timestep approaches zero, the capture time approaches the Value of the game, and thus the Evader is not penalized for standing still. Implications on related scenarios are discussed.},
-  author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
-  eventtitle = {2019 International Conference on Unmanned Aircraft Systems},
-  date = {2019-06-15},
-  doi = {10.1109/ICUAS.2019.8798244},
-  location = {Atlanta, GA},
-  booktitle = {2019 International Conference on Unmanned Aircraft Systems},
-  title = {Singular Trajectories in the Two Pursuer One Evader Differential Game},
-  url = {https://avonmoll.github.io/files/2p1e-singular.pdf},
-  year = {2019},
 }
 
 @article{vonmoll2019robust,
