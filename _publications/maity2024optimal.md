@@ -3,7 +3,7 @@ title: "Optimal Evasion From a Sensing Limited Pursuer"
 collection: publications
 permalink: /publication/maity2024optimal
 date: 2024-07-08 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'D. Maity, A. Von Moll, D. Shishika, M. Dorothy'
 excerpt_separator: ""

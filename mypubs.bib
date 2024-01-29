@@ -1,3 +1,15 @@
+@article{vonmoll2024complete,
+  abstract = {In the Lady in the Lake scenario, a mobile agent, 𝐿, is pitted against an agent, 𝑀, who is constrained to move along the perimeter of a circle. 𝐿 is assumed to begin inside the circle and wishes to escape to the perimeter with some finite angular separation from 𝑀 at the perimeter. This scenario has, in the past, been formulated as a zerosum differential game wherein 𝐿 seeks to maximize terminal separation and 𝑀 seeks to minimize it. Its solution is well-known. However, there is a large portion of the state space for which the canonical solution does not yield a unique equilibrium strategy. This paper provides such a unique strategy by solving an auxiliary zero-sum differential game. In the auxiliary differential game, 𝐿 seeks to reach a point opposite of 𝑀 at a radius for which their maximum angular speeds are equal (i.e., the antipodal point). 𝐿 wishes to minimize the time to reach this point while 𝑀 wishes to maximize it. The solution of the auxiliary differential game is comprised of a Focal Line, a Universal Line, and their tributaries. The Focal Line tributaries’ equilibrium strategy for 𝐿 is semi-analytic, while the Universal Line tributaries’ equilibrium strategy is obtained in closed form.},
+  author = {Von Moll, Alexander and Pachter, Meir},
+  date = {2024-07-09},
+  location = {Valladolid, Spain},
+  journal = {International Symposium on Dynamic Games and Applications},
+  publisher = {ISDG},
+  title = {Complete Solution of the Lady in the Lake Scenario},
+  url = {https://arxiv.org/abs/2401.14994},
+  year = {2024},
+}
+
 @article{vonmoll2024basic,
   abstract = {This paper establishes a concise definition for an Engagement Zone which describes a region of space for which a Mobile Agent must alter its current motion strategy or otherwise risk engaging with a known Threat. In the event of an engagement, the Mobile Agent may have to actively evade the Threat in order to guarantee survival. Provided the Engagement Zone definition, several fundamental engagement models are described and their corresponding Engagement Zones are derived. In each of the engagement models, the Mobile Agent is treated as an Evader; they include pursuit-evasion against a range-limited Pursuer moving with simple motion and faster speed, a variation in which the Pursuer is slower, and a turret-evasion scenario against a range-limited, turn-rate-limited Turret. The slow Pursuer Engagement Zone is applied to a path planning scenario wherein the Mobile Agent must reach a desired target in minimum time while navigating outside the dynamically changing Engagement Zone. Numerical results demonstrate the advantage of Engagement Zone-based navigation over other path plans based on circumnavigation.},
   author = {Von Moll, Alexander and Weintraub, Isaac},
@@ -40,7 +52,7 @@
   author = {Maity, Dipankar and Von Moll, Alexander and Shishika, Daigo and Dorothy, Michael},
   eventtitle = {American Control Conference},
   date = {2024-07-08},
-  note = {Submitted for Review},
+  note = {Accepted},
   location = {Toronto, Canada},
   booktitle = {American Control Conference},
   title = {Optimal Evasion From a Sensing Limited Pursuer},
@@ -50,11 +62,11 @@
 @inproceedings{mora2024escape,
   abstract = {This paper explores a multi-agent containment problem, where a fast evader, modeled having constant speed and using constant heading, attempts to escape a circular containment region that is orbited by a slower pursuer with a nonzero capture radius. The pursuer is constrained to move along the edge of the containment region and seeks to capture the evader. This paper presents an in-depth analysis of this pursuer-evader containment scenario. First, multiple types of capture conditions for a single- pursuer case are analyzed defining the worst-case initial position for the pursuer. Second, a parametric study is performed to demonstrate the effects of speed ratio, capture radius, and initial location of the evader. Finally, a reachability analysis is performed to investigate the viable escape headings and reachable regions by the evader. This work provides a foundation for the analysis of escape under more general evader inputs as well as a multiple-pursuer version of the scenario.},
   author = {Mora, Braulio and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David W. and Chakravarthy, Animesh},
-  eventtitle = {American Control Conference},
+  eventtitle = {None},
   date = {2024-07-08},
-  note = {Submitted for Review},
-  location = {Toronto, Canada},
-  booktitle = {American Control Conference},
+  note = {None},
+  location = {None},
+  booktitle = {None},
   title = {Escape from an Orbiting Pursuer with a Nonzero Capture Radius},
   year = {2024},
 }
@@ -135,6 +147,7 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   location = {Orlando, FL},
   booktitle = {AIAA SciTech},
   title = {Pure Pursuit of a Target on a Circular Trajectory},
+  url = {www.isaacew.com/publication/vonmoll2024pure/vonmoll2024pure.pdf},
   year = {2024},
 }
 
@@ -156,7 +169,7 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   booktitle = {2023 National Aerospace and Electronics Conference (NAECON)},
   eventtitle = {2023 National Aerospace and Electronics Conference (NAECON)},
   date = {2023-08-28},
-  note = {Accepted},
+  doi = {10.1109/NAECON58068.2023.10365808},
   location = {Dayton, OH},
   title = {Range-Limited Pursuit-Evasion},
   year = {2023},
@@ -204,8 +217,8 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   abstract = {We consider a perimeter defense problem in a planar conical environment in which M identical vehicles, each having a finite capture radius, seek to defend a concentric perimeter from mobile intruders. The intruders are released at the circumference of the environment at arbitrary times and in any number. Upon release, each intruder moves radially toward the perimeter with fixed speed. We provide a worst-case analysis of this problem. Specifically, we present a competitive analysis approach to this problem by measuring the performance of decentralized and cooperative online algorithms for the vehicles against arbitrary inputs, relative to an optimal offline algorithm that has information about entire intruder release sequence in advance. In particular, apart from the minimum number of vehicles required to capture all intruders, we establish a necessary condition on the parameter space to guarantee finite competitive- ness of any algorithm. We then design and analyze three decen- tralized and two cooperative online algorithms and characterize parameter regimes in which they have finite competitive ratios. Specifically, our first two decentralized algorithms are provably 1, and 2-competitive, respectively, whereas our third decentralized algorithm exhibit different competitive ratios in different regimes of problem parameters. Similarly, our first cooperative algorithm is 1.5-competitive and our second cooperative algorithm exhibits different competitive ratios in different regimes of problem parameters. We then provide multiple numerical plots in the parameter space to reveal additional insights into the relative performance of our algorithms and discuss an extension to the case of heterogeneous vehicles.},
   address = {New York},
   author = {Bajaj, Shivam and Bopardikar, Shaunak and Torng, Eric and Von Moll, Alexander and Casbeer, David W.},
-  date = {2023-06-01},
-  note = {Accepted},
+  date = {2024-01-10},
+  doi = {10.1109/TRO.2024.3351556},
   journal = {Transactions on Robotics and Automation},
   publisher = {IEEE},
   title = {Multi-vehicle Perimeter Defense in Conical Environments},
@@ -306,7 +319,7 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   date = {2021-11-17},
   eprint = {2111.09205},
   journal = {Automatica},
-  note = {Submitted for Review},
+  note = {Accepted},
   primaryclass = {math.OC},
   publisher = {IFAC},
   title = {One Apollonius Circle is Enough for Many Pursuit-Evasion Games},
@@ -513,20 +526,6 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2021},
 }
 
-@inproceedings{manyam2019shortest,
-  abstract = {The Dubins path problem had enormous applications in path planning for autonomous vehicles. In this paper, we consider a generalization of the Dubins path planning problem, which is to find a shortest Dubins path that starts from a given initial position and heading, and ends on a given target circle with the heading in the tangential direction. This problem has direct applications in Dubins neighborhood traveling salesman problem, obstacle avoidance Dubins path planning problem etc. We characterize the length of the four CSC paths as a function of angular position on the target circle, and derive the conditions which to find the shortest Dubins path to the target circle.},
-  author = {Manyam, Satyanarayana Gupta and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
-  eventtitle = {AIAA SciTech},
-  date = {2019-01-07},
-  doi = {10.2514/6.2019-0919},
-  location = {San Diego, CA},
-  booktitle = {AIAA SciTech},
-  publisher = {AIAA},
-  title = {Shortest Dubins Path to a Circle},
-  url = {http://arxiv.org/abs/1804.07238},
-  year = {2019},
-}
-
 @inproceedings{vonmoll2014recent,
   abstract = {Thermal management has emerged as one of the primary challenges for modern military gas turbine engines. Fuel actuator pumping systems contribute to the challenge by constantly injecting waste heat into the fuel system. This is due to a fundamental mismatching between an actuation system with a low duty cycle and a pump which is always running. Since the pump is directly coupled to the gearbox, the detriment is twofold: horsepower is always being drawn to drive the pump, and heat is generated. Furthermore, the emergence of variable cycle engines pushes the actuation system in the direction of more effectors and more loads, which drives requirements for high pressure and high flows from the pumping system. Piston pumps have been seen as favorable for the actuation pump application due to their high single stage pressure rise capability. However reducing the number of pumping components alone has not solved the thermal management issue. Variable displacement pumps have been designed to operate over a range of conditions in order to deliver flow more appropriately as demanded by the control system. These pumps allow pressure and flow to be modulated independent of one another and of the pump’s rotational speed. Variable displacement pumps may be considered as a component of a partial-demand actuation pumping system. Even in a partial-demand actuation pumping system, a variable displacement pump will still be coupled to the gearbox and require some minimum flow for lubrication and cooling. On-demand actuation fuel systems deliver only the amount of flow that is being demanded at a given time so that waste heat is minimized. In other words, the duty cycle of the pumping system matches that of the actuation system. The development of an on-demand actuation fuel system will require a new architecture and new components.},
   author = {Von Moll, Alexander and Semega, Ken and Behbahani, Alireza and Hoying, John},
@@ -675,17 +674,6 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2020},
 }
 
-@inproceedings{manyam2019optimal,
-  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
-  author = {Manyam, Satyanarayana G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
-  booktitle = {American Control Conference},
-  eventtitle = {American Control Conference},
-  date = {2019-07-10},
-  doi = {10.23919/ACC.2019.8814913},
-  title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
-  year = {2019},
-}
-
 @article{pachter2020cooperative,
   abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -728,6 +716,31 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   date = {2019-07-10},
   doi = {10.23919/ACC.2019.8814294},
   title = {Cooperative Two-Pursuer One-Evader Blocking Differential Game},
+  year = {2019},
+}
+
+@inproceedings{manyam2019shortest,
+  abstract = {The Dubins path problem had enormous applications in path planning for autonomous vehicles. In this paper, we consider a generalization of the Dubins path planning problem, which is to find a shortest Dubins path that starts from a given initial position and heading, and ends on a given target circle with the heading in the tangential direction. This problem has direct applications in Dubins neighborhood traveling salesman problem, obstacle avoidance Dubins path planning problem etc. We characterize the length of the four CSC paths as a function of angular position on the target circle, and derive the conditions which to find the shortest Dubins path to the target circle.},
+  author = {Manyam, Satyanarayana Gupta and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  eventtitle = {AIAA SciTech},
+  date = {2019-01-07},
+  doi = {10.2514/6.2019-0919},
+  location = {San Diego, CA},
+  booktitle = {AIAA SciTech},
+  publisher = {AIAA},
+  title = {Shortest Dubins Path to a Circle},
+  url = {http://arxiv.org/abs/1804.07238},
+  year = {2019},
+}
+
+@inproceedings{manyam2019optimal,
+  abstract = {We present a trajectory planning problem for a pursuer to intercept a target traveling on a circle. The pursuer considered here have limited yaw rate, and therefore the trajectories should satisfy the kinematic constraints. We assume that the distance between initial position of the pursuer and any point on the target circle is greater than four times the minimum turn radius of the pursuer, and prove the continuity of the Dubins paths of type Circle-Straight line-Circle with respect to the position on the target circle. This is used to prove that the optimal interception paths is a Dubins path, and present an iterative scheme to find the interception point on the target circle.},
+  author = {Manyam, Satyanarayana G. and Casbeer, David and Von Moll, Alexander and Fuchs, Zachariah},
+  booktitle = {American Control Conference},
+  eventtitle = {American Control Conference},
+  date = {2019-07-10},
+  doi = {10.23919/ACC.2019.8814913},
+  title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
   year = {2019},
 }
 
@@ -797,20 +810,6 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2019},
 }
 
-@inproceedings{vonmoll2020optimalevasion,
-  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
-  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
-  eventtitle = {American Control Conference},
-  date = {2020-07-05},
-  doi = {10.23919/ACC45564.2020.9147776},
-  location = {Denver, CO},
-  booktitle = {American Control Conference},
-  publisher = {IEEE},
-  title = {Optimal Evasion Against Dual Pure Pursuit},
-  url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
-  year = {2020},
-}
-
 @article{vonmoll2019robust,
   abstract = {Analysis of the pursuit-evasion differential game consisting of multiple pursuers and single evader with simple motion is difficult due to the wellknown curse of dimensionality. Policies have been proposed for this scenario, and we show that these policies are Global Stackelberg equilibrium strategies.  However we also show that they are not saddle point equilibria in the feedback sense. The argument is twofold: there are cases where the saddle point condition is violated, and cases where the strategy profiles are not time consistent (subgame perfect). The issue of capturability is explored, and sufficient conditions for guaranteed capture are provided. A new pursuit policy is proposed which guarantees capture while also providing an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg equilibrium is shown to provide a lower bound for capture time. Thus these policies are robust from the Pursuer and Evader perspectives, respectively, should they implement them. Several other interesting pursuit and evasion policies are explored and compared with the robust policies in a series of experiments.},
   author = {Von Moll, Alexander and Pachter, Meir and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -835,6 +834,20 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   url = {https://avonmoll.github.io/files/TwoCutters.pdf},
   volume = {42},
   year = {2019},
+}
+
+@inproceedings{vonmoll2020optimalevasion,
+  abstract = {The Pure Pursuit strategy is ubiquitous both in the control literature but also in real-world implementation. In this paper, we pose and solve a variant of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers are faster than the Evader and are endowed with a finite capture radius. All agents move with constant velocity and can change heading instantaneously. Although capture is inevitable, the Evader wishes to delay capture as long as possible. The optimal trajectories cover the entire state space. Regions corresponding to either solo capture or isochronous (dual) capture are computed and both types of maximal time-to-capture optimal trajectories are characterized.},
+  author = {Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir},
+  eventtitle = {American Control Conference},
+  date = {2020-07-05},
+  doi = {10.23919/ACC45564.2020.9147776},
+  location = {Denver, CO},
+  booktitle = {American Control Conference},
+  publisher = {IEEE},
+  title = {Optimal Evasion Against Dual Pure Pursuit},
+  url = {https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf},
+  year = {2020},
 }
 
 @inproceedings{vonmoll2018pursuit-evasion,

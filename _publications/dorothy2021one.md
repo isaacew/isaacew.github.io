@@ -3,7 +3,7 @@ title: "One Apollonius Circle is Enough for Many Pursuit-Evasion Games"
 collection: publications
 permalink: /publication/dorothy2021one
 date: 2021-11-17 01:00:00 +0500
-venue: 'Automatica (<b><i>Submitted for Review</i></b>)'
+venue: 'Automatica (<b><i>Accepted</i></b>)'
 paperurl: 'https://arxiv.org/abs/2111.09205'
 pubtype: 'journal'
 authors: 'M. Dorothy, D. Maity, D. Shishika, A. Von Moll'
