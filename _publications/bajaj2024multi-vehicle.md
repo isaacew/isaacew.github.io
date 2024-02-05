@@ -1,7 +1,7 @@
 ---
 title: "Multi-vehicle Perimeter Defense in Conical Environments"
 collection: publications
-permalink: /publication/bajaj2023multi-vehicle
+permalink: /publication/bajaj2024multi-vehicle
 date: 2024-01-10 01:00:00 +0500
 venue: 'Transactions on Robotics and Automation'
 doi: '10.1109/TRO.2024.3351556'
