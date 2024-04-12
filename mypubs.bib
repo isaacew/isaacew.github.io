@@ -1,3 +1,43 @@
+@inproceedings{vonmoll2024constrained,
+  abstract = {In this paper, we extend existing turret defense differential game formulations involving a turn-constrained turret and mobile agent to include specified final time and a constraint. For the purposes of this analysis, the specified final time may represent some exogenous input, perhaps representing the time at which some other event will take place. As for the constraint, it represents a keep-out zone for the mobile agent. The scenario is formulated as a two-player, zero-sum differential game and solved via the method of characteristics (i.e., back-propagation of equilibrium trajectories). Three different trajectory types make up the solution: trajectories that end with the turret aligned with the mobile agent, trajectories that end with the mobile agent on the constraint boundary, and regular trajectories.},
+  author = {Von Moll, Alexander and Gerlach, Adam R. and Bakker, Craig and Rupe, Adam and Pachter, Meir},
+  eventtitle = {Modeling, Estimation and Control Conference},
+  date = {2024-10-27},
+  note = {Submitted for Review},
+  location = {Chicago, USA},
+  booktitle = {Modeling, Estimation and Control Conference},
+  publisher = {IFAC},
+  title = {Constrained Turret Defense with Fixed Final Time},
+  year = {2024},
+}
+
+@inproceedings{wolek2024sampling-based,
+  abstract = {Existing methods for avoiding dynamic engagement zones (EZs) and minimizing risk leverage the calculus of variations to obtain optimal paths. While such methods are deterministic, they scale poorly as the number of engagement zones increases. Furthermore, optimal-control based strategies are sensitive to initial guesses and often converge to local, rather than global, minima. This paper presents a novel sampling-based approach to obtain a feasible flight plan for a Dubins vehicle to reach a desired location in a bounded operating region in the presence of a large number of engagement zones. The dynamic EZs are coupled to the vehicle dynamics through its heading angle. Thus, the dynamic two-dimensional obstacles in the (x, y) plane can be transformed into three-dimensional static obstacles in a lifted (x, y, ψ) space. This insight is leveraged in the formulation of a Rapidly-exploring Random Tree (RRT∗) algorithm. The algorithm is evaluated with a Monte Carlo experiment that randomizes EZ locations to characterize the success rate and average path length as a function of the number of EZs and as the computation time made available to the planner is increased.},
+  author = {Wolek, Artur and Weintraub, Isaac E. and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G.},
+  eventtitle = {Modeling, Estimation and Control Conference},
+  date = {2024-10-27},
+  note = {Submitted for Review},
+  location = {Chicago, USA},
+  booktitle = {Modeling, Estimation and Control Conference},
+  publisher = {IFAC},
+  title = {Sampling-Based Risk-Aware Path Planning Around Dynamic Engagement Zones},
+  year = {2024},
+}
+
+@inproceedings{milutinovic2024pursuit-evasion,
+  abstract = {In classical works on a planar differential pursuit-evasion game with a faster pursuer, the intercept point resulting from the equilibrium strategies lies on the Apollonius circle. This property was exploited for the construction of the equilibrium strategies for two faster pursuers against one evader. Extensions for planar multiple-pursuer single-evader scenarios have been considered. We study a pursuit-evasion game on a sphere and the relation of the equilibrium intercept point to the Apollonius domain on the sphere. The domain is a generalization of the planar Apollonius circle set. We find a condition resulting in the intercept point belonging to the Apollonius domain, which is the characteristic of the planar game solution. Finally, we use this characteristic to discuss pursuit and evasion strategies in the context of two pursuers and a single slower evader on the sphere and illustrate it using numerical simulations.},
+  author = {Milutinović, Dejan and Von Moll, Alexander and Manyam, Satyanarayana G. and Casbeer, David W. and Weintraub, Isaac E. and Pachter, Meir},
+  eventtitle = {Conference on Decision and Control},
+  date = {2024-12-16},
+  note = {Submitted for Review},
+  location = {Milan, Italy},
+  booktitle = {Conference on Decision and Control},
+  publisher = {IEEE},
+  title = {Pursuit-Evasion on a Sphere and When it Can Be Considered Flat},
+  url = {https://arxiv.org/abs/2403.15188},
+  year = {2024},
+}
+
 @article{vonmoll2024complete,
   abstract = {In the Lady in the Lake scenario, a mobile agent, 𝐿, is pitted against an agent, 𝑀, who is constrained to move along the perimeter of a circle. 𝐿 is assumed to begin inside the circle and wishes to escape to the perimeter with some finite angular separation from 𝑀 at the perimeter. This scenario has, in the past, been formulated as a zerosum differential game wherein 𝐿 seeks to maximize terminal separation and 𝑀 seeks to minimize it. Its solution is well-known. However, there is a large portion of the state space for which the canonical solution does not yield a unique equilibrium strategy. This paper provides such a unique strategy by solving an auxiliary zero-sum differential game. In the auxiliary differential game, 𝐿 seeks to reach a point opposite of 𝑀 at a radius for which their maximum angular speeds are equal (i.e., the antipodal point). 𝐿 wishes to minimize the time to reach this point while 𝑀 wishes to maximize it. The solution of the auxiliary differential game is comprised of a Focal Line, a Universal Line, and their tributaries. The Focal Line tributaries’ equilibrium strategy for 𝐿 is semi-analytic, while the Universal Line tributaries’ equilibrium strategy is obtained in closed form.},
   author = {Von Moll, Alexander and Pachter, Meir},
@@ -24,14 +64,15 @@
 }
 
 @article{bajaj2024shortest,
-  abstract = {In this work, we formulate a novel planar motion planning problem of a Dubins-Laser system that consists of a Dubins vehicle with an attached controllable laser. The vehicle moves with unit speed and the laser, having a finite range, can rotate in a clockwise or anti- clockwise direction with a bounded angular rate. From an arbitrary initial position and orientation of the Dubins-Laser system, the objective is to steer the system so that a given static target is within the range of the laser and the laser is oriented at it in minimum time. We characterize multiple properties of the optimal path and establish that the optimal path for the Dubins-laser system is one out of the total 13 candidates. Finally, we provide insightful numerical plots to illustrate the properties characterized in this work.},
+  abstract = {We formulate a novel planar motion planning problem for a Dubins-Laser system that consists of a Dubins vehicle with an attached controllable laser. The vehicle moves with unit speed and the laser, having a finite range, can rotate in a clockwise or anti-clockwise direction with a bounded angular rate. From an arbitrary initial position and orientation, the objective is to steer the system so that a given static target is within the range of the laser and the laser is oriented at it in minimum time. We characterize multiple properties of the optimal trajectory and establish that the optimal trajectory for the Dubins-laser system is one out of a total of 16 candidates. Finally, we provide numerical insights that illustrate the properties characterized in this work.},
   author = {Bajaj, Shivam and Bhargav, Jha and Bopardikar, Shaunak D. and Von Moll, Alexander and Casbeer, David},
-  date = {2024-06-30},
+  date = {2024-03-20},
   note = {Submitted for Review},
   location = {None},
   journal = {Transactions on Automatic Control},
   publisher = {IEEE},
   title = {Shortest Trajectory of a Dubins Vehicle with a Controllable Laser},
+  url = {https://arxiv.org/abs/2403.12346},
   year = {2024},
 }
 
@@ -44,6 +85,7 @@
   journal = {Journal of Guidance, Dynamics, and Control},
   publisher = {AIAA},
   title = {Linear Quadratic Guidance Law for Joint Motion Planning of a Pursuer-Turret Assembly},
+  url = {https://arxiv.org/abs/2403.14997v1},
   year = {2024},
 }
 
@@ -207,11 +249,14 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   author = {Von Moll, Alexander and Fuchs, Zachariah and Shishika, Daigo and Maity, Dipankar and Dorothy, Michael and Pachter, Meir},
   date = {2023-09-01},
   doi = {10.3934/jdg.2023012},
+  issue = {2},
   note = {Presented at the 19th ISDG.},
+  pages = {100--114},
   journal = {Journal of Dynamics and Games},
   publisher = {American Institute of Mathematical Sciences},
   title = {Turret Escape Differential Game},
   url = {https://avonmoll.github.io/files/turret-escape-differential-game.pdf},
+  volume = {11},
   year = {2023},
 }
 
