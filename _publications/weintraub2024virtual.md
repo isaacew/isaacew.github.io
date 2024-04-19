@@ -3,7 +3,7 @@ title: "Virtual Target Selection for a Multiple-Pursuer Multiple-Evader Scenario
 collection: publications
 permalink: /publication/weintraub2024virtual
 date: 2024-01-30 01:00:00 +0500
-venue: 'AIAA SciTech (<b><i>Accepted</i></b>)'
+venue: 'AIAA SciTech'
 paperurl: 'https://arxiv.org/abs/2305.19399'
 doi: '10.2514/6.2024-0123'
 pubtype: 'conference'
