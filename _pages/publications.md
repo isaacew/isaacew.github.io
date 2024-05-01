@@ -7,6 +7,7 @@ author_profile: true
 
 [Journal Articles](#journal-articles)\
 [Conference Papers](#conference-papers)\
+[White Papers](#white-papers)\
 [Academic](#academic)\
 [Presentations](#presentations)
 
@@ -30,6 +31,14 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+## White Papers
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'whitepaper' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
 
 ## Academic
 {% for post in site.publications reversed %}
