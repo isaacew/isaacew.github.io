@@ -3,7 +3,7 @@ title: "Escape from an Orbiting Pursuer with a Nonzero Capture Radius"
 collection: publications
 permalink: /publication/mora2024escape
 date: 2024-07-08 01:00:00 +0500
-venue: 'None'
+venue: 'National Aerospace Electronics Conference'
 pubtype: 'conference'
 authors: 'B. Mora, A. Von Moll, I. Weintraub, D. W. Casbeer, A. Chakravarthy'
 excerpt_separator: ""

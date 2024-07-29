@@ -3,7 +3,7 @@ title: "Pursuit-Evasion on a Sphere and When it Can Be Considered Flat"
 collection: publications
 permalink: /publication/milutinovic2024pursuit-evasion
 date: 2024-12-16 01:00:00 +0500
-venue: 'Conference on Decision and Control (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Decision and Control (<b><i>Accepted</i></b>)'
 paperurl: 'https://arxiv.org/abs/2403.15188'
 pubtype: 'conference'
 authors: 'D. Milutinović, A. Von Moll, S. G. Manyam, D. W. Casbeer, I. E. Weintraub, M. Pachter'
