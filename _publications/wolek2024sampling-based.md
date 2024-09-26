@@ -3,7 +3,7 @@ title: "Sampling-Based Risk-Aware Path Planning Around Dynamic Engagement Zones"
 collection: publications
 permalink: /publication/wolek2024sampling-based
 date: 2024-10-27 01:00:00 +0500
-venue: 'Modeling, Estimation and Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'Modeling, Estimation and Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, S. G. Manyam'
 excerpt_separator: ""
