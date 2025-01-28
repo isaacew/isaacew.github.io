@@ -3,7 +3,7 @@ title: "Min-Time Escape of a Dubins Car from a Polygon"
 collection: publications
 permalink: /publication/weintraub2025min-time
 date: 2025-07-08 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 paperurl: 'https://arxiv.org/abs/2410.01589'
 pubtype: 'conference'
 authors: 'I. Weintraub, A. Von Moll, D. Casbeer, S. G. Manyam, M. Pachter, C. Taylor'

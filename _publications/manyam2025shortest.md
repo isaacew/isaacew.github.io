@@ -3,7 +3,7 @@ title: "Shortest Dubins Path to a Moving Circle with Free Final Heading"
 collection: publications
 permalink: /publication/manyam2025shortest
 date: 2025-07-08 01:00:00 +0500
-venue: 'American Control Conference (<b><i>Submitted for Review</i></b>)'
+venue: 'American Control Conference (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'S. G. Manyam, D. W. Casbeer, A. Von Moll, I. Weintraub'
 excerpt_separator: ""
