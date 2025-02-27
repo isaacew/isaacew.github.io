@@ -1,3 +1,29 @@
+@inproceedings{chapman2025engagement,
+  abstract = {This work derives two basic engagement zone models, describing regions of potential risk or capture for a mobile vehicle by a pursuer. The pursuer is modeled having turn-constraints rather than simple motion. Turn-only (C-Paths) and turn-straight (CS-Paths) paths are considered for the pursuer of limited range. Following the derivation, a simulation of a vehicle avoiding the pursuer's engagement zone is provided.},
+  author = {Chapman, Thomas and Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy},
+  eventtitle = {International Conference on Unmanned Aerial Systems},
+  date = {2025-05-14},
+  note = {Submitted for Review},
+  location = {Charlotte},
+  booktitle = {International Conference on Unmanned Aerial Systems},
+  publisher = {IFAC},
+  title = {Engagement Zones for a Turn Constrained Pursuer},
+  year = {2025},
+}
+
+@inproceedings{vonmoll2025one-vs-one,
+  abstract = {In this paper we address the problem of 'weaponeering', i.e., placing the weapon engagement zone (WEZ) of a vehicle on a moving target, while simultaneously avoiding the target's WEZ. A WEZ describes the lethality region of a range-limited weapon considering both the range of the weapon along with the state of the target. The weapons are assumed to have simple motion, while the vehicles carrying the weapons are modeled with Dubins dynamics. Three scenarios are investigated and are differentiated in the assumptions that can be made about the target in the process of the vehicle control design: 1) no knowledge of target control, 2) avoid unsafe positions assuming the target's optimal control, 3) full knowledge of target's optimal control. The engagement is formulated as a stochastic optimal control problem with uncertainty in the target's control modeled using a noise parameter applied to the target's control input. After discretizing the Hamilton-Jacobi-Bellman equation, Value iteration is then used to obtain an approximate solution for the optimal vehicle control and time-to-go. Simulation results support usage of the first paradigm: assume no knowledge of the target's control.},
+  author = {Von Moll, Alexander and Milutinović, Dejan and Weintraub, Isaac and Casbeer, David W.},
+  eventtitle = {International Conference on Unmanned Aerial Systems},
+  date = {2025-05-14},
+  note = {Submitted for Review},
+  location = {Charlotte},
+  booktitle = {International Conference on Unmanned Aerial Systems},
+  publisher = {IFAC},
+  title = {One-vs-one Threat-Aware Weaponeering with Basic Engagement Zones},
+  year = {2025},
+}
+
 @article{weintraub2025virtual,
   abstract = {This paper considers an 𝑁 -pursuer–𝑀 -evader scenario involving 𝐿 virtual targets. The virtual targets serve as an intermediary target for the pursuers, allowing the pursuers to delay their final assignment to the evaders. However, upon reaching the virtual target, the pursuers must decide which evader to capture. It is assumed that there are more pursuers than evaders and that the pursuers are faster than the evaders. The objective is two-part: first, assign each pursuer to a virtual target and evader such that the pursuer team’s energy is minimized, and, second, choose the virtual targets’ locations for this minimization problem. The approach taken is to consider the Apollonius geometry between each pursuer’s virtual target location and each evader. Using the constructed Apollonius circles, the pursuer’s travel distance and maneuver at a virtual target are obtained. These metrics serve as a gauge for the total energy required to capture a particular evader and are used to solve the joint virtual target selection and pursuer–evader assignment problem. This paper provides a mathematical definition of this problem, the solution approach taken, and an example. Following the example, a Monte Carlo analysis is performed, demonstrating the efficacy of the algorithm and its suitability for real-time applications.},
   author = {Weintraub, Isaac E. and Von Moll, Alexander and Casbeer, David W. and Manyam, Satyanarayana G.},
@@ -48,12 +74,12 @@
 @inproceedings{surve2025heterogeneous,
   abstract = {We consider the problem of minimum time inter- cept of multiple mobile targets that are translating in a fixed direction, i.e., moving with identical constant speeds in the same direction. Every target has to be intercepted by a heterogeneous pursuer assembly – a mobile vehicle that carries another pursuer whose speed is higher than that of the vehicle. Aside from this novel problem formulation, our main contributions are as follows. First, we formally establish that the optimal heterogeneous intercept problem is equivalent to solving an appropriately defined Euclidean Traveling Salesperson Problem with Neighborhoods (ETSPN). We show that each neighborhood is an ellipse with a specified center and lengths of the major and minor axis. Second, we provide novel upper bounds on the optimal length as a function of the problem parameters, i.e., the number of targets, the speed ratio between the target and the assembly, the speed between the pursuer and the assembly, the geometry of the region containing the targets and the time required for the pursuer to intercept a target. Finally, we offer insight into the approach through a numerical visualization and a discussion on improving the upper bounds.},
   author = {Surve, Prajakta and Frost, Richard L. and Bopardikar, Shaunak D. and Von Moll, Alexander and Casbeer, David W.},
-  eventtitle = {American Control Conference},
-  date = {2025-07-08},
+  eventtitle = {Conference on Control Technology and Applications},
+  date = {2025-08-25},
   note = {Submitted for Review},
-  location = {Denver, CO},
-  booktitle = {American Control Conference},
-  publisher = {IFAC},
+  location = {San Diego},
+  booktitle = {Conference on Control Technology and Applications},
+  publisher = {IEEE},
   title = {Heterogeneous Pursuit of Multiple Translating Targets},
   year = {2025},
 }
@@ -71,7 +97,7 @@
 
 @inproceedings{weintraub2025min-time,
   abstract = {A turn constrained vehicle is initially located inside a polygon region and desires to escape in minimum time. First, the method of characteristics is used to describe the time-optimal strategies for reaching a line of infinite length. Next, the approach is extended to polygons constructed of a series of line segments. Using this construction technique, the min-time path to reach each edge is obtained; the resulting minimum of the set of optimal trajectories is then selected for escaping the polygon.},
-  author = {Weintraub, Isaac and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G. and Pachter, M. and Taylor, Colin},
+  author = {Weintraub, Isaac and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G. and Pachter, M. and Taylor, Colin and Chapman, Thomas},
   eventtitle = {American Control Conference},
   date = {2025-07-08},
   note = {Accepted},
@@ -178,6 +204,7 @@
   author = {Von Moll, Alexander and Gerlach, Adam R. and Bakker, Craig and Rupe, Adam and Pachter, Meir},
   eventtitle = {Modeling, Estimation and Control Conference},
   date = {2024-10-27},
+  doi = {10.1016/j.ifacol.2025.01.121},
   note = {Accepted},
   location = {Chicago, USA},
   booktitle = {Modeling, Estimation and Control Conference},
@@ -881,18 +908,6 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2015},
 }
 
-@article{vonmoll2020multiple,
-  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
-  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
-  date = {2020-02-01},
-  doi = {10.2514/1.I010740},
-  journal = {Journal of Aerospace Information Systems},
-  publisher = {AIAA},
-  title = {Multiple Pursuer Single Evader Border Defense Differential Game},
-  url = {https://avonmoll.github.io/files/mp1e-border.pdf},
-  year = {2020},
-}
-
 @article{pachter2020cooperative,
   abstract = {We consider pursuit-evasion differential games in the Euclidean plane where an evader is engaged by multiple pursuers and point capture is required. The players have simple motion à la Isaacs and the pursuers are faster than the evader. We confine our attention to the case where the pursuers have the same speed, so the game’s parameter is the evader/pursuers speed ratio 0 < µ < 1. State feedback capture strategies and an evader strategy which yields a lower bound on his time-to-capture are devised using a geometric method. It is shown that in group/swarm pursuit, when the players are in general position, capture is effected by one, two, or by three critical pursuers, and this irrespective of the size N (> 3) of the pursuit pack.  Group pursuit devolves into pure pursuit by one of the pursuers or into a pincer movement pursuit by two or three pursuers who isochronously capture the evader, a mènage à trois. The critical pursuers are identified. However, these geometric method-based pursuit and evasion strategies are optimal only in a part of the state space where a strategic saddle point is obtained and the Value of the differential game is established, and as such, are suboptimal. To fully explore the differential game’s high dimensional state space and get a better understanding of group pursuit, numerical experimentation is undertaken. The state space region where the geometric method-based suboptimal solution of the group pursuit differential game is the optimal solution becomes larger the smaller the speed ratio parameter is.},
   author = {Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Milutinović, Dejan},
@@ -917,14 +932,15 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   year = {2018},
 }
 
-@article{garcia2020multiple,
-  abstract = {In this paper an N-pursuer vs. M-evader team conflict is studied. The differential game of border defense is addressed and we focus on the game of degree in the region of the state space where the pursuers are able to win. This work extends classical differential game theory to simultaneously address weapon assignments and multi-player pursuit-evasion scenarios. Saddle-point strategies that provide guaranteed performance for each team regardless of the actual strategies implemented by the opponent are devised. The players' optimal strategies require the co-design of cooperative optimal assignments and optimal guidance laws. A representative measure of performance is proposed and the Value function of the game is obtained. It is shown that the Value function is continuous, continuously differentiable, and that it satisfies the Hamilton-Jacobi-Isaacs equation - the curse of dimensionality is overcome and the optimal strategies are obtained. The cases of N=M and N>M are considered. In the latter case, cooperative guidance strategies are also developed in order for the pursuers to exploit their numerical advantage. This work provides a foundation to formally analyze complex and high-dimensional conflicts between teams of N pursuers and M evaders by means of differential game theory.},
-  author = {Garcia, Eloy and Casbeer, David W and Von Moll, Alexander and Pachter, Meir},
-  date = {2020-05-01},
-  doi = {10.1109/TAC.2020.3003840},
-  journal = {Transactions on Automatic Control},
-  publisher = {IEEE},
-  title = {Multiple Pursuer Multiple Evader Differential Games},
+@article{vonmoll2020multiple,
+  abstract = {Ensuring border security against potential threats has been a long standing problem and it becomes much more challenging for international borders due to their massive physical extent coupled with varied terrain. In this paper, we consider a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder ground vehicle (the evader) from escaping through the border. The ground intruder's presence is made known by a laser fence positioned inside the border. Upon detection, the UAVs are activated and given the objective to cooperatively capture the intruder. We formulate the scenario as a zero-sum differential game whereupon all agents exhibit simple motion and the pursuers have a speed advantage. For cases where capture inside the border is possible, the payoff/cost for the pursuers/evader is the distance from capture to the border. The solution to the game is derived based on the geometric properties of the game and verified for the single pursuer case with a border comprised of straight-line segments. This game may contain a dispersal surface which has interesting practical consequences when the optimal strategies are applied in discrete time.},
+  author = {Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh and Swar, Sufal Chandra},
+  date = {2020-02-01},
+  doi = {10.2514/1.I010740},
+  journal = {Journal of Aerospace Information Systems},
+  publisher = {AIAA},
+  title = {Multiple Pursuer Single Evader Border Defense Differential Game},
+  url = {https://avonmoll.github.io/files/mp1e-border.pdf},
   year = {2020},
 }
 
@@ -961,6 +977,17 @@ Notes: Alexander Von Moll from Air Force Research Laboratory will be presenting 
   doi = {10.23919/ACC.2019.8814913},
   title = {Optimal Dubins Paths to Intercept a Moving Target on a Circle},
   year = {2019},
+}
+
+@article{garcia2020multiple,
+  abstract = {In this paper an N-pursuer vs. M-evader team conflict is studied. The differential game of border defense is addressed and we focus on the game of degree in the region of the state space where the pursuers are able to win. This work extends classical differential game theory to simultaneously address weapon assignments and multi-player pursuit-evasion scenarios. Saddle-point strategies that provide guaranteed performance for each team regardless of the actual strategies implemented by the opponent are devised. The players' optimal strategies require the co-design of cooperative optimal assignments and optimal guidance laws. A representative measure of performance is proposed and the Value function of the game is obtained. It is shown that the Value function is continuous, continuously differentiable, and that it satisfies the Hamilton-Jacobi-Isaacs equation - the curse of dimensionality is overcome and the optimal strategies are obtained. The cases of N=M and N>M are considered. In the latter case, cooperative guidance strategies are also developed in order for the pursuers to exploit their numerical advantage. This work provides a foundation to formally analyze complex and high-dimensional conflicts between teams of N pursuers and M evaders by means of differential game theory.},
+  author = {Garcia, Eloy and Casbeer, David W and Von Moll, Alexander and Pachter, Meir},
+  date = {2020-05-01},
+  doi = {10.1109/TAC.2020.3003840},
+  journal = {Transactions on Automatic Control},
+  publisher = {IEEE},
+  title = {Multiple Pursuer Multiple Evader Differential Games},
+  year = {2020},
 }
 
 @inproceedings{vonmoll2020optimal,
