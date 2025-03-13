@@ -3,7 +3,7 @@ title: "Operator-Theoretic Methods for Differential Games"
 collection: publications
 permalink: /publication/bakker2025operator-theoretic
 date: 2025-04-01 01:00:00 +0500
-venue: 'Journal of Computational Physics'
+venue: 'Journal of Computational Physics (<b><i>Submitted for Review</i></b>)'
 pubtype: 'journal'
 authors: 'C. Bakker, A. Rupe, A. Von Moll, A. Gerlach'
 excerpt_separator: ""

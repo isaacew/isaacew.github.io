@@ -3,7 +3,7 @@ title: "Maximum Kinetic Energy Paths for a Dubins Vehicle with Decaying Speed"
 collection: publications
 permalink: /publication/wolek2025maximum
 date: 2025-01-12 01:00:00 +0500
-venue: 'SciTech (<b><i>Accepted</i></b>)'
+venue: 'SciTech'
 doi: '10.2514/6.2025-1351'
 pubtype: 'conference'
 authors: 'A. Wolek, D. Casbeer, I. Weintraub, A. Von Moll'

@@ -41,8 +41,8 @@ Skills
 
 Awards & Recognition
 ======
-- 2025 - Jack Blackhurst Innovation Award -- Air Force Research Laboratory
-- 2025 - Innovation Award -- Aerospace Systems Directorate
+- 2024 - Jack Blackhurst Innovation Award -- Air Force Research Laboratory
+- 2024 - Innovation Award -- Aerospace Systems Directorate
 - 2022 - Excellent Reviewer -- AIAA Journal of Guidance, Control, and Dynamics
 - 2022 - University of Cincinnati Department of Electrical Engineering & Computer Science Outstanding Doctoral Dissertation Award
 - 2019 - Aerospace Control & Guidance Systems Committee Dave Ward Memorial Lecture Award
