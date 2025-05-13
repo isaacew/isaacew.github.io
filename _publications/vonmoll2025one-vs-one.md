@@ -3,7 +3,7 @@ title: "One-vs-one Threat-Aware Weaponeering with Basic Engagement Zones"
 collection: publications
 permalink: /publication/vonmoll2025one-vs-one
 date: 2025-05-14 01:00:00 +0500
-venue: 'International Conference on Unmanned Aerial Systems (<b><i>Submitted for Review</i></b>)'
+venue: 'International Conference on Unmanned Aerial Systems (<b><i>Accepted</i></b>)'
 paperurl: 'http://arxiv.org/abs/2503.09475'
 pubtype: 'conference'
 authors: 'A. Von Moll, D. Milutinović, I. Weintraub, D. W. Casbeer'

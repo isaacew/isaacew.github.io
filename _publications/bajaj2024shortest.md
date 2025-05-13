@@ -3,7 +3,7 @@ title: "Shortest Trajectory of a Dubins Vehicle with a Controllable Laser"
 collection: publications
 permalink: /publication/bajaj2024shortest
 date: 2024-03-20 01:00:00 +0500
-venue: 'Transactions on Automatic Control (<b><i>Submitted for Review</i></b>)'
+venue: 'Transactions on Automatic Control (<b><i>Accepted</i></b>)'
 paperurl: 'https://arxiv.org/abs/2403.12346'
 pubtype: 'journal'
 authors: 'S. Bajaj, J. Bhargav, S. D. Bopardikar, A. Von Moll, D. Casbeer'
