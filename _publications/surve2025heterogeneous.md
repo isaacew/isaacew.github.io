@@ -3,7 +3,7 @@ title: "Heterogeneous Pursuit of Multiple Translating Targets"
 collection: publications
 permalink: /publication/surve2025heterogeneous
 date: 2025-08-25 01:00:00 +0500
-venue: 'Conference on Control Technology and Applications (<b><i>Submitted for Review</i></b>)'
+venue: 'Conference on Control Technology and Applications (<b><i>Accepted</i></b>)'
 pubtype: 'conference'
 authors: 'P. Surve, R. L. Frost, S. D. Bopardikar, A. Von Moll, D. W. Casbeer'
 excerpt_separator: ""

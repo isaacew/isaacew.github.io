@@ -3,7 +3,7 @@ title: "Constrained Turret Defense with Fixed Final Time"
 collection: publications
 permalink: /publication/vonmoll2024constrained
 date: 2024-10-27 01:00:00 +0500
-venue: 'Modeling, Estimation and Control Conference (<b><i>Accepted</i></b>)'
+venue: 'Modeling, Estimation and Control Conference'
 doi: '10.1016/j.ifacol.2025.01.121'
 pubtype: 'conference'
 authors: 'A. Von Moll, A. R. Gerlach, C. Bakker, A. Rupe, M. Pachter'
