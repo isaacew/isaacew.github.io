@@ -117,6 +117,14 @@ export const kServers = (() => {
   return kServers;
 })();
 
+export const kFriendLinks = [
+  // {
+  //   name: "name",
+  //   url: "https://google.com",
+  //   desc: "a good friend",
+  // },
+];
+
 export const kJobTitle: string = "Aerospace Engineer at the Air Force Research Laboratory"; 
 
 export const social = {
