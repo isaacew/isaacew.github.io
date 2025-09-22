@@ -1,0 +1,52 @@
+_papis_local_folder: /Users/vonmolal/papers/Bajaj - Multi-vehicle Perimeter Defense
+  in Conical Environments
+abstractNote: We consider a perimeter defense problem in a planar conical environment
+  in which M identical vehicles, each having a finite capture radius, seek to defend
+  a concentric perimeter from mobile intruders. The intruders are released at the
+  circumference of the environment at arbitrary times and in any number. Upon release,
+  each intruder moves radially toward the perimeter with fixed speed. We provide a
+  worst-case analysis of this problem. Specifically, we present a competitive analysis
+  approach to this problem by measuring the performance of decentralized and cooperative
+  online algorithms for the vehicles against arbitrary inputs, relative to an optimal
+  offline algorithm that has information about entire intruder release sequence in
+  advance. In particular, apart from the minimum number of vehicles required to capture
+  all intruders, we establish a necessary condition on the parameter space to guarantee
+  finite competitive- ness of any algorithm. We then design and analyze three decen-
+  tralized and two cooperative online algorithms and characterize parameter regimes
+  in which they have finite competitive ratios. Specifically, our first two decentralized
+  algorithms are provably 1, and 2-competitive, respectively, whereas our third decentralized
+  algorithm exhibit different competitive ratios in different regimes of problem parameters.
+  Similarly, our first cooperative algorithm is 1.5-competitive and our second cooperative
+  algorithm exhibits different competitive ratios in different regimes of problem
+  parameters. We then provide multiple numerical plots in the parameter space to reveal
+  additional insights into the relative performance of our algorithms and discuss
+  an extension to the case of heterogeneous vehicles.
+address: New York
+author: Bajaj, Shivam and Bopardikar, Shaunak and Torng, Eric and Von Moll, Alexander
+  and Casbeer, David W.
+author_list:
+- family: Bajaj
+  given: Shivam
+- family: Bopardikar
+  given: Shaunak
+- family: Torng
+  given: Eric
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David W.
+date: 2024-01-10
+doi: 10.1109/TRO.2024.3351556
+files:
+- Bajaj - Multi-vehicle Perimeter Defense in Conical Environments.pdf
+journal: Transactions on Robotics and Automation
+papis_id: fdbb595be8c610d3c3003a86ca35eeb2
+project:
+- MyPubs
+publicationTitle: Transactions on Robotics and Automation
+publisher: IEEE
+ref: bajaj2024multi-vehicle
+time-added: 2022-09-23-09:43:58
+title: Multi-vehicle Perimeter Defense in Conical Environments
+type: article
+year: 2024

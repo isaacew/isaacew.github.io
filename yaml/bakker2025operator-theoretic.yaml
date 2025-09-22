@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Bakker - Operator-Theoretic Methods for
+  Differential Games
+abstractNote: Differential game theory offers an approach for modeling interactions
+  between two or more agents that occur in continuous time. The goal of each agent
+  is to optimize its objective cost functional. In this paper, we present two different
+  methods, based on the Koopman Operator (KO), to solve a zero-sum differential game.
+  The first approach uses the resolvent of the KO to calculate a continuous-time global
+  feedback solution over the entire domain. The second approach uses a discrete-time,
+  data-driven KO representation with control to calculate open- loop control policies
+  one trajectory at a time. We demonstrate these methods on a turret defense game
+  from the literature, and we find that the methods’ solutions replicate the behavior
+  of the analytical solution provided in the literature. Following that demonstration,
+  we highlight the relative advantages and disadvantages of each method and discuss
+  potential future work for this line of research.
+author: Bakker, Craig and Rupe, Adam and Von Moll, Alexander and Gerlach, Adam
+author_list:
+- family: Bakker
+  given: Craig
+- family: Rupe
+  given: Adam
+- family: Von Moll
+  given: Alexander
+- family: Gerlach
+  given: Adam
+date: 2025-04-01
+files:
+- Bakker - Operator-Theoretic Methods for Differential Games.pdf
+journal: Journal of Computational Physics
+note: Submitted for Review
+papis_id: 4ec1dbf53e265fbd5a29ba8a8756e4e0
+place: null
+project:
+- MyPubs
+publicationTitle: Journal of Computational Physics
+publisher: Elsevier
+ref: bakker2025operator-theoretic
+tags:
+- differential games
+- Koopman operator
+- extended dynamic mode decomposition
+- mixed complementarity problems
+- game theory
+time-added: 2024-11-01-10:04:11
+title: Operator-Theoretic Methods for Differential Games
+type: article
+year: 2025

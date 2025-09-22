@@ -1,0 +1,53 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Recent Progress, Challenges,
+  and Future Development Needs of
+abstractNote: 'Thermal management has emerged as one of the primary challenges for
+  modern military gas turbine engines. Fuel actuator pumping systems contribute to
+  the challenge by constantly injecting waste heat into the fuel system. This is due
+  to a fundamental mismatching between an actuation system with a low duty cycle and
+  a pump which is always running. Since the pump is directly coupled to the gearbox,
+  the detriment is twofold: horsepower is always being drawn to drive the pump, and
+  heat is generated. Furthermore, the emergence of variable cycle engines pushes the
+  actuation system in the direction of more effectors and more loads, which drives
+  requirements for high pressure and high flows from the pumping system. Piston pumps
+  have been seen as favorable for the actuation pump application due to their high
+  single stage pressure rise capability. However reducing the number of pumping components
+  alone has not solved the thermal management issue. Variable displacement pumps have
+  been designed to operate over a range of conditions in order to deliver flow more
+  appropriately as demanded by the control system. These pumps allow pressure and
+  flow to be modulated independent of one another and of the pump’s rotational speed.
+  Variable displacement pumps may be considered as a component of a partial-demand
+  actuation pumping system. Even in a partial-demand actuation pumping system, a variable
+  displacement pump will still be coupled to the gearbox and require some minimum
+  flow for lubrication and cooling. On-demand actuation fuel systems deliver only
+  the amount of flow that is being demanded at a given time so that waste heat is
+  minimized. In other words, the duty cycle of the pumping system matches that of
+  the actuation system. The development of an on-demand actuation fuel system will
+  require a new architecture and new components.'
+author: Von Moll, Alexander and Semega, Ken and Behbahani, Alireza and Hoying, John
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Semega
+  given: Ken
+- family: Behbahani
+  given: Alireza
+- family: Hoying
+  given: John
+conferenceName: JANNAF Interagency Propulsion Committee 34th Airbreathing Propulsion
+date: 2014-01-01
+files:
+- Von Moll - Recent Progress, Challenges, and Future Development Needs of.pdf
+libraryCatalog: Google Scholar
+papis_id: d5a7aefa42b8a4973cc71463ffd768ee
+proceedingsTitle: JANNAF Interagency Propulsion Committee 34th Airbreathing Propulsion
+project:
+- MyPubs
+publisher: JANNAF Interagency Propulsion Committee
+ref: vonmoll2014recent
+rights: All rights reserved
+tags:
+- military
+title: Recent Progress, Challenges, and Future Development Needs of Thermally/Energy
+  Efficient Fuel Actuator Pumping Systems for Military Gas Turbine Engine Applications
+type: conferencePaper
+year: 2014

@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Bajaj - Perimeter Defense using a Turret
+  with Finite Range
+abstractNote: We consider a perimeter defense problem in a planar conical environment
+  comprising a single turret that has a finite range and non-zero service time. The
+  turret seeks to defend a concentric perimeter against N ≥ 2 intruders. Upon release,
+  each intruders move radially towards the perimeter with a fixed speed. To capture
+  an intruder, the turret’s angle must be aligned with that of the intruder’s angle
+  and must spend a specified capture time at that orientation. We present an online
+  and an offline approach to this optimal problem. Specifically, for the offline approach,
+  we establish that for general parameter regimes, this problem is equivalent to solving
+  a Travelling Repairperson Problem with Time Windows (TRP- TW). We then identify
+  specific parameter regimes in which there is a polynomial time algorithm that maximizes
+  the number of intruders captured. For the online approach we present a competitive
+  analysis technique in which we establish a fundamental guarantee on the existence
+  of at best (N − 1)- competitive algorithms and design two online algorithms that
+  are provably 1 and 2-competitive in specific parameter regimes.
+author: Bajaj, Shivam and Bopardikar, Shaunak and Von Moll, Alexander and Torng, Eric
+  and Casbeer, David
+author_list:
+- family: Bajaj
+  given: Shivam
+- family: Bopardikar
+  given: Shaunak
+- family: Von Moll
+  given: Alexander
+- family: Torng
+  given: Eric
+- family: Casbeer
+  given: David
+conferenceName: American Control Conference
+date: 2023-05-31
+doi: 10.23919/ACC55779.2023.10155838
+files:
+- Bajaj - Perimeter Defense using a Turret with Finite Range.pdf
+location: San Diego, USA
+papis_id: 062d5cd65f760aca791f483af5ed9d62
+place: San Diego, USA
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IEEE
+ref: bajaj2023perimeter
+time-added: 2022-09-23-09:39:31
+title: Perimeter Defense using a Turret with Finite Range and Startup Times
+type: conferencePaper
+year: 2023

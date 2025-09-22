@@ -1,0 +1,49 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Multiple Pursuer Single Evader
+  Border Defense Differential Game (2020)
+abstractNote: Ensuring border security against potential threats has been a long standing
+  problem and it becomes much more challenging for international borders due to their
+  massive physical extent coupled with varied terrain. In this paper, we consider
+  a scenario in which a team of UAVs (the pursuers) attempt to prevent an intruder
+  ground vehicle (the evader) from escaping through the border. The ground intruder's
+  presence is made known by a laser fence positioned inside the border. Upon detection,
+  the UAVs are activated and given the objective to cooperatively capture the intruder.
+  We formulate the scenario as a zero-sum differential game whereupon all agents exhibit
+  simple motion and the pursuers have a speed advantage. For cases where capture inside
+  the border is possible, the payoff/cost for the pursuers/evader is the distance
+  from capture to the border. The solution to the game is derived based on the geometric
+  properties of the game and verified for the single pursuer case with a border comprised
+  of straight-line segments. This game may contain a dispersal surface which has interesting
+  practical consequences when the optimal strategies are applied in discrete time.
+author: Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh
+  and Swar, Sufal Chandra
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Manickam
+  given: Suresh
+- family: Swar
+  given: Sufal Chandra
+date: 2020-02-01
+doi: 10.2514/1.I010740
+files:
+- Von Moll - Multiple Pursuer Single Evader Border Defense Differential Game.pdf
+papis_id: cbc8ab603a4ed6e2b418085e1423be1f
+project:
+- MyPubs
+- turret + defender
+publicationTitle: Journal of Aerospace Information Systems
+publisher: AIAA
+ref: vonmoll2020multiple
+tags:
+- differential games
+- target guarding
+- Mv1
+- skirmish application
+title: Multiple Pursuer Single Evader Border Defense Differential Game
+type: journal
+url: https://avonmoll.github.io/files/mp1e-border.pdf
+year: 2020

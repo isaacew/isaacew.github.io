@@ -1,0 +1,40 @@
+_papis_local_folder: /Users/vonmolal/papers/Manyam - Shortest Dubins Path to a Moving
+  Circle with
+abstractNote: In this paper the shortest time strategy of turn- constrained vehicle
+  for reaching a circle moving on a straight line is posed and solved. The shortest
+  curvature constrained path to a circle is comprised of a left or right turning arc
+  of minimum turn radius (L/R) and straight-line segment (S). An analysis of each
+  of the candidate Dubins modes, L, R, LS, and RS is provided. Under the condition
+  that the agent’s initial position is not on the path of the moving circle, we prove
+  that the length of the shortest Dubins path to the circle is a continuous function
+  of the position of the target center. Leveraging this continuity, we propose an
+  algorithm that uses the bisection search and finds the time-optimal solution. A
+  lower bound to the solution is obtained when the agent’s initial position lies on
+  the path of the moving circle, and a heuristic approach is discussed for such instances.
+author: Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and
+  Weintraub, Isaac
+author_list:
+- family: Manyam
+  given: Satyanarayana G.
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+conferenceName: American Control Conference
+date: 2025-07-08
+files:
+- Manyam - Shortest Dubins Path to a Moving Circle with.pdf
+note: Accepted
+papis_id: 937ca4e0c8b926fbbcb848874fe0357d
+place: Denver, CO
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IFAC
+ref: manyam2025shortest
+time-added: 2024-10-01-12:08:59
+title: Shortest Dubins Path to a Moving Circle with Free Final Heading
+type: conferencePaper
+year: 2025

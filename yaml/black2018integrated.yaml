@@ -1,0 +1,60 @@
+_papis_local_folder: /Users/vonmolal/papers/Black - Integrated Fiber-Optic Sensor
+  Network System Reliability Modeling and
+abstractNote: Next-generation integrated propulsion systems require reliable, robust,
+  low-cost and high performance sensing systems beyond what is expected to be delivered
+  by conventional sensor networks. Emerging fiber-optic sensor networks offer distinct
+  advantages, including multiplexability, cybersecurity, inherent EMI/RFI immunity,
+  high speed and bandwidth, and compatibility with the avionics environment. Ongoing
+  development of a novel reliability analysis methodology to quantify sensor network
+  reliability in harsh environments is discussed. Failure modes, mechanisms, and effects
+  analysis (FMMEA) was performed for jet engine environments. System design and deployment
+  guidelines were then developed based upon experience in sensor network deployments
+  to harsh environments. Addressing this key technology gap, an integrated fiber-optic
+  network reliability analysis technique based upon  predictive failure models is
+  being developed via rigorous environmental testing of critical optical and optoelectronic
+  components comprising the sensor network. The results of this effort are expected
+  to empower propulsion system sensing and control network engineers to enhance design
+  and deployment for reliability.
+accessDate: '2018-07-11 13:09:33'
+author: Black, Richard J. and Moslehi, Behzad and Price, W and Sotoudeh, Vahid and
+  Osterman, Michael and Das, Diganta and Behbahani, Alireza and Von Moll, Alexander
+  and Semega, Kenneth
+author_list:
+- family: Black
+  given: Richard J.
+- family: Moslehi
+  given: Behzad
+- family: Price
+  given: W
+- family: Sotoudeh
+  given: Vahid
+- family: Osterman
+  given: Michael
+- family: Das
+  given: Diganta
+- family: Behbahani
+  given: Alireza
+- family: Von Moll
+  given: Alexander
+- family: Semega
+  given: Kenneth
+conferenceName: AIAA SciTech
+date: 2018-01-07
+doi: 10.2514/6.2018-0714
+files:
+- Black - Integrated Fiber-Optic Sensor Network System Reliability Modeling and.pdf
+libraryCatalog: arc-aiaa-org.wrs.idm.oclc.org (Atypon)
+papis_id: ccaa31f6cb769a8d5413ead6fcdef790
+proceedingsTitle: 2018 AIAA Information Systems-AIAA Infotech @ Aerospace
+project:
+- MyPubs
+publisher: American Institute of Aeronautics and Astronautics
+ref: black2018integrated
+rights: All rights reserved
+series: AIAA SciTech Forum
+tags: null
+title: Integrated Fiber-Optic Sensor Network System Reliability Modeling and Analysis
+  for Aerospace Applications
+type: conferencePaper
+url: http://arc.aiaa.org/doi/10.2514/6.2018-0714
+year: 2018

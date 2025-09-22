@@ -1,0 +1,45 @@
+_papis_local_folder: /Users/vonmolal/papers/Garcia - The Cooperative Blocking Differential
+  Game
+abstractNote: This paper considers a pursuit-evasion problem with two cooperative
+  pursuers and one evader. The problem is posed as a zero-sum differential game where
+  the evader aims at reaching a goal line which is protected by the pursuers. When
+  reaching this goal is not possible, the evader strives to position itself as close
+  as possible with respect to the goal line at the time of capture. The pursuers try
+  to capture the evader as far as possible from the goal line. Leveraging differential
+  game theory, state feedback strategies are both synthesized and verified in this
+  paper. In addition, the Barrier surface that partitions the state space into two
+  winning sets, one for the pursuer team and one for the evader, is obtained in analytical
+  form. Under optimal play, the winning team is determined by evaluating the associated
+  Barrier function.
+author: Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir
+author_list:
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+bookTitle: Conference on Control Technology and Applications
+conferenceName: Conference on Control Technology and Applications
+date: 2021-12-31
+doi: 10.1109/CCTA48906.2021.9658654
+files:
+- Garcia - The Cooperative Blocking Differential Game.pdf
+- Garcia - The Cooperative Blocking Differential Game_a.pdf
+papis_id: 7e067c1e64d388ee30392d2de129759c
+project:
+- MyPubs
+- turret + defender
+publicationTitle: Conference on Control Technology and Applications
+publisher: IEEE
+ref: garcia2021cooperativeblocking
+tags:
+- differential games
+- target guarding
+- 2v1
+time-added: 2020-08-20-10:39:47
+title: The Cooperative Blocking Differential Game
+type: conferencePaper
+year: 2021

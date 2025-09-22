@@ -1,0 +1,59 @@
+_papis_local_folder: '/Users/vonmolal/papers/Von Moll - The Multi-Pursuer Single-Evader
+  Game: A Geometric Approach'
+abstractNote: We consider a general pursuit-evasion differential game with three or
+  more pursuers and a single evader, all with simple motion. It is shown that traditional
+  means of differential game analysis is difficult for this scenario. But simple motion
+  and min-max time to capture plus the two-person extension to Pontryagin's maximum
+  principle imply straight-line motion at maximum speed which forms the basis of the
+  solution using a geometric approach. Safe evader paths and policies are defined
+  which guarantee the evader can reach its destination without getting captured by
+  any of the pursuers, provided its destination satisfies some constraints. A linear
+  program is used to characterize the solution and subsequently the saddle-point is
+  computed numerically. We replace the numerical procedure with a more analytical
+  geometric approach based on Voronoi diagrams after observing a pattern in the numerical
+  results. The solutions derived are open-loop optimal, meaning the strategies are
+  a saddle-point equilibrium in the open-loop sense.
+author: Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Milutinović, Dejan
+  and Pachter, Meir
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David
+- family: Garcia
+  given: Eloy
+- family: Milutinović
+  given: Dejan
+- family: Pachter
+  given: Meir
+date: 2019-01-02
+doi: 10.1007/s10846-018-0963-9
+files:
+- 'Von Moll - The Multi-Pursuer Single-Evader Game: A Geometric Approach_b.pdf'
+- 'Von Moll - The Multi-Pursuer Single-Evader Game: A Geometric Approach_a.pdf'
+- 'Von Moll - The Multi-Pursuer Single-Evader Game: A Geometric Approach.pdf'
+issue: 2
+journalAbbreviation: JINT
+pages: 193-207
+papis_id: df699adaceba78313a8060da7fc52325
+project:
+- MyPubs
+- Many Pursuers 2018
+- Two Cutters 2018
+- 2p1e Dispersal
+- MP1E Robust
+- 2p1e PP
+- AFOSR20
+- pursuit-curves
+publicationTitle: Journal of Intelligent and Robotic Systems
+ref: vonmoll2019multi-pursuer
+tags:
+- differential games
+- pursuit-evasion
+- Mv1
+- skirmish application
+title: 'The Multi-Pursuer Single-Evader Game: A Geometric Approach'
+type: article
+url: https://avonmoll.github.io/files/mp1e-journal.pdf
+volume: 96
+year: 2019

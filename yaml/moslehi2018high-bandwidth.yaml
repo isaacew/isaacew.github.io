@@ -1,0 +1,53 @@
+_papis_local_folder: /Users/vonmolal/papers/Moslehi - High-Bandwidth Fiber-Optic Pressure
+  Sensors for High-Temperature Aerospace Applications
+abstractNote: The insertion of advanced technologies into gas turbine engines is expected
+  to reduce costs and improve performance. Engines will be getting smaller and hotter
+  for efficiency reasons, requiring diverse types of sensors, in particular pressure
+  and temperature sensors, with extended and enhanced performance. Emerging fiber-optic
+  sensing approaches could provide a unique solution to surpassing the limitations
+  and burden of conventional sensors. Two novel multiplexable fiber optic-based pressure
+  sensor designs are discussed for high-temperature operations up to 1,800 °F and
+  3,700 °F. These innovative sensor designs enable more direct measurements over long
+  durations, resulting in higher accuracy and stability. These sensors could be used
+  in ground test cells, in-flight control, and diagnostics and prognostic health management
+  (PHM). Highly reliable all-optical sensor networking and interface designs with
+  a high-speed, high-bandwidth fiber-optic backbone is also presented.
+accessDate: '2018-07-11 13:09:41'
+author: Moslehi, Behzad and Price, W and Black, Richard J. and Han, Ming and Behbahani,
+  Alireza and Von Moll, Alexander and Semega, Kenneth
+author_list:
+- family: Moslehi
+  given: Behzad
+- family: Price
+  given: W
+- family: Black
+  given: Richard J.
+- family: Han
+  given: Ming
+- family: Behbahani
+  given: Alireza
+- family: Von Moll
+  given: Alexander
+- family: Semega
+  given: Kenneth
+conferenceName: AIAA SciTech
+date: 2018-01-07
+doi: 10.2514/6.2018-0715
+files:
+- Moslehi - High-Bandwidth Fiber-Optic Pressure Sensors for High-Temperature Aerospace
+  Applications.pdf
+libraryCatalog: arc-aiaa-org.wrs.idm.oclc.org (Atypon)
+papis_id: 6f011d790d8ec189090905d0ff27bc44
+proceedingsTitle: 2018 AIAA Information Systems-AIAA Infotech @ Aerospace
+project:
+- MyPubs
+publisher: American Institute of Aeronautics and Astronautics
+ref: moslehi2018high-bandwidth
+rights: All rights reserved
+series: AIAA SciTech Forum
+tags: null
+title: High-Bandwidth Fiber-Optic Pressure Sensors for High-Temperature Aerospace
+  Applications
+type: conferencePaper
+url: http://arc.aiaa.org/doi/10.2514/6.2018-0715
+year: 2018

@@ -1,0 +1,44 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Genetic Algorithm Approach
+  for UAV Persistent Visitation Problem
+abstractNote: We employ a genetic algorithm approach to solving the persistent visitation
+  problem for UAVs. The objective is to minimize the maximum weighted revisit time
+  over all the sites in a cyclicly repeating walk. In general, the optimal length
+  of the walk is not known, so this method (like the exact methods) assume some fixed
+  length. Exact methods for solving the problem have recently been put forth, however,
+  in the absence of additional heuristics, the exact method scales poorly for problems
+  with more than 10 sites or so. By using a genetic algorithm, performance and computation
+  time can be traded off depending on the application. The main contributions are
+  a novel chromosome encoding scheme and genetic operators for cyclic walks which
+  may visit sites more than once. Examples show that the performance is comparable
+  to exact methods with better scalability.
+author: Von Moll, Alexander and Kalyanam, Krishna and Casbeer, David and Manyam, Satyanarayana
+  G.
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Kalyanam
+  given: Krishna
+- family: Casbeer
+  given: David
+- family: Manyam
+  given: Satyanarayana G.
+conferenceName: Dynamic Systems and Control Conference
+date: 2018-10-01
+doi: 10.1115/DSCC2018-8950
+files:
+- Von Moll - Genetic Algorithm Approach for UAV Persistent Visitation Problem_a.pdf
+- Von Moll - Genetic Algorithm Approach for UAV Persistent Visitation Problem.pdf
+papis_id: af5e625919f0a7ba5e775847891f1435
+place: Atlanta, GA
+project:
+- MyPubs
+publisher: ASME
+ref: vonmoll2018genetic
+rights: All rights reserved
+tags:
+- AI
+- path planning
+title: Genetic Algorithm Approach for UAV Persistent Visitation Problem
+type: conferencePaper
+url: https://drive.google.com/file/d/0B0yHktr7udqgZERlUHRfaXNjOWQ5ZWJwNi05bDBvOVYtbDBV/view?usp=sharing
+year: 2018

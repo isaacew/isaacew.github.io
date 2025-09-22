@@ -1,0 +1,49 @@
+_papis_local_folder: /Users/vonmolal/papers/Milutinović - Rate of Loss Characterization
+  that Resolves the Dilemma
+abstractNote: The scope of this work is the well-known wall pursuit game which has
+  been used in the literature to illustrate the existence of a singular surface (dispersal
+  line) and the associated game dilemma. We derive an analytical expression for the
+  value function of the game and use a hold time to derive the rate of change for
+  the loss of the time to capture along the dispersal line. Then we resolve the dilemma
+  along the dispersal line using actions defined by the saddle point of the rate of
+  change for the loss. Finally, we analyze the same game in a version with a non-zero
+  hold time and show that in that case, the actions from the dispersal line have to
+  be applied not only on the dispersal line, but in a narrow band around it. To illustrate
+  that, we use an example to compute the band around the line.
+author: Milutinović, Dejan and Casbeer, David W. and Von Moll, Alexander and Pachter,
+  Meir and Garcia, Eloy
+author_list:
+- family: Milutinović
+  given: Dejan
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Pacther
+  given: Meir
+- family: Garcia
+  given: Eloy
+date: 2021-12-27
+doi: 10.1109/TAC.2021.3137786
+files:
+- Milutinović - Rate of Loss Characterization that Resolves the Dilemma_a.pdf
+issue: 1
+journal: Transactions on Automatic Control
+pages: 242 -- 256
+papis_id: 554c26ab57907122c6c25789307c54eb
+project:
+- MyPubs
+publicationTitle: Transactions on Automatic Control
+publisher: IEEE
+ref: milutinovic2021rate
+tags:
+- differential games
+- 2v1
+- singularity
+- parameter exploration
+- pursuit-evasion
+title: Rate of Loss Characterization that Resolves the Dilemma of the Wall Pursuit
+  Game Solution
+type: article
+volume: 68
+year: 2021

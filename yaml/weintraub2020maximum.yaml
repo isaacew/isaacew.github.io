@@ -1,0 +1,51 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - Maximum Observation of a Faster
+  Non-Maneuvering Target by
+abstractNote: This paper considers a two agent scenario containing an observer and
+  a non-maneuvering target. The observer is maneuverable but is slower than the course-holding
+  target. In this scenario, the observer is endowed with a nonzero radius of observation
+  within which he strives at keeping the target for as long as possible. Using the
+  calculus of variations we pose and solve the optimal control problem, solving for
+  the heading of the observer which maximizes the amount of time the target remains
+  inside the radius of observation. Utilizing the optimal observer heading we compute
+  the exposure time based upon the angle by which the target is initially captured.
+  Presented, along with an example, are the zero-time of exposure heading, maximum
+  time of observation heading, and proof that observation is persistent under optimal
+  control.
+author: Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Casbeer,
+  David and Demers, Zachary J. L. and Pachter, Meir
+author_list:
+- family: Weintraub
+  given: Isaac E.
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Demers
+  given: Zachary J. L.
+- family: Pachter
+  given: Meir
+conferenceName: American Control Conference
+date: 2020-07-05
+doi: 10.23919/ACC45564.2020.9147340
+files:
+- Weintraub - Maximum Observation of a Faster Non-Maneuvering Target by.pdf
+papis_id: af995239d2ef7d703dbae49c0d2c9fde
+place: Denver, CO
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+- AFOSR20
+- optimalWEZ2021
+- pursuit-curves
+- max-observation
+ref: weintraub2020maximum
+tags:
+- optimal control
+- surveillance-evasion
+- multistage
+- 1v1
+title: Maximum Observation of a Faster Non-Maneuvering Target by a Slower Observer
+type: conferencePaper
+year: 2020

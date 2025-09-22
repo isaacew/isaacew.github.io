@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Mora - Escape from an Orbiting Pursuer
+  with a Nonzero
+abstractNote: This paper explores a multi-agent containment problem, where a fast
+  evader, modeled having constant speed and using constant heading, attempts to escape
+  a circular containment region that is orbited by a slower pursuer with a nonzero
+  capture radius. The pursuer is constrained to move along the edge of the containment
+  region and seeks to capture the evader. This paper presents an in-depth analysis
+  of this pursuer-evader containment scenario. First, multiple types of capture conditions
+  for a single- pursuer case are analyzed defining the worst-case initial position
+  for the pursuer. Second, a parametric study is performed to demonstrate the effects
+  of speed ratio, capture radius, and initial location of the evader. Finally, a reachability
+  analysis is performed to investigate the viable escape headings and reachable regions
+  by the evader. This work provides a foundation for the analysis of escape under
+  more general evader inputs as well as a multiple-pursuer version of the scenario.
+author: Mora, Braulio and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David
+  W. and Chakravarthy, Animesh
+author_list:
+- family: Mora
+  given: Braulio
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+- family: Casbeer
+  given: David W.
+- family: Chakravarthy
+  given: Animesh
+conferenceName: National Aerospace Electronics Conference
+date: 2024-07-08
+files:
+- Mora - Escape from an Orbiting Pursuer with a Nonzero.pdf
+papis_id: 1210ac84b67c88e4f60186f7c13d0b7d
+place: Dayton, OH
+proceedingsTitle: National Aerospace Electronics Conference
+project:
+- MyPubs
+ref: mora2024escape
+tags: null
+time-added: 2023-10-03-13:32:18
+title: Escape from an Orbiting Pursuer with a Nonzero Capture Radius
+type: conferencePaper
+year: 2024

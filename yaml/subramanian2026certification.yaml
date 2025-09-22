@@ -1,0 +1,49 @@
+_papis_local_folder: /Users/vonmolal/papers/Subramanian - Certification of Dynamical
+  Systems using End-to-End Distributionally-Robust Uncertainty
+abstractNote: 'We present OptimalUncertaintyQuantification.jl: A Julia tool for end-to-end
+  distributionally robust uncertainty quantification of static and dynamical systems
+  models. It provides an ergonomic symbolic interface for modeling the system as well
+  as principled inclusion of data and knowledge about uncertainities. Furthermore,
+  it automatically transforms the certification problem into a computationally tractable
+  optimization problem solvable by integrated solvers. We demonstrate this tool on
+  the benchmark Moore-Greitzer Ordinary Differential Equation model and provide an
+  iterative workflow for model-based systems designers to meet safety certification
+  targets.'
+author: Subramanian, Avinash and Sabharwal, Aayush and Chung, Benjamin and Clugston,
+  Jadon and Day, Joshua and Rackauckas, Christopher and Holtorf, Flemming and Von
+  Moll, Alexander and Gerlach, Adam
+author_list:
+- family: Subramanian
+  given: Avinash
+- family: Sabharwal
+  given: Aayush
+- family: Chung
+  given: Benjamin
+- family: Clugston
+  given: Jadon
+- family: Day
+  given: Joshua
+- family: Rackauckas
+  given: Christopher
+- family: Holtorf
+  given: Flemming
+- family: Von Moll
+  given: Alexander
+- family: Gerlach
+  given: Adam
+conferenceName: AIAA SciTech 2026
+date: 2026-01-12
+files: []
+note: Accepted
+papis_id: e140579dbf673320ca2e2e3f43571181
+place: Orlando, USA
+proceedingsTitle: AIAA SciTech 2026
+project:
+- MyPubs
+publisher: AIAA
+ref: subramanian2026certification
+time-added: 2025-08-25-11:54:21
+title: Certification of Dynamical Systems using End-to-End Distributionally-Robust
+  Uncertainty Quantification
+type: conferencePaper
+year: 2026

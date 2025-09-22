@@ -1,0 +1,41 @@
+_papis_local_folder: /Users/vonmolal/papers/Manyam - Dubins Path with Terminal Range
+  and Field-of-View Constraints
+abstractNote: This paper addresses a path planning problem for a turn-constrained
+  vehicle equipped with a sensor that has a limited range and field-of-view (FOV).
+  The vehicle is models by Dubins kinematics, and the objective is to determine the
+  shortest path that reaches the target within the sensor’s range and lies in its
+  FOV. The limited range of the sensor manifests as a constraint to reach a circle
+  centered at target’s position and radius equal to sensor range. The field of view
+  constraints are expressed as coupled constraints on terminal position and heading.
+  Using Pontryagin’s minimum principle, we show that optimal solution could have at
+  most two segments, a turn or a straight line for each segment. Straight line segments
+  occur exclusively when the final position is located on the boundary of the target
+  circle. Furthermore, we provide an analytical approach for computing optimal paths
+  in scenarios where the optimality conditions lead to complex geometric configurations.
+author: Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and
+  Weintraub, Isaac
+author_list:
+- family: Manyam
+  given: Satyanarayana G.
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+conferenceName: Conference on Decision and Control
+date: 2025-12-09
+doi: 10.1109/LCSYS.2025.3582622
+files:
+- Manyam - Dubins Path with Terminal Range and Field-of-View Constraints.pdf
+papis_id: acb4adf47d6276d896c6ee3cdf55ad58
+place: Rio de Janeiro
+proceedingsTitle: Conference on Decision and Control
+project:
+- MyPubs
+publisher: IEEE
+ref: manyam2025dubins
+time-added: 2025-02-28-13:16:04
+title: Dubins Path with Terminal Range and Field-of-View Constraints
+type: conferencePaper
+year: 2025

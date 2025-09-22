@@ -1,0 +1,43 @@
+_papis_local_folder: /Users/vonmolal/papers/Dorothy - One Apollonius Circle is Enough
+  for Many Pursuit-Evasion
+abstractNote: This paper investigates obstacle-free simple motion pursuit-evasion
+  problems where the pursuer is faster and game termination is point capture. It is
+  well known that the interior of the Apollonius Circle (AC) is the evader's dominance
+  region, however, it was unclear whether the evader could reach outside the initial
+  AC without being captured. We construct a pursuit strategy that guarantees the capture
+  of an evader within an arbitrarily close neighborhood of the initial AC. The pursuer
+  strategy is derived by reformulating the game into a nonlinear control problem,
+  and the guarantee holds against any admissible evader strategy. Our result implies
+  that the evader can freely select the capture location, but only inside the initial
+  AC. Therefore, a class of problems, including those where the payoff is determined
+  solely based on the location of capture, are now trivial.
+archiveprefix: arXiv
+author: Dorothy, Michael and Maity, Dipankar and Shishika, Daigo and Von Moll, Alexander
+author_list:
+- family: Dorothy
+  given: Michael
+- family: Maity
+  given: Dipankar
+- family: Shishika
+  given: Daigo
+- family: Von Moll
+  given: Alexander
+date: 2024-01-17
+eprint: '2111.09205'
+files:
+- Dorothy - One Apollonius Circle is Enough for Many Pursuit-Evasion.pdf
+- Dorothy - One Apollonius Circle is Enough for Many Pursuit-Evasion_a.pdf
+journal: Automatica
+papis_id: 4558fd8fb9778ff7e51b1093b993ba90
+primaryclass: math.OC
+project:
+- MyPubs
+- turret + defender
+publicationTitle: Automatica
+publisher: IFAC
+ref: dorothy2024one
+time-added: 2021-12-03-08:21:43
+title: One Apollonius Circle is Enough for Many Pursuit-Evasion Games
+type: article
+url: https://arxiv.org/abs/2111.09205
+year: 2024

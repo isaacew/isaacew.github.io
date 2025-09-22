@@ -1,0 +1,43 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - Min-Time Escape of a Dubins
+  Car from a
+abstractNote: A turn constrained vehicle is initially located inside a polygon region
+  and desires to escape in minimum time. First, the method of characteristics is used
+  to describe the time-optimal strategies for reaching a line of infinite length.
+  Next, the approach is extended to polygons constructed of a series of line segments.
+  Using this construction technique, the min-time path to reach each edge is obtained;
+  the resulting minimum of the set of optimal trajectories is then selected for escaping
+  the polygon.
+arxiv: 2410.01589
+author: Weintraub, Isaac and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana
+  G. and Pachter, M. and Taylor, Colin and Chapman, Thomas
+author_list:
+- family: Weintraub
+  given: Isaac
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David
+- family: Manyam
+  given: Satyanarayana G.
+- family: Pachter
+  given: Meir
+- family: Taylor
+  given: Colin
+- family: Chapman
+  given: Thomas
+conferenceName: American Control Conference
+date: 2025-07-08
+files: []
+note: Accepted
+papis_id: 1f17b6100d1e1d9c12e73e2413637d35
+place: Denver, CO
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IFAC
+ref: weintraub2025min-time
+time-added: 2024-09-26-14:15:38
+title: Min-Time Escape of a Dubins Car from a Polygon
+type: conferencePaper
+url: https://arxiv.org/abs/2410.01589
+year: 2025

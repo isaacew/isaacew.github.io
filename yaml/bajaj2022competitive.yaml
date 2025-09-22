@@ -1,0 +1,52 @@
+_papis_local_folder: /Users/vonmolal/papers/Bajaj - Competitive Perimeter Defense
+  of Conical Environments
+abstractNote: This work addresses a perimeter defense problem in a planar conical
+  environment in which a single vehicle, having a finite capture radius, aims to defend
+  a concentric perimeter from mobile intruders. The intruders are arbitrarily released
+  at the circumference of the environment and move radially toward the perimeter with
+  fixed speed. We present a competitive analysis approach to this problem by measuring
+  the performance of multiple online algorithms for the vehicle against arbitrary
+  inputs relative to an optimal offline algorithm that has access to all future inputs.
+  In particular, we first establish a necessary condition on the parameter space to
+  guarantee finite competitiveness of any algorithm and then characterize parameter
+  regime in which one must expect a competitive ratio of at least 2. We then design
+  and analyze three online algorithms and characterize parameter regimes for which
+  they have finite competitive ratios. Specifically, our first two algorithms are
+  provably 1, and 2-competitive, respectively, whereas our third algorithm exhibits
+  a finite competitive ratio that depends on the problem parameters. Finally, we provide
+  numerous parameter space plots providing insights into the relative performance
+  of our algorithms.
+arXiv: 2110.04667
+author: Bajaj, Shivam and Torng, Eric and Bopardikar, Shaunak D. and Von Moll, Alexander
+  and Weintraub, Isaac and Garcia, Eloy and Casbeer, David W.
+author_list:
+- family: Bajaj
+  given: Shivam
+- family: Torng
+  given: Eric
+- family: Bopardikar
+  given: Shaunak D.
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David W.
+conferenceName: Conference on Decision and Control
+date: 2022-06-08
+doi: 10.1109/CDC51059.2022.9993007
+files:
+- Bajaj - Competitive Perimeter Defense of Conical Environments_a.pdf
+- Bajaj - Competitive Perimeter Defense of Conical Environments.pdf
+papis_id: 9c543e4359ddec914d2ba913199d346b
+proceedingsTitle: Conference on Decision and Control
+project:
+- MyPubs
+ref: bajaj2022competitive
+time-added: 2021-09-01-10:26:31
+title: Competitive Perimeter Defense of Conical Environments
+type: conferencePaper
+url: https://arxiv.org/pdf/2110.04667.pdf
+year: 2022

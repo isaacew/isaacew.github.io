@@ -1,0 +1,43 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Pure Pursuit with an Effector
+abstractNote: 'The study of pursuit curves is valuable in the context of air-to-air
+  combat as pure pursuit guidance (heading directly at the target) is oftentimes implemented.
+  The problems considered in this paper concern a Pursuer, implementing pure pursuit
+  (i.e., line of sight guidance), chasing an Evader who holds course. Previous results
+  are applicable to the case in which capture is defined as the two agents being coincident,
+  i.e., point capture. The focus here is on obtaining results for the more realistic
+  case  where the pursuer is endowed with an effector whose range is finite. The scenario
+  in which the Evader begins inside the Pursuer''s effector range is also considered
+  (i.e., escape from persistent surveillance, among other potential applications).
+  Questions herein addressed include: does the engagement end in head-on collision
+  or tail chase, will the Evader be captured or escape, what is the minimum distance
+  the Pursuer will attain, for two Pursuers, is simultaneous capture/escape optimal
+  and, if so, what is the optimal heading for the Evader (max time to capture, or
+  min time to escape), and the feasibility for a fast Evader to escape from many Pursuers.
+  Where possible, closed-form, analytic results are obtained, otherwise attention
+  is given to computability with an eye towards real-time, on-board implementation.'
+author: Von Moll, Alexander and Pachter, Meir and Fuchs, Zachariah
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+- family: Fuchs
+  given: Zachariah
+date: 2022-11-02
+doi: 10.1007/s13235-022-00481-9
+files:
+- Von Moll - Pure Pursuit with an Effector.pdf
+pages: 961–-979
+papis_id: 44b335c0ea75dd0ba0cee3f9f1c13b5e
+project:
+- MyPubs
+- max-observation
+- range-limited
+- pursuit-curves-circular
+publicationTitle: Dynamic Games and Applications
+ref: vonmoll2022pure
+time-added: 2022-03-15-10:57:51
+title: Pure Pursuit with an Effector
+type: article
+url: https://avonmoll.github.io/files/pure-pursuit-with-an-effector.pdf
+year: 2022

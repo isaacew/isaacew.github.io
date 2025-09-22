@@ -1,0 +1,59 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Turret Escape Differential
+  Game
+abstractNote: In this paper, a zero-sum differential game is formulated and solved
+  in which a mobile Evader seeks to escape from within a circle at whose origin lies
+  a stationary, turn-constrained Turret. The scenario is a variant of the famous Lady
+  in the Lake game in which the shore-constrained Pursuer has been replaced with the
+  Turret. As in the former, it is assumed that the Turret's maximum angular rate is
+  greater than the linear velocity of the Evader. Since two outcomes are possible,
+  a Game of Kind arises - either the Evader wins by reaching the perimeter of the
+  circle, or the Turret wins by aligning with the latter's position. A barrier surface
+  partitions the state space into two regions corresponding to these two outcomes
+  and a Game of Degree is solved within each region. The solutions to the Games of
+  Degree are comprised of the Value functions (i.e., the equilibrium value of the
+  cost/utility as a function of the state) and the saddle-point equilibrium control
+  policies for the two players. Like the Lady in the Lake game, the equilibrium policy
+  of the Evader is not uniquely de ned where it has angular rate advantage over the
+  Turret. Unlike the Lady in the Lake game, the losing region for the Evader is present
+  for all speed ratios, and there is an additional semi-permeable surface separating
+  center- and shore-bound Evader trajectories. The solution depends heavily upon the
+  speed ratio of the agents; in particular, there are two speed ratio regimes with
+  distinctive solution structures.
+address: New York
+author: Von Moll, Alexander and Fuchs, Zachariah and Shishika, Daigo and Maity, Dipankar
+  and Dorothy, Michael and Pachter, Meir
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Fuchs
+  given: Zachariah
+- family: Shishika
+  given: Daigo
+- family: Maity
+  given: Dipankar
+- family: Dorothy
+  given: Michael
+- family: Pachter
+  given: Meir
+date: 2023-09-01
+doi: 10.3934/jdg.2023012
+files:
+- Von Moll - Turret Escape Differential Game.pdf
+issue: 2
+note: Presented at the 19th ISDG.
+pages: 100--114
+papis_id: 1899865642605a34ed11ffd6dec287e5
+project:
+- MyPubs
+- man-bear-pool
+- basic-WEZ
+- turret-pnnl
+publicationTitle: Journal of Dynamics and Games
+publisher: American Institute of Mathematical Sciences
+ref: vonmoll2023turret
+time-added: 2022-09-30-15:42:50
+title: Turret Escape Differential Game
+type: article
+url: https://avonmoll.github.io/files/turret-escape-differential-game.pdf
+volume: 11
+year: 2023

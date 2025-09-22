@@ -1,0 +1,43 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Target Defense Using a Turret
+  and Mobile Defender
+abstractNote: A scenario is considered wherein a stationary, turn constrained agent
+  (Turret) and a mobile agent (Defender) cooperate to protect the former from an adversarial
+  mobile agent (Attacker). The Attacker wishes to reach the Turret prior to getting
+  captured by either the Defender or Turret, if possible. Meanwhile, the Defender
+  and Turret seek to capture the Attacker as far from the Turret as possible. This
+  scenario is formulated as a differential game and solved using a geometric approach.
+  Necessary and sufficient conditions for the Turret-Defender team winning and the
+  Attacker winning are given. In the case of the Turret-Defender team winning equilibrium
+  strategies for the min max terminal distance of the Attacker to the Turret are given.
+  Three cases arise corresponding to solo capture by the Defender, solo capture by
+  the Turret, and capture simultaneously by both Turret and Defender.
+arxiv: 2509.09777
+author: Von Moll, Alexander and Maity, Dipankar and Pachter, Meir and Shishika, Daigo
+  and Dorothy, Michael
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Maity
+  given: Dipankar
+- family: Pachter
+  given: Meir
+- family: Shishika
+  given: Daigo
+- family: Dorothy
+  given: Michael
+conferenceName: American Control Conference
+date: 2026-05-26
+files:
+- Von Moll - Target Defense Using a Turret and Mobile Defender.pdf
+note: Submitted for Review
+papis_id: 26adcd675c5204d5a67bd3366b9829e3
+place: New Orleans, USA
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IEEE
+ref: vonmoll2026target
+time-added: 2025-09-10-13:41:13
+title: Target Defense Using a Turret and Mobile Defender Team
+type: conferencePaper
+year: 2026

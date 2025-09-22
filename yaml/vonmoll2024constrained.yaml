@@ -1,0 +1,41 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Constrained Turret Defense
+  with Fixed Final Time
+abstractNote: 'In this paper, we extend existing turret defense differential game
+  formulations involving a turn-constrained turret and mobile agent to include specified
+  final time and a constraint. For the purposes of this analysis, the specified final
+  time may represent some exogenous input, perhaps representing the time at which
+  some other event will take place. As for the constraint, it represents a keep-out
+  zone for the mobile agent. The scenario is formulated as a two-player, zero-sum
+  differential game and solved via the method of characteristics (i.e., back-propagation
+  of equilibrium trajectories). Three different trajectory types make up the solution:
+  trajectories that end with the turret aligned with the mobile agent, trajectories
+  that end with the mobile agent on the constraint boundary, and regular trajectories.'
+author: Von Moll, Alexander and Gerlach, Adam R. and Bakker, Craig and Rupe, Adam
+  and Pachter, Meir
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Gerlach
+  given: Adam R.
+- family: Bakker
+  given: Craig
+- family: Rupe
+  given: Adam
+- family: Pachter
+  given: Meir
+conferenceName: Modeling, Estimation and Control Conference
+date: 2024-10-27
+doi: 10.1016/j.ifacol.2025.01.121
+files:
+- Von Moll - Constrained Turret Defense with Fixed Final Time.pdf
+papis_id: 7df8e68b1934c09c91ab85bf53db29bc
+place: Chicago, USA
+proceedingsTitle: Modeling, Estimation and Control Conference
+project:
+- MyPubs
+publisher: IFAC
+ref: vonmoll2024constrained
+time-added: 2024-04-12-10:41:28
+title: Constrained Turret Defense with Fixed Final Time
+type: conferencePaper
+year: 2024

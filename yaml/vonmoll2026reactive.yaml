@@ -1,0 +1,40 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Reactive Vehicle Guidance using
+  Dynamic Maneuvering Cue
+abstractNote: Recent approaches for navigating among dynamic threat regions (i.e.,
+  weapon engagement zones) have focused on planning entire trajectories. Moreover,
+  the allowance for penetration into these threat regions was based on heuristic measurements
+  of risk    This paper offers an approach for a more reactive (i.e., feedback-based)
+  guidance that is based on closed-form analytical expressions and thereby suitable
+  for onboard, real-time execution. In addition, a risk measurement is formulated
+  based upon the concept of Dynamic Maneuvering Cue (DMC) which measures the amount
+  of turn a vehicle would need to take in its current state in order to put itself
+  outside the threat region. This approach is then extended to handle multiple threat
+  regions simultaneously (with minimal additional computational complexity). Finally,
+  the DMC constraint is applied to a simple feedback controller as well as a model
+  predictive controller (MPC). The MPC shows better performance but at the cost of
+  having to solve an optimization problem online versus the meager computational burden
+  associated with the simple controller. This approach, which is based on assuming
+  the threats are adversarial, may be used as a conservative method for collision
+  avoidance and deconfliction.
+author: Von Moll, Alexander and Weintraub, Isaac
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+conferenceName: AIAA SciTech
+date: 2026-01-12
+files:
+- Von Moll - Reactive Vehicle Guidance using Dynamic Maneuvering Cue.pdf
+note: Accepted
+papis_id: d55fdce09a09d3484b202b13f91941ff
+place: Orlando, USA
+proceedingsTitle: AIAA SciTech
+project:
+- MyPubs
+publisher: AIAA
+ref: vonmoll2026reactive
+time-added: 2025-07-21-15:45:47
+title: Reactive Vehicle Guidance using Dynamic Maneuvering Cue
+type: conferencePaper
+year: 2026

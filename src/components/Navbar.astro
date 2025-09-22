@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets'
+import ProfilePictures from '../assets/me3.jpg'
+import {
+  kSiteTitle,
+  kSiteIndexTitle,
+  kSiteDescription,
+  kCommentList,
+  kUrlBase,
+  kBaiduVeriCode,
+  kEnableComment,
+  kEnableArchive,
+} from "$consts";
+---
+
+<!-- from astro_academia -->
+<aside
+	class='px-4 pt-4 h-screen w-[20rem] bg-base-200 text-base-content flex flex-col'
+>
+	<div class='flex flex-col my-8 justify-between h-full'>
+		<div>
+			<div class='flex justify-center items-center flex-col'>
+				<Image
+					class='mask mask-circle size-44'
+					src={ProfilePictures}
+                    height="70"
+					alt={`Profile picture of ${kSiteTitle}`}
+				/>
+				<h1 class="text-lg font-black mt-8 hidden lg:block">{kSiteTitle} <span>fullName</span></h1>
+			</div>
+			<div class='mx-4 mt-16'>
+				<ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>
+					<li>
+                        <a href={`${kUrlBase}/`} class='text-lg'>Home</a>
+					</li>
+					<li>
+                        <a href={`${kUrlBase}/research`} class='text-lg'>Research</a>
+					</li>
+					<li>
+                        <a href={`${kUrlBase}/papers`} class='text-lg'>Papers</a>
+					</li>
+					<li>
+                        <a href={`${kUrlBase}/cv`} class='text-lg'>CV</a>
+                    </li>
+                    <!-- {isBlogPopulated && -->
+					<!-- <li> -->
+                    <!--     <a href={`${template.base}/blog/1`} class='text-lg'>Blog</a> -->
+<!-- </li> -->
+                    <!-- } -->
+				</ul>
+			</div>
+		</div>
+		<div class='mx-4'>
+			<!-- <SocialIcons/> -->
+		</div>
+	</div>
+</aside>

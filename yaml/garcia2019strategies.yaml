@@ -1,0 +1,43 @@
+_papis_local_folder: /Users/vonmolal/papers/Garcia - Strategies for Defending a Coastline
+  Against Multiple Attackers
+abstractNote: A scenario is considered where a coastline or border is coming under
+  attack by two aircraft. The border is guarded by a faster defender bent on intercepting
+  both aircraft in sequence. A differential game is formulated where the defender
+  sequentially pursues both aircraft and tries to capture them as far as possible
+  from the border. The two aircraft execute cooperative maneuvers and try to minimize
+  their combined distance to the border at the moment when each one is intercepted
+  by the defender. In this paper, the regular solution of this differential game is
+  obtained and the game singular surfaces are identified.
+author: Garcia, Eloy and Von Moll, Alexander and Casbeer, David and Pachter, Meir
+author_list:
+- family: Garcia
+  given: Eloy
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David
+- family: Pachter
+  given: Meir
+conferenceName: IEEE Conference on Decision and Control
+date: 2019-12-31
+doi: 10.1109/CDC40024.2019.9029340
+files:
+- Garcia - Strategies for Defending a Coastline Against Multiple Attackers.pdf
+papis_id: b758a6b4b077fb40a0b3c3094aefd723
+place: Nice, France
+proceedingsTitle: IEEE Conference on Decision and Control
+project:
+- MyPubs
+- turret-multi-attacker
+- max-observation
+ref: garcia2019strategies
+tags:
+- differential games
+- target guarding
+- 2v1
+- multistage
+- role selection
+- singularity
+title: Strategies for Defending a Coastline Against Multiple Attackers
+type: conferencePaper
+year: 2019

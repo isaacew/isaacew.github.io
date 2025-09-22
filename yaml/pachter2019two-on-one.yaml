@@ -1,0 +1,49 @@
+_papis_local_folder: /Users/vonmolal/papers/Pachter - Two-on-One Pursuit
+abstractNote: A three agent pursuit-evasion differential game in the Euclidean plane
+  where two pursuers engage an Evader is considered. The Pursuers are faster than
+  the Evader and the three player have simple motion/are holonomic. Coincidence of
+  the Evader with either one, or both Pursuers, is capture, and time of capture is
+  the payoff/cost. In this paper Isaacs’ Two Cutters and Fugitive Ship differential
+  game is revisited and the solution of the Game of Kind is provided. Using Isaacs’
+  geometric method, explicit formulae for the players’ optimal state feedback strategies
+  and the Value of the game are derived. The merits of the suboptimal Evader tactic
+  of reducing speed, or opting to stay stationary, are examined.
+author: Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David
+  and Milutinović, Dejan
+author_list:
+- family: Pachter
+  given: Meir
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Milutinović
+  given: Dejan
+date: 2019-07-08
+doi: 10.2514/1.G004068
+files:
+- Pachter - Two-on-One Pursuit_a.pdf
+- Pachter - Two-on-One Pursuit.pdf
+number: 7
+papis_id: fae38c9aa242eaeb7b6bee6469817230
+project:
+- MyPubs
+- Many Pursuers 2018
+- 2p1e PP
+- 2p1e Dispersal
+- biorobots
+- pursuit-curves
+publicationTitle: Journal of Guidance, Control, and Dynamics
+ref: pachter2019two-on-one
+tags:
+- differential games
+- pursuit-evasion
+- 2v1
+- singularity
+title: Two-on-One Pursuit
+type: article
+url: https://avonmoll.github.io/files/TwoCutters.pdf
+volume: 42
+year: 2019

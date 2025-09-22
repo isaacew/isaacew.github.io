@@ -1,0 +1,48 @@
+_papis_local_folder: /Users/vonmolal/papers/Pachter - Singular Trajectories in the
+  Two Pursuer One Evader
+abstractNote: The Two Cutters and Fugitive Ship game posed by Isaacs is revisited
+  again. We discuss and analyze the singular configuration of this two-pursuer one-evader
+  differential game. This paper addresses the question of whether or not either player
+  has the ability to exploit the dispersal surface. Specifically, we in- vestigate
+  the case where the Evader effectively stands still (e.g., by dithering in a small
+  neighborhood). We show that the canonical optimal pursuit policy yields chattering
+  in the discrete-time version of the game. As the timestep approaches zero, the capture
+  time approaches the Value of the game, and thus the Evader is not penalized for
+  standing still. Implications on related scenarios are discussed.
+author: Pachter, Meir and Von Moll, Alexander and Garcia, Eloy and Casbeer, David
+  and Milutinović, Dejan
+author_list:
+- family: Pachter
+  given: Meir
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Milutinović
+  given: Dejan
+conferenceName: 2019 International Conference on Unmanned Aircraft Systems
+date: 2019-06-15
+doi: 10.1109/ICUAS.2019.8798244
+files:
+- Pachter - Singular Trajectories in the Two Pursuer One Evader.pdf
+papis_id: 7a16a84af29701f82176729677899652
+place: Atlanta, GA
+proceedingsTitle: 2019 International Conference on Unmanned Aircraft Systems
+project:
+- MyPubs
+- 2p1e PP
+- turret-ads
+- Many Pursuers 2018
+- AFOSR20
+ref: pachter2019singular
+tags:
+- differential game
+- pursuit-evasion
+- 2v1
+- singularity
+title: Singular Trajectories in the Two Pursuer One Evader Differential Game
+type: conferencePaper
+url: https://avonmoll.github.io/files/2p1e-singular.pdf
+year: 2019

@@ -1,0 +1,47 @@
+_papis_local_folder: /Users/vonmolal/papers/Bajaj - Shortest Trajectory of a Dubins
+  Vehicle with a
+abstractNote: We formulate a novel planar motion planning problem for a Dubins-Laser
+  system that consists of a Dubins vehicle with an attached controllable laser. The
+  vehicle moves with unit speed and the laser, having a finite range, can rotate in
+  a clockwise or anti-clockwise direction with a bounded angular rate. From an arbitrary
+  initial position and orientation, the objective is to steer the system so that a
+  given static target is within the range of the laser and the laser is oriented at
+  it in minimum time. We characterize multiple properties of the optimal trajectory
+  and establish that the optimal trajectory for the Dubins-laser system is one out
+  of a total of 16 candidates. Finally, we provide numerical insights that illustrate
+  the properties characterized in this work.
+arxiv: 2403.12346
+author: Bajaj, Shivam and Bhargav, Jha and Bopardikar, Shaunak D. and Von Moll, Alexander
+  and Casbeer, David
+author_list:
+- family: Bajaj
+  given: Shivam
+- family: Jha
+  given: Bhargav
+- family: Bopardikar
+  given: Shaunak D.
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David
+date: 2024-03-20
+files:
+- Bajaj - Shortest Trajectory of a Dubins Vehicle with a.pdf
+journal: Transactions on Automatic Control
+note: Accepted
+papis_id: 0c5f93352c20c3670614c389f688f599
+project:
+- MyPubs
+publicationTitle: Transactions on Automatic Control
+publisher: IEEE
+ref: bajaj2024shortest
+tags:
+- Dubins
+- turret
+- min-time
+- static target
+time-added: 2023-10-17-16:28:09
+title: Shortest Trajectory of a Dubins Vehicle with a Controllable Laser
+type: article
+url: https://arxiv.org/abs/2403.12346
+year: 2024

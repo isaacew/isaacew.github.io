@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Fuchs - Engage or Retreat Differential
+  Game with N-Targets and
+abstractNote: 'A two-player, Engage or Retreat (EoR) differential game is presented
+  in which an attacker must choose whether to capture one of N static targets or retreat
+  across a defined retreat boundary. Throughout the engagement, a defending player
+  is capable of activating defensive assets located at each of the target locations.
+  These defensive assets inflict a cost on the attacker as a function of distance
+  and allow the defender to present a deterrent in an effort to persuade the attacker
+  to elect retreat. The solution of the game is constructed by examining two related
+  subproblems: the Game of Engagement (GoE) and the Optimal Constrained Retreat (OCR).
+  Each subproblem examines a different combination of attacker termination strategies,
+  capture vs retreat, and defender strategies, resist vs cooperate. When solving for
+  the optimal constrained retreat strategy, a value function constraint is imposed
+  on the retreat trajectory in order to ensure that the attacker does not maneuver
+  into an advantageous position. Several solutions are examined to illustrate the
+  types of behaviors found in the equilibrium game solutions.'
+author: Fuchs, Zachariah E. and Von Moll, Alexander and Casbeer, David
+author_list:
+- family: Fuchs
+  given: Zachariah E.
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David
+conferenceName: Conference on Controls Technology and Applications
+date: 2021-08-31
+doi: 10.1109/CCTA48906.2021.9658922
+files:
+- Fuchs - Engage or Retreat Differential Game with N-Targets and.pdf
+papis_id: 9193f3d8b05cb80e539583adf360bea5
+place: San Diego, CA
+proceedingsTitle: Conference on Controls Technology and Applications
+project:
+- MyPubs
+- detect-evade
+ref: fuchs2021engage
+tags:
+- differential games
+- optimal control
+- Mv1
+- skirmish application
+time-added: 2021-02-01-13:40:05
+title: Engage or Retreat Differential Game with N-Targets and Distributed Defensive
+  Assets
+type: conferencePaper
+year: 2021

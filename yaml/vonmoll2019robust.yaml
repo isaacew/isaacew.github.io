@@ -1,0 +1,56 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Robust Policies for a Multiple
+  Pursuer Single Evader
+abstractNote: 'Analysis of the pursuit-evasion differential game consisting of multiple
+  pursuers and single evader with simple motion is difficult due to the wellknown
+  curse of dimensionality. Policies have been proposed for this scenario, and we show
+  that these policies are Global Stackelberg equilibrium strategies.  However we also
+  show that they are not saddle point equilibria in the feedback sense. The argument
+  is twofold: there are cases where the saddle point condition is violated, and cases
+  where the strategy profiles are not time consistent (subgame perfect). The issue
+  of capturability is explored, and sufficient conditions for guaranteed capture are
+  provided. A new pursuit policy is proposed which guarantees capture while also providing
+  an upper bound for capture time. The Evader policy corresponding to the Global Stackelberg
+  equilibrium is shown to provide a lower bound for capture time. Thus these policies
+  are robust from the Pursuer and Evader perspectives, respectively, should they implement
+  them. Several other interesting pursuit and evasion policies are explored and compared
+  with the robust policies in a series of experiments.'
+author: Von Moll, Alexander and Pachter, Meir and Garcia, Eloy and Casbeer, David
+  and Milutinović, Dejan
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Milutinović
+  given: Dejan
+date: 2019-05-04
+doi: 10.1007/s13235-019-00313-3
+files:
+- Von Moll - Robust Policies for a Multiple Pursuer Single Evader.pdf
+issue: 10
+journal: Dynamic Games and Applications
+pages: 202-221
+papis_id: 632804a84b301412d8326c386f941b08
+project:
+- MyPubs
+- Many Pursuers 2018
+- 2p1e PP
+- AFOSR20
+- turret-multi-attacker
+- pursuit-curves
+ref: vonmoll2019robust
+tags:
+- differential games
+- pursuit-evasion
+- Mv1
+- 2v1
+- skirmish application
+tags2: Pursuit evasion, Differential Game, Multiple pursuers, Robust
+title: Robust Policies for a Multiple Pursuer Single Evader Differential Game
+type: journal
+url: https://avonmoll.github.io/files/mp1e-robust.pdf
+year: 2019
