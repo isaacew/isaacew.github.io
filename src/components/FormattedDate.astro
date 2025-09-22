@@ -5,12 +5,13 @@ interface Props {
 
 const { date } = Astro.props;
 // NOTE: for some reason dates were showing as previous day
+// NOTE: but on github pages, it shows as correct using `date`
 const nextDay = new Date(date.getTime() + 86400000);
 ---
 
-<time datetime={nextDay.toISOString()}
+<time datetime={date.toISOString()}
   >{
-    nextDay.toLocaleDateString("en-us", {
+    date.toLocaleDateString("en-us", {
       year: "numeric",
       month: "short",
       day: "numeric",
