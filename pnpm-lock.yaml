@@ -35,9 +35,6 @@ importers:
       '@myriaddreamin/tylant-pdf-archive':
         specifier: workspace:^
         version: link:packages/tylant-pdf-archive
-      '@myriaddreamin/tylant-theme-toggle':
-        specifier: workspace:^
-        version: link:packages/tylant-theme-toggle
       '@myriaddreamin/typst-ts-node-compiler':
         specifier: ^0.6.0-rc1
         version: 0.6.0-rc1
@@ -92,12 +89,6 @@ importers:
         version: 5.8.0(@types/node@22.15.18)(rollup@4.40.2)(typescript@5.8.3)
 
   packages/tylant-pdf-archive:
-    devDependencies:
-      astro:
-        specifier: ^5.8.0
-        version: 5.8.0(@types/node@22.15.18)(rollup@4.40.2)(typescript@5.8.3)
-
-  packages/tylant-theme-toggle:
     devDependencies:
       astro:
         specifier: ^5.8.0
