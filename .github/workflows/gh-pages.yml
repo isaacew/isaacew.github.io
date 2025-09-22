@@ -40,7 +40,7 @@ jobs:
       # Astro needs sharp to process images. Sharp is not installed automatically in CI
       # @see https://github.com/withastro/astro/issues/9536#issuecomment-1880058215
       - name: Install sharp
-        run: pnpm add sharp
+        run: pnpm add -w sharp
 
       - name: Install Node.js
         uses: actions/setup-node@v4
