@@ -1,0 +1,37 @@
+_papis_local_folder: /Users/vonmolal/papers/Maity - Optimal Evasion From a Sensing
+  Limited Pursuer
+abstractNote: This paper investigates a partial-information pur- suit evasion game
+  in which the Pursuer has a limited-range sensor to detect the Evader. Given a fixed
+  final time, we derive the optimal evasion strategy for the Evader to maximize its
+  distance from the pursuer at the end. Our analysis reveals that in certain parametric
+  regimes, the optimal Evasion strategy involves a ‘risky’ maneuver, where the Evader’s
+  trajectory comes extremely close to the pursuer’s sensing boundary before moving
+  behind the Pursuer. Additionally, we explore a special case in which the Pursuer
+  can choose the final time. In this scenario, we determine a (Nash) equilibrium pair
+  for both the final time and the evasion strategy.
+author: Maity, Dipankar and Von Moll, Alexander and Shishika, Daigo and Dorothy, Michael
+author_list:
+- family: Maity
+  given: Dipankar
+- family: Von Moll
+  given: Alexander
+- family: Shishika
+  given: Daigo
+- family: Dorothy
+  given: Michael
+conferenceName: American Control Conference
+date: 2024-07-08
+files:
+- Maity - Optimal Evasion From a Sensing Limited Pursuer.pdf
+note: Accepted
+papis_id: 35607ccc1a36cc7606848168e3295d32
+place: Toronto, Canada
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+ref: maity2024optimal
+tags: null
+time-added: 2023-10-03-13:36:29
+title: Optimal Evasion From a Sensing Limited Pursuer
+type: conferencePaper
+year: 2024

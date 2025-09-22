@@ -1,0 +1,41 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - Surveillance of a Faster Fixed-Course
+  Target
+abstractNote: 'The maximum surveillance of a target which is holding course is considered,
+  wherein an observer vehicle aims to maximize the time that a faster target remains
+  within a fixed-range of the observer. This entails two coupled phases: an approach
+  phase and observation phase. In the approach phase, the observer strives to make
+  contact with the faster target, such that in the observation phase, the observer
+  is able to maximize the time where the target remains within range. Using Pontryagin’s
+  Minimum Principle, the optimal control laws for the observer are found in closed-form.
+  Example scenarios highlight various aspects of the engagement.'
+address: New York
+arXiv: 2209.11289
+author: Weintraub, Isaac and Von Moll, Alexander and Garcia, Eloy and Casbeer, David
+  and Pachter, Meir
+author_list:
+- family: Weintraub
+  given: Isaac
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Pachter
+  given: Meir
+date: 2023-05-31
+doi: 10.1109/TAES.2023.3237129
+files:
+- Weintraub - Surveillance of a Faster Fixed-Course Target.pdf
+papis_id: a5c21cf3c5e25a98efd151e78226fb5f
+project:
+- MyPubs
+- basic-WEZ
+publicationTitle: Transactions on Aerospace & Electronic Systems
+publisher: IEEE
+ref: weintraub2023surveillance
+time-added: 2022-09-23-09:26:34
+title: Surveillance of a Faster Fixed-Course Target
+type: article
+url: http://arxiv.org/abs/2209.11289
+year: 2023

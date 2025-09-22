@@ -1,0 +1,35 @@
+_papis_local_folder: /Users/vonmolal/papers/Denton - The Basic Engagement Zone in
+  3-D
+abstractNote: This paper presents a three-dimensional extension of the Basic Engagement
+  Zone (BEZ) as a spherically capped cone, representing a threat’s risk region for
+  a fixed speed target aircraft. The threat is modeled as having a reachability region
+  dictated by a sphere of fixed radius. The resulting three- dimensional BEZ shape
+  at a fixed altitude is also analyzed, offering enhanced understanding for aircraft
+  survivability.
+author: Denton, Alexander W. and Kunz, Donald and Weintraub, Isaac E. and Von Moll,
+  Alexander
+author_list:
+- family: Denton
+  given: Alexander W.
+- family: Kunz
+  given: Donald
+- family: Weintraub
+  given: Isaac E.
+- family: Von Moll
+  given: Alexander
+conferenceName: National Aerospace Electronics Conference
+date: 2025-07-28
+files:
+- Denton - The Basic Engagement Zone in 3-D.pdf
+note: Accepted
+papis_id: 897bd404c20516f7e38bb2df85947a14
+place: Dayton, USA
+proceedingsTitle: National Aerospace Electronics Conference
+project:
+- MyPubs
+publisher: IEEE
+ref: denton2025basic
+time-added: 2025-07-21-15:51:01
+title: The Basic Engagement Zone in 3-D
+type: conferencePaper
+year: 2025

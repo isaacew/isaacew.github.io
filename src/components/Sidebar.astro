@@ -1,0 +1,74 @@
+---
+import { getCollection } from "astro:content";
+
+import { kUrlBase, kSiteLogo, kSiteSourceUrl } from "$consts";
+// import ThemeToggle from "$components";
+import HeaderLink from "./HeaderLink.astro";
+
+interface Props {
+  articleId?: string;
+}
+
+const { articleId } = Astro.props;
+
+import { Image } from 'astro:assets';
+import ProfilePortrait from '../assets/me.jpg';
+import SocialIcons from '../components/SocialIcons.astro'
+
+import {
+kSiteTitle,
+kSiteIndexTitle,
+kSiteDescription,
+kCommentList,
+kUrlBase,
+kBaiduVeriCode,
+kEnableComment,
+kEnableArchive,
+kJobTitle,
+social,
+} from "$consts";
+---
+
+<header>
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card sidepanel" style="width:300px;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-hide-large" id="closebutton">Close &times;</button>
+        <div align="center" style="padding-top: 20px">
+        <div>
+        <Image
+            class='mask3'
+            src={ProfilePortrait}
+            alt={`Picture of ${kSiteIndexTitle}`}
+            width=160
+            >
+        </div>
+        <b style="font-size: 18px;">{kSiteTitle}</b>
+        </div>
+        <div align="left">
+        <p>
+            {kJobTitle}
+        </p>
+        </div>
+        <SocialIcons />
+    </div>
+</header>
+<style>
+  .sidepanel {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+    padding: 20px;
+  }
+  .mask3 {
+      /* -webkit-mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%); */
+      /* mask-image: radial-gradient(ellipse, black 70%, rgba(0, 0, 0, 0.0) 50%); */
+    clip-path: ellipse(50% 50% at 50% 50%);
+  }
+</style>
+
+<script>
+  const close = document.getElementById("closebutton")
+
+  closebutton?.addEventListener("click", () => {
+    document.getElementById("mySidebar").style.display = "none";
+  })
+
+</script>

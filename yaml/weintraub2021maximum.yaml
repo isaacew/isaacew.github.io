@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - Maximum Observation of a Target
+  by a Slower
+abstractNote: In this work, we consider a two-agent scenario consisting of an observer
+  and non-maneuvering target. In the scenario, the observer is considered to be maneuverable
+  and slower than the target. The observer is endowed with a nonzero radius of observation
+  within which he strives at keeping the target for as long as possible. Using the
+  calculus of variations, we pose and solve the optimal control problem, solving for
+  the heading and flight path angle of the observer to maximize the amount of time
+  the target vehicle is contained within his observation radius. Using the optimal
+  observer heading and flight path angle, the exposure time is computed, based upon
+  the initial azimuth and elevation by which the target is captured by the observer.
+  The special cases, where the engagement may be represented in a plane, rather than
+  3-D, are also provided. Presented, along with examples, are the zero-time of exposure
+  conditions, maximum exposure time conditions, and a proof that observation is persistent
+  under the optimal observer strategy.
+author: Weintraub, Isaac E. and Von Moll, Alexander and Garcia, Eloy and Pachter,
+  Meir
+author_list:
+- family: Weintraub
+  given: Isaac E.
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Pachter
+  given: Meir
+date: 2021-12-15
+doi: 10.2514/1.G005619
+files:
+- Weintraub - Maximum Observation of a Target by a Slower.pdf
+issue: 3
+papis_id: 5d156b0536941ce4a7874b18709ae5a2
+project:
+- MyPubs
+- max-observation
+publicationTitle: Journal of Guidance, Control, and Navigation
+publisher: AIAA
+ref: weintraub2021maximum
+tags:
+- optimal control
+- surveillance-evasion
+time-added: 2020-07-16-09:02:21
+title: Maximum Observation of a Target by a Slower Observer in Three Dimensions
+type: article
+volume: 44
+year: 2021

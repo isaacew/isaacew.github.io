@@ -1,0 +1,32 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - Range-Limited Pursuit-Evasion
+abstractNote: In pursuit-evasion the objective of the pursuer is to capture the evader.
+  In this work, the faster pursuer is modeled to have limited range and therefore
+  optimal strategies for the pursuer and evader change. This paper describes the optimal
+  strategies and nuances that appear for point-capture or when the pursuer is endowed
+  with a non-zero capture radius.
+author: Weintraub, Isaac and Von Moll, Alexander and Pachter, Meir
+author_list:
+- family: Weintraub
+  given: Isaac
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+booktitle: 2023 National Aerospace and Electronics Conference (NAECON)
+conferenceName: 2023 National Aerospace and Electronics Conference (NAECON)
+date: 2023-08-28
+doi: 10.1109/NAECON58068.2023.10365808
+files:
+- Weintraub - Range-Limited Pursuit-Evasion.pdf
+papis_id: 8c9581a604be0e9fd060bda7a34fefb4
+place: Dayton, OH
+project:
+- MyPubs
+- basic-WEZ
+- pursuit-curves-circular
+- turret + defender
+ref: weintraub2023range-limited
+time-added: 2023-05-05-09:29:20
+title: Range-Limited Pursuit-Evasion
+type: conferencePaper
+year: 2023

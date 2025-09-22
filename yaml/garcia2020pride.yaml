@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Garcia - Pride of Lions and Man Differential
+  Game
+abstractNote: A reach-avoid differential game with multiple players is considered
+  in this paper. A group of defenders is in charge of capturing a spy before it leaves
+  the game set. This paper addresses cooperation among the defenders which protect
+  a circular area on interest and try to intercept an intelligent adversary/intruder.
+  The optimal strategies for each team, the defenders team and the spy, are obtained.
+  These strategies and the Value function are obtained in analytical and explicit
+  form. Furthermore, it is verified that the Value function is continuously differentiable
+  and it is the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier
+  surface that separates the winning regions of each team is explicitly obtained as
+  well. Illustrative examples show the Barrier surface cross-sections of this high
+  dimensional differential game.
+author: Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir
+author_list:
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+conferenceName: Conference on Decision and Control
+date: 2020-12-08
+doi: 10.1109/CDC42340.2020.9304060
+files:
+- Garcia - Pride of Lions and Man Differential Game.pdf
+papis_id: 2c5064da6c1316377141f37ae654b86e
+place: Jeju Island, South Korea
+proceedingsTitle: Conference on Decision and Control
+project:
+- MyPubs
+ref: garcia2020pride
+tags:
+- differential games
+- reach-avoid
+- Mv1
+time-added: 2020-03-27-11:13:03
+title: Pride of Lions and Man Differential Game
+type: conferencePaper
+year: 2020

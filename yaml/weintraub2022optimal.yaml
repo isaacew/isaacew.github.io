@@ -1,0 +1,52 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - An Optimal Engagement Zone
+  Avoidance Scenario in 2-D
+abstractNote: In this paper, an optimal control problem is considered where a target
+  vehicle aims to reach a desired location in minimum time while avoiding a dynamic
+  engagement zone. Using simple motion, four potential approaches are considered.
+  First, the min-time strategy which ignores the engagement zone is posed and solved.
+  Second, the min-time strategy which avoids the engagement zone entirely is considered.
+  Third, the min-time strategy which allows for some time in the engagement zone;
+  but, still strives to stay away from the center of the engagement zone is posed.
+  Lastly, a fixed final-time strategy is considered, wherein the target tries to avoid
+  the engagement zone; but, is required to arrive at the desired location at a specific
+  time. Using a nonlinear program solver, the optimal strategies are numerically solved.
+  From the results of the numeric solutions, the optimal strategies are discussed
+  and comparisons are drawn.
+arxiv: 2111.05904
+author: Weintraub, Isaac E. and Von Moll, Alexander and Carrizales, Christian and
+  Hanlon, Nicholas and Fuchs, Zachariah
+author_list:
+- family: Weintraub
+  given: Isaac
+- family: Von Moll
+  given: Alexander
+- family: Carrizales
+  given: Christian
+- family: Hanlon
+  given: Nicholas
+- family: Fuchs
+  given: Zachariah
+conferenceName: Scitech
+date: 2022-01-03
+doi: 10.2514/6.2022-1587
+files:
+- Weintraub - An Optimal Engagement Zone Avoidance Scenario in 2-D.pdf
+papis_id: 3a160ecb7bde1962430547acaec48ccf
+place: San Diego
+proceedingsTitle: Scitech
+project:
+- MyPubs
+- basic-WEZ
+- wez-vs-wez
+publisher: AIAA
+ref: weintraub2022optimal
+tags:
+- optimal control
+- military
+- numerical methods
+- collocation
+time-added: 2021-05-26-10:53:33
+title: An Optimal Engagement Zone Avoidance Scenario in 2-D
+type: conferencePaper
+url: https://arxiv.org/pdf/2111.05904.pdf
+year: 2022

@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Manyam - Shortest Dubins Paths to Intercept
+  a Target Moving
+abstractNote: We present a path planning problem for a pursuing Unmanned Aerial Vehicle
+  (UAV) to intercept a target traveling on a circle. The target is cooperative, and
+  its position, heading and speed are precisely known. The pursuing UAV has nonholonomic
+  motion constraints, and therefore the path traveled must satisfy the minimum turn
+  radius constraints. We consider the class of Dubins paths as candidate solutions,
+  and analyze the characteristics of the six modes of Dubins paths where the final
+  position is restricted to lie on the target circle with heading in the tangential
+  direction of the circle. For each Dubins mode, we derive the feasibility limits,
+  discontinuities and local extrema. Using this analysis the intercepting paths are
+  found by a systematic bisection search in the feasible regions of each of the Dubins
+  modes. We prove that the algorithm finds the optimal (shortest length) intercepting
+  path if it is a Dubins path. If the shortest intercepting path is not a Dubins path
+  for any given instance, the algorithm finds a tight lower bound and an upper bound
+  to the optimal solution.
+author: Manyam, Satyanarayana Gupta and Casbeer, David W. and Von Moll, Alexander
+  and Fuchs, Zachariah
+author_list:
+- family: Manyam
+  given: Satyanarayana Gupta
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Fuchs
+  given: Zachariah
+date: 2022-06-01
+doi: 10.2514/1.G005748
+files:
+- Manyam - Shortest Dubins Paths to Intercept a Target Moving.pdf
+papis_id: f553d2f6b3d663f210a8b9a5371dca9e
+project:
+- MyPubs
+- pursuit-curves-circular
+publicationTitle: Journal of Guidance, Control, and Dynamics
+publisher: AIAA
+ref: manyam2022shortest
+time-added: 2022-06-01-13:51:35
+title: Shortest Dubins Paths to Intercept a Target Moving on a Circle
+type: article
+year: 2022

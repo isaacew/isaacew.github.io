@@ -1,0 +1,54 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Multiple Pursuer Single Evader
+  Border Defense Differential Game
+abstractNote: Ensuring border security against potential threats has been a long standing
+  problem and it becomes much more challenging for land borders due to its long distances
+  coupled with terrain variations. In this paper, we consider a scenario in which
+  a team of UAVs (the pursuers)  attempt to prevent an intruder ground vehicle (the
+  evader) from escaping through the border. The ground intruder’s presence is made
+  known by a laser fence positioned inside the border. Upon detection, the UAVs are
+  activated and given the objective to cooperatively capture the intruder. We formulate
+  the scenario as a zero-sum differential game whereupon all agents exhibit simple
+  motion and the pursuers have a speed advantage. For cases where capture inside the
+  border is possible, the payoff/cost for the pursuers/evader is the distance from
+  capture to the border. The solution to the game is derived based on the geometric
+  properties of the game and verified for the single pursuer case with a border comprised
+  of straight-line segments. This game may contain a dispersal surface which has interesting
+  practical consequences when the optimal strategies are applied in discrete time.
+author: Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Manickam, Suresh
+  and Swar, Sufal Chandra
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David
+- family: Manickam
+  given: Suresh
+- family: Swar
+  given: Sufal Chandra
+conferenceName: AIAA SciTech
+date: 2019-01-11
+doi: 10.2514/6.2019-1162
+files:
+- Von Moll - Multiple Pursuer Single Evader Border Defense Differential Game_a.pdf
+- Von Moll - Multiple Pursuer Single Evader Border Defense Differential Game.pdf
+papis_id: 26c25ae90f86a59638e4a2ce73c398c4
+place: San Diego, CA
+proceedingsTitle: AIAA SciTech
+project:
+- MyPubs
+publisher: AIAA
+ref: vonmoll2019multiple
+rights: All rights reserved
+tags:
+- differential games
+- Mv1
+- 1v1
+- parameter exploration
+- target guarding
+- singularity
+title: Multiple Pursuer Single Evader Border Defense Differential Game
+type: conferencePaper
+url: https://avonmoll.github.io/files/mp1e-border.pdf
+year: 2019

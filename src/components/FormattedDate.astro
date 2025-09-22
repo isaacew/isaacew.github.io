@@ -1,0 +1,19 @@
+---
+interface Props {
+  date: Date;
+}
+
+const { date } = Astro.props;
+// NOTE: for some reason dates were showing as previous day
+const nextDay = new Date(date.getTime() + 86400000);
+---
+
+<time datetime={nextDay.toISOString()}
+  >{
+    nextDay.toLocaleDateString("en-us", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    })
+  }</time
+>

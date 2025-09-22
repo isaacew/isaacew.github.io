@@ -1,0 +1,48 @@
+_papis_local_folder: /Users/vonmolal/papers/Milutinović - Stochastic Optimal Avoidance
+  of Multiple Engagement Zones
+abstractNote: This work formulates the feedback control strategies for vehicles to
+  reach a goal point amongst a field of dynamic risk regions. Whereas previous work
+  has considered deterministic versions of this problem, we consider the scenario
+  in the context of uncertainty. This uncertainty could be due to unknown wind or
+  other external disturbances. The risk regions’ dynamics are tightly coupled to the
+  state of the vehicle and as a result the task of navigating through a field dynamically
+  changes as the vehicle traverses through it. Rather than using a nonlinear program
+  solver, the approach taken here is one of formulating the problem as a stochastic
+  optimal control problem wherein a feedback control law is derived. This feedback
+  control law allows a single or multiple vehicles to reach the desired goal location
+  efficiently and with minimal risk incursion. When inside a risk region, there is
+  a probability rate of the vehicle being neutralized. The stochastic dynamical system
+  is modeled as a hybrid system, i.e., regime switching diffusion. The hybrid system
+  is comprised of continuous spatial dynamics and discrete operational states corresponding
+  to “normal” and “neutralized”. The optimal control problem is discretized into a
+  field of vehicle states and control. Using Value Iteration, the control signal at
+  each discrete location is optimized, providing a feedback control strategy over
+  the field. Following a discussion of the methods and approaches, this problem is
+  formulated, simulations are performed, and conclusions and remarks are made.
+author: Milutinović, Dejan and Von Moll, Alexander and Weintraub, Isaac E. and Casbeer,
+  David
+author_list:
+- family: Milutinović
+  given: Dejan
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac E.
+- family: Casbeer
+  given: David
+date: 2025-05-01
+doi: 10.2514/1.I011593
+files:
+- Milutinović - Stochastic Optimal Avoidance of Multiple Engagement Zones.pdf
+- Milutinović - Stochastic Optimal Avoidance of Multiple Engagement Zones_a.pdf
+papis_id: 0db4844b83ce5f14628c6a6e2946a224
+project:
+- MyPubs
+- wez-vs-wez
+publicationTitle: Journal of Aerospace Information Systems
+publisher: AIAA
+ref: milutinovic2025stochastic
+time-added: 2024-09-26-15:46:49
+title: Stochastic Optimal Avoidance of Multiple Engagement Zones
+type: article
+year: 2025

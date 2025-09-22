@@ -1,0 +1,145 @@
+---
+import Envelope from '../assets/social-icons/envelope.svg';
+import GitHub from '../assets/social-icons/github.svg';
+import GitLab from '../assets/social-icons/gitlab.svg';
+import Scholar from '../assets/social-icons/google-scholar.svg';
+import LinkedIn from '../assets/social-icons/linkedin-in.svg';
+import Location from '../assets/social-icons/location.svg';
+import Orcid from '../assets/social-icons/orcid.svg';
+import ResearchGate from '../assets/social-icons/researchgate.svg';
+
+import { social } from "$consts";
+
+---
+
+<html>
+<head>
+    <style>
+        .iconsize {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 4px;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li a {
+          text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class='flex flex-wrap justify-between items-center'>
+    <ul>
+
+	<!-- Location -->
+	{social.location !== '' &&
+    <li>
+      <Location class='iconsize' fill=var(--accent) />
+      {social.location}
+    </li>
+	}
+
+	<!-- Affiliation -->
+	{social.affiliation !== '' &&
+    <li>
+      <Location class='iconsize' fill=var(--accent) />
+      {social.affiliation}
+        </li>
+	}
+
+	<!-- Email -->
+	{social.email !== '' &&
+    <li>
+		<a href={`mailto:${social.email}`}  class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<Envelope class='iconsize' fill=var(--accent) />
+            Email
+		</a>
+        </li>
+	}
+
+	<!-- Google Scholar -->
+	{social.scholar !== '' &&
+    <li>
+		<a href={social.scholar} target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<Scholar class='iconsize' fill=var(--accent) />
+            Google Scholar
+		</a>
+        </li>
+	}
+
+	<!-- ResearchGate -->
+	{social.researchgate !== '' &&
+    <li>
+		<a href={social.researchgate} target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300' style=''>
+			<ResearchGate class='iconsize' fill=var(--accent) />
+            ResearchGate
+		</a>
+        </li>
+	}
+
+
+	<!-- GitHub -->
+	{social.github !== '' &&
+    <li>
+        <a href=`https://github.com/${social.github}` target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<GitHub class='iconsize' fill=var(--accent) />
+            Github
+		</a>
+        </li>
+	}
+
+	<!-- GitLab -->
+	{social.gitlab !== '' &&
+    <li>
+        <a href=`https://gitlab.com/${social.gitlab}` target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
+			<GitLab class='iconsize' fill=var(--accent) />
+            Gitlab
+	</a>
+    </li>
+	}
+
+	<!-- X -->
+	{social.x !== '' &&
+    <li>
+		<a href={social.x} target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<X class='iconsize' fill=var(--accent) />
+            X
+		</a>
+        </li>
+	}
+
+	<!-- Linkedin -->
+	{social.linkedin !== '' &&
+    <li>
+		<a href={social.linkedin} target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<LinkedIn class='iconsize' fill=var(--accent) />
+            LinkedIn
+		</a>
+        </li>
+	}
+
+<!-- arxiv -->
+	<!-- {social.arxiv !== '' && -->
+	<!-- 	<a href={social.arxiv} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}> -->
+	<!-- 		<Arxiv class={calculatedIconSize} fill="currentColor" /> -->
+	<!-- 	</a> -->
+	<!--   } -->
+    <!-- orcid -->
+	  {social.orcid !== '' &&
+    <li>
+		<a href={social.orcid} target="_blank" class='inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300'>
+			<Orcid class='iconsize' fill=var(--accent) />
+            ORCiD
+		</a>
+    </li>
+	}
+    </ul>
+</div>
+</body>
+</html>

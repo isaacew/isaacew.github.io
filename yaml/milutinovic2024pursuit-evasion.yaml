@@ -1,0 +1,47 @@
+_papis_local_folder: /Users/vonmolal/papers/Milutinović - Pursuit-Evasion on a Sphere
+  and When it Can
+abstractNote: In classical works on a planar differential pursuit-evasion game with
+  a faster pursuer, the intercept point resulting from the equilibrium strategies
+  lies on the Apollonius circle. This property was exploited for the construction
+  of the equilibrium strategies for two faster pursuers against one evader. Extensions
+  for planar multiple-pursuer single-evader scenarios have been considered. We study
+  a pursuit-evasion game on a sphere and the relation of the equilibrium intercept
+  point to the Apollonius domain on the sphere. The domain is a generalization of
+  the planar Apollonius circle set. We find a condition resulting in the intercept
+  point belonging to the Apollonius domain, which is the characteristic of the planar
+  game solution. Finally, we use this characteristic to discuss pursuit and evasion
+  strategies in the context of two pursuers and a single slower evader on the sphere
+  and illustrate it using numerical simulations.
+arxiv: 2403.15188
+author: Milutinović, Dejan and Von Moll, Alexander and Manyam, Satyanarayana G. and
+  Casbeer, David W. and Weintraub, Isaac E. and Pachter, Meir
+author_list:
+- family: Milutinović
+  given: Dejan
+- family: Von Moll
+  given: Alexander
+- family: Manyam
+  given: Satyanarayana G.
+- family: Casbeer
+  given: David W.
+- family: Weintraub
+  given: Isaac E.
+- family: Pacther
+  given: Meir
+conferenceName: Conference on Decision and Control
+date: 2024-12-16
+doi: 10.1109/CDC56724.2024.10885887
+files:
+- Milutinović - Pursuit-Evasion on a Sphere and When it Can_a.pdf
+papis_id: f972dd19b4062e9422a2f28a2cd89b1c
+place: Milan, Italy
+proceedingsTitle: Conference on Decision and Control
+project:
+- MyPubs
+publisher: IEEE
+ref: milutinovic2024pursuit-evasion
+time-added: 2024-03-25-10:37:45
+title: Pursuit-Evasion on a Sphere and When it Can Be Considered Flat
+type: conferencePaper
+url: https://arxiv.org/abs/2403.15188
+year: 2024

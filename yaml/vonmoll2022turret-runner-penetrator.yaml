@@ -1,0 +1,58 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - The Turret-Runner-Penetrator
+  Differential Game with Role Selection
+abstractNote: A scenario is considered in which two cooperative Attackers aim to infiltrate
+  a circular target guarded by a Turret.  The engagement plays out in the two dimensional
+  plane; the holonomic Attackers have the same speed and move with simple motion and
+  the Turret is stationary, located at the target circle's center, and has a bounded
+  turn rate.  When the Turret's look angle is aligned with an Attacker, that Attacker
+  is neutralized.  In this paper, we focus on a region of the state space wherein
+  only one of the Attackers is able to reach the target circle -- and even then, only
+  with the help of its partner Attacker.  The Runner distracts the Turret and ends
+  up being neutralized in order that the Penetrator can be guaranteed to hit the target
+  circle.  We formulate the Turret-Runner-Penetrator scenario as a differential game
+  over the Value of the subsequent game of min/max terminal angle which takes place
+  between the Turret and Penetrator once the Runner has been neutralized.  The solution
+  to the Game of Degree, including equilibrium Turret, Runner, and Penetrator strategies,
+  as well as the Value function are given.  The case in which the Penetrator can reach
+  the target before the Turret can neutralize the Runner is formulated and solved.  Finally,
+  the assumption of a priori defined roles/goals is relaxed and the minimum of the
+  solutions to the two fixed-role games is shown to be a Global Stackelberg Equilibrium.
+author: Von Moll, Alexander and Shishika, Daigo and Fuchs, Zachariah and Dorothy,
+  Michael
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Shishika
+  given: Daigo
+- family: Fuchs
+  given: Zachariah
+- family: Dorothy
+  given: Michael
+date: 2022-05-23
+doi: 10.1109/TAES.2022.3176599
+files:
+- Von Moll - The Turret-Runner-Penetrator Differential Game with Role Selection.pdf
+issue: 6
+journal: Transactions on Aerospace & Electronic Systems
+pages: 5687--5702
+papis_id: 53e70354cb9362c17a646512383962ae
+project:
+- MyPubs
+- man-bear-pool
+- max-observation
+- turret + defender
+publisher: IEEE
+ref: vonmoll2022turret-runner-penetrator
+tags:
+- differential games
+- target guarding
+- three body
+- role selection
+- singularity
+- 2v1
+time-added: 2021-03-22-11:24:07
+title: The Turret-Runner-Penetrator Differential Game with Role Selection
+type: journal
+url: https://avonmoll.github.io/files/trpdg-with-role-selection.pdf
+volume: 58
+year: 2022

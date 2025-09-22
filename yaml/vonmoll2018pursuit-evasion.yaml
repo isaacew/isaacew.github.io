@@ -1,0 +1,57 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Pursuit-evasion of an Evader
+  by Multiple Pursuers
+abstractNote: In this paper, we extend the well-studied results of the two-pursuer,
+  single-evader differential game to any number of pursuers. The main objective of
+  this investigation is to exploit the benefits of cooperation amongst the pursuers
+  in order to reduce the capture time of the evader. Computational complexity is a
+  chief concern as this problem would need to be solved in an online fashion, e.g.
+  in the case of autonomous unmanned aerial vehicles. A new geometric approach to
+  solving the game is introduced and analyzed, which changes the problem of optimizing
+  over continuous domains to a discrete combinatoric optimization. While past efforts
+  at solving multiple pursuer problems have suffered from the curse of dimensionality,
+  the geometric algorithms put forth here are shown to be scalable. Categorization
+  and removal of redundant pursuers is the primary means by which scalability is achieved.
+  The solution of this problem serves as a stepping stone to more complex problems
+  such as the M-pursuer N-evader differential game.
+archive: IEEE Xplore
+author: Von Moll, Alexander and Casbeer, David W. and Garcia, Eloy and Milutinović,
+  Dejan
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David W.
+- family: Garcia
+  given: Eloy
+- family: Milutinović
+  given: Dejan
+conferenceName: 2018 International Conference on Unmanned Aircraft Systems (ICUAS)
+date: 2018-06-01
+doi: 10.1109/ICUAS.2018.8453470
+files:
+- Von Moll - Pursuit-evasion of an Evader by Multiple Pursuers.pdf
+pages: 133-142
+papis_id: 4ac55564926a499c771a21b5511505dc
+place: Dallas, TX
+proceedingsTitle: 2018 International Conference on Unmanned Aircraft Systems (ICUAS)
+project:
+- M Pursuer 1 Evader 2017
+- MyPubs
+- Border Defense
+- MP1E Robust
+- Two Cutters 2018
+- Many Pursuers 2018
+- 2p1e Dispersal
+publisher: IEEE
+ref: vonmoll2018pursuit-evasion
+rights: All rights reserved
+tags:
+- differential games
+- pursuit-evasion
+- Mv1
+- skirmish application
+- heuristic
+title: Pursuit-evasion of an Evader by Multiple Pursuers
+type: conferencePaper
+url: https://avonmoll.github.io/files/mp1e.pdf
+year: 2018

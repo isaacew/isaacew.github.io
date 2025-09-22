@@ -1,0 +1,54 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - The Turret-Runner-Penetrator
+  Differential Game
+abstractNote: A scenario is considered in which two cooperative Attackers aim to infiltrate
+  a circular target guarded by a Turret. The engagement plays out in the two dimensional
+  plane; the holonomic Attackers have the same speed and move with simple motion and
+  the Turret is stationary, located at the target circle's center, and has a bounded
+  turn rate. When the Turret's look angle is aligned with an Attacker, that Attacker
+  is terminated. In this paper, we focus on a region of the state space wherein only
+  one of the Attackers is able to reach the target circle -- and even then, only with
+  the help of its partner Attacker. The Runner distracts the Turret and ends up being
+  terminated in order that the Penetrator can be guaranteed to hit the target circle.
+  We formulate the Turret-Runner-Penetrator scenario as a differential game over the
+  Value of the subsequent game of $\min\max$ terminal angle which takes place between
+  the Turret and Penetrator once the Runner has been terminated. The solution to the
+  Game of Degree, including equilibrium Turret, Runner, and Penetrator strategies,
+  as well as the Value function are given. In addition, the Game of Kind solution,
+  which is the manifold of states in which the Penetrator will be terminated exactly
+  on the target circle, is constructed numerically.
+author: Von Moll, Alexander and Shishika, Daigo and Fuchs, Zachariah and Dorothy,
+  Michael
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Shishika
+  given: Daigo
+- family: Fuchs
+  given: Zachariah
+- family: Dorothy
+  given: Michael
+conferenceName: American Control Conference
+date: 2021-05-26
+doi: 10.23919/ACC50511.2021.9483094
+files:
+- Von Moll - The Turret-Runner-Penetrator Differential Game.pdf
+- Von Moll - The Turret-Runner-Penetrator Differential Game_a.pdf
+papis_id: feda69bd6c8ef082f28f4cf39898febf
+place: New Orleans
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+- detect-evade
+- turret-multi-attacker
+ref: vonmoll2021turret-runner-penetrator
+tags:
+- differential games
+- three body
+- skirmish application
+- singularity
+- multistage
+time-added: 2020-09-17-09:38:53
+title: The Turret-Runner-Penetrator Differential Game
+type: conferencePaper
+url: https://avonmoll.github.io/files/turret-runner-penetrator-differential-game.pdf
+year: 2021

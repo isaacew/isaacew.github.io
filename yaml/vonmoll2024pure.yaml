@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Pure Pursuit of a Target on
+  a Circular
+abstractNote: This investigation seeks to obtain estimates on the intercept time associated
+  with a fast Pursuer implementing Pure Pursuit against a Target whose trajectory
+  is a circular arc. The analytical solution of the kinematic equations of motion
+  is not feasible and thus the baseline approach for computing the intercept time
+  is numerical simulation, i.e., numerical integration of the kinematics. This method
+  can obtain the intercept time in (essentially) real time for a single Pursuer against
+  a single Target. Here, the goal is to estimate the intercept time using orders of
+  magnitude less computational time. Although not explicitly explored in this work,
+  the purpose of such approximations is to make feasible the rapid evaluation of Pursuer-to-Target
+  assignments in a massive many-on-many engagement scenario wherein the intercept
+  time may be a key measure. Several approximation methods are proposed here and their
+  merits (or lack thereof) are demonstrated through simulation. Ultimately, assuming
+  the Target is not actually turning may be suitable when its turn radius is relatively
+  large, while assuming intercept occurs at the closest point on the turn circle may
+  be suitable when its turn radius is relatively small.
+author: Von Moll, Alexander and Casbeer, David W. and Weintraub, Isaac E. and Pachter,
+  Meir
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Casbeer
+  given: David W.
+- family: Weintraub
+  given: Isaac E.
+- family: Pachter
+  given: Meir
+conferenceName: AIAA SciTech
+date: 2024-01-30
+doi: 10.2514/6.2024-0956
+files:
+- Von Moll - Pure Pursuit of a Target on a Circular.pdf
+note: Accepted
+papis_id: 39946ccf89c696235e7cdd6df7501841
+place: Orlando, FL
+proceedingsTitle: AIAA SciTech
+project:
+- MyPubs
+ref: vonmoll2024pure
+tags: null
+time-added: 2023-06-28-12:46:26
+title: Pure Pursuit of a Target on a Circular Trajectory
+type: conferencePaper
+url: https://isaacew.com/publication/vonmoll2024pure/vonmoll2024pure.pdf
+year: 2024

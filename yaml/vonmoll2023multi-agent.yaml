@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Multi-Agent Risk-aware Teaming
+  under Uncertainty (MARTY)
+abstractNote: 'Mission operations include a myriad of priorities that are subject
+  to change in the field, of which four are commonly used by pilots: Signature Management
+  (SM), Optimize Killing (OK), Weapon Engagement Zone Denial (WEZD), and Mutual Support
+  (MS). The scope of this project includes three of these priorities, namely OK, WEZD,
+  and MS in an effort to mature autonomy in these areas for unmanned platforms. Furthermore,
+  the inclusion of uncertainty of sensor reliability, asset location, target location/strategy,
+  and other factors are a focus of this effort. Air and missile threats in contested
+  airspace represent a challenge for a number of Air Force missions [1]. In concert,
+  some of the tasks include Defensive Counterair (DCA), Offensive Counterair (OCA),
+  Intelligence, Surveillance, and Reconnaissance (ISR), Air Mobility Operations (AMO),
+  Strike, and Interdiction. Although not comprehensive, these tasks are required for
+  achieving air superiority to support and defend enemy or friendly airspace. As defined
+  in JP 3-01 [2], in OCA, enemy Integrated Air Defense Systems (IADS) attempt to destroy,
+  disrupt, or neutralize penetrations of their airspace. This is an attempt to degrade
+  OCA operations. One way to address enemy IADS is through Suppression of Enemy Air
+  Defense (SEAD). SEAD missions neutralize, destroy, or temporarily degrade surface-based
+  enemy Air Defenses (ADs) by destructive or disruptive means.'
+accession_number: AD1218260
+author: Von Moll, Alexander and Weintraub, Isaac
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+date: 2023-12-01
+dtic_number: AD1220003
+files:
+- Von Moll - Multi-Agent Risk-aware Teaming under Uncertainty (MARTY).pdf
+papis_id: 1ff0e2fde60e33651ed1f046539c80cd
+place: null
+project:
+- MyPubs
+publicationTitle: Defense Technical Information Center
+publisher: Defense Technical Information Center
+ref: vonmoll2023multi-agent
+time-added: 2024-05-01-11:52:08
+title: Multi-Agent Risk-aware Teaming under Uncertainty (MARTY)
+type: techreport
+url: https://avonmoll.github.io/files/marty.pdf
+year: 2023

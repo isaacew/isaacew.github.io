@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Weintraub - An Optimal Strategy for Off-Board
+  Proximal Sensing of
+abstractNote: The time-optimal strategy for a pursuer, endowed with a guided off-board
+  sensor, is found to place the range-limited sensor platform onto a non-maneuvering
+  target. Leveraging optimal control theory, a feedback control strategy is obtained
+  for the pursuer using the indirect optimal control method. The target is assumed
+  to have constant speed and move slower than the off-board sensor and the pursuer.
+  The limited-range off-board sensor is assumed to be faster than the pursuer and
+  the target. The pursuer is assumed to have unlimited range and is faster than the
+  target but slower than the off-board sensor platform. All agents' communication,
+  location, and heading are assumed known by all; the scenario assumes communication
+  between the pursuer and off-board sensor is ideal. This work presents how the optimal
+  control approach can be leveraged as well as highlighted in example simulations
+  and an accompanying discussion of those results.
+author: Weintraub, Isaac E. and Von Moll, Alexander and Hansen, Alexander and Zollars,
+  Michael
+author_list:
+- family: Weintraub
+  given: Isaac
+- family: Von Moll
+  given: Alexander
+- family: Hansen
+  given: Alexander
+- family: Zollars
+  given: Michael
+conferenceName: SciTech
+date: 2025-01-08
+doi: 10.2514/6.2025-1349
+files:
+- Weintraub - An Optimal Strategy for Off-Board Proximal Sensing of.pdf
+papis_id: 0112361f29553d270228ae56e5b673d8
+place: Orlando, FL
+proceedingsTitle: SciTech
+project:
+- MyPubs
+- wez-vs-wez
+publisher: AIAA
+ref: weintraub2025optimal
+time-added: 2024-08-27-09:04:37
+title: 'An Optimal Strategy for Off-Board Proximal Sensing of a Target: Part 1'
+type: conferencePaper
+year: 2025

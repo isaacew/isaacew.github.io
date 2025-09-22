@@ -1,0 +1,46 @@
+_papis_local_folder: /Users/vonmolal/papers/Von Moll - Optimal Evasion Against Dual
+  Pure Pursuit
+abstractNote: The Pure Pursuit strategy is ubiquitous both in the control literature
+  but also in real-world implementation. In this paper, we pose and solve a variant
+  of Isaacs' Two Cutters and Fugitive Ship problem wherein the Pursuers' strategy
+  is fixed to Pure Pursuit, thus making it an optimal control problem. The Pursuers
+  are faster than the Evader and are endowed with a finite capture radius. All agents
+  move with constant velocity and can change heading instantaneously. Although capture
+  is inevitable, the Evader wishes to delay capture as long as possible. The optimal
+  trajectories cover the entire state space. Regions corresponding to either solo
+  capture or isochronous (dual) capture are computed and both types of maximal time-to-capture
+  optimal trajectories are characterized.
+author: Von Moll, Alexander and Fuchs, Zachariah and Pachter, Meir
+author_list:
+- family: Von Moll
+  given: Alexander
+- family: Fuchs
+  given: Zachariah
+- family: Pachter
+  given: Meir
+conferenceName: American Control Conference
+date: 2020-07-05
+doi: 10.23919/ACC45564.2020.9147776
+files:
+- Von Moll - Optimal Evasion Against Dual Pure Pursuit.pdf
+papis_id: 325247bf5ebaee5b8c263479a8f7649f
+place: Denver, CO
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+- turret-multi-attacker
+- perimeter-patrol
+- pursuit-curves
+- range-limited
+- pursuit-curves-circular
+publisher: IEEE
+ref: vonmoll2020optimalevasion
+tags:
+- optimal control
+- 2v1
+- pursuit-evasion
+- singularity
+title: Optimal Evasion Against Dual Pure Pursuit
+type: conferencePaper
+url: https://avonmoll.github.io/files/optimal-evasion-against-dual-pure-pursuit.pdf
+year: 2020

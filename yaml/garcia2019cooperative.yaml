@@ -1,0 +1,39 @@
+_papis_local_folder: /Users/vonmolal/papers/Garcia - Cooperative Two-Pursuer One-Evader
+  Blocking Differential Game
+abstractNote: A pursuit-evasion problem with two pursuers and one evader is considered.
+  The evader aims at reaching a goal line which is protected by the pursuers. When
+  reaching this goal is not possible, the Evader strives to position itself as close
+  as possible with respect to the goal line at the time of capture. The pursuers try
+  to capture the evader as far as possible from the goal line. The problem is posed
+  as a zero-sum differential game where the two pursuers cooperate against the evader.
+  State feedback strategies are derived in this paper and the Value function is obtained.
+  It is also shown that the Value function is continuous, continuously differentiable,
+  and it satisfies the Hamilton-Jacobi-Isaacs equation.
+author: Garcia, Eloy and Casbeer, David W. and Von Moll, Alexander and Pachter, Meir
+author_list:
+- family: Garcia
+  given: Eloy
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Pachter
+  given: Meir
+conferenceName: American Control Conference
+date: 2019-07-10
+doi: 10.23919/ACC.2019.8814294
+files:
+- Garcia - Cooperative Two-Pursuer One-Evader Blocking Differential Game_a.pdf
+- Garcia - Cooperative Two-Pursuer One-Evader Blocking Differential Game.pdf
+papis_id: ba1f8cc81cc7bd6d84a597477bf6be5d
+project:
+- MyPubs
+- perimeter-patrol
+ref: garcia2019cooperative
+tags:
+- differential games
+- target guarding
+- 2v1
+title: Cooperative Two-Pursuer One-Evader Blocking Differential Game
+type: conferencePaper
+year: 2019

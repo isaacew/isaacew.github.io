@@ -1,0 +1,36 @@
+_papis_local_folder: /Users/vonmolal/papers/Chapman - Safe Navigation in the Presence
+  of Range-Limited Pursuers
+abstractNote: This paper examines the degree to which an evader seeking a safe and
+  efficient path to a target location can benefit from increasing levels of knowledge
+  regarding one or more range-limited pursuers seeking to intercept it. Unlike previous
+  work, this research considers the time of flight of the pursuers actively attempting
+  interception. It is shown that additional knowledge allows the evader to safely
+  steer closer to the threats, shortening paths without accepting additional risk
+  of capture. A control heuristic is presented, suitable for real time implementation,
+  which capitalizes on all knowledge available to the evader.
+arxiv: 2509.04258
+author: Chapman, Thomas and Von Moll, Alexander and Weintraub, Isaac E.
+author_list:
+- family: Chapman
+  given: Thomas
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac E.
+conferenceName: American Control Conference
+date: 2026-05-26
+files:
+- Chapman - Safe Navigation in the Presence of Range-Limited Pursuers.pdf
+note: Submitted for Review
+papis_id: d838ecf5a21ef328e02aee99070664ff
+place: New Orleans, USA
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IEEE
+ref: chapman2026safe
+time-added: 2025-09-05-09:41:26
+title: Safe Navigation in the Presence of Range-Limited Pursuers
+type: conferencePaper
+url: https://arxiv.org/pdf/2509.04258
+year: 2026

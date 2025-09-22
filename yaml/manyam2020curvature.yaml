@@ -1,0 +1,42 @@
+_papis_local_folder: /Users/vonmolal/papers/Manyam - Curvature Constrained Paths to
+  Intercept a Target Moving
+abstractNote: We present a path planning problem for a pursuing agent to intercept
+  a target traveling on a circle. The target is cooperative, and its position, heading
+  and speed are precisely known by the pursuing agent. The pursuing agent has nonholonomic
+  motion constraints, and therefore the path traveled by the pursuing agent must satisfy
+  the minimum turn radius constraints. We consider the class of Dubins paths as candidate
+  solutions, and analyze the characteristics of the six modes of Dubins paths where
+  the final position is restricted to lie on the target circle with heading in the
+  tangential direction of the circle. For each Dubins mode, we derive the feasibility
+  limits, discontinuities and local extrema. Using this analysis the intercepting
+  paths are found by a systematic bisection search in the feasible regions of each
+  of the Dubins modes. We prove that the algorithm outputs the optimal solution, if
+  the optimal intercepting path is a Dubins path; otherwise, it outputs the best found
+  intercepting path and a tight lower bound to the optimal solution.
+author: Manyam, Satyanarayana G. and Casbeer, David W. and Von Moll, Alexander and
+  Fuchs, Zachariah
+author_list:
+- family: Manyam
+  given: Satyanarayana G.
+- family: Casbeer
+  given: David W.
+- family: Von Moll
+  given: Alexander
+- family: Fuchs
+  given: Zachariah
+date: 2020-12-31
+files: []
+note: Submitted for Review
+papis_id: 0857bdd8e63ff06d823f0797b44319e9
+project:
+- MyPubs
+publicationTitle: Transactions on Automation Science and Engineering
+publisher: IEEE
+ref: manyam2020curvature
+tags:
+- optimal control
+- path planning
+time-added: 2020-06-15-10:29:04
+title: Curvature Constrained Paths to Intercept a Target Moving on a Circle
+type: article
+year: 2020

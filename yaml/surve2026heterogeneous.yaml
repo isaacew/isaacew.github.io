@@ -1,0 +1,44 @@
+_papis_local_folder: /Users/vonmolal/papers/Surve - Heterogeneous Pursuit of an Active
+  Target Under Sensing
+abstractNote: This paper studies a heterogeneous three-agent pursuit-evasion scenario
+  in which a sensor–attacker team attempts to capture an active target capable of
+  changing its heading at fixed time intervals. The sensor has a limited sensing range,
+  and the attacker must intercept the target before it escapes sensing. We formulate
+  this problem as a game of kind and extend the optimal sensor and attacker strategies
+  from prior work on passive targets to the active target setting. The sensor updates
+  its heading in each interval by assuming that the target will keep its heading fixed
+  for the rest of the engagement, while the attacker uses an Apollonius circle-based
+  approach for minimum-time interception and updating its heading corresponding to
+  the target heading in every interval. The main result of this letter is to show
+  that the conditions for capture or escape of a passive target also extend to the
+  case of an active targets. In particular, if the speed of the active target is less
+  than a critical value – which is the same as for the case of passive targets from
+  our prior work, then capture is guaranteed.
+author: Surve, Prajakta and Bopardikar, Shaunak D. and Von Moll, Alexander and Weintraub,
+  Isaac and Casbeer, David W.
+author_list:
+- family: Surve
+  given: Prajakta
+- family: Bopardikar
+  given: Shaunak D.
+- family: Von Moll
+  given: Alexander
+- family: Weintraub
+  given: Isaac
+- family: Casbeer
+  given: David
+conferenceName: American Control Conference
+date: 2026-05-26
+files: []
+note: Submitted for Review
+papis_id: 6e900c4e365aa780cdf4ec670f9ec781
+place: New Orleans, USA
+proceedingsTitle: American Control Conference
+project:
+- MyPubs
+publisher: IEEE
+ref: surve2026heterogeneous
+time-added: 2025-09-10-09:50:13
+title: Heterogeneous Pursuit of an Active Target Under Sensing Constraints
+type: conferencePaper
+year: 2026
