@@ -14,10 +14,10 @@
   #let author = plain-text(pub.author)
   #let venue = plain-text(pub.conferenceName)
   #let date = plain-text(pub.date)
-#let author = "A. Von Moll"
+#let author = "I. Weintraub"
 #let venue = "AIAA Journal of Aerospace Information Systems"
 #let date = "2025-04-25"
-#let title = "Turret Defense"
+#let title = "HVAA Defense"
 
   #show: main.with(
     title: title,
