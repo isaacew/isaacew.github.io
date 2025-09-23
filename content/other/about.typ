@@ -9,19 +9,10 @@
 #let zh = text.with(lang: "zh")
 
 #let blog-desc = [
-  I am a researcher with the Control Science Center, Aerospace Systems Directorate, Air Force Research Laboratory.
-  I hold a B.S. from Ohio State (2012) and an M.S. from Georgia Institute of Technology (2016) both in Aerospace Engineering.
-  In 2011 I received the Department of Defense SMART Scholarship.
-  Then in 2014 I received SMART again to pursue my M.S.
-  Lastly, I earned a Ph.D. in Electrical Engineering at University of Cincinnati under #link("https://scholar.google.com/citations?user=cr_ZGFkAAAAJ&hl=en&oi=ao")[Zach Fuchs]; my dissertation can be found #link("https://avonmoll.github.io/files/dissertation.pdf")[here].
-  In 2019 I received the #link("http://www.acgsc.org/ward_award.php")[Dave Ward Memorial Lecture Award] from the Aerospace Control and Guidance Systems Committee for outstanding contribution to the autonomy of unmanned aerial systems in the area of game-theoretic control in adversarial environments.
-  In 2025 I received the Jack Blackhurst Innovation Award from Air Force Research Laboratory.
-
-
-  My research interests include multi-agent systems, cooperative control, and differential games.
+I am a Senior Electronics Engineer in the Autonomous Controls branch in the Power and Control division of the Aerospace Systems Directorate in the Air Force Research Laboratory. I received my PhD in Electrical Engineering from the Air Force Institute of Technology in 2021, my MS in Electrical Engineering from the University of Texas at Arlington in 2011, and my BS in Mechanical Engineering from Rose-Hulman Institute of Technology in 2009. I am currently an associate fellow of the American Institute of Aeronautics and Astronautics (AIAA) and a senior member of the Institute of Electrical and Electronics Engineers (IEEE). I am a member of the Intelligent Systems Technical Committee (ISTC) in the AIAA and I am an active member of both the Robotics and Automation Society (RAS) and the Controls Systems Society (CSS) in the IEEE. My research interests lie in automation and control of aerospace systems for defense applications.
 
   == Research Opportunity
-  I have a topic entitled #link("https://afsffp.sysplus.com/SFFP/contact/subLab.aspx?sublabid=13&programid=10165")[Cooperative Tactics and Staging for Heterogeneous Teams] for the #link("https://afsffp.sysplus.com/")[AFOSR Summer Faculty Fellowship Program].
+  I have a topic entitled #link("https://afsffp.sysplus.com/SFFP/contact/subLab.aspx?sublabid=13&programid=10139")[Direct Mtehods for Differential Games] for the #link("https://afsffp.sysplus.com/")[AFOSR Summer Faculty Fellowship Program].
 ]
 
 #let self-desc = [
