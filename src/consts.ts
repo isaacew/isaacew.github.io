@@ -128,15 +128,15 @@ export const kFriendLinks = [
 export const kJobTitle: string = "Aerospace Engineer at the Air Force Research Laboratory"; 
 
 export const social = {
-    email: 'avonmoll@gmail.com',
+    email: 'isaacweintraub@gmail.com',
     location: 'Dayton, OH',
     affiliation: 'US Air Force',
-    linkedin: 'https://www.linkedin.com/in/alexander-von-moll/',
-    github: 'avonmoll',
+    linkedin: 'https://www.linkedin.com/in/isaac-weintraub-a06a591b/',
+    github: 'isaacew',
     gitlab: '',
-    scholar: 'https://scholar.google.com/citations?user=PrmqIAcAAAAJ&hl=en&oi=ao',
-    orcid: 'https://orcid.org/0000-0002-7661-5752',
+    scholar: 'https://scholar.google.com/citations?user=Re7-TLgAAAAJ&hl=en',
+    orcid: 'https://orcid.org/0000-0003-2209-2500',
     x: '',
-    arxiv: 'http://arxiv.org/a/vonmoll_a_1',
-    researchgate: 'https://www.researchgate.net/profile/Alexander-Von-Moll-2',
+    arxiv: 'http://arxiv.org/a/weintraub_i_1',
+    // researchgate: 'https://www.researchgate.net/profile/Alexander-Von-Moll-2',
 }
