@@ -165,3 +165,7 @@ pnpm dev
 - This theme is based off of the lovely [Bear Blog.](https://github.com/HermanMartinus/bearblog/)
 - The astro integration is supported by [astro-typst.](https://github.com/overflowcat/astro-typst)
 - And, the lovely [typst.](https://github.com/typst/typst)
+
+## Theme
+
+To change the theme go to /src/styles/global.css

@@ -5,40 +5,29 @@
  */
 
 :root {
-/* Gruvbox light(ish) */
-  /* --main-color: #3c3836; */
-  /* --main-hover-color: #222939; */
-  /* --raw-bg-color: rgba(101, 117, 133, 0.16); */
-  /* --main-bg-color: #f9f5d7; */
-  /* --nav-bg-color: #fbf1c7; */
-  /* --gray-color: #6d6d6d; */
-  /* --accent-dark: #98971a; */
-  /* --accent: #79740e; */
-  /* --black: #0f1219; */
-  /* Everforest Light(ish) */
-  --main-color: #3c3836;
-  --main-hover-color: #222939;
-  --raw-bg-color: rgba(101, 117, 133, 0.16);
-  --main-bg-color: #f3ead3;
-  --nav-bg-color: #e5dfc5;
-  --gray-color: #6d6d6d;
-  --accent: #8da101;
-  --accent-dark: #dfa000;
-  --black: #0f1219;
+  /* Weintraub Light */
+  --main-color: #2e3440; /* Dark text for readability */
+  --main-hover-color: #5e81ac; /* Muted blue for hover effects */
+  --gray-color: #646a78; /* Slightly darker gray for secondary text */
+  --raw-bg-color: #eceff4; /* Very light, off-white background */
+  --main-bg-color: #f7f9fc; /* A slightly warmer, clean white background */
+  --nav-bg-color: #e5e9f0; /* A soft gray for navigation to add depth */
+  --accent: #6c93b7; /* A slightly more saturated primary blue */
+  --accent-dark: #e84c90; /* A rich, saturated magenta */
 }
 
 :root.dark {
-    /* Gruvbox Dark(ish) */
-  --main-color: #ebdbb2;
-  --main-hover-color: #fff;
-  --gray-color: #939da3;
-  --raw-bg-color: #65758529;
-  --main-bg-color: #3c3836;
-  --nav-bg-color: #504945;
-  --accent: #98971a;
-  /* --accent-dark: #79740e; */
-  --accent-dark: #d79921;
+  /* Modern Dark */
+  --main-color: #9b9b9b; 
+  --main-hover-color: #b3e5fc; 
+  --gray-color: #88939e; 
+  --raw-bg-color: #182333; 
+  --main-bg-color: #182333; 
+  --nav-bg-color: #182333;; 
+  --accent: hsl(190, 32%, 40%); 
+  --accent-dark: #c9ff33; 
 }
+
 
 body {
   --vp-font-family-base: "Inter Variable", "Inter", "Noto Sans SC",
