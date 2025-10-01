@@ -217,7 +217,10 @@
     show: code-block-rules
 
     // highlight me
-    show "A. Von Moll": it => strong(emph(it))
+    show "Isaac E. Weintraub": it => strong(emph(it))
+    show "Isaac Weintraub": it => strong(emph(it))
+   
+
 
     show: it => if sys-is-html-target {
       show footnote: it => context {
