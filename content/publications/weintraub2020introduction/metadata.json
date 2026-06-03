@@ -1,0 +1,27 @@
+{
+  "id": "weintraub2020introduction",
+  "title": "An introduction to pursuit-evasion differential games",
+  "abstract": "Pursuit and evasion conflicts represent challenging problems with important applications in aerospace and robotics. In pursuit-evasion problems, synthesis of intelligent actions must consider the adversary's potential strategies. Differential game theory provides an adequate framework to analyze possible outcomes of the conflict without assuming particular behaviors by the opponent. This article presents an organized introduction of pursuit-evasion differential games with an overview of recent advances in the area. First, a summary of the seminal work is outlined, highlighting important contributions. Next, more recent results are described by employing a classification based on the number of players: one-pursuer-one-evader, N-pursuers-one-evader, one-pursuer-M-evaders, and N-pursuer-M-evader games. In each scenario, a brief summary of the literature is presented. Finally, two representative pursuit-evasion differential games are studied in detail: the two-cutters and fugitive ship differential game and the active target defense differential game. These problems provide two important applications and, more importantly, they give great insight into the realization of cooperation between friendly agents in order to form a team and defeat the adversary.",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Pachter, Meir",
+    "Garcia, Eloy"
+  ],
+  "year": "2020",
+  "venue": "2020 American Control Conference (ACC)",
+  "pages": "1049--1066",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2020introduction",
+    "fields": {
+      "title": "An introduction to pursuit-evasion differential games",
+      "author": "Weintraub, Isaac E and Pachter, Meir and Garcia, Eloy",
+      "booktitle": "2020 American Control Conference (ACC)",
+      "pages": "1049--1066",
+      "year": "2020",
+      "organization": "IEEE",
+      "abstract": "Pursuit and evasion conflicts represent challenging problems with important applications in aerospace and robotics. In pursuit-evasion problems, synthesis of intelligent actions must consider the adversary's potential strategies. Differential game theory provides an adequate framework to analyze possible outcomes of the conflict without assuming particular behaviors by the opponent. This article presents an organized introduction of pursuit-evasion differential games with an overview of recent advances in the area. First, a summary of the seminal work is outlined, highlighting important contributions. Next, more recent results are described by employing a classification based on the number of players: one-pursuer-one-evader, N-pursuers-one-evader, one-pursuer-M-evaders, and N-pursuer-M-evader games. In each scenario, a brief summary of the literature is presented. Finally, two representative pursuit-evasion differential games are studied in detail: the two-cutters and fugitive ship differential game and the active target defense differential game. These problems provide two important applications and, more importantly, they give great insight into the realization of cooperation between friendly agents in order to form a team and defeat the adversary."
+    }
+  }
+}
