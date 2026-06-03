@@ -125,7 +125,7 @@ export const kFriendLinks = [
   // },
 ];
 
-export const kJobTitle: string = "Aerospace Engineer at the Air Force Research Laboratory"; 
+export const kJobTitle: string = "Senior Electronics Engineer, Air Force Research Laboratory"; 
 
 export const social = {
     email: 'isaacweintraub@gmail.com',

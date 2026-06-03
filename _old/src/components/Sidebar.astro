@@ -1,31 +1,13 @@
 ---
-import { getCollection } from "astro:content";
-
-import { kUrlBase, kSiteLogo, kSiteSourceUrl } from "$consts";
-// import ThemeToggle from "$components";
-import HeaderLink from "./HeaderLink.astro";
-
-interface Props {
-  articleId?: string;
-}
-
-const { articleId } = Astro.props;
-
 import { Image } from 'astro:assets';
 import ProfilePortrait from '../assets/me.png';
 import SocialIcons from '../components/SocialIcons.astro'
 
 import {
-kSiteTitle,
-kSiteIndexTitle,
-kSiteDescription,
-kCommentList,
-kUrlBase,
-kBaiduVeriCode,
-kEnableComment,
-kEnableArchive,
-kJobTitle,
-social,
+  kSiteTitle,
+  kSiteIndexTitle,
+  kJobTitle,
+  kUrlBase,
 } from "$consts";
 ---
 
@@ -48,6 +30,11 @@ social,
             {kJobTitle}
         </p>
         </div>
+        <nav class="sidebar-nav">
+          <a href={`${kUrlBase}/`}>Home</a>
+          <a href={`${kUrlBase}/research`}>Research</a>
+          <a href={`${kUrlBase}/cv`}>CV</a>
+        </nav>
         <SocialIcons />
     </div>
 </header>
@@ -61,6 +48,22 @@ social,
       /* -webkit-mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%); */
       /* mask-image: radial-gradient(ellipse, black 70%, rgba(0, 0, 0, 0.0) 50%); */
     clip-path: ellipse(50% 50% at 50% 50%);
+  }
+  .sidebar-nav {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .sidebar-nav a {
+    display: block;
+    padding: 0.25rem 0;
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  .sidebar-nav a:hover {
+    color: var(--main-hover-color);
+    text-decoration: underline;
   }
 </style>
 

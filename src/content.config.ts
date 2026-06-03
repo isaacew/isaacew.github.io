@@ -1,60 +1,21 @@
-import { kEnableArchive } from "$consts";
-import { glob } from "astro/loaders";
+// 1. Import utilities from `astro:content`
 import { defineCollection, z } from "astro:content";
 
+// 2. Import loader(s)
+import { glob } from "astro/loaders";
+
+// 3. Define your collection(s)
 const blog = defineCollection({
-  // Load Typst files in the `content/article/` directory.
-  loader: glob({ base: "./content/blog", pattern: "**/*.typ" }),
-  // Type-check frontmatter using a schema
-  schema: z.object({
-    title: z.string(),
-    author: z.string().optional(),
-    description: z.any().optional(),
-    date: z.coerce.date(),
-    // Transform string to Date object
-    updatedDate: z.coerce.date().optional(),
-    tags: z.array(z.string()).optional(),
-  }),
+    loader: glob({
+        pattern: "**/*.md",
+        base: "./src/content/BlogPosts",
+    }),
+    schema: z.object({
+        title: z.string(),
+        date: z.string(),
+        excerpt: z.string(),
+        tags: z.array(z.string()).optional(),
+    }),
 });
-
-const pub = defineCollection({
-  // Load Typst files in the `content/article/` directory.
-  loader: glob({ base: "./content/publication", pattern: "**/*.typ" }),
-  // Type-check frontmatter using a schema
-  schema: z.object({
-    title: z.string(),
-    author: z.string(),
-    venue: z.string(),
-    description: z.any().optional(),
-    date: z.coerce.date(),
-    // Transform string to Date object
-    updatedDate: z.coerce.date().optional(),
-    tags: z.array(z.string()).optional(),
-    file: z.any().optional(),
-    doi: z.any().optional(),
-  }),
-});
-
-export const collections = { blog, pub };
-
-// const archive = kEnableArchive
-//   ? {
-//       archive: defineCollection({
-//         // Load Typst files in the `content/article/` directory.
-//         loader: glob({ base: "./content/archive", pattern: "**/*.typ" }),
-//         // Type-check frontmatter using a schema
-//         schema: z.object({
-//           title: z.string(),
-//           author: z.string().optional(),
-//           description: z.any().optional(),
-//           date: z.coerce.date(),
-//           indices: z.array(z.string()).optional(),
-//           // Transform string to Date object
-//           updatedDate: z.coerce.date().optional(),
-//           tags: z.array(z.string()).optional(),
-//         }),
-//       }),
-//     }
-//   : {};
-
-// export const collections = { blog, pub, ...archive };
+// 4. Export a single `collections` object to register your collection(s)
+export const collections = { blog };

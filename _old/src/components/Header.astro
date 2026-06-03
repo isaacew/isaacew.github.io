@@ -1,6 +1,4 @@
 ---
-import { getCollection } from "astro:content";
-
 import { kUrlBase, kSiteLogo, kSiteSourceUrl } from "$consts";
 import ThemeToggle from "./ThemeToggle.astro";
 import HeaderLink from "./HeaderLink.astro";
@@ -10,8 +8,6 @@ interface Props {
 }
 
 const { articleId } = Astro.props;
-const blogs = (await getCollection("blog"));
-const thereAreBlogs = blogs.length > 0;
 ---
 
 <header>
@@ -23,15 +19,10 @@ const thereAreBlogs = blogs.length > 0;
       <button class="w3-button w3-xlarge" id="hamburger">&#9776;</button>
       <!-- <button class="w3-button w3-xlarge" onclick="w3_open()" id="hamburger">&#9776;</button> -->
         <HeaderLink href={`${kUrlBase}/`}>Home</HeaderLink>
-      <HeaderLink href={`${kUrlBase}/publications`}>Publications</HeaderLink>
-      { thereAreBlogs && (
-      <HeaderLink href={`${kUrlBase}/blog`}>Blog</HeaderLink>
-        )}
-      <!-- <HeaderLink href={`${kUrlBase}/friend`}>Friends</HeaderLink> -->
-      <!-- <HeaderLink href={`${kUrlBase}/about`}>About</HeaderLink> -->
+      <HeaderLink href={`${kUrlBase}/research`}>Research</HeaderLink>
+      <HeaderLink href={`${kUrlBase}/cv`}>CV</HeaderLink>
     </div>
     <div class="social-links">
-      <span style="width: 2em;" aria-hidden="true">&nbsp;</span>
       <ThemeToggle />
       {
         kSiteSourceUrl && (

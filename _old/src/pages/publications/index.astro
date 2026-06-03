@@ -1,8 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 
-import { Search } from "@myriaddreamin/tylant";
-
 import BaseHead from "$components/BaseHead.astro";
 import Footer from "$components/Footer.astro";
 import FormattedDate from "$components/FormattedDate.astro";
@@ -10,7 +8,7 @@ import Header from "$components/Header.astro";
 import TagListPublications from "$components/TagListPublications.astro";
 import Sidebar from "$components/Sidebar.astro";
 
-import { kUrlBase, kSiteTitle, kSiteDescription, kEnableSearch } from "$consts";
+import { kUrlBase, kSiteTitle, kSiteDescription } from "$consts";
 
 import "$styles/IndexPostList.css";
 
@@ -19,6 +17,15 @@ const posts = (await getCollection("pub")).sort(
 );
 
 const publicationsURL = kUrlBase.concat("/publications");
+
+const url = new URL(Astro.request.url);
+const selectedTag = url.searchParams.get("tag");
+
+const filteredPosts = selectedTag
+  ? posts.filter((post) =>
+      Array.isArray(post.data.tags) && post.data.tags.includes(selectedTag)
+    )
+  : posts;
 ---
 
 <!doctype html>
@@ -69,8 +76,15 @@ const publicationsURL = kUrlBase.concat("/publications");
     <Sidebar />
     <div class="w3-main" style="margin-left:300px">
     <Header />
-    {kEnableSearch && <Search />}
-    <main class={kEnableSearch ? "search-enabled" : ""}>
+    <main>
+    <h1>Research</h1>
+    {selectedTag && (
+      <p>
+        Filtered by research area: <strong>{selectedTag}</strong>
+        {" "}
+        <a href={publicationsURL}>(clear)</a>
+      </p>
+    )}
     <div class="category-list">
       <ul>
         <li>
@@ -91,38 +105,38 @@ const publicationsURL = kUrlBase.concat("/publications");
       </ul>
     </div>
       <section>
-        <ul class={`accent block-list posts${kEnableSearch ? " loading" : ""}`}>
+        <ul class="accent block-list posts">
           {
-            posts.map((post) => (
+            filteredPosts.map((post) => (
               <li
+                class="pub-card"
                 data-article-id={post.id}
                 data-article-meta={JSON.stringify(post.data)}
               >
-                <a class="heading" href={`${publicationsURL}/${post.id}/`}>
-                  <h2>
-                    <span class="title">{post.data.title}</span>
-                  </h2>
-                  <span class="date" style="text-align:left">
-                    <FormattedDate date={post.data.date} />
-                  </span>
+                <a class="pub-card-link" href={`${publicationsURL}/${post.id}/`}>
+                  {post.data.thumbnail && (
+                    <img
+                      class="pub-card-thumb"
+                      src={post.data.thumbnail}
+                      alt={`Figure for ${post.data.title}`}
+                    />
+                  )}
+                  <div class="pub-card-body">
+                    <h2 class="pub-card-title">{post.data.title}</h2>
+                    <p class="pub-card-authors">{post.data.author}</p>
+                    <p class="pub-card-meta">
+                      <FormattedDate date={post.data.date} />
+                      {post.data.venue && ` · ${post.data.venue}`}
+                    </p>
+                    {post.data.tags && (
+                      <TagListPublications tags={post.data.tags} />
+                    )}
+                  </div>
                 </a>
-                <span class="author">{post.data.author}</span></br>
-                <i>{post.data.venue}</i>
-                {(post.data.doi || post.data.file) && </br>}
-                {post.data.doi && <a href={`https://doi.org/${post.data.doi}`}>DOI</a>}
-                {post.data.doi && post.data.file && <span> | </span>}
-                {post.data.file && <a href={post.data.file}>File</a>}
-                {post.data.tags && <TagListPublications tags={post.data.tags} />}
-                <!-- {post.data.description || ""} -->
               </li>
             ))
           }
         </ul>
-        <script is:inline>
-          if (!window.location.search) {
-            document.querySelector(".posts").classList.remove("loading");
-          }
-        </script>
       </section>
     </main>
     <Footer />

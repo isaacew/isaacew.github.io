@@ -1,0 +1,39 @@
+---
+import BaseHead from "$components/BaseHead.astro";
+import Header from "$components/Header.astro";
+import Footer from "$components/Footer.astro";
+import Sidebar from "$components/Sidebar.astro";
+import { kSiteTitle, kSiteDescription } from "$consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`CV | ${kSiteTitle}`} description={kSiteDescription} />
+  </head>
+  <body>
+    <Sidebar />
+    <div class="w3-main" style="margin-left:300px">
+      <Header />
+      <main>
+        <h1>Curriculum Vitae</h1>
+        <p>
+          This page will contain a structured overview of education,
+          appointments, publications, teaching, and service. You can later
+          replace this placeholder content with your full CV or sections of it.
+        </p>
+        <h2>Education</h2>
+        <p>To be completed.</p>
+        <h2>Appointments</h2>
+        <p>To be completed.</p>
+        <h2>Selected Publications</h2>
+        <p>
+          See the <a href="/research">Research</a> page for a complete list of
+          publications.
+        </p>
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>
+
