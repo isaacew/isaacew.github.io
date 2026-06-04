@@ -1,0 +1,24 @@
+{
+  "id": "le2026basic",
+  "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+  "abstract": "",
+  "authors": [
+    "Le, Qiang",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "1200",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "le2026basic",
+    "fields": {
+      "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+      "author": "Le, Qiang and Weintraub, Isaac E",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "pages": "1200",
+      "year": "2026"
+    }
+  }
+}

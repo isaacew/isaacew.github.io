@@ -1,0 +1,28 @@
+{
+  "id": "garcia2018adaptive",
+  "title": "Adaptive event-triggered cooperative control of uncertain networked systems",
+  "abstract": "",
+  "authors": [
+    "Garcia, Eloy",
+    "Weintraub, Isaac",
+    "Casbeer, David W"
+  ],
+  "year": "2018",
+  "venue": "IFAC-PapersOnLine",
+  "pages": "82--87",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "garcia2018adaptive",
+    "fields": {
+      "title": "Adaptive event-triggered cooperative control of uncertain networked systems",
+      "author": "Garcia, Eloy and Weintraub, Isaac and Casbeer, David W",
+      "journal": "IFAC-PapersOnLine",
+      "volume": "51",
+      "number": "12",
+      "pages": "82--87",
+      "year": "2018",
+      "publisher": "Elsevier"
+    }
+  }
+}

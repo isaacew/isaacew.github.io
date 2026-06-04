@@ -1,0 +1,25 @@
+{
+  "id": "weintraub2018optimal",
+  "title": "An optimal-stochastic aircraft defense strategy for the active target defense scenario",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Garcia, Eloy",
+    "Pachter, Meir"
+  ],
+  "year": "2018",
+  "venue": "2018 AIAA Guidance, Navigation, and Control Conference",
+  "pages": "1336",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2018optimal",
+    "fields": {
+      "title": "An optimal-stochastic aircraft defense strategy for the active target defense scenario",
+      "author": "Weintraub, Isaac E and Garcia, Eloy and Pachter, Meir",
+      "booktitle": "2018 AIAA Guidance, Navigation, and Control Conference",
+      "pages": "1336",
+      "year": "2018"
+    }
+  }
+}

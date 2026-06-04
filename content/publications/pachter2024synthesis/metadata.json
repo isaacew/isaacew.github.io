@@ -1,0 +1,27 @@
+{
+  "id": "pachter2024synthesis",
+  "title": "The synthesis of optimal control laws using isaacs’ method for the solution of differential games",
+  "abstract": "",
+  "authors": [
+    "Pachter, Meir",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2024",
+  "venue": "Journal of Optimization Theory and Applications",
+  "pages": "1137--1157",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "pachter2024synthesis",
+    "fields": {
+      "title": "The synthesis of optimal control laws using isaacs’ method for the solution of differential games",
+      "author": "Pachter, Meir and Weintraub, Isaac E",
+      "journal": "Journal of Optimization Theory and Applications",
+      "volume": "202",
+      "number": "3",
+      "pages": "1137--1157",
+      "year": "2024",
+      "publisher": "Springer US New York"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "weintraub2021engagement",
+  "title": "Engagement zone defense of a non-maneuvering evader",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac",
+    "Von Moll, Alexander",
+    "Casbeer, David",
+    "Garcia, Eloy",
+    "Pachter, Meir"
+  ],
+  "year": "2021",
+  "venue": "2021 IEEE Conference on Control Technology and Applications (CCTA)",
+  "pages": "366--373",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2021engagement",
+    "fields": {
+      "title": "Engagement zone defense of a non-maneuvering evader",
+      "author": "Weintraub, Isaac and Von Moll, Alexander and Casbeer, David and Garcia, Eloy and Pachter, Meir",
+      "booktitle": "2021 IEEE Conference on Control Technology and Applications (CCTA)",
+      "pages": "366--373",
+      "year": "2021",
+      "organization": "IEEE"
+    }
+  }
+}

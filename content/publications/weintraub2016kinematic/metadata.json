@@ -1,0 +1,26 @@
+{
+  "id": "weintraub2016kinematic",
+  "title": "Kinematic selection for a tailless flapping wing micro-air vehicle",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac",
+    "Sigthorsson, David",
+    "Oppenheimer, Michael W",
+    "Doman, David B"
+  ],
+  "year": "2016",
+  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "pages": "0892",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2016kinematic",
+    "fields": {
+      "title": "Kinematic selection for a tailless flapping wing micro-air vehicle",
+      "author": "Weintraub, Isaac and Sigthorsson, David and Oppenheimer, Michael W and Doman, David B",
+      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "pages": "0892",
+      "year": "2016"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "oppenheimer2017wing",
+  "title": "Wing design and testing for a tailless flapping wing micro-air vehicle",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael W",
+    "Sigthorsson, David",
+    "Doman, David B",
+    "Weintraub, Isaac"
+  ],
+  "year": "2017",
+  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "pages": "1271",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "oppenheimer2017wing",
+    "fields": {
+      "title": "Wing design and testing for a tailless flapping wing micro-air vehicle",
+      "author": "Oppenheimer, Michael W and Sigthorsson, David and Doman, David B and Weintraub, Isaac",
+      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "pages": "1271",
+      "year": "2017"
+    }
+  }
+}

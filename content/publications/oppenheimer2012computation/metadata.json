@@ -1,0 +1,27 @@
+{
+  "id": "oppenheimer2012computation",
+  "title": "Computation of Inertial Forces and Torques Associated with Flapping Wings",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael",
+    "Awtar, Shorya",
+    "Sigthorsson, David",
+    "Weintraub, Isaac",
+    "Doman, David"
+  ],
+  "year": "2012",
+  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "pages": "4981",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "oppenheimer2012computation",
+    "fields": {
+      "title": "Computation of Inertial Forces and Torques Associated with Flapping Wings",
+      "author": "Oppenheimer, Michael and Awtar, Shorya and Sigthorsson, David and Weintraub, Isaac and Doman, David",
+      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "pages": "4981",
+      "year": "2012"
+    }
+  }
+}

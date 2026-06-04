@@ -1,0 +1,31 @@
+{
+  "id": "scott2023development",
+  "title": "Development of linear battery model for path planning with mixed integer linear programming: Simulated and experimental validation",
+  "abstract": "",
+  "authors": [
+    "Scott, Drew D",
+    "Weintraub, Isaac E",
+    "Manyam, Satyanarayana G",
+    "Casbeer, David W",
+    "Kumar, Manish",
+    "Rothenberger, Michael J"
+  ],
+  "year": "2023",
+  "venue": "IFAC-PapersOnLine",
+  "pages": "7--12",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "scott2023development",
+    "fields": {
+      "title": "Development of linear battery model for path planning with mixed integer linear programming: Simulated and experimental validation",
+      "author": "Scott, Drew D and Weintraub, Isaac E and Manyam, Satyanarayana G and Casbeer, David W and Kumar, Manish and Rothenberger, Michael J",
+      "journal": "IFAC-PapersOnLine",
+      "volume": "56",
+      "number": "3",
+      "pages": "7--12",
+      "year": "2023",
+      "publisher": "Elsevier"
+    }
+  }
+}

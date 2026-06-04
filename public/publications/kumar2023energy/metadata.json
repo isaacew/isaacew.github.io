@@ -1,0 +1,31 @@
+{
+  "id": "kumar2023energy",
+  "title": "Energy-efficient ring formation control with constrained inputs",
+  "abstract": "",
+  "authors": [
+    "Kumar Ranjan, Praveen",
+    "Sinha, Abhinav",
+    "Cao, Yongcan",
+    "Tran, Dzung",
+    "Casbeer, David",
+    "Weintraub, Isaac"
+  ],
+  "year": "2023",
+  "venue": "Journal of Guidance, Control, and Dynamics",
+  "pages": "1397--1407",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "kumar2023energy",
+    "fields": {
+      "title": "Energy-efficient ring formation control with constrained inputs",
+      "author": "Kumar Ranjan, Praveen and Sinha, Abhinav and Cao, Yongcan and Tran, Dzung and Casbeer, David and Weintraub, Isaac",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "volume": "46",
+      "number": "7",
+      "pages": "1397--1407",
+      "year": "2023",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

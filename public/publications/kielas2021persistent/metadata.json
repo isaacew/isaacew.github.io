@@ -1,0 +1,30 @@
+{
+  "id": "kielas2021persistent",
+  "title": "Persistent monitoring by multiple unmanned aerial vehicles using bernstein polynomials",
+  "abstract": "",
+  "authors": [
+    "Kielas-Jensen, Calvin",
+    "Cichella, Venanzio",
+    "Casbeer, David",
+    "Manyam, Satyanarayana Gupta",
+    "Weintraub, Isaac"
+  ],
+  "year": "2021",
+  "venue": "Journal of Optimization Theory and Applications",
+  "pages": "899--916",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "kielas2021persistent",
+    "fields": {
+      "title": "Persistent monitoring by multiple unmanned aerial vehicles using bernstein polynomials",
+      "author": "Kielas-Jensen, Calvin and Cichella, Venanzio and Casbeer, David and Manyam, Satyanarayana Gupta and Weintraub, Isaac",
+      "journal": "Journal of Optimization Theory and Applications",
+      "volume": "191",
+      "number": "2",
+      "pages": "899--916",
+      "year": "2021",
+      "publisher": "Springer US New York"
+    }
+  }
+}

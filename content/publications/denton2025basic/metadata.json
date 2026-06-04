@@ -1,0 +1,27 @@
+{
+  "id": "denton2025basic",
+  "title": "The Basic Engagement Zone in 3-D",
+  "abstract": "",
+  "authors": [
+    "Denton, Alexander W",
+    "Kunz, Donald",
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander"
+  ],
+  "year": "2025",
+  "venue": "NAECON 2025-IEEE National Aerospace and Electronics Conference",
+  "pages": "1--4",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "denton2025basic",
+    "fields": {
+      "title": "The Basic Engagement Zone in 3-D",
+      "author": "Denton, Alexander W and Kunz, Donald and Weintraub, Isaac E and Von Moll, Alexander",
+      "booktitle": "NAECON 2025-IEEE National Aerospace and Electronics Conference",
+      "pages": "1--4",
+      "year": "2025",
+      "organization": "IEEE"
+    }
+  }
+}

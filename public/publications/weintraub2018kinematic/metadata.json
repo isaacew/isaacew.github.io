@@ -1,0 +1,26 @@
+{
+  "id": "weintraub2018kinematic",
+  "title": "A Kinematic Rejoin Method for Active Defense of Non-Maneuverable Aircraft",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Garcia, Eloy",
+    "Pachter, Meir"
+  ],
+  "year": "2018",
+  "venue": "2018 Annual American Control Conference (ACC)",
+  "pages": "6533--6538",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2018kinematic",
+    "fields": {
+      "title": "A Kinematic Rejoin Method for Active Defense of Non-Maneuverable Aircraft",
+      "author": "Weintraub, Isaac E and Garcia, Eloy and Pachter, Meir",
+      "booktitle": "2018 Annual American Control Conference (ACC)",
+      "pages": "6533--6538",
+      "year": "2018",
+      "organization": "IEEE"
+    }
+  }
+}

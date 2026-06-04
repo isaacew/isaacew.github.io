@@ -1,0 +1,30 @@
+{
+  "id": "bajaj2022competitive",
+  "title": "Competitive perimeter defense of conical environments",
+  "abstract": "",
+  "authors": [
+    "Bajaj, Shivam",
+    "Torng, Eric",
+    "Bopardikar, Shaunak D",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac",
+    "Garcia, Eloy",
+    "Casbeer, David W"
+  ],
+  "year": "2022",
+  "venue": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+  "pages": "6586--6593",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "bajaj2022competitive",
+    "fields": {
+      "title": "Competitive perimeter defense of conical environments",
+      "author": "Bajaj, Shivam and Torng, Eric and Bopardikar, Shaunak D and Von Moll, Alexander and Weintraub, Isaac and Garcia, Eloy and Casbeer, David W",
+      "booktitle": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+      "pages": "6586--6593",
+      "year": "2022",
+      "organization": "IEEE"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tran2022improving",
+  "title": "On Improving the Potential Field Method for Ring Formation",
+  "abstract": "",
+  "authors": [
+    "Tran, Dzung",
+    "Casbeer, David W",
+    "Weintraub, Isaac E",
+    "Milutinovi{\\'c"
+  ],
+  "year": "2022",
+  "venue": "2022 American Control Conference (ACC)",
+  "pages": "4727--4732",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "tran2022improving",
+    "fields": {
+      "title": "On Improving the Potential Field Method for Ring Formation",
+      "author": "Tran, Dzung and Casbeer, David W and Weintraub, Isaac E and Milutinovi{\\'c",
+      "booktitle": "2022 American Control Conference (ACC)",
+      "pages": "4727--4732",
+      "year": "2022",
+      "organization": "IEEE"
+    }
+  }
+}

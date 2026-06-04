@@ -1,0 +1,30 @@
+{
+  "id": "scott2023optimal",
+  "title": "Optimal generator policy for hybrid fuel uav under airspace noise restrictions",
+  "abstract": "",
+  "authors": [
+    "Scott, Drew D",
+    "Weintraub, Isaac E",
+    "Manyam, Satyanarayana G",
+    "Casbeer, David W",
+    "Kumar, Manish"
+  ],
+  "year": "2023",
+  "venue": "IFAC-PapersOnLine",
+  "pages": "25--30",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "scott2023optimal",
+    "fields": {
+      "title": "Optimal generator policy for hybrid fuel uav under airspace noise restrictions",
+      "author": "Scott, Drew D and Weintraub, Isaac E and Manyam, Satyanarayana G and Casbeer, David W and Kumar, Manish",
+      "journal": "IFAC-PapersOnLine",
+      "volume": "56",
+      "number": "3",
+      "pages": "25--30",
+      "year": "2023",
+      "publisher": "Elsevier"
+    }
+  }
+}

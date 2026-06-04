@@ -1,0 +1,26 @@
+{
+  "id": "wolek2025maximum",
+  "title": "Maximum Kinetic Energy Paths for a Decaying-Speed Dubins Vehicle",
+  "abstract": "",
+  "authors": [
+    "Wolek, Artur",
+    "Casbeer, David",
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander"
+  ],
+  "year": "2025",
+  "venue": "AIAA SCITECH 2025 Forum",
+  "pages": "1351",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "wolek2025maximum",
+    "fields": {
+      "title": "Maximum Kinetic Energy Paths for a Decaying-Speed Dubins Vehicle",
+      "author": "Wolek, Artur and Casbeer, David and Weintraub, Isaac E and Von Moll, Alexander",
+      "booktitle": "AIAA SCITECH 2025 Forum",
+      "pages": "1351",
+      "year": "2025"
+    }
+  }
+}

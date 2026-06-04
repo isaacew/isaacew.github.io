@@ -1,0 +1,27 @@
+{
+  "id": "von2024basic",
+  "title": "Basic engagement zones",
+  "abstract": "",
+  "authors": [
+    "Von Moll, Alexander",
+    "Weintraub, Isaac"
+  ],
+  "year": "2024",
+  "venue": "Journal of Aerospace Information Systems",
+  "pages": "885--891",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "von2024basic",
+    "fields": {
+      "title": "Basic engagement zones",
+      "author": "Von Moll, Alexander and Weintraub, Isaac",
+      "journal": "Journal of Aerospace Information Systems",
+      "volume": "21",
+      "number": "10",
+      "pages": "885--891",
+      "year": "2024",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

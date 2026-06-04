@@ -1,0 +1,26 @@
+{
+  "id": "gotwald2023determining",
+  "title": "Determining Follower Aircraft's Optimal Trajectory in Relation to a Dynamic Formation Ring",
+  "abstract": "",
+  "authors": [
+    "Gotwald, Carl A",
+    "Zollars, Michael D",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2023",
+  "venue": "2023 IEEE Aerospace Conference",
+  "pages": "1--11",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "gotwald2023determining",
+    "fields": {
+      "title": "Determining Follower Aircraft's Optimal Trajectory in Relation to a Dynamic Formation Ring",
+      "author": "Gotwald, Carl A and Zollars, Michael D and Weintraub, Isaac E",
+      "booktitle": "2023 IEEE Aerospace Conference",
+      "pages": "1--11",
+      "year": "2023",
+      "organization": "IEEE"
+    }
+  }
+}

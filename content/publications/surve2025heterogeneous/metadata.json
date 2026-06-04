@@ -1,0 +1,29 @@
+{
+  "id": "surve2025heterogeneous",
+  "title": "Heterogeneous Pursuit of an Active Target Under Sensing Constraints",
+  "abstract": "",
+  "authors": [
+    "Surve, Prajakta",
+    "Bopardikar, Shaunak D",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac",
+    "Casbeer, David W"
+  ],
+  "year": "2025",
+  "venue": "IEEE Control Systems Letters",
+  "pages": "3017--3022",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "surve2025heterogeneous",
+    "fields": {
+      "title": "Heterogeneous Pursuit of an Active Target Under Sensing Constraints",
+      "author": "Surve, Prajakta and Bopardikar, Shaunak D and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David W",
+      "journal": "IEEE Control Systems Letters",
+      "volume": "9",
+      "pages": "3017--3022",
+      "year": "2025",
+      "publisher": "IEEE"
+    }
+  }
+}

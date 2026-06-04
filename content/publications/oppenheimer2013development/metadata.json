@@ -1,0 +1,28 @@
+{
+  "id": "oppenheimer2013development",
+  "title": "Development of a flapping wing mechanism that can produce lift greater than weight",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael W",
+    "Sigthorsson, David",
+    "Weintraub, Isaac",
+    "Smith, Todd J",
+    "Dawson, Jaderic",
+    "Doman, David B"
+  ],
+  "year": "2013",
+  "venue": "AIAA Guidance, Navigation, and Control (GNC) Conference",
+  "pages": "5106",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "oppenheimer2013development",
+    "fields": {
+      "title": "Development of a flapping wing mechanism that can produce lift greater than weight",
+      "author": "Oppenheimer, Michael W and Sigthorsson, David and Weintraub, Isaac and Smith, Todd J and Dawson, Jaderic and Doman, David B",
+      "booktitle": "AIAA Guidance, Navigation, and Control (GNC) Conference",
+      "pages": "5106",
+      "year": "2013"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chapman2025safe",
+  "title": "Safe Navigation in the Presence of Range-Limited Pursuers",
+  "abstract": "",
+  "authors": [
+    "Chapman, Thomas",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2025",
+  "venue": "IEEE Control Systems Letters",
+  "pages": "2849--2854",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "chapman2025safe",
+    "fields": {
+      "title": "Safe Navigation in the Presence of Range-Limited Pursuers",
+      "author": "Chapman, Thomas and Von Moll, Alexander and Weintraub, Isaac E",
+      "journal": "IEEE Control Systems Letters",
+      "volume": "9",
+      "pages": "2849--2854",
+      "year": "2025",
+      "publisher": "IEEE"
+    }
+  }
+}

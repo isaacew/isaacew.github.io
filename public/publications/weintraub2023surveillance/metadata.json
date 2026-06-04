@@ -1,0 +1,30 @@
+{
+  "id": "weintraub2023surveillance",
+  "title": "Surveillance of a faster fixed-course target",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Garcia, Eloy",
+    "Casbeer, David W",
+    "Pachter, Meir"
+  ],
+  "year": "2023",
+  "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+  "pages": "4147--4158",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "weintraub2023surveillance",
+    "fields": {
+      "title": "Surveillance of a faster fixed-course target",
+      "author": "Weintraub, Isaac E and Von Moll, Alexander and Garcia, Eloy and Casbeer, David W and Pachter, Meir",
+      "journal": "IEEE Transactions on Aerospace and Electronic Systems",
+      "volume": "59",
+      "number": "4",
+      "pages": "4147--4158",
+      "year": "2023",
+      "publisher": "IEEE"
+    }
+  }
+}

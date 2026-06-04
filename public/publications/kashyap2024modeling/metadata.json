@@ -1,0 +1,28 @@
+{
+  "id": "kashyap2024modeling",
+  "title": "Modeling and Detection of cyber-attacks in UAV swarms using a 2D-LWR model and Gaussian processes",
+  "abstract": "",
+  "authors": [
+    "Kashyap, Abhishek",
+    "Chakravarthy, Animesh",
+    "Subbarao, Kamesh",
+    "Casbeer, David",
+    "Weintraub, Isaac E",
+    "Hencey, Brandon"
+  ],
+  "year": "2024",
+  "venue": "AIAA SCITECH 2024 Forum",
+  "pages": "0529",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "kashyap2024modeling",
+    "fields": {
+      "title": "Modeling and Detection of cyber-attacks in UAV swarms using a 2D-LWR model and Gaussian processes",
+      "author": "Kashyap, Abhishek and Chakravarthy, Animesh and Subbarao, Kamesh and Casbeer, David and Weintraub, Isaac E and Hencey, Brandon",
+      "booktitle": "AIAA SCITECH 2024 Forum",
+      "pages": "0529",
+      "year": "2024"
+    }
+  }
+}

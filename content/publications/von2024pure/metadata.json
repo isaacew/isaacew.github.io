@@ -1,0 +1,26 @@
+{
+  "id": "von2024pure",
+  "title": "Pure Pursuit of a Target on a Circular Trajectory",
+  "abstract": "",
+  "authors": [
+    "Von Moll, Alexander L",
+    "Casbeer, David",
+    "Weintraub, Isaac E",
+    "Pachter, Meir"
+  ],
+  "year": "2024",
+  "venue": "AIAA SCITECH 2024 Forum",
+  "pages": "0956",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "von2024pure",
+    "fields": {
+      "title": "Pure Pursuit of a Target on a Circular Trajectory",
+      "author": "Von Moll, Alexander L and Casbeer, David and Weintraub, Isaac E and Pachter, Meir",
+      "booktitle": "AIAA SCITECH 2024 Forum",
+      "pages": "0956",
+      "year": "2024"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "milutinovic2024pursuit",
+  "title": "Pursuit-evasion on a sphere and when it can be considered flat",
+  "abstract": "",
+  "authors": [
+    "Milutinovi{\\'c"
+  ],
+  "year": "2024",
+  "venue": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+  "pages": "8270--8275",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "milutinovic2024pursuit",
+    "fields": {
+      "title": "Pursuit-evasion on a sphere and when it can be considered flat",
+      "author": "Milutinovi{\\'c",
+      "booktitle": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+      "pages": "8270--8275",
+      "year": "2024",
+      "organization": "IEEE"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "manyam2022path",
+  "title": "Path planning and energy management of hybrid air vehicles for urban air mobility",
+  "abstract": "",
+  "authors": [
+    "Manyam, Satyanarayana G",
+    "Casbeer, David W",
+    "Darbha, Swaroop",
+    "Weintraub, Isaac E",
+    "Kalyanam, Krishna"
+  ],
+  "year": "2022",
+  "venue": "IEEE Robotics and Automation Letters",
+  "pages": "10176--10183",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "manyam2022path",
+    "fields": {
+      "title": "Path planning and energy management of hybrid air vehicles for urban air mobility",
+      "author": "Manyam, Satyanarayana G and Casbeer, David W and Darbha, Swaroop and Weintraub, Isaac E and Kalyanam, Krishna",
+      "journal": "IEEE Robotics and Automation Letters",
+      "volume": "7",
+      "number": "4",
+      "pages": "10176--10183",
+      "year": "2022",
+      "publisher": "IEEE"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dillon2023optimal",
+  "title": "Optimal trajectories for aircraft avoidance of multiple weapon engagement zones",
+  "abstract": "",
+  "authors": [
+    "Dillon, Patrick M",
+    "Zollars, Michael D",
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Journal of Aerospace Information Systems",
+  "pages": "520--525",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "dillon2023optimal",
+    "fields": {
+      "title": "Optimal trajectories for aircraft avoidance of multiple weapon engagement zones",
+      "author": "Dillon, Patrick M and Zollars, Michael D and Weintraub, Isaac E and Von Moll, Alexander",
+      "journal": "Journal of Aerospace Information Systems",
+      "volume": "20",
+      "number": "8",
+      "pages": "520--525",
+      "year": "2023",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

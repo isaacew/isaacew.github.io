@@ -1,0 +1,30 @@
+{
+  "id": "weintraub2025min",
+  "title": "Min-Time Escape of a Dubins Car from a Polygon",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Casbeer, David",
+    "Manyam, Satyanarayana G",
+    "Pachter, Meir",
+    "Taylor, Colin",
+    "Chapman, Thomas"
+  ],
+  "year": "2025",
+  "venue": "2025 American Control Conference (ACC)",
+  "pages": "382--388",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2025min",
+    "fields": {
+      "title": "Min-Time Escape of a Dubins Car from a Polygon",
+      "author": "Weintraub, Isaac E and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G and Pachter, Meir and Taylor, Colin and Chapman, Thomas",
+      "booktitle": "2025 American Control Conference (ACC)",
+      "pages": "382--388",
+      "year": "2025",
+      "organization": "IEEE"
+    }
+  }
+}

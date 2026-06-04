@@ -1,0 +1,27 @@
+{
+  "id": "manyam2021trajectory",
+  "title": "Trajectory optimization for rendezvous planning using quadratic b{\\'e",
+  "abstract": "",
+  "authors": [
+    "Manyam, Satyanarayana G",
+    "Casbeer, David W",
+    "Weintraub, Isaac E",
+    "Taylor, Colin"
+  ],
+  "year": "2021",
+  "venue": "2021 IEEE/RSJ international conference on intelligent robots and systems (IROS)",
+  "pages": "1405--1412",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "manyam2021trajectory",
+    "fields": {
+      "title": "Trajectory optimization for rendezvous planning using quadratic b{\\'e",
+      "author": "Manyam, Satyanarayana G and Casbeer, David W and Weintraub, Isaac E and Taylor, Colin",
+      "booktitle": "2021 IEEE/RSJ international conference on intelligent robots and systems (IROS)",
+      "pages": "1405--1412",
+      "year": "2021",
+      "organization": "IEEE"
+    }
+  }
+}

@@ -1,38 +1,103 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { publications } from "@/data/cv";
 import { highlightAuthor } from "@/lib/utils";
-import {template} from "@/settings";
+import { template } from "@/settings";
+import { getPublications } from "@/lib/publications";
 
-const ALL_PAPERS = publications; // This will be replaced with dynamic data later
+const ALL_PAPERS = getPublications();
 ---
 
 <Layout title="Papers">
   <div class="prose max-w-none">
-    <h1 class="text-3xl font-bold mb-8">Publications</h1>
+    <h1 class="text-3xl font-bold mb-4">Publications</h1>
 
-    <div class="space-y-8">
+    <div class="mb-6 max-w-md">
+      <label class="input input-bordered flex items-center gap-2">
+        <span class="text-sm">Search</span>
+        <input
+          id="papers-search"
+          type="text"
+          placeholder="Title, author, or venue"
+          class="grow bg-transparent outline-none"
+          aria-label="Search publications"
+        />
+      </label>
+    </div>
+
+    <div class="space-y-4" id="papers-list">
       {
         ALL_PAPERS.map((paper) => (
           <div class="card bg-base-200">
-            <div class="card-body">
-              <h2 class="card-title text-xl">
-                <a href={template.base + paper.link} class="hover:text-accent">
-                  {paper.title}
-                </a>
+            <div class="card-body py-3">
+              <h2 class="card-title text-lg">
+                {paper.title}
               </h2>
-              <p class="text-base mb-2">
+              <p class="text-sm mb-1">
                 <span class="font-medium">Authors:</span>{" "}
-                <span set:html={highlightAuthor(paper.authors)} />
+                <span
+                  set:html={highlightAuthor(
+                    Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors || ''
+                  )}
+                />
               </p>
-              <p class="text-sm mb-3">
+              <p class="text-xs mb-2">
                 <span class="italic">{paper.journal}</span> • {paper.time}
               </p>
-              <p class="text-sm text-base-content/80">{paper.abstract}</p>
-              <div class="card-actions justify-end mt-4">
-                <a href={paper.link} class="btn btn-sm btn-secondary text-secondary-content">
-                  Read Paper
-                </a>
+              <p class="text-xs text-base-content/80 line-clamp-2">{paper.abstract}</p>
+              <div class="card-actions justify-end mt-2 flex flex-wrap gap-2">
+                {paper.preprintUrl && (
+                  <a
+                    href={paper.preprintUrl}
+                    class="btn btn-xs btn-accent text-accent-content"
+                    target="_blank"
+                  >
+                    preprint
+                  </a>
+                )}
+                {paper.doi && (
+                  <a
+                    href={paper.doi.startsWith('http') ? paper.doi : `https://doi.org/${paper.doi}`}
+                    class="btn btn-xs btn-primary text-primary-content"
+                    target="_blank"
+                  >
+                    DOI
+                  </a>
+                )}
+                {paper.url && (
+                  <a
+                    href={paper.url}
+                    class="btn btn-xs btn-secondary text-secondary-content"
+                    target="_blank"
+                  >
+                    url
+                  </a>
+                )}
+                {paper.codeUrl && (
+                  <a
+                    href={paper.codeUrl}
+                    class="btn btn-xs btn-outline"
+                    target="_blank"
+                  >
+                    Code
+                  </a>
+                )}
+                {paper.hasLocalPaper && (
+                  <a
+                    href={`${template.base}publications/${paper.id}/paper.pdf`}
+                    class="btn btn-xs btn-neutral text-neutral-content"
+                    target="_blank"
+                  >
+                    paper
+                  </a>
+                )}
+                {paper.bibtex && (
+                  <details class="mt-1 w-full">
+                    <summary class="cursor-pointer text-xs text-accent">BibTeX</summary>
+                    <pre class="whitespace-pre-wrap text-xs bg-base-200 p-2 rounded mt-1 max-h-64 overflow-auto">
+{paper.bibtex}
+                    </pre>
+                  </details>
+                )}
               </div>
             </div>
           </div>
@@ -40,14 +105,24 @@ const ALL_PAPERS = publications; // This will be replaced with dynamic data late
       }
     </div>
 
-    <div class="flex justify-center mt-8">
-      <div class="join">
-        <button class="join-item btn btn-sm">«</button>
-        <button class="join-item btn btn-sm">1</button>
-        <button class="join-item btn btn-sm btn-active">2</button>
-        <button class="join-item btn btn-sm">3</button>
-        <button class="join-item btn btn-sm">»</button>
-      </div>
-    </div>
+    <script is:inline>
+      const searchInput = document.getElementById('papers-search');
+      const list = document.getElementById('papers-list');
+
+      if (searchInput && list) {
+        const cards = Array.from(list.children);
+
+        const normalize = (str) =>
+          (str || '').toString().toLowerCase();
+
+        searchInput.addEventListener('input', () => {
+          const term = normalize(searchInput.value);
+          cards.forEach((card) => {
+            const text = normalize(card.textContent);
+            card.style.display = term === '' || text.includes(term) ? '' : 'none';
+          });
+        });
+      }
+    </script>
   </div>
 </Layout>

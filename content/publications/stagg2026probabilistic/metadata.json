@@ -1,0 +1,25 @@
+{
+  "id": "stagg2026probabilistic",
+  "title": "Probabilistic Weapon Engagement Zones for a Turn Constrained Pursuer",
+  "abstract": "",
+  "authors": [
+    "Stagg, Grant",
+    "Peterson, Cammy K",
+    "Weintraub, Isaac"
+  ],
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "2195",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "stagg2026probabilistic",
+    "fields": {
+      "title": "Probabilistic Weapon Engagement Zones for a Turn Constrained Pursuer",
+      "author": "Stagg, Grant and Peterson, Cammy K and Weintraub, Isaac",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "pages": "2195",
+      "year": "2026"
+    }
+  }
+}

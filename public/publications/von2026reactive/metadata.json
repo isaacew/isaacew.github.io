@@ -1,0 +1,24 @@
+{
+  "id": "von2026reactive",
+  "title": "Reactive Vehicle Guidance using Dynamic Maneuvering Cue",
+  "abstract": "",
+  "authors": [
+    "Von Moll, Alexander L",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "1199",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "von2026reactive",
+    "fields": {
+      "title": "Reactive Vehicle Guidance using Dynamic Maneuvering Cue",
+      "author": "Von Moll, Alexander L and Weintraub, Isaac E",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "pages": "1199",
+      "year": "2026"
+    }
+  }
+}

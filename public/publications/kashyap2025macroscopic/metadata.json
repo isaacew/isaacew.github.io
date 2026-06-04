@@ -1,0 +1,31 @@
+{
+  "id": "kashyap2025macroscopic",
+  "title": "Macroscopic-Model-Based Learning for Detection of Cyber-Attacks in UAV Swarms",
+  "abstract": "",
+  "authors": [
+    "Kashyap, Abhishek",
+    "Chakravarthy, Animesh",
+    "Subbarao, Kamesh",
+    "Casbeer, David",
+    "Weintraub, Isaac",
+    "Hencey, Brandon"
+  ],
+  "year": "2025",
+  "venue": "Journal of Aerospace Information Systems",
+  "pages": "867--889",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "kashyap2025macroscopic",
+    "fields": {
+      "title": "Macroscopic-Model-Based Learning for Detection of Cyber-Attacks in UAV Swarms",
+      "author": "Kashyap, Abhishek and Chakravarthy, Animesh and Subbarao, Kamesh and Casbeer, David and Weintraub, Isaac and Hencey, Brandon",
+      "journal": "Journal of Aerospace Information Systems",
+      "volume": "22",
+      "number": "10",
+      "pages": "867--889",
+      "year": "2025",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

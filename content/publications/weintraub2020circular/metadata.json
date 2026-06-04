@@ -1,0 +1,28 @@
+{
+  "id": "weintraub2020circular",
+  "title": "Circular rejoin in 3D using b{\\'e",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Demers, Zachary JL",
+    "Shroyer, Jason",
+    "Ritsema, Nathan P",
+    "Sluss, Dillon P"
+  ],
+  "year": "2020",
+  "venue": "2020 IEEE conference on control technology and applications (CCTA)",
+  "pages": "600--605",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2020circular",
+    "fields": {
+      "title": "Circular rejoin in 3D using b{\\'e",
+      "author": "Weintraub, Isaac E and Demers, Zachary JL and Shroyer, Jason and Ritsema, Nathan P and Sluss, Dillon P",
+      "booktitle": "2020 IEEE conference on control technology and applications (CCTA)",
+      "pages": "600--605",
+      "year": "2020",
+      "organization": "IEEE"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "manyamcontinuous",
+  "title": "Continuous Monitoring of a Path-Constrained Moving Target by Multiple UAVs",
+  "abstract": "",
+  "authors": [
+    "Manyam, Satyanarayana",
+    "Casbeer, David W",
+    "Weintraub, Isaac"
+  ],
+  "year": "",
+  "venue": "",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "manyamcontinuous",
+    "fields": {
+      "title": "Continuous Monitoring of a Path-Constrained Moving Target by Multiple UAVs",
+      "author": "Manyam, Satyanarayana and Casbeer, David W and Weintraub, Isaac"
+    }
+  }
+}

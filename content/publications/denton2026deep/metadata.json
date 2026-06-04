@@ -1,0 +1,26 @@
+{
+  "id": "denton2026deep",
+  "title": "Deep Neural Network as 5-D Image for Threat Avoidance",
+  "abstract": "",
+  "authors": [
+    "Denton, Alexander W",
+    "Riddick, Michael P",
+    "Weintraub, Isaac E",
+    "Kunz, Donald L"
+  ],
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "2194",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "denton2026deep",
+    "fields": {
+      "title": "Deep Neural Network as 5-D Image for Threat Avoidance",
+      "author": "Denton, Alexander W and Riddick, Michael P and Weintraub, Isaac E and Kunz, Donald L",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "pages": "2194",
+      "year": "2026"
+    }
+  }
+}

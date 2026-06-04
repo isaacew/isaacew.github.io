@@ -1,0 +1,26 @@
+{
+  "id": "oppenheimer2015experimental",
+  "title": "Experimental Measurements of Cycle Averaged Forces for a Flapping Wing Vehicle",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael W",
+    "Weintraub, Isaac",
+    "Sigthorsson, David",
+    "Doman, David B"
+  ],
+  "year": "2015",
+  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "pages": "1549",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "oppenheimer2015experimental",
+    "fields": {
+      "title": "Experimental Measurements of Cycle Averaged Forces for a Flapping Wing Vehicle",
+      "author": "Oppenheimer, Michael W and Weintraub, Isaac and Sigthorsson, David and Doman, David B",
+      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "pages": "1549",
+      "year": "2015"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "surve2025mutual",
+  "title": "Mutual support by sensor-attacker team for a passive target",
+  "abstract": "",
+  "authors": [
+    "Surve, Prajakta",
+    "Bopardikar, Shaunak D",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac",
+    "Casbeer, David W"
+  ],
+  "year": "2025",
+  "venue": "IEEE Open Journal of Control Systems",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "surve2025mutual",
+    "fields": {
+      "title": "Mutual support by sensor-attacker team for a passive target",
+      "author": "Surve, Prajakta and Bopardikar, Shaunak D and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David W",
+      "journal": "IEEE Open Journal of Control Systems",
+      "year": "2025",
+      "publisher": "IEEE"
+    }
+  }
+}

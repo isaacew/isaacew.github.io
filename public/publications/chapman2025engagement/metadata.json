@@ -1,0 +1,27 @@
+{
+  "id": "chapman2025engagement",
+  "title": "Engagement zones for a turn constrained pursuer",
+  "abstract": "",
+  "authors": [
+    "Chapman, Thomas",
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Garcia, Eloy"
+  ],
+  "year": "2025",
+  "venue": "2025 International Conference on Unmanned Aircraft Systems (ICUAS)",
+  "pages": "763--768",
+  "organization": "IEEE",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "chapman2025engagement",
+    "fields": {
+      "title": "Engagement zones for a turn constrained pursuer",
+      "author": "Chapman, Thomas and Weintraub, Isaac E and Von Moll, Alexander and Garcia, Eloy",
+      "booktitle": "2025 International Conference on Unmanned Aircraft Systems (ICUAS)",
+      "pages": "763--768",
+      "year": "2025",
+      "organization": "IEEE"
+    }
+  }
+}

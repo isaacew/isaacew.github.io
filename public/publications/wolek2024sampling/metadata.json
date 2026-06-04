@@ -1,0 +1,30 @@
+{
+  "id": "wolek2024sampling",
+  "title": "Sampling-based risk-aware path planning around dynamic engagement zones",
+  "abstract": "",
+  "authors": [
+    "Wolek, Artur",
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Casbeer, David",
+    "Manyam, Satyanarayana G"
+  ],
+  "year": "2024",
+  "venue": "IFAC-PapersOnLine",
+  "pages": "594--599",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "wolek2024sampling",
+    "fields": {
+      "title": "Sampling-based risk-aware path planning around dynamic engagement zones",
+      "author": "Wolek, Artur and Weintraub, Isaac E and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G",
+      "journal": "IFAC-PapersOnLine",
+      "volume": "58",
+      "number": "28",
+      "pages": "594--599",
+      "year": "2024",
+      "publisher": "Elsevier"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "weintraub2024deterministic",
+  "title": "Deterministic Risk-Aware Path-Planning Around Multiple Threats",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E.",
+    "Wolek, Artur, Von Moll, Alexander",
+    "Casbeer, David",
+    "Manyam, Satyanarayana G"
+  ],
+  "year": "2024",
+  "venue": "AIAA DEFENSE Forum",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2024deterministic",
+    "fields": {
+      "title": "Deterministic Risk-Aware Path-Planning Around Multiple Threats",
+      "author": "Weintraub, Isaac E. and Wolek, Artur, Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G",
+      "booktitle": "AIAA DEFENSE Forum",
+      "year": "2024"
+    }
+  }
+}

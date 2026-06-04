@@ -1,0 +1,24 @@
+{
+  "id": "le2026comparison",
+  "title": "A Comparison of Reinforcement Learning and Optimal Control Methods for Path Planning",
+  "abstract": "",
+  "authors": [
+    "Le, Qiang",
+    "Yang, Yaguang",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2026",
+  "venue": "arXiv preprint arXiv:2604.12628",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "le2026comparison",
+    "fields": {
+      "title": "A Comparison of Reinforcement Learning and Optimal Control Methods for Path Planning",
+      "author": "Le, Qiang and Yang, Yaguang and Weintraub, Isaac E",
+      "journal": "arXiv preprint arXiv:2604.12628",
+      "year": "2026"
+    }
+  }
+}

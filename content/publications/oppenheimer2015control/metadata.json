@@ -1,0 +1,29 @@
+{
+  "id": "oppenheimer2015control",
+  "title": "Control of a minimally actuated biomimetic vehicle using quarter-cycle wingbeat modulation",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael W",
+    "Weintraub, Isaac E",
+    "Sigthorsson, David O",
+    "Doman, David B"
+  ],
+  "year": "2015",
+  "venue": "Journal of Guidance, Control, and Dynamics",
+  "pages": "1187--1196",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "oppenheimer2015control",
+    "fields": {
+      "title": "Control of a minimally actuated biomimetic vehicle using quarter-cycle wingbeat modulation",
+      "author": "Oppenheimer, Michael W and Weintraub, Isaac E and Sigthorsson, David O and Doman, David B",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "volume": "38",
+      "number": "7",
+      "pages": "1187--1196",
+      "year": "2015",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

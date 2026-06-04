@@ -1,0 +1,25 @@
+{
+  "id": "gotwald2024aircraft",
+  "title": "Aircraft Control Strategy Using Relational Maneuvering Primitives",
+  "abstract": "",
+  "authors": [
+    "Gotwald, Carl",
+    "Zollars, Michael",
+    "Weintraub, Isaac E.",
+    "Reeger, Jonah"
+  ],
+  "year": "2024",
+  "venue": "AIAA DEFENSE Forum",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "gotwald2024aircraft",
+    "fields": {
+      "title": "Aircraft Control Strategy Using Relational Maneuvering Primitives",
+      "author": "Gotwald, Carl and Zollars, Michael and Weintraub, Isaac E. and Reeger, Jonah",
+      "booktitle": "AIAA DEFENSE Forum",
+      "year": "2024"
+    }
+  }
+}

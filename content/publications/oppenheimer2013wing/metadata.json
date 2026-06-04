@@ -1,0 +1,26 @@
+{
+  "id": "oppenheimer2013wing",
+  "title": "Wing Velocity Control System for Testing Body Motion Control Methods for Flapping Wing MAVs",
+  "abstract": "",
+  "authors": [
+    "Oppenheimer, Michael W",
+    "Sigthorsson, David O",
+    "Weintraub, Isaac E",
+    "Doman, David B",
+    "Perseghetti, Ben"
+  ],
+  "year": "2013",
+  "venue": "51st AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "oppenheimer2013wing",
+    "fields": {
+      "title": "Wing Velocity Control System for Testing Body Motion Control Methods for Flapping Wing MAVs",
+      "author": "Oppenheimer, Michael W and Sigthorsson, David O and Weintraub, Isaac E and Doman, David B and Perseghetti, Ben",
+      "booktitle": "51st AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+      "year": "2013"
+    }
+  }
+}

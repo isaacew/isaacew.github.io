@@ -63,16 +63,5 @@ entries.forEach((entry) => {
 
   fs.writeFileSync(path.join(folder, 'metadata.json'), JSON.stringify(metadata, null, 2));
 
-  // Copy placeholder PDF and image if available
-  const placeholderPdf = path.resolve('_old/content/publication/a.pdf');
-  const placeholderImg = path.resolve('_old/src/assets/conops.png');
-
-  if (fs.existsSync(placeholderPdf)) {
-    fs.copyFileSync(placeholderPdf, path.join(folder, 'paper.pdf'));
-  }
-  if (fs.existsSync(placeholderImg)) {
-    fs.copyFileSync(placeholderImg, path.join(folder, 'feature.png'));
-  }
-
   console.log(`Generated publication folder: ${folder}`);
 });

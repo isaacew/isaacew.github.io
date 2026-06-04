@@ -1,0 +1,24 @@
+{
+  "id": "weintraub2024minimum",
+  "title": "Minimum time escape from a circular region of a dubins car",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Pachter, Meir"
+  ],
+  "year": "2024",
+  "venue": "arXiv preprint arXiv:2405.05725",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "weintraub2024minimum",
+    "fields": {
+      "title": "Minimum time escape from a circular region of a dubins car",
+      "author": "Weintraub, Isaac E and Von Moll, Alexander and Pachter, Meir",
+      "journal": "arXiv preprint arXiv:2405.05725",
+      "year": "2024"
+    }
+  }
+}

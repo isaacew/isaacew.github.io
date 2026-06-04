@@ -1,0 +1,29 @@
+{
+  "id": "scott2024noise",
+  "title": "Noise aware path planning and power management of hybrid fuel uavs",
+  "abstract": "",
+  "authors": [
+    "Scott, Drew",
+    "Manyam, Satyanarayana G",
+    "Weintraub, Isaac E",
+    "Casbeer, David W",
+    "Kumar, Manish"
+  ],
+  "year": "2024",
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "pages": "8227--8238",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "scott2024noise",
+    "fields": {
+      "title": "Noise aware path planning and power management of hybrid fuel uavs",
+      "author": "Scott, Drew and Manyam, Satyanarayana G and Weintraub, Isaac E and Casbeer, David W and Kumar, Manish",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "volume": "22",
+      "pages": "8227--8238",
+      "year": "2024",
+      "publisher": "IEEE"
+    }
+  }
+}

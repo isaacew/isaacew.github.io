@@ -1,0 +1,27 @@
+{
+  "id": "weintraub2014implementation",
+  "title": "Implementation of Split-Cycle Control for Micro Aerial Vehicles",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Sigthorsson, David O",
+    "Oppenheimer, Michael W",
+    "Doman, David B"
+  ],
+  "year": "2014",
+  "venue": "Robot Intelligence Technology and Applications 2: Results from the 2nd International Conference on Robot Intelligence Technology and Applications",
+  "pages": "859--876",
+  "organization": "Springer International Publishing Cham",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "weintraub2014implementation",
+    "fields": {
+      "title": "Implementation of Split-Cycle Control for Micro Aerial Vehicles",
+      "author": "Weintraub, Isaac E and Sigthorsson, David O and Oppenheimer, Michael W and Doman, David B",
+      "booktitle": "Robot Intelligence Technology and Applications 2: Results from the 2nd International Conference on Robot Intelligence Technology and Applications",
+      "pages": "859--876",
+      "year": "2014",
+      "organization": "Springer International Publishing Cham"
+    }
+  }
+}

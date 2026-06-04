@@ -1,0 +1,30 @@
+{
+  "id": "ranjan2024relational",
+  "title": "Relational maneuvering of leader-follower unmanned aerial vehicles for flexible formation",
+  "abstract": "",
+  "authors": [
+    "Ranjan, Praveen Kumar",
+    "Sinha, Abhinav",
+    "Cao, Yongcan",
+    "Casbeer, David",
+    "Weintraub, Isaac"
+  ],
+  "year": "2024",
+  "venue": "IEEE Transactions on Cybernetics",
+  "pages": "5598--5609",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "ranjan2024relational",
+    "fields": {
+      "title": "Relational maneuvering of leader-follower unmanned aerial vehicles for flexible formation",
+      "author": "Ranjan, Praveen Kumar and Sinha, Abhinav and Cao, Yongcan and Casbeer, David and Weintraub, Isaac",
+      "journal": "IEEE Transactions on Cybernetics",
+      "volume": "54",
+      "number": "10",
+      "pages": "5598--5609",
+      "year": "2024",
+      "publisher": "IEEE"
+    }
+  }
+}

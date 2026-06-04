@@ -10,6 +10,12 @@ export type Publication = {
   venue: string;
   pages: string;
   organization: string;
+  preprintUrl?: string;
+  url?: string;
+  doi?: string;
+  codeUrl?: string;
+  hasLocalPaper?: boolean;
+  bibtex?: string;
 };
 
 export function getPublications(): Publication[] {
@@ -30,6 +36,17 @@ export function getPublications(): Publication[] {
     try {
       const raw = fs.readFileSync(metaPath, 'utf8');
       const data = JSON.parse(raw);
+      const paperPath = path.join(folder, 'paper.pdf');
+      const bibtex =
+        typeof data.bibtex === 'string'
+          ? data.bibtex
+          : data.bibtex && data.bibtex.fields
+          ? `@${data.bibtex.type || 'article'}{${data.bibtex.key || data.id || dir.name},\n` +
+            Object.entries(data.bibtex.fields)
+              .map(([k, v]) => `  ${k} = {${v}}`)
+              .join(',\n') +
+            '\n}'
+          : undefined;
       publications.push({
         id: data.id ?? dir.name,
         title: data.title ?? '',
@@ -39,6 +56,12 @@ export function getPublications(): Publication[] {
         venue: data.venue ?? '',
         pages: data.pages ?? '',
         organization: data.organization ?? '',
+        preprintUrl: data.preprintUrl ?? data.preprint_url ?? undefined,
+        url: data.url ?? undefined,
+        doi: data.doi ?? undefined,
+        codeUrl: data.codeUrl ?? data.code_url ?? undefined,
+        hasLocalPaper: fs.existsSync(paperPath),
+        bibtex,
       });
     } catch {
       // Skip malformed entries
@@ -55,4 +78,3 @@ export function getPublications(): Publication[] {
 
   return publications;
 }
-

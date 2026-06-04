@@ -1,0 +1,27 @@
+{
+  "id": "mora2025influence",
+  "title": "Influence of Malicious Agents in a Team Seeking to Contain an Evader",
+  "abstract": "",
+  "authors": [
+    "Mora, Braulio",
+    "Chakravarthy, Animesh",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac E",
+    "Casbeer, David"
+  ],
+  "year": "2025",
+  "venue": "AIAA SCITECH 2025 Forum",
+  "pages": "1348",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "mora2025influence",
+    "fields": {
+      "title": "Influence of Malicious Agents in a Team Seeking to Contain an Evader",
+      "author": "Mora, Braulio and Chakravarthy, Animesh and Von Moll, Alexander and Weintraub, Isaac E and Casbeer, David",
+      "booktitle": "AIAA SCITECH 2025 Forum",
+      "pages": "1348",
+      "year": "2025"
+    }
+  }
+}

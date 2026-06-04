@@ -1,0 +1,29 @@
+{
+  "id": "weintraub2021maximum",
+  "title": "Maximum observation of a target by a slower observer in three dimensions",
+  "abstract": "",
+  "authors": [
+    "Weintraub, Isaac E",
+    "Von Moll, Alexander",
+    "Garcia, Eloy",
+    "Pachter, Meir"
+  ],
+  "year": "2021",
+  "venue": "Journal of Guidance, Control, and Dynamics",
+  "pages": "646--653",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "weintraub2021maximum",
+    "fields": {
+      "title": "Maximum observation of a target by a slower observer in three dimensions",
+      "author": "Weintraub, Isaac E and Von Moll, Alexander and Garcia, Eloy and Pachter, Meir",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "volume": "44",
+      "number": "3",
+      "pages": "646--653",
+      "year": "2021",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

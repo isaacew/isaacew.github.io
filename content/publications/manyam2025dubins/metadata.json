@@ -1,0 +1,26 @@
+{
+  "id": "manyam2025dubins",
+  "title": "Dubins Path With Terminal Range and Field-of-View Constraints",
+  "abstract": "",
+  "authors": [
+    "Manyam, Satyanarayana G",
+    "Casbeer, David W",
+    "Von Moll, Alexander",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2025",
+  "venue": "IEEE Control Systems Letters",
+  "pages": "",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "manyam2025dubins",
+    "fields": {
+      "title": "Dubins Path With Terminal Range and Field-of-View Constraints",
+      "author": "Manyam, Satyanarayana G and Casbeer, David W and Von Moll, Alexander and Weintraub, Isaac E",
+      "journal": "IEEE Control Systems Letters",
+      "year": "2025",
+      "publisher": "IEEE"
+    }
+  }
+}

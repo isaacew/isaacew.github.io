@@ -1,0 +1,28 @@
+{
+  "id": "ganeshan2026bi",
+  "title": "Bi-Objective Dynamic Zone Navigation",
+  "abstract": "",
+  "authors": [
+    "Ganeshan, Reyshwanth",
+    "Rathinam, Sivakumar",
+    "Darbha, Swaroop",
+    "G Manyam, Satyanarayana",
+    "Weintraub, Isaac E",
+    "Casbeer, David"
+  ],
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "1201",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "ganeshan2026bi",
+    "fields": {
+      "title": "Bi-Objective Dynamic Zone Navigation",
+      "author": "Ganeshan, Reyshwanth and Rathinam, Sivakumar and Darbha, Swaroop and G Manyam, Satyanarayana and Weintraub, Isaac E and Casbeer, David",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "pages": "1201",
+      "year": "2026"
+    }
+  }
+}

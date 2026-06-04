@@ -1,0 +1,31 @@
+{
+  "id": "tabasso2022continuous",
+  "title": "Continuous monitoring of a path-constrained moving target by multiple unmanned aerial vehicles",
+  "abstract": "",
+  "authors": [
+    "Tabasso, Camilla",
+    "Kielas-Jensen, Calvin ‘",
+    "Cichella, Venanzio",
+    "Manyam, Satyanarayana",
+    "Casbeer, David W",
+    "Weintraub, Isaac"
+  ],
+  "year": "2022",
+  "venue": "Journal of Guidance, Control, and Dynamics",
+  "pages": "704--713",
+  "organization": "",
+  "bibtex": {
+    "type": "article",
+    "key": "tabasso2022continuous",
+    "fields": {
+      "title": "Continuous monitoring of a path-constrained moving target by multiple unmanned aerial vehicles",
+      "author": "Tabasso, Camilla and Kielas-Jensen, Calvin ‘ and Cichella, Venanzio and Manyam, Satyanarayana and Casbeer, David W and Weintraub, Isaac",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "volume": "45",
+      "number": "4",
+      "pages": "704--713",
+      "year": "2022",
+      "publisher": "American Institute of Aeronautics and Astronautics"
+    }
+  }
+}

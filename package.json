@@ -3,9 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "predev": "node scripts/generate_publications_from_bib.js || true",
+    "predev": "node scripts/generate_publications_from_bib.js || true && node scripts/sync_publications_to_public.js || true",
     "dev": "astro dev",
-    "prebuild": "node scripts/generate_publications_from_bib.js || true",
+    "prebuild": "node scripts/generate_publications_from_bib.js || true && node scripts/sync_publications_to_public.js || true",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

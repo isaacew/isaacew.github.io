@@ -1,0 +1,26 @@
+{
+  "id": "gotwald2024leader",
+  "title": "A Leader-Follower Control Strategy Built and Refined using Relational Maneuver Primitives for Approximating Optimal Trajectories in Real-Time",
+  "abstract": "",
+  "authors": [
+    "Gotwald, Carl",
+    "Zollars, Michael D",
+    "Reeger, Jonah A",
+    "Weintraub, Isaac E"
+  ],
+  "year": "2024",
+  "venue": "AIAA SCITECH 2024 Forum",
+  "pages": "2760",
+  "organization": "",
+  "bibtex": {
+    "type": "inproceedings",
+    "key": "gotwald2024leader",
+    "fields": {
+      "title": "A Leader-Follower Control Strategy Built and Refined using Relational Maneuver Primitives for Approximating Optimal Trajectories in Real-Time",
+      "author": "Gotwald, Carl and Zollars, Michael D and Reeger, Jonah A and Weintraub, Isaac E",
+      "booktitle": "AIAA SCITECH 2024 Forum",
+      "pages": "2760",
+      "year": "2024"
+    }
+  }
+}
