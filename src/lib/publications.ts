@@ -16,7 +16,30 @@ export type Publication = {
   codeUrl?: string;
   hasLocalPaper?: boolean;
   bibtex?: string;
+  citation?: string;
 };
+
+function formatIeeeCitation(data: any, fallbackId: string): string {
+  const fields = data.bibtex?.fields ?? {};
+  const title = data.title || fields.title || '';
+  const authorField =
+    (Array.isArray(data.authors) && data.authors.length > 0
+      ? data.authors.join(', ')
+      : fields.author) || '';
+  const venue = data.venue || fields.booktitle || fields.journal || '';
+  const year = data.year || fields.year || '';
+  const pages = data.pages || fields.pages || '';
+
+  const parts: string[] = [];
+  if (authorField) parts.push(authorField);
+  if (title) parts.push(`"${title}"`);
+  if (venue) parts.push(venue);
+  if (year) parts.push(year);
+  if (pages) parts.push(`pp. ${pages}`);
+
+  if (parts.length === 0) return fallbackId;
+  return parts.join(', ');
+}
 
 export function getPublications(): Publication[] {
   const root = path.resolve('content/publications');
@@ -47,6 +70,7 @@ export function getPublications(): Publication[] {
               .join(',\n') +
             '\n}'
           : undefined;
+      const citation = formatIeeeCitation(data, data.id ?? dir.name);
       publications.push({
         id: data.id ?? dir.name,
         title: data.title ?? '',
@@ -62,6 +86,7 @@ export function getPublications(): Publication[] {
         codeUrl: data.codeUrl ?? data.code_url ?? undefined,
         hasLocalPaper: fs.existsSync(paperPath),
         bibtex,
+        citation,
       });
     } catch {
       // Skip malformed entries
