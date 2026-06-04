@@ -1,0 +1,102 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { template } from "@/settings";
+import type { Publication } from "@/lib/publications";
+import { getPublications } from "@/lib/publications";
+
+export function getStaticPaths() {
+  const pubs = getPublications();
+  return pubs.map((pub) => ({ params: { id: pub.id } }));
+}
+
+const { id } = Astro.params;
+const pubs = getPublications();
+const pub = pubs.find((p) => p.id === id) as Publication | undefined;
+
+if (!pub) {
+  throw new Error(`Publication not found: ${id}`);
+}
+---
+
+<Layout title={`Publication | ${pub.title}`}>
+  <article class="max-w-3xl mx-auto space-y-4">
+    <header class="space-y-1">
+      <h1 class="text-2xl font-bold">{pub.title}</h1>
+      <p class="text-sm text-base-content/80">
+        {pub.authors.join(', ')}
+      </p>
+      <p class="text-sm text-base-content/70">
+        <span class="italic">{pub.venue}</span>
+        {pub.year && ` • ${pub.year}`}
+        {pub.pages && ` • ${pub.pages}`}
+      </p>
+    </header>
+
+    {pub.abstract && (
+      <section>
+        <h2 class="text-lg font-semibold mb-1">Abstract</h2>
+        <p class="text-sm leading-relaxed">{pub.abstract}</p>
+      </section>
+    )}
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">Links</h2>
+      <div class="flex flex-wrap gap-2">
+        {pub.preprintUrl && (
+          <a
+            href={pub.preprintUrl}
+            class="btn btn-sm btn-accent text-accent-content"
+            target="_blank"
+          >
+            preprint
+          </a>
+        )}
+        {pub.doi && (
+          <a
+            href={pub.doi.startsWith('http') ? pub.doi : `https://doi.org/${pub.doi}`}
+            class="btn btn-sm btn-primary text-primary-content"
+            target="_blank"
+          >
+            DOI
+          </a>
+        )}
+        {pub.url && (
+          <a
+            href={pub.url}
+            class="btn btn-sm btn-secondary text-secondary-content"
+            target="_blank"
+          >
+            url
+          </a>
+        )}
+        {pub.codeUrl && (
+          <a
+            href={pub.codeUrl}
+            class="btn btn-sm btn-outline"
+            target="_blank"
+          >
+            Code
+          </a>
+        )}
+        {pub.hasLocalPaper && (
+          <a
+            href={`${template.base}publications/${pub.id}/paper.pdf`}
+            class="btn btn-sm btn-neutral text-neutral-content"
+            target="_blank"
+          >
+            paper
+          </a>
+        )}
+      </div>
+    </section>
+
+    {pub.bibtex && (
+      <section>
+        <h2 class="text-lg font-semibold mb-1">BibTeX</h2>
+        <pre class="whitespace-pre-wrap text-xs bg-base-200 p-3 rounded max-h-80 overflow-auto">
+{pub.bibtex}
+        </pre>
+      </section>
+    )}
+  </article>
+</Layout>

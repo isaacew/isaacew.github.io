@@ -24,83 +24,102 @@ const ALL_PAPERS = getPublications();
       </label>
     </div>
 
-    <div class="space-y-4" id="papers-list">
+    <div class="space-y-2" id="papers-list">
       {
         ALL_PAPERS.map((paper) => (
+          <a href={`${template.base}publications/${paper.id}`} class="no-underline">
           <div class="card bg-base-200">
-            <div class="card-body py-3">
-              <h2 class="card-title text-lg">
-                {paper.title}
-              </h2>
-              <p class="text-sm mb-1">
-                <span class="font-medium">Authors:</span>{" "}
-                <span
-                  set:html={highlightAuthor(
-                    Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors || ''
+            <div class="card-body py-2 px-3 grid grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-3 items-stretch">
+              <div class="space-y-0.5">
+                <h2 class="text-sm font-semibold leading-snug">
+                  {paper.title}
+                </h2>
+                <p class="text-[11px] leading-snug">
+                  <span class="font-medium">Authors:</span>{" "}
+                  <span
+                    set:html={highlightAuthor(
+                      Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors || ''
+                    )}
+                  />
+                </p>
+                <p class="text-[11px] leading-snug">
+                  <span class="italic">{paper.journal}</span> • {paper.time}
+                </p>
+                <p class="text-[11px] text-base-content/80 leading-snug line-clamp-2">{paper.abstract}</p>
+                <div class="card-actions justify-end mt-1 flex flex-wrap gap-1">
+                  {paper.preprintUrl && (
+                    <a
+                      href={paper.preprintUrl}
+                      class="btn btn-xs btn-accent text-accent-content"
+                      target="_blank"
+                    >
+                      preprint
+                    </a>
                   )}
-                />
-              </p>
-              <p class="text-xs mb-2">
-                <span class="italic">{paper.journal}</span> • {paper.time}
-              </p>
-              <p class="text-xs text-base-content/80 line-clamp-2">{paper.abstract}</p>
-              <div class="card-actions justify-end mt-2 flex flex-wrap gap-2">
-                {paper.preprintUrl && (
-                  <a
-                    href={paper.preprintUrl}
-                    class="btn btn-xs btn-accent text-accent-content"
-                    target="_blank"
-                  >
-                    preprint
-                  </a>
-                )}
-                {paper.doi && (
-                  <a
-                    href={paper.doi.startsWith('http') ? paper.doi : `https://doi.org/${paper.doi}`}
-                    class="btn btn-xs btn-primary text-primary-content"
-                    target="_blank"
-                  >
-                    DOI
-                  </a>
-                )}
-                {paper.url && (
-                  <a
-                    href={paper.url}
-                    class="btn btn-xs btn-secondary text-secondary-content"
-                    target="_blank"
-                  >
-                    url
-                  </a>
-                )}
-                {paper.codeUrl && (
-                  <a
-                    href={paper.codeUrl}
-                    class="btn btn-xs btn-outline"
-                    target="_blank"
-                  >
-                    Code
-                  </a>
-                )}
-                {paper.hasLocalPaper && (
-                  <a
-                    href={`${template.base}publications/${paper.id}/paper.pdf`}
-                    class="btn btn-xs btn-neutral text-neutral-content"
-                    target="_blank"
-                  >
-                    paper
-                  </a>
-                )}
+                  {paper.doi && (
+                    <a
+                      href={paper.doi.startsWith('http') ? paper.doi : `https://doi.org/${paper.doi}`}
+                      class="btn btn-xs btn-primary text-primary-content"
+                      target="_blank"
+                    >
+                      DOI
+                    </a>
+                  )}
+                  {paper.url && (
+                    <a
+                      href={paper.url}
+                      class="btn btn-xs btn-secondary text-secondary-content"
+                      target="_blank"
+                    >
+                      url
+                    </a>
+                  )}
+                  {paper.codeUrl && (
+                    <a
+                      href={paper.codeUrl}
+                      class="btn btn-xs btn-outline"
+                      target="_blank"
+                    >
+                      Code
+                    </a>
+                  )}
+                  {paper.hasLocalPaper && (
+                    <a
+                      href={`${template.base}publications/${paper.id}/paper.pdf`}
+                      class="btn btn-xs btn-neutral text-neutral-content"
+                      target="_blank"
+                    >
+                      paper
+                    </a>
+                  )}
+                </div>
                 {paper.bibtex && (
-                  <details class="mt-1 w-full">
-                    <summary class="cursor-pointer text-xs text-accent">BibTeX</summary>
-                    <pre class="whitespace-pre-wrap text-xs bg-base-200 p-2 rounded mt-1 max-h-64 overflow-auto">
+                  <details class="mt-1">
+                    <summary class="cursor-pointer text-[11px] text-accent leading-snug">BibTeX</summary>
+                    <pre class="whitespace-pre-wrap text-[10px] bg-base-200 p-1.5 rounded mt-1 max-h-36 overflow-auto">
 {paper.bibtex}
                     </pre>
                   </details>
                 )}
               </div>
+              <div class="flex items-center justify-center">
+                <div class="w-20 h-20 rounded-lg bg-base-300 flex items-center justify-center overflow-hidden">
+                  <img
+                    src={`/content/publications/${paper.id}/feature.png`}
+                    alt={paper.title}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    onError={(event) => {
+                      const target = event.currentTarget as HTMLImageElement;
+                      (target as any).style.display = 'none';
+                    }}
+                  />
+                  <span class="text-2xl">📄</span>
+                </div>
+              </div>
             </div>
           </div>
+          </a>
         ))
       }
     </div>
