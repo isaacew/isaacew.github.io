@@ -1,30 +1,28 @@
 {
   "id": "bajaj2022competitive",
-  "title": "Competitive Perimeter Defense Of Conical Environments",
-  "abstract": "",
+  "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+  "abstract": "This work considers a Pursuer and Evader scenario wherein the Evader aims to plan a path around an engagement zone of the Pursuer. We investigate the feasibility of using the multiple time interval pseudospectral (PS) approach to obtain the path for the Evader to avoid the basic engagement zones (BEZ) posed by the Pursuer. The objective function is the Evader's travel time. Nonlinear constraints are imposed to ensure that the Evader not enter the Pursuer's BEZ at any portion of the Pursuer's trajectory. The resulting paths using the PS method to avoid the BEZs are provided for the various speed ratios of Pursuer and Evader.",
   "authors": [
-    "Bajaj, Shivam",
-    "Torng, Eric",
-    "Bopardikar, Shaunak D",
-    "Von Moll, Alexander",
-    "Weintraub, Isaac",
-    "Garcia, Eloy",
-    "Casbeer, David W"
+    "Le, Qiang",
+    "Weintraub, Isaac E",
+    "Casbeer, David",
+    "Pachter, Meir"
   ],
-  "year": "2022",
-  "venue": "2022 Ieee 61st Conference On Decision And Control (Cdc)",
-  "pages": "6586--6593",
-  "organization": "IEEE",
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "",
+  "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "bajaj2022competitive",
     "fields": {
-      "title": "Competitive Perimeter Defense Of Conical Environments",
-      "author": "Bajaj, Shivam and Torng, Eric and Bopardikar, Shaunak D and Von Moll, Alexander and Weintraub, Isaac and Garcia, Eloy and Casbeer, David W",
-      "booktitle": "2022 Ieee 61st Conference On Decision And Control (Cdc)",
-      "pages": "6586--6593",
-      "year": "2022",
-      "organization": "IEEE"
+      "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+      "author": "Le, Qiang and Weintraub, Isaac E and Casbeer, David and Pachter, Meir",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "year": "2026",
+      "doi": "10.2514/6.2026-1200",
+      "address": "Orlando, FL",
+      "abstract": "This work considers a Pursuer and Evader scenario wherein the Evader aims to plan a path around an engagement zone of the Pursuer. We investigate the feasibility of using the multiple time interval pseudospectral (PS) approach to obtain the path for the Evader to avoid the basic engagement zones (BEZ) posed by the Pursuer. The objective function is the Evader's travel time. Nonlinear constraints are imposed to ensure that the Evader not enter the Pursuer's BEZ at any portion of the Pursuer's trajectory. The resulting paths using the PS method to avoid the BEZs are provided for the various speed ratios of Pursuer and Evader."
     }
   }
 }
