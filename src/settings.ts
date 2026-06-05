@@ -30,7 +30,7 @@ export const template = {
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
-	base: '/portfolio/', // Repository name starting with /
+	base: '/', // Deploy at repo root
 }
 
 export const seo = {
