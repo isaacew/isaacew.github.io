@@ -21,28 +21,27 @@ const ALL_PAPERS = getPublications();
       />
     </div>
 
-    <div id="papers-list" class="grid gap-8 justify-center">
+    <div id="papers-list" class="flex flex-col gap-4">
       {
         ALL_PAPERS.map((paper) => (
           <a href={`${template.base}publications/${paper.id}`} class="no-underline">
-          <div class="bg-base-200 hover:bg-base-300/80 transition-colors w-full">
-            <div class="grid md:grid-cols-[minmax(0,2.8fr)_minmax(0,1.2fr)] grid-cols-1 items-stretch">
-              <div class="p-1.5">
-                <h2 class="text-[1.5rem] font-semibold">
+          <div class="w-full">
+            <div class="p-4 md:p-5 rounded-2xl bg-slate-900/70 border border-slate-800/80 shadow-lg shadow-black/40 hover:-translate-y-1 hover:border-slate-500/70 transition-all duration-300">
+                <h2 class="text-[1.25rem] md:text-[1.5rem] font-semibold text-slate-50">
                   {paper.title}
                 </h2>
-                <p class="text-[1rem] text-base-content/80">
+                <p class="text-[0.95rem] text-slate-300 mt-1">
                   <span
                     set:html={highlightAuthor(
                       Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors || ''
                     )}
                   />
                 </p>
-                <p class="text-[1rem] text-base-content/70">
+                <p class="text-[0.9rem] text-slate-400 mt-1">
                   <span class="italic">{paper.venue}</span>
                   {paper.year && ` • ${paper.year}`}
                 </p>
-                <div class="flex flex-wrap gap-1 mt-1">
+                <div class="flex flex-wrap gap-1 mt-2">
                   {paper.preprintUrl && (
                     <a
                       href={paper.preprintUrl}
@@ -90,31 +89,13 @@ const ALL_PAPERS = getPublications();
                   )}
                 </div>
                 {paper.bibtex && (
-                  <details class="mt-1">
-                    <summary class="cursor-pointer text-[0.75rem] text-accent">BibTeX</summary>
-                    <pre class="whitespace-pre-wrap text-[0.75rem] bg-base-200 max-h-36 overflow-auto">
+                  <details class="mt-2">
+                    <summary class="cursor-pointer text-[0.75rem] text-emerald-300">BibTeX</summary>
+                    <pre class="whitespace-pre-wrap text-[0.7rem] bg-slate-950/80 border border-slate-800 rounded-md p-2 max-h-36 overflow-auto text-slate-200 mt-1">
 {paper.bibtex}
                     </pre>
                   </details>
                 )}
-              </div>
-              <div class="flex items-center justify-center p-1.5 thumb-wrapper">
-                <div class="w-[110px] h-[110px] bg-base-300 flex items-center justify-center overflow-hidden">
-                  <img
-                    src={`/content/publications/${paper.id}/feature.png`}
-                    alt={paper.title}
-                    class="w-full h-full object-cover"
-                    loading="lazy"
-                    onError={(event) => {
-                      const img = event.currentTarget as HTMLImageElement;
-                      const wrapper = img.closest('.thumb-wrapper') as HTMLElement | null;
-                      if (wrapper) {
-                        wrapper.style.display = 'none';
-                      }
-                    }}
-                  />
-                </div>
-              </div>
             </div>
           </div>
           </a>
