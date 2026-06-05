@@ -36,10 +36,9 @@ const {
 
 	</head>
 	<body class='text-[16px] bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-50'>
-		<div class={`drawer lg:drawer-open ${template.menu_left ? 'drawer-end' : ''}`}>
-			<input id='my-drawer' type='checkbox' class='drawer-toggle' />
-			<!-- Drawer content -->
-            <div class='drawer-content'>
+		<div>
+			<!-- Top bar -->
+	            <div>
 				<div class='backdrop-blur bg-slate-900/80 z-50 text-base-content shadow-sm border-b border-slate-800'>
 					<nav class='navbar'>
 						<div class='navbar-start'>
@@ -81,13 +80,6 @@ const {
 					<slot />
 				<Footer />
 				</main>
-			</div>
-			<!-- Drawer side -->
-			<div class='drawer-side z-40'>
-				<label for='my-drawer' aria-label='close sidebar' class='drawer-overlay'
-				></label>
-				<Navbar />
-			</div>
 		</div>
 	</body>
 </html>
