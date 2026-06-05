@@ -10,6 +10,7 @@ export type Publication = {
   venue: string;
   pages: string;
   organization: string;
+  kind?: 'journal' | 'conference' | 'thesis' | 'patent' | 'techreport' | 'other';
   preprintUrl?: string;
   url?: string;
   doi?: string;
@@ -71,6 +72,18 @@ export function getPublications(): Publication[] {
             '\n}'
           : undefined;
       const citation = formatIeeeCitation(data, data.id ?? dir.name);
+      const kind: Publication['kind'] =
+        (data.bibtex?.type || '').toLowerCase() === 'article'
+          ? 'journal'
+          : (data.bibtex?.type || '').toLowerCase() === 'inproceedings'
+          ? 'conference'
+          : (data.bibtex?.type || '').toLowerCase() === 'phdthesis'
+          ? 'thesis'
+          : (data.bibtex?.type || '').toLowerCase() === 'techreport'
+          ? 'techreport'
+          : (data.bibtex?.type || '').toLowerCase() === 'misc'
+          ? 'patent'
+          : 'other';
       publications.push({
         id: data.id ?? dir.name,
         title: data.title ?? '',
@@ -80,6 +93,7 @@ export function getPublications(): Publication[] {
         venue: data.venue ?? '',
         pages: data.pages ?? '',
         organization: data.organization ?? '',
+        kind,
         preprintUrl: data.preprintUrl ?? data.preprint_url ?? undefined,
         url: data.url ?? undefined,
         doi: data.doi ?? undefined,

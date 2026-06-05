@@ -1,25 +1,30 @@
 {
   "id": "weintraub2020optimal",
-  "title": "An Optimal Guidance Strategy For The Defense Of A Non-Maneuverable Target In 3-D",
-  "abstract": "",
+  "title": "Optimal Guidance Strategy For The Defense Of A Non-Manoeuvrable Target In 3-Dimensions",
+  "abstract": "An engagement scenario involving the defence of a non-manoeuvrable agent, called the Target, is considered. A pursuing agent engages the non-manoeuvrable Target while a defending agent, which aims at intercepting the Pursuer to protect the Target, is considered in 3-dimensions. A zero-sum differential game is formulated where the objective of the Defender is to capture the Pursuer and maximise the terminal Pursuer-Target range at final time; while the Pursuer aims at minimising the terminal Pursuer-Target range at final time. The terminal time is not fixed and is determined by the interception of the Pursuer by the Defender. The saddle point state-feedback strategies for the Pursuer and the Defender are obtained using a gradient-based minimisation routine. A comparison of the saddle point strategy against a heuristic approach, Pure Pursuit, is conducted. The comparison demonstrates that poorer performance is achieved by players who deviate from the optimal saddle point strategy; and, as a result, the saddle point strategies outperform the heuristic method.",
   "authors": [
     "Weintraub, Isaac",
     "Garcia, Eloy",
     "Pachter, Meir"
   ],
   "year": "2020",
-  "venue": "IET Control Theory \\& Applications",
-  "pages": "",
+  "venue": "IET Control Theory & Applications",
+  "pages": "1531--1538",
   "organization": "",
   "bibtex": {
     "type": "article",
     "key": "weintraub2020optimal",
     "fields": {
-      "title": "An Optimal Guidance Strategy For The Defense Of A Non-Maneuverable Target In 3-D",
+      "title": "Optimal Guidance Strategy For The Defense Of A Non-Manoeuvrable Target In 3-Dimensions",
       "author": "Weintraub, Isaac and Garcia, Eloy and Pachter, Meir",
-      "journal": "IET Control Theory \\& Applications",
+      "journal": "IET Control Theory & Applications",
+      "volume": "14",
+      "number": "11",
+      "pages": "1531--1538",
       "year": "2020",
-      "publisher": "IET Digital Library"
+      "doi": "10.1049/iet-cta.2019.0541",
+      "publisher": "IET Digital Library",
+      "abstract": "An engagement scenario involving the defence of a non-manoeuvrable agent, called the Target, is considered. A pursuing agent engages the non-manoeuvrable Target while a defending agent, which aims at intercepting the Pursuer to protect the Target, is considered in 3-dimensions. A zero-sum differential game is formulated where the objective of the Defender is to capture the Pursuer and maximise the terminal Pursuer-Target range at final time; while the Pursuer aims at minimising the terminal Pursuer-Target range at final time. The terminal time is not fixed and is determined by the interception of the Pursuer by the Defender. The saddle point state-feedback strategies for the Pursuer and the Defender are obtained using a gradient-based minimisation routine. A comparison of the saddle point strategy against a heuristic approach, Pure Pursuit, is conducted. The comparison demonstrates that poorer performance is achieved by players who deviate from the optimal saddle point strategy; and, as a result, the saddle point strategies outperform the heuristic method."
     }
   }
 }

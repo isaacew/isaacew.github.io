@@ -37,9 +37,19 @@ const ALL_PAPERS = getPublications();
                     )}
                   />
                 </p>
-                <p class="text-[0.9rem] text-slate-400 mt-1">
+                <p class="text-[0.9rem] text-slate-400 mt-1 flex flex-wrap gap-2 items-center">
                   <span class="italic">{paper.venue}</span>
-                  {paper.year && ` • ${paper.year}`}
+                  {paper.year && <span>• {paper.year}</span>}
+                  {paper.kind && (
+                    <span class="inline-flex items-center rounded-full border border-slate-600 px-2 py-0.5 text-[0.7rem] uppercase tracking-wide text-slate-300 bg-slate-900/60">
+                      {paper.kind === 'journal' && 'Journal'}
+                      {paper.kind === 'conference' && 'Conference'}
+                      {paper.kind === 'thesis' && 'Thesis'}
+                      {paper.kind === 'patent' && 'Patent'}
+                      {paper.kind === 'techreport' && 'Tech Report'}
+                      {paper.kind === 'other' && 'Other'}
+                    </span>
+                  )}
                 </p>
                 <div class="flex flex-wrap gap-1 mt-2">
                   {paper.preprintUrl && (
