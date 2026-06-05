@@ -1,7 +1,7 @@
 {
   "id": "wolek2025maximum",
   "title": "Maximum Kinetic Energy Paths for a Decaying-Speed Dubins Vehicle",
-  "abstract": "",
+  "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin’s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples.",
   "authors": [
     "Wolek, Artur",
     "Casbeer, David",
@@ -20,7 +20,8 @@
       "author": "Wolek, Artur and Casbeer, David and Weintraub, Isaac E and Von Moll, Alexander",
       "booktitle": "AIAA SCITECH 2025 Forum",
       "pages": "1351",
-      "year": "2025"
+      "year": "2025",
+      "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin’s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples."
     }
   }
 }

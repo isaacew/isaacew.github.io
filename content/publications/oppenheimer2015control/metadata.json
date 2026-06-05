@@ -1,7 +1,7 @@
 {
   "id": "oppenheimer2015control",
   "title": "Control of a minimally actuated biomimetic vehicle using quarter-cycle wingbeat modulation",
-  "abstract": "",
+  "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing’s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle.",
   "authors": [
     "Oppenheimer, Michael W",
     "Weintraub, Isaac E",
@@ -23,7 +23,9 @@
       "number": "7",
       "pages": "1187--1196",
       "year": "2015",
-      "publisher": "American Institute of Aeronautics and Astronautics"
+      "publisher": "American Institute of Aeronautics and Astronautics",
+      "doi": "10.2514/1.G000548",
+      "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing’s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle."
     }
   }
 }

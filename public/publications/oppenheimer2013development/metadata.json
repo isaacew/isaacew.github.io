@@ -1,7 +1,7 @@
 {
   "id": "oppenheimer2013development",
   "title": "Development of a flapping wing mechanism that can produce lift greater than weight",
-  "abstract": "",
+  "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55◦ while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
   "authors": [
     "Oppenheimer, Michael W",
     "Sigthorsson, David",
@@ -22,7 +22,10 @@
       "author": "Oppenheimer, Michael W and Sigthorsson, David and Weintraub, Isaac and Smith, Todd J and Dawson, Jaderic and Doman, David B",
       "booktitle": "AIAA Guidance, Navigation, and Control (GNC) Conference",
       "pages": "5106",
-      "year": "2013"
+      "year": "2013",
+      "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55◦ while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
+      "doi": "10.2514/6.2013-5106",
+      "address": "Boston, MA"
     }
   }
 }
