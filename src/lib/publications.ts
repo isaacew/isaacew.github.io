@@ -10,7 +10,7 @@ export type Publication = {
   venue: string;
   pages: string;
   organization: string;
-  kind?: 'journal' | 'conference' | 'thesis' | 'preprint' | 'patent' | 'techreport' | 'other';
+  kind?: 'journal' | 'conference' | 'thesis' | 'preprint' | 'misc' | 'techreport' | 'other';
   preprintUrl?: string;
   url?: string;
   doi?: string;
@@ -86,7 +86,7 @@ export function getPublications(): Publication[] {
           : rawType === 'misc' && journalField.includes('arxiv')
           ? 'preprint'
           : rawType === 'misc'
-          ? 'patent'
+          ? 'misc'
           : 'other';
       publications.push({
         id: data.id ?? dir.name,
