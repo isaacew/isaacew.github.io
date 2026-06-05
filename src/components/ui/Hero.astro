@@ -10,9 +10,15 @@ const {fullName, title, institute, profilePicture} = Astro.props
   <h1 class='text-4xl font-bold mb-4'>
     Welcome! I'm <span class='text-secondary'>{fullName}</span>
   </h1>
-  <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
-  <p class='text-lg mb-6'>
-    I am a Senior Electronics Engineer in the Autonomous Controls branch in the Power and Control division of the Aerospace Systems Directorate in the Air Force Research Laboratory. I received my PhD in Electrical Engineering from the Air Force Institute of Technology in 2021, my MS in Electrical Engineering from the University of Texas at Arlington in 2011, and my BS in Mechanical Engineering from Rose-Hulman Institute of Technology in 2009. I am currently an associate fellow of the American Institute of Aeronautics and Astronautics (AIAA) and a senior member of the Institute of Electrical and Electronics Engineers (IEEE). I am a member of the Intelligent Systems Technical Committee (ISTC) in the AIAA and I am an active member of both the Robotics and Automation Society (RAS) and the Controls Systems Society (CSS) in the IEEE. My research interests lie in automation and control of aerospace systems for defense applications.
+  <p class='text-xl text-gray-300 mb-3'>
+    {title}
+    {institute && <span class='block text-lg text-gray-400'>{institute}</span>}
+  </p>
+  <p class='text-lg mb-4 text-gray-200'>
+    I work at the intersection of guidance, control, and multi-agent decision making for autonomous aerospace systems. My research focuses on pursuitevasion differential games, cooperative engagement strategies, and resilient control of unmanned aircraft teams operating in contested environments.
+  </p>
+  <p class='text-sm mb-6 text-gray-400'>
+    I received my PhD in Electrical Engineering from the Air Force Institute of Technology (2021), an M.S. in Electrical Engineering from the University of Texas at Arlington (2011), and a B.S. in Mechanical Engineering from RoseHulman Institute of Technology (2009). I am an associate fellow of AIAA and a senior member of IEEE, with active involvement in technical communities on intelligent systems, robotics, and control.
   </p>
   <div class='flex gap-4'>
     <SocialIcons />
