@@ -1,6 +1,6 @@
 {
   "id": "sigthorsson2017wing",
-  "title": "Wing flexibility induced control reversal for flapping wing vehicles: theoretical analysis",
+  "title": "Wing Flexibility Induced Control Reversal For Flapping Wing Vehicles: Theoretical Analysis",
   "abstract": "",
   "authors": [
     "Sigthorsson, David",
@@ -9,16 +9,16 @@
     "Weintraub, Isaac"
   ],
   "year": "2017",
-  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "venue": "Aiaa Guidance, Navigation, And Control Conference",
   "pages": "1272",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "sigthorsson2017wing",
     "fields": {
-      "title": "Wing flexibility induced control reversal for flapping wing vehicles: theoretical analysis",
+      "title": "Wing Flexibility Induced Control Reversal For Flapping Wing Vehicles: Theoretical Analysis",
       "author": "Sigthorsson, David and Oppenheimer, Michael W and Doman, David B and Weintraub, Isaac",
-      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "booktitle": "Aiaa Guidance, Navigation, And Control Conference",
       "pages": "1272",
       "year": "2017"
     }

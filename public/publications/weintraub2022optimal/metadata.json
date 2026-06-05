@@ -1,6 +1,6 @@
 {
   "id": "weintraub2022optimal",
-  "title": "An optimal engagement zone avoidance scenario in 2-D",
+  "title": "An Optimal Engagement Zone Avoidance Scenario In 2-D",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -10,16 +10,16 @@
     "Fuchs, Zachariah E"
   ],
   "year": "2022",
-  "venue": "AIAA SciTech 2022 Forum",
+  "venue": "Aiaa Scitech 2022 Forum",
   "pages": "1587",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2022optimal",
     "fields": {
-      "title": "An optimal engagement zone avoidance scenario in 2-D",
+      "title": "An Optimal Engagement Zone Avoidance Scenario In 2-D",
       "author": "Weintraub, Isaac E and Von Moll, Alexander and Carrizales, Christian A and Hanlon, Nicholas and Fuchs, Zachariah E",
-      "booktitle": "AIAA SciTech 2022 Forum",
+      "booktitle": "Aiaa Scitech 2022 Forum",
       "pages": "1587",
       "year": "2022"
     }

@@ -1,6 +1,6 @@
 {
   "id": "weintraub2023automatic",
-  "title": "Automatic Engagement Zone Avoidance: Theory and Practice",
+  "title": "Automatic Engagement Zone Avoidance: Theory And Practice",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E.",
@@ -8,16 +8,16 @@
     "Hanlon, Nicholas"
   ],
   "year": "2023",
-  "venue": "AIAA Defense",
+  "venue": "Aiaa Defense",
   "pages": "",
   "organization": "Laurel, MD",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2023automatic",
     "fields": {
-      "title": "Automatic Engagement Zone Avoidance: Theory and Practice",
+      "title": "Automatic Engagement Zone Avoidance: Theory And Practice",
       "author": "Weintraub, Isaac E. and Von Moll, Alexander and Hanlon, Nicholas",
-      "booktitle": "AIAA Defense",
+      "booktitle": "Aiaa Defense",
       "year": "2023",
       "organization": "Laurel, MD"
     }

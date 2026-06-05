@@ -1,6 +1,6 @@
 {
   "id": "weintraub2016kinematic",
-  "title": "Kinematic selection for a tailless flapping wing micro-air vehicle",
+  "title": "Kinematic Selection For A Tailless Flapping Wing Micro-Air Vehicle",
   "abstract": "A flapping wing micro air vehicle, which utilizes a four-bar linkage with amplified gearing to convert rotary motion of the prime movers into oscillatory motion of the wings, is described in this work. The four-bar linkage yields an asymmetric wingstroke, where the first half and second half of the wingstroke do not have the same angular velocity. This asymmetry results in undesired fore or aft translation and roll of the vehicle, which must be canceled with control effort in order to hover. During experiments, it was found that a large amount of control authority was required to trim out these undesired motions, leaving only a small amount of control authority for maneuvering. In this work, the four-bar linkage is optimized to reduce the asymmetric wingstroke and provide more constant torque transmission throughout the entire stroke. Experimental results show an improvement in the symmetry of the wingstroke after kinematic optimization",
   "authors": [
     "Weintraub, Isaac",
@@ -9,16 +9,16 @@
     "Doman, David B"
   ],
   "year": "2016",
-  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "venue": "Aiaa Guidance, Navigation, And Control Conference",
   "pages": "0892",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2016kinematic",
     "fields": {
-      "title": "Kinematic selection for a tailless flapping wing micro-air vehicle",
+      "title": "Kinematic Selection For A Tailless Flapping Wing Micro-Air Vehicle",
       "author": "Weintraub, Isaac and Sigthorsson, David and Oppenheimer, Michael W and Doman, David B",
-      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "booktitle": "Aiaa Guidance, Navigation, And Control Conference",
       "pages": "0892",
       "year": "2016",
       "abstract": "A flapping wing micro air vehicle, which utilizes a four-bar linkage with amplified gearing to convert rotary motion of the prime movers into oscillatory motion of the wings, is described in this work. The four-bar linkage yields an asymmetric wingstroke, where the first half and second half of the wingstroke do not have the same angular velocity. This asymmetry results in undesired fore or aft translation and roll of the vehicle, which must be canceled with control effort in order to hover. During experiments, it was found that a large amount of control authority was required to trim out these undesired motions, leaving only a small amount of control authority for maneuvering. In this work, the four-bar linkage is optimized to reduce the asymmetric wingstroke and provide more constant torque transmission throughout the entire stroke. Experimental results show an improvement in the symmetry of the wingstroke after kinematic optimization",

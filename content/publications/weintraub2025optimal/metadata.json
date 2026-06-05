@@ -1,6 +1,6 @@
 {
   "id": "weintraub2025optimal",
-  "title": "An Optimal Strategy for Off-Board Proximal Sensing of a Target: Part 1",
+  "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 1",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -9,16 +9,16 @@
     "Zollars, Michael D"
   ],
   "year": "2025",
-  "venue": "AIAA SCITECH 2025 Forum",
+  "venue": "Aiaa Scitech 2025 Forum",
   "pages": "1349",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2025optimal",
     "fields": {
-      "title": "An Optimal Strategy for Off-Board Proximal Sensing of a Target: Part 1",
+      "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 1",
       "author": "Weintraub, Isaac E and Von Moll, Alexander L and Hansen, Alexander and Zollars, Michael D",
-      "booktitle": "AIAA SCITECH 2025 Forum",
+      "booktitle": "Aiaa Scitech 2025 Forum",
       "pages": "1349",
       "year": "2025"
     }

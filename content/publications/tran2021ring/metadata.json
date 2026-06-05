@@ -1,6 +1,6 @@
 {
   "id": "tran2021ring",
-  "title": "Ring formation maneuver: Double-integrator kinematics with input saturation",
+  "title": "Ring Formation Maneuver: Double-Integrator Kinematics With Input Saturation",
   "abstract": "",
   "authors": [
     "Tran, Dzung",
@@ -17,7 +17,7 @@
     "type": "article",
     "key": "tran2021ring",
     "fields": {
-      "title": "Ring formation maneuver: Double-integrator kinematics with input saturation",
+      "title": "Ring Formation Maneuver: Double-Integrator Kinematics With Input Saturation",
       "author": "Tran, Dzung and Casbeer, David and Garcia, Eloy and Weintraub, Isaac E and Milutinovi{\\'c",
       "journal": "Journal of Guidance, Control, and Dynamics",
       "volume": "44",

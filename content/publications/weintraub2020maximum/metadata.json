@@ -1,6 +1,6 @@
 {
   "id": "weintraub2020maximum",
-  "title": "Maximum observation of a faster non-maneuvering target by a slower observer",
+  "title": "Maximum Observation Of A Faster Non-Maneuvering Target By A Slower Observer",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -11,16 +11,16 @@
     "Pachter, Meir"
   ],
   "year": "2020",
-  "venue": "2020 American Control Conference (ACC)",
+  "venue": "2020 American Control Conference (Acc)",
   "pages": "100--105",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2020maximum",
     "fields": {
-      "title": "Maximum observation of a faster non-maneuvering target by a slower observer",
+      "title": "Maximum Observation Of A Faster Non-Maneuvering Target By A Slower Observer",
       "author": "Weintraub, Isaac E and Von Moll, Alexander and Garcia, Eloy and Casbeer, David and Demers, Zachary JL and Pachter, Meir",
-      "booktitle": "2020 American Control Conference (ACC)",
+      "booktitle": "2020 American Control Conference (Acc)",
       "pages": "100--105",
       "year": "2020",
       "organization": "IEEE"

@@ -1,6 +1,6 @@
 {
   "id": "mora2024escape",
-  "title": "Escape from an orbiting pursuer with a nonzero capture radius",
+  "title": "Escape From An Orbiting Pursuer With A Nonzero Capture Radius",
   "abstract": "",
   "authors": [
     "Mora, Braulio",
@@ -10,16 +10,16 @@
     "Chakravarthy, Animesh"
   ],
   "year": "2024",
-  "venue": "NAECON 2024-IEEE National Aerospace and Electronics Conference",
+  "venue": "Naecon 2024-Ieee National Aerospace And Electronics Conference",
   "pages": "200--205",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "mora2024escape",
     "fields": {
-      "title": "Escape from an orbiting pursuer with a nonzero capture radius",
+      "title": "Escape From An Orbiting Pursuer With A Nonzero Capture Radius",
       "author": "Mora, Braulio and Von Moll, Alexander and Weintraub, Isaac and Casbeer, David W and Chakravarthy, Animesh",
-      "booktitle": "NAECON 2024-IEEE National Aerospace and Electronics Conference",
+      "booktitle": "Naecon 2024-Ieee National Aerospace And Electronics Conference",
       "pages": "200--205",
       "year": "2024",
       "organization": "IEEE"

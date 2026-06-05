@@ -1,6 +1,6 @@
 {
   "id": "sharma2026collaborative",
-  "title": "Collaborative Threat-Aware Autonomy (CTAA)",
+  "title": "Collaborative Threat-Aware Autonomy (Ctaa)",
   "abstract": "Navigating teams of unmanned vehicles through environments containing dynamic, adversarial Weapon Engagement Zones (WEZs) poses a fundamental challenge to mission success: a single vehicle, however capable its onboard guidance, remains a single point of failure. This paper presents a role-differentiated multi-agent framework for collaborative threat-aware trajectory planning in which a fleet of Autonomous Collaborative Platforms (ACPs) is assigned distinct roles — primary intercept, escort, and decoy — to improve team-level mission success probability while managing individual WEZ exposure. Each ACP independently employs a reactive guidance law derived from the Collision Sphere Boundary for Evader Zero-Set (CSBEZ), which accounts for pursuer maneuverability constraints imposed by minimum turn radius, and steers the vehicle toward the safest heading that also makes progress toward its goal. Role assignment and spatial route separation induce two complementary effects: probabilistic redundancy, in which N independent paths raise the team success probability to 1 − (1−p)^N, and threat saturation, in which lower-priority escorts and decoys draw adversary attention and free the primary vehicle to transit uncontested. Simulation results on a two-gate gauntlet scenario demonstrate that the three-vehicle team raises mission success probability from 0.72 (single CSBEZ-aware vehicle) to 0.978, a + 35.8 percentage-point improvement. Monte Carlo validation over 100 trials with perturbed threat range, position, and speed yields an empirical team success rate of 1.00 ± 0.00, against a single-vehicle rate of 0.66±0.09. Experiments with reactive PurePursuit threats confirm that the decoy-and-protect structure remains effective even when adversaries dynamically re-target the nearest ACP.",
   "authors": [
     "Sharma, Rajnikant",
@@ -15,7 +15,7 @@
     "type": "article",
     "key": "sharma2026collaborative",
     "fields": {
-      "title": "Collaborative Threat-Aware Autonomy (CTAA)",
+      "title": "Collaborative Threat-Aware Autonomy (Ctaa)",
       "author": "Sharma, Rajnikant and Sinha, Abhinav and Weintraub, Isaac",
       "journal": "arXiv preprint arXiv:2605.25741",
       "year": "2026",

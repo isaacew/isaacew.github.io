@@ -1,6 +1,6 @@
 {
   "id": "scott2024multi",
-  "title": "Multi agent pathfinding for noise restricted hybrid fuel unmanned aerial vehicles",
+  "title": "Multi Agent Pathfinding For Noise Restricted Hybrid Fuel Unmanned Aerial Vehicles",
   "abstract": "",
   "authors": [
     "Scott, Drew",
@@ -10,16 +10,16 @@
     "Weintraub, Isaac E"
   ],
   "year": "2024",
-  "venue": "2024 American Control Conference (ACC)",
+  "venue": "2024 American Control Conference (Acc)",
   "pages": "833--838",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "scott2024multi",
     "fields": {
-      "title": "Multi agent pathfinding for noise restricted hybrid fuel unmanned aerial vehicles",
+      "title": "Multi Agent Pathfinding For Noise Restricted Hybrid Fuel Unmanned Aerial Vehicles",
       "author": "Scott, Drew and Manyam, Satyanarayana G and Casbeer, David W and Kumar, Manish and Weintraub, Isaac E",
-      "booktitle": "2024 American Control Conference (ACC)",
+      "booktitle": "2024 American Control Conference (Acc)",
       "pages": "833--838",
       "year": "2024",
       "organization": "IEEE"

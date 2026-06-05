@@ -1,6 +1,6 @@
 {
   "id": "ranjan2022energy",
-  "title": "Energy-aware 3D Leader-Follower Flight Trajectory Optimization for Fixed-Wing Aircraft",
+  "title": "Energy-Aware 3d Leader-Follower Flight Trajectory Optimization For Fixed-Wing Aircraft",
   "abstract": "",
   "authors": [
     "Ranjan, Praveen",
@@ -11,16 +11,16 @@
     "Weintraub, Isaac E"
   ],
   "year": "2022",
-  "venue": "AIAA SciTech 2022 Forum",
+  "venue": "Aiaa Scitech 2022 Forum",
   "pages": "2217",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "ranjan2022energy",
     "fields": {
-      "title": "Energy-aware 3D Leader-Follower Flight Trajectory Optimization for Fixed-Wing Aircraft",
+      "title": "Energy-Aware 3d Leader-Follower Flight Trajectory Optimization For Fixed-Wing Aircraft",
       "author": "Ranjan, Praveen and Votion, Johnathan and Cao, Yongcan and Tran, Dzung M and Casbeer, David and Weintraub, Isaac E",
-      "booktitle": "AIAA SciTech 2022 Forum",
+      "booktitle": "Aiaa Scitech 2022 Forum",
       "pages": "2217",
       "year": "2022"
     }

@@ -1,6 +1,6 @@
 {
   "id": "weintraub2017optimal",
-  "title": "An Optimal Aircraft Defense Strategy for the Active Target Defense Scenario",
+  "title": "An Optimal Aircraft Defense Strategy For The Active Target Defense Scenario",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac",
@@ -9,16 +9,16 @@
     "Pachter, Meir"
   ],
   "year": "2017",
-  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "venue": "Aiaa Guidance, Navigation, And Control Conference",
   "pages": "1--10",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2017optimal",
     "fields": {
-      "title": "An Optimal Aircraft Defense Strategy for the Active Target Defense Scenario",
+      "title": "An Optimal Aircraft Defense Strategy For The Active Target Defense Scenario",
       "author": "Weintraub, Isaac and Garcia, Eloy and Casbeer, David and Pachter, Meir",
-      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "booktitle": "Aiaa Guidance, Navigation, And Control Conference",
       "volume": "2017",
       "pages": "1--10",
       "year": "2017"

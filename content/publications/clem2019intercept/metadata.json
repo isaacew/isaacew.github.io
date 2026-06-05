@@ -1,6 +1,6 @@
 {
   "id": "clem2019intercept",
-  "title": "An Intercept and Following Strategy for a Multi-rotor Platform using a Modified Proportional Navigation",
+  "title": "An Intercept And Following Strategy For A Multi-Rotor Platform Using A Modified Proportional Navigation",
   "abstract": "",
   "authors": [
     "Clem, Garrett",
@@ -10,16 +10,16 @@
     "Grymin, David J"
   ],
   "year": "2019",
-  "venue": "AIAA Scitech 2019 Forum",
+  "venue": "Aiaa Scitech 2019 Forum",
   "pages": "0683",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "clem2019intercept",
     "fields": {
-      "title": "An Intercept and Following Strategy for a Multi-rotor Platform using a Modified Proportional Navigation",
+      "title": "An Intercept And Following Strategy For A Multi-Rotor Platform Using A Modified Proportional Navigation",
       "author": "Clem, Garrett and Wilhelm, Jay and Casbeer, David and Weintraub, Isaac E and Grymin, David J",
-      "booktitle": "AIAA Scitech 2019 Forum",
+      "booktitle": "Aiaa Scitech 2019 Forum",
       "pages": "0683",
       "year": "2019"
     }

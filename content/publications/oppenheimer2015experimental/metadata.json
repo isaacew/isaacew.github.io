@@ -1,6 +1,6 @@
 {
   "id": "oppenheimer2015experimental",
-  "title": "Experimental Measurements of Cycle Averaged Forces for a Flapping Wing Vehicle",
+  "title": "Experimental Measurements Of Cycle Averaged Forces For A Flapping Wing Vehicle",
   "abstract": "In this work, experimental measurements of cycle-averaged forces produced by a flapping wing micro air vehicle are provided. The measurements are taken with a one degree-of-freedom force balance. The vehicle is mounted in different orientations so that cycle-averaged lift and drag can be measured. A variety of wing flapping frequencies are examined as well as different split-cycle parameters. The cycle-averaged measurements are compared to theoretical values obtained with a blade element model. The primary objective of this work is to determine if a blade element based aerodynamic model can accurately predict the cycle-averaged forces produced by wing flapping.",
   "authors": [
     "Oppenheimer, Michael W",
@@ -9,16 +9,16 @@
     "Doman, David B"
   ],
   "year": "2015",
-  "venue": "AIAA Guidance, Navigation, and Control Conference",
+  "venue": "Aiaa Guidance, Navigation, And Control Conference",
   "pages": "1549",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "oppenheimer2015experimental",
     "fields": {
-      "title": "Experimental Measurements of Cycle Averaged Forces for a Flapping Wing Vehicle",
+      "title": "Experimental Measurements Of Cycle Averaged Forces For A Flapping Wing Vehicle",
       "author": "Oppenheimer, Michael W and Weintraub, Isaac and Sigthorsson, David and Doman, David B",
-      "booktitle": "AIAA Guidance, Navigation, and Control Conference",
+      "booktitle": "Aiaa Guidance, Navigation, And Control Conference",
       "pages": "1549",
       "year": "2015",
       "doi": "10.2514/6.2015-1549",

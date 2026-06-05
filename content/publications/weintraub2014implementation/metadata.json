@@ -1,6 +1,6 @@
 {
   "id": "weintraub2014implementation",
-  "title": "Implementation of Split-Cycle Control for Micro Aerial Vehicles",
+  "title": "Implementation Of Split-Cycle Control For Micro Aerial Vehicles",
   "abstract": "Flapping wing micro air vehicles have been of significant research interest in recent years due to the flight capabilities of their biological counterparts and their ability to hide in plain sight, inspiring applications for military and civilian surveillance. This work introduces the design, implementation, and fabrication of the circuitry used for split-cycle constant-period wingbeat capable flapping wing micro air vehicle platforms. Split-cycle constant-period modulation involves independent control of the upstroke and downstroke wing velocity profiles to provide the theoretical capability of manipulating five degrees of vehicle motion freedom using only two actuators, namely, a brushless direct current motor for each wing. The control circuitry mainly consists of a control circuit board, a wireless receiver, three micro-controllers, and drivers. The circuitry design is tested using a prototype vehicle mounted on an air-table platform. A human operated transmitter relays split-cycle constant-period commands to the vehicle to produce the desired vehicle motion.",
   "authors": [
     "Weintraub, Isaac E",
@@ -9,16 +9,16 @@
     "Doman, David B"
   ],
   "year": "2014",
-  "venue": "Robot Intelligence Technology and Applications 2: Results from the 2nd International Conference on Robot Intelligence Technology and Applications",
+  "venue": "Robot Intelligence Technology And Applications 2: Results From The 2nd International Conference On Robot Intelligence Technology And Applications",
   "pages": "859--876",
   "organization": "Springer International Publishing Cham",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2014implementation",
     "fields": {
-      "title": "Implementation of Split-Cycle Control for Micro Aerial Vehicles",
+      "title": "Implementation Of Split-Cycle Control For Micro Aerial Vehicles",
       "author": "Weintraub, Isaac E and Sigthorsson, David O and Oppenheimer, Michael W and Doman, David B",
-      "booktitle": "Robot Intelligence Technology and Applications 2: Results from the 2nd International Conference on Robot Intelligence Technology and Applications",
+      "booktitle": "Robot Intelligence Technology And Applications 2: Results From The 2nd International Conference On Robot Intelligence Technology And Applications",
       "pages": "859--876",
       "year": "2014",
       "organization": "Springer International Publishing Cham",

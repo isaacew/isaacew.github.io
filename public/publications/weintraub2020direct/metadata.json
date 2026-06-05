@@ -1,6 +1,6 @@
 {
   "id": "weintraub2020direct",
-  "title": "Direct methods comparison for the active target defense scenario",
+  "title": "Direct Methods Comparison For The Active Target Defense Scenario",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -9,16 +9,16 @@
     "Pachter, Meir"
   ],
   "year": "2020",
-  "venue": "AIAA Scitech 2020 Forum",
+  "venue": "Aiaa Scitech 2020 Forum",
   "pages": "0612",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2020direct",
     "fields": {
-      "title": "Direct methods comparison for the active target defense scenario",
+      "title": "Direct Methods Comparison For The Active Target Defense Scenario",
       "author": "Weintraub, Isaac E and Cobb, Richard G and Baker, William and Pachter, Meir",
-      "booktitle": "AIAA Scitech 2020 Forum",
+      "booktitle": "Aiaa Scitech 2020 Forum",
       "pages": "0612",
       "year": "2020"
     }

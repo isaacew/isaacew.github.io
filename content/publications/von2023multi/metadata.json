@@ -1,6 +1,6 @@
 {
   "id": "von2023multi",
-  "title": "Multi-Agent Risk-Aware Teaming Under UncertaintY (MARTY)",
+  "title": "Multi-Agent Risk-Aware Teaming Under Uncertainty (Marty)",
   "abstract": "",
   "authors": [
     "Von Moll, Alexander",
@@ -14,7 +14,7 @@
     "type": "article",
     "key": "von2023multi",
     "fields": {
-      "title": "Multi-Agent Risk-Aware Teaming Under UncertaintY (MARTY)",
+      "title": "Multi-Agent Risk-Aware Teaming Under Uncertainty (Marty)",
       "author": "Von Moll, Alexander and Weintraub, Isaac",
       "year": "2023"
     }

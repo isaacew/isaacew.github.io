@@ -1,6 +1,6 @@
 {
   "id": "weintraub2020introduction",
-  "title": "An Introduction to Pursuit-evasion Differential Games",
+  "title": "An Introduction To Pursuit-Evasion Differential Games",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -8,16 +8,16 @@
     "Garcia, Eloy"
   ],
   "year": "2020",
-  "venue": "2020 American Control Conference (ACC)",
+  "venue": "2020 American Control Conference (Acc)",
   "pages": "1049--1066",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2020introduction",
     "fields": {
-      "title": "An Introduction to Pursuit-evasion Differential Games",
+      "title": "An Introduction To Pursuit-Evasion Differential Games",
       "author": "Weintraub, Isaac E and Pachter, Meir and Garcia, Eloy",
-      "booktitle": "2020 American Control Conference (ACC)",
+      "booktitle": "2020 American Control Conference (Acc)",
       "pages": "1049--1066",
       "year": "2020",
       "organization": "IEEE"

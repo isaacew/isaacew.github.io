@@ -1,6 +1,6 @@
 {
   "id": "weintraub2025min",
-  "title": "Min-Time Escape of a Dubins Car from a Polygon",
+  "title": "Min-Time Escape Of A Dubins Car From A Polygon",
   "abstract": "",
   "authors": [
     "Weintraub, Isaac E",
@@ -12,16 +12,16 @@
     "Chapman, Thomas"
   ],
   "year": "2025",
-  "venue": "2025 American Control Conference (ACC)",
+  "venue": "2025 American Control Conference (Acc)",
   "pages": "382--388",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "weintraub2025min",
     "fields": {
-      "title": "Min-Time Escape of a Dubins Car from a Polygon",
+      "title": "Min-Time Escape Of A Dubins Car From A Polygon",
       "author": "Weintraub, Isaac E and Von Moll, Alexander and Casbeer, David and Manyam, Satyanarayana G and Pachter, Meir and Taylor, Colin and Chapman, Thomas",
-      "booktitle": "2025 American Control Conference (ACC)",
+      "booktitle": "2025 American Control Conference (Acc)",
       "pages": "382--388",
       "year": "2025",
       "organization": "IEEE"

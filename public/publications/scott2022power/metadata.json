@@ -1,6 +1,6 @@
 {
   "id": "scott2022power",
-  "title": "Power management for noise aware path planning of hybrid UAVs",
+  "title": "Power Management For Noise Aware Path Planning Of Hybrid Uavs",
   "abstract": "",
   "authors": [
     "Scott, Drew",
@@ -11,16 +11,16 @@
     "Weintraub, Isaac E"
   ],
   "year": "2022",
-  "venue": "2022 American Control Conference (ACC)",
+  "venue": "2022 American Control Conference (Acc)",
   "pages": "4280--4285",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "scott2022power",
     "fields": {
-      "title": "Power management for noise aware path planning of hybrid UAVs",
+      "title": "Power Management For Noise Aware Path Planning Of Hybrid Uavs",
       "author": "Scott, Drew and Manyam, Satyanarayana G and Casbeer, David W and Kumar, Manish and Rothenberger, Michael J and Weintraub, Isaac E",
-      "booktitle": "2022 American Control Conference (ACC)",
+      "booktitle": "2022 American Control Conference (Acc)",
       "pages": "4280--4285",
       "year": "2022",
       "organization": "IEEE"

@@ -1,6 +1,6 @@
 {
   "id": "sharma2026learning",
-  "title": "Learning-Augmented Adaptive Guidance for Target Interception",
+  "title": "Learning-Augmented Adaptive Guidance For Target Interception",
   "abstract": "",
   "authors": [
     "Sharma, Rajnikant",
@@ -8,16 +8,16 @@
     "Weintraub, Isaac E"
   ],
   "year": "2026",
-  "venue": "AIAA SCITECH 2026 Forum",
+  "venue": "Aiaa Scitech 2026 Forum",
   "pages": "1202",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "sharma2026learning",
     "fields": {
-      "title": "Learning-Augmented Adaptive Guidance for Target Interception",
+      "title": "Learning-Augmented Adaptive Guidance For Target Interception",
       "author": "Sharma, Rajnikant and Sinha, Abhinav and Weintraub, Isaac E",
-      "booktitle": "AIAA SCITECH 2026 Forum",
+      "booktitle": "Aiaa Scitech 2026 Forum",
       "pages": "1202",
       "year": "2026"
     }

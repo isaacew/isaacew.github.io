@@ -1,6 +1,6 @@
 {
   "id": "manyam2021quadratic",
-  "title": "Quadratic Bezier Curves for Multi-Agent Coordinated Arrival in the Presence of Obstacles",
+  "title": "Quadratic Bezier Curves For Multi-Agent Coordinated Arrival In The Presence Of Obstacles",
   "abstract": "",
   "authors": [
     "Manyam, Satyanarayana G",
@@ -11,16 +11,16 @@
     "Darbha, Swaroop"
   ],
   "year": "2021",
-  "venue": "AIAA Scitech 2021 Forum",
+  "venue": "Aiaa Scitech 2021 Forum",
   "pages": "1879",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "manyam2021quadratic",
     "fields": {
-      "title": "Quadratic Bezier Curves for Multi-Agent Coordinated Arrival in the Presence of Obstacles",
+      "title": "Quadratic Bezier Curves For Multi-Agent Coordinated Arrival In The Presence Of Obstacles",
       "author": "Manyam, Satyanarayana G and Casbeer, David and Weintraub, Isaac E and Tran, Dzung M and Bradley, Justin M and Darbha, Swaroop",
-      "booktitle": "AIAA Scitech 2021 Forum",
+      "booktitle": "Aiaa Scitech 2021 Forum",
       "pages": "1879",
       "year": "2021"
     }

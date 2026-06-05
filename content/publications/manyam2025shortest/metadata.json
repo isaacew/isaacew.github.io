@@ -1,6 +1,6 @@
 {
   "id": "manyam2025shortest",
-  "title": "Shortest Dubins Path to a Moving Circle with Free Final Heading",
+  "title": "Shortest Dubins Path To A Moving Circle With Free Final Heading",
   "abstract": "",
   "authors": [
     "Manyam, Satyanarayana G",
@@ -9,16 +9,16 @@
     "Weintraub, Isaac"
   ],
   "year": "2025",
-  "venue": "2025 American Control Conference (ACC)",
+  "venue": "2025 American Control Conference (Acc)",
   "pages": "5046--5051",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "manyam2025shortest",
     "fields": {
-      "title": "Shortest Dubins Path to a Moving Circle with Free Final Heading",
+      "title": "Shortest Dubins Path To A Moving Circle With Free Final Heading",
       "author": "Manyam, Satyanarayana G and Casbeer, David W and Von Moll, Alexander and Weintraub, Isaac",
-      "booktitle": "2025 American Control Conference (ACC)",
+      "booktitle": "2025 American Control Conference (Acc)",
       "pages": "5046--5051",
       "year": "2025",
       "organization": "IEEE"

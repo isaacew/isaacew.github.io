@@ -1,6 +1,6 @@
 {
   "id": "garcia2022optimal",
-  "title": "Optimal strategies for the game of protecting a plane in 3-d",
+  "title": "Optimal Strategies For The Game Of Protecting A Plane In 3-D",
   "abstract": "",
   "authors": [
     "Garcia, Eloy",
@@ -9,16 +9,16 @@
     "Pachter, Meir"
   ],
   "year": "2022",
-  "venue": "2022 American Control Conference (ACC)",
+  "venue": "2022 American Control Conference (Acc)",
   "pages": "102--107",
   "organization": "IEEE",
   "bibtex": {
     "type": "inproceedings",
     "key": "garcia2022optimal",
     "fields": {
-      "title": "Optimal strategies for the game of protecting a plane in 3-d",
+      "title": "Optimal Strategies For The Game Of Protecting A Plane In 3-D",
       "author": "Garcia, Eloy and Weintraub, Isaac and Casbeer, David W and Pachter, Meir",
-      "booktitle": "2022 American Control Conference (ACC)",
+      "booktitle": "2022 American Control Conference (Acc)",
       "pages": "102--107",
       "year": "2022",
       "organization": "IEEE"
