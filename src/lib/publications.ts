@@ -10,7 +10,7 @@ export type Publication = {
   venue: string;
   pages: string;
   organization: string;
-  kind?: 'journal' | 'conference' | 'thesis' | 'patent' | 'techreport' | 'other';
+  kind?: 'journal' | 'conference' | 'thesis' | 'preprint' | 'patent' | 'techreport' | 'other';
   preprintUrl?: string;
   url?: string;
   doi?: string;
@@ -72,16 +72,20 @@ export function getPublications(): Publication[] {
             '\n}'
           : undefined;
       const citation = formatIeeeCitation(data, data.id ?? dir.name);
+      const rawType = (data.bibtex?.type || '').toLowerCase();
+      const journalField = (data.bibtex?.fields?.journal || '').toLowerCase();
       const kind: Publication['kind'] =
-        (data.bibtex?.type || '').toLowerCase() === 'article'
+        rawType === 'article'
           ? 'journal'
-          : (data.bibtex?.type || '').toLowerCase() === 'inproceedings'
+          : rawType === 'inproceedings'
           ? 'conference'
-          : (data.bibtex?.type || '').toLowerCase() === 'phdthesis'
+          : rawType === 'phdthesis'
           ? 'thesis'
-          : (data.bibtex?.type || '').toLowerCase() === 'techreport'
+          : rawType === 'techreport'
           ? 'techreport'
-          : (data.bibtex?.type || '').toLowerCase() === 'misc'
+          : rawType === 'misc' && journalField.includes('arxiv')
+          ? 'preprint'
+          : rawType === 'misc'
           ? 'patent'
           : 'other';
       publications.push({
