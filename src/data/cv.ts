@@ -136,4 +136,40 @@ export const publications = [
 		abstract:
 			'Organized introduction to pursuit–evasion differential games, summarizing seminal work and recent advances across single- and multi-player formulations, with detailed study of representative engagement scenarios.',
 	},
+	{
+		title: 'Relational maneuvering of leader-follower unmanned aerial vehicles for flexible formation',
+		authors: 'Weintraub, Isaac E; others',
+		journal: 'AIAA SCITECH Forum',
+		time: '2024',
+		link: '',
+		abstract:
+			'Relational guidance framework for leader–follower UAV formations that maintains flexible geometry while respecting engagement constraints and communication limitations.',
+	},
+	{
+		title: 'An Optimal Guidance Strategy for the Defense of a Non-Maneuverable Target in 3-D',
+		authors: 'Weintraub, Isaac E; others',
+		journal: 'Journal / conference pending',
+		time: '2025',
+		link: '',
+		abstract:
+			'Pursuit–evasion-based guidance law for defending a fixed asset in three dimensions against maneuvering threats, with analytical results and simulation studies.',
+	},
+	{
+		title: 'Trajectory optimization for rendezvous planning using quadratic Bézier curves',
+		authors: 'Weintraub, Isaac E; others',
+		journal: 'Conference paper',
+		time: '2023',
+		link: '',
+		abstract:
+			'Rendezvous trajectory design method parameterized by quadratic Bézier curves, enabling efficient optimization under kinematic and timing constraints.',
+	},
+	{
+		title: 'Basic engagement zones',
+		authors: 'Weintraub, Isaac E; co-authors',
+		journal: 'AIAA / journal submission',
+		time: '2026',
+		link: '',
+		abstract:
+			'Characterization of basic engagement zones for interceptor–target pairs, providing geometric insight into reachability and defensive coverage.',
+	},
 ];
