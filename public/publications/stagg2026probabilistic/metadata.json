@@ -1,25 +1,27 @@
 {
   "id": "stagg2026probabilistic",
   "title": "Probabilistic Weapon Engagement Zones For A Turn Constrained Pursuer",
-  "abstract": "",
+  "abstract": "Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.",
   "authors": [
     "Stagg, Grant",
-    "Peterson, Cammy K",
-    "Weintraub, Isaac"
+    "Peterson, Carmy",
+    "Weintraub, Isaac E"
   ],
   "year": "2026",
-  "venue": "AIAA Scitech 2026 Forum",
-  "pages": "2195",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "stagg2026probabilistic",
     "fields": {
       "title": "Probabilistic Weapon Engagement Zones For A Turn Constrained Pursuer",
-      "author": "Stagg, Grant and Peterson, Cammy K and Weintraub, Isaac",
-      "booktitle": "AIAA Scitech 2026 Forum",
-      "pages": "2195",
-      "year": "2026"
+      "author": "Stagg, Grant and Peterson, Carmy and Weintraub, Isaac E",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "year": "2026",
+      "doi": "10.2514/6.2026-2195",
+      "address": "Orlando, FL",
+      "abstract": "Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty."
     }
   }
 }

@@ -1,24 +1,27 @@
 {
   "id": "von2026reactive",
   "title": "Reactive Vehicle Guidance Using Dynamic Maneuvering Cue",
-  "abstract": "",
+  "abstract": "Recent approaches for navigating among dynamic threat regions (i.e., weapon engagement zones) have focused on planning entire trajectories. Moreover, the allowance for penetration into these threat regions was based on heuristic measurements of risk. This paper offers an approach for a more reactive (i.e., feedback-based) guidance that is based on closed-form analytical expressions and thereby suitable for onboard, real-time execution. In addition, a risk measurement is formulated based upon the concept of Dynamic Maneuvering Cue (DMC), which measures the amount of turn a vehicle would need to take in its current state in order to put itself outside the threat region. This approach is then extended to handle multiple threat regions simultaneously (with minimal additional computational complexity). Finally, the DMC constraint is applied to a simple feedback controller as well as a model predictive controller (MPC). The MPC shows better performance, but at the cost of having to solve an optimization problem online, versus the meager computational burden associated with the simple controller. This approach, which is based on assuming the threats are adversarial, may be used as a conservative method for collision avoidance and deconfliction.",
   "authors": [
-    "Von Moll, Alexander L",
-    "Weintraub, Isaac E"
+    "Von Moll, Alexander",
+    "Weintraub, Isaac E",
+    "Casbeer, David W"
   ],
   "year": "2026",
-  "venue": "AIAA Scitech 2026 Forum",
-  "pages": "1199",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "von2026reactive",
     "fields": {
       "title": "Reactive Vehicle Guidance Using Dynamic Maneuvering Cue",
-      "author": "Von Moll, Alexander L and Weintraub, Isaac E",
-      "booktitle": "AIAA Scitech 2026 Forum",
-      "pages": "1199",
-      "year": "2026"
+      "author": "Von Moll, Alexander and Weintraub, Isaac E and Casbeer, David W",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "year": "2026",
+      "doi": "10.2514/6.2026-1199",
+      "address": "Orlando, FL",
+      "abstract": "Recent approaches for navigating among dynamic threat regions (i.e., weapon engagement zones) have focused on planning entire trajectories. Moreover, the allowance for penetration into these threat regions was based on heuristic measurements of risk. This paper offers an approach for a more reactive (i.e., feedback-based) guidance that is based on closed-form analytical expressions and thereby suitable for onboard, real-time execution. In addition, a risk measurement is formulated based upon the concept of Dynamic Maneuvering Cue (DMC), which measures the amount of turn a vehicle would need to take in its current state in order to put itself outside the threat region. This approach is then extended to handle multiple threat regions simultaneously (with minimal additional computational complexity). Finally, the DMC constraint is applied to a simple feedback controller as well as a model predictive controller (MPC). The MPC shows better performance, but at the cost of having to solve an optimization problem online, versus the meager computational burden associated with the simple controller. This approach, which is based on assuming the threats are adversarial, may be used as a conservative method for collision avoidance and deconfliction."
     }
   }
 }

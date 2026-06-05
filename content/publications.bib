@@ -863,7 +863,29 @@
   author={Sharma, Rajnikant and Sinha, Abhinav and Weintraub, Isaac E},
   booktitle={AIAA Scitech 2026 Forum},
   pages={1202},
-  year={2026}
+  year={2026},
+  doi={10.2514/6.2026-1202},
+  abstract={This paper presents a hybrid learning-augmented guidance strategy in which Deep Reinforcement Learning (DRL) is employed to improve the Proportional-Navigation (PN) guidance for target interception involving a maneuvering target. Unlike classical PN guidance, where the navigation constant N is fixed, our approach learns N as a function of the states of the system, including the line-of-sight parameters and relative dynamics. This adaptive cooperative guidance enables the pursuers to respond dynamically to the evader's maneuvers, optimizing interception performance. We formulate the problem as a Markov Decision Process (MDP) and train an RL agent using the Proximal Policy Optimization (PPO) algorithm. The agent learns to control the pursuer's lateral acceleration by varying N based on real-time observations. Experimental results demonstrate the superiority of the proposed hybrid learning-augmented guidance strategy over classical PN with fixed N=3 in scenarios with a maneuvering target. In addition, we also discuss the role of reward shaping in enhancing convergence and interception performance.}
+}
+
+@inproceedings{stagg2026probabilistic,
+  title={Probabilistic Weapon Engagement Zones For A Turn Constrained Pursuer},
+  author={Stagg, Grant and Peterson, Carmy and Weintraub, Isaac E},
+  booktitle={AIAA SCITECH 2026 Forum},
+  year={2026},
+  doi={10.2514/6.2026-2195},
+  address={Orlando, FL},
+  abstract={Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.}
+}
+
+@inproceedings{von2026reactive,
+  title={Reactive Vehicle Guidance Using Dynamic Maneuvering Cue},
+  author={Von Moll, Alexander and Weintraub, Isaac E and Casbeer, David W},
+  booktitle={AIAA SCITECH 2026 Forum},
+  year={2026},
+  doi={10.2514/6.2026-1199},
+  address={Orlando, FL},
+  abstract={Recent approaches for navigating among dynamic threat regions (i.e., weapon engagement zones) have focused on planning entire trajectories. Moreover, the allowance for penetration into these threat regions was based on heuristic measurements of risk. This paper offers an approach for a more reactive (i.e., feedback-based) guidance that is based on closed-form analytical expressions and thereby suitable for onboard, real-time execution. In addition, a risk measurement is formulated based upon the concept of Dynamic Maneuvering Cue (DMC), which measures the amount of turn a vehicle would need to take in its current state in order to put itself outside the threat region. This approach is then extended to handle multiple threat regions simultaneously (with minimal additional computational complexity). Finally, the DMC constraint is applied to a simple feedback controller as well as a model predictive controller (MPC). The MPC shows better performance, but at the cost of having to solve an optimization problem online, versus the meager computational burden associated with the simple controller. This approach, which is based on assuming the threats are adversarial, may be used as a conservative method for collision avoidance and deconfliction.}
 }
 
 @inproceedings{ganeshan2026bi,

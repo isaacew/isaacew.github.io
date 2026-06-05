@@ -1,7 +1,7 @@
 {
   "id": "sharma2026learning",
   "title": "Learning-Augmented Adaptive Guidance For Target Interception",
-  "abstract": "",
+  "abstract": "This paper presents a hybrid learning-augmented guidance strategy in which Deep Reinforcement Learning (DRL) is employed to improve the Proportional-Navigation (PN) guidance for target interception involving a maneuvering target. Unlike classical PN guidance, where the navigation constant N is fixed, our approach learns N as a function of the states of the system, including the line-of-sight parameters and relative dynamics. This adaptive cooperative guidance enables the pursuers to respond dynamically to the evader's maneuvers, optimizing interception performance. We formulate the problem as a Markov Decision Process (MDP) and train an RL agent using the Proximal Policy Optimization (PPO) algorithm. The agent learns to control the pursuer's lateral acceleration by varying N based on real-time observations. Experimental results demonstrate the superiority of the proposed hybrid learning-augmented guidance strategy over classical PN with fixed N=3 in scenarios with a maneuvering target. In addition, we also discuss the role of reward shaping in enhancing convergence and interception performance.",
   "authors": [
     "Sharma, Rajnikant",
     "Sinha, Abhinav",
@@ -19,7 +19,9 @@
       "author": "Sharma, Rajnikant and Sinha, Abhinav and Weintraub, Isaac E",
       "booktitle": "AIAA Scitech 2026 Forum",
       "pages": "1202",
-      "year": "2026"
+      "year": "2026",
+      "doi": "10.2514/6.2026-1202",
+      "abstract": "This paper presents a hybrid learning-augmented guidance strategy in which Deep Reinforcement Learning (DRL) is employed to improve the Proportional-Navigation (PN) guidance for target interception involving a maneuvering target. Unlike classical PN guidance, where the navigation constant N is fixed, our approach learns N as a function of the states of the system, including the line-of-sight parameters and relative dynamics. This adaptive cooperative guidance enables the pursuers to respond dynamically to the evader's maneuvers, optimizing interception performance. We formulate the problem as a Markov Decision Process (MDP) and train an RL agent using the Proximal Policy Optimization (PPO) algorithm. The agent learns to control the pursuer's lateral acceleration by varying N based on real-time observations. Experimental results demonstrate the superiority of the proposed hybrid learning-augmented guidance strategy over classical PN with fixed N=3 in scenarios with a maneuvering target. In addition, we also discuss the role of reward shaping in enhancing convergence and interception performance."
     }
   }
 }
