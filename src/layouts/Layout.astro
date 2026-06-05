@@ -39,40 +39,18 @@ const {
 		<div>
 			<!-- Top bar -->
 	            <div>
-				<div class='backdrop-blur bg-slate-900/80 z-50 text-base-content shadow-sm border-b border-slate-800'>
-					<nav class='navbar'>
-						<div class='navbar-start'>
-							{template.menu_left &&
-								<DarkLightController/>
-								/* <ThemeSelector transition:persist /> */
-							}
-							<label for='my-drawer' class='btn btn-square btn-ghost lg:hidden'>
-								<BetterIcon>
-									<svg
-										xmlns='http://www.w3.org/2000/svg'
-										fill='none'
-										viewBox='0 0 24 24'
-										stroke-width='1.5'
-										class='size-6 stroke-current'
-									>
-										<path
-											stroke-linecap='round'
-											stroke-linejoin='round'
-											d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'></path>
-									</svg>
-								</BetterIcon>
-							</label>
+				<div class='backdrop-blur bg-slate-900/80 z-50 border-b border-slate-800/70'>
+					<nav class='navbar max-w-6xl mx-auto px-4'>
+						<div class='flex-1 text-sm uppercase tracking-[0.25em] text-slate-300'>
+							<span class='font-semibold text-slate-100'>{profile.fullName}</span>
+							<span class='hidden sm:inline'>&nbsp;·&nbsp;Autonomous Systems &amp; Control</span>
 						</div>
-						<div class='navbar-center lg:hidden text-lg font-black'>
-							{profile.title}
-							{profile.fullName}
-						</div>
-						<div class='navbar-end'>
-							{!template.menu_left &&
-								<DarkLightController/>
-								/* <ThemeSelector transition:persist /> */
-							}
-						</div>
+						<ul class='flex items-center gap-6 text-xs sm:text-sm text-slate-300'>
+							<li><a href={template.base} class='hover:text-slate-50 transition-colors'>Home</a></li>
+							<li><a href={`${template.base}research`} class='hover:text-slate-50 transition-colors'>Research</a></li>
+							<li><a href={`${template.base}papers`} class='hover:text-slate-50 transition-colors'>Papers</a></li>
+							<li><a href={`${template.base}cv`} class='hover:text-slate-50 transition-colors'>CV</a></li>
+						</ul>
 					</nav>
 				</div>
                 <main class='p-6 lg:p-10 max-w-6xl mx-auto min-h-screen flex flex-col gap-12'>
