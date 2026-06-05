@@ -1,28 +1,29 @@
 {
   "id": "ganeshan2026bi",
   "title": "Bi-Objective Dynamic Zone Navigation",
-  "abstract": "",
+  "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent’s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated.",
   "authors": [
-    "Ganeshan, Reyshwanth",
-    "Rathinam, Sivakumar",
-    "Darbha, Swaroop",
-    "G Manyam, Satyanarayana",
-    "Weintraub, Isaac E",
-    "Casbeer, David"
+    "Ganeshan, Reyanthan",
+    "Ranjan, Praveen",
+    "Chakravarthy, Animesh",
+    "Casbeer, David",
+    "Weintraub, Isaac E"
   ],
   "year": "2026",
-  "venue": "Aiaa Scitech 2026 Forum",
-  "pages": "1201",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "pages": "",
   "organization": "",
   "bibtex": {
     "type": "inproceedings",
     "key": "ganeshan2026bi",
     "fields": {
       "title": "Bi-Objective Dynamic Zone Navigation",
-      "author": "Ganeshan, Reyshwanth and Rathinam, Sivakumar and Darbha, Swaroop and G Manyam, Satyanarayana and Weintraub, Isaac E and Casbeer, David",
-      "booktitle": "Aiaa Scitech 2026 Forum",
-      "pages": "1201",
-      "year": "2026"
+      "author": "Ganeshan, Reyanthan and Ranjan, Praveen and Chakravarthy, Animesh and Casbeer, David and Weintraub, Isaac E",
+      "booktitle": "AIAA SCITECH 2026 Forum",
+      "year": "2026",
+      "doi": "10.2514/6.2026-1201",
+      "address": "Orlando, FL",
+      "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent’s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated."
     }
   }
 }

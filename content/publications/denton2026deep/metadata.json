@@ -1,7 +1,7 @@
 {
   "id": "denton2026deep",
   "title": "Deep Neural Network As 5-D Image For Threat Avoidance",
-  "abstract": "",
+  "abstract": "This paper proposes a method of threat avoidance using deep neural networks (DNN) from the aircraft frame of reference. The proposed technique uses an offline-trained DNN to generate first-order maneuver guidance as a fuzzy 5-D vector image. Once trained on two million simulation results from a set of two threats, a 2-D maneuver space diagram (bank-speed or bank-altitude) is created by plotting the DNN's binary \"capture\" or \"no capture\" predictions. Unlike a lookup table or a threat-specific simulation, a DNN can interpolate for unknown threats within its training range. Several suitable DNN models are compared to evaluate selection criteria based on simplicity and interpolation accuracy. Analytic threat engagement envelopes are compared to interpolated threat regions using intersection over union (IoU) to discriminate and select models based on performance. The best DNN in this study has five hidden layers of decreasing size and is selected because it has the highest mean IoU and the lowest standard deviation. The file size of this tapered model is also much smaller than that of the other deep models in this study, thereby increasing its relative utility for use onboard aircraft.",
   "authors": [
     "Denton, Alexander W",
     "Riddick, Michael P",
@@ -9,7 +9,7 @@
     "Kunz, Donald L"
   ],
   "year": "2026",
-  "venue": "Aiaa Scitech 2026 Forum",
+  "venue": "AIAA Scitech 2026 Forum",
   "pages": "2194",
   "organization": "",
   "bibtex": {
@@ -18,9 +18,12 @@
     "fields": {
       "title": "Deep Neural Network As 5-D Image For Threat Avoidance",
       "author": "Denton, Alexander W and Riddick, Michael P and Weintraub, Isaac E and Kunz, Donald L",
-      "booktitle": "Aiaa Scitech 2026 Forum",
+      "booktitle": "AIAA Scitech 2026 Forum",
       "pages": "2194",
-      "year": "2026"
+      "year": "2026",
+      "doi": "10.2514/6.2026-2194",
+      "address": "Orlando, FL",
+      "abstract": "This paper proposes a method of threat avoidance using deep neural networks (DNN) from the aircraft frame of reference. The proposed technique uses an offline-trained DNN to generate first-order maneuver guidance as a fuzzy 5-D vector image. Once trained on two million simulation results from a set of two threats, a 2-D maneuver space diagram (bank-speed or bank-altitude) is created by plotting the DNN's binary \"capture\" or \"no capture\" predictions. Unlike a lookup table or a threat-specific simulation, a DNN can interpolate for unknown threats within its training range. Several suitable DNN models are compared to evaluate selection criteria based on simplicity and interpolation accuracy. Analytic threat engagement envelopes are compared to interpolated threat regions using intersection over union (IoU) to discriminate and select models based on performance. The best DNN in this study has five hidden layers of decreasing size and is selected because it has the highest mean IoU and the lowest standard deviation. The file size of this tapered model is also much smaller than that of the other deep models in this study, thereby increasing its relative utility for use onboard aircraft."
     }
   }
 }
