@@ -45,7 +45,13 @@ function buildBibEntry({ type, key, fields }) {
   return `@${type}{${key},\n${ordered}\n}`;
 }
 
-function httpsJson(url) {
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function httpsJson(url) {
+  // Respect Semantic Scholar rate limits: at most one call every 2 seconds.
+  await delay(2000);
   return new Promise((resolve, reject) => {
     https
       .get(url, (res) => {
@@ -98,6 +104,11 @@ async function main() {
 
   for (const entry of entries) {
     const { fields, key } = entry;
+
+    // Only consider papers from approximately the last 12 months.
+    const yearNum = parseInt(fields.year || '0', 10);
+    const currentYear = new Date().getFullYear();
+    if (!yearNum || currentYear - yearNum > 1) continue;
     if (!needEnrichment(fields)) continue;
 
     console.log(`Enriching ${key}...`);
@@ -142,4 +153,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
