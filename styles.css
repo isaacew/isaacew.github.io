@@ -381,24 +381,22 @@ p {
   border-radius: 20px;
 }
 
-.hero__copy--overlay {
-  position: relative;
-  z-index: 1;
+/* New simple two-column hero header */
+.hero-header {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.9fr);
   gap: 1.25rem;
   align-items: center;
 }
 
-.hero__copy-main {
+.hero-header__copy {
   display: grid;
   gap: 0.9rem;
 }
 
-.hero__portrait-shell {
-  display: grid;
-  gap: 0.6rem;
-  align-content: start;
+.hero-header__portrait {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero__mini-card {
@@ -1050,14 +1048,6 @@ p {
 
   .hero {
     grid-template-columns: 1fr;
-  }
-
-  .hero__copy {
-    order: 2;
-  }
-
-  .hero__visual {
-    order: 1;
   }
 
   .section__header--split {
