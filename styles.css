@@ -311,17 +311,15 @@ p {
 }
 
 .hero__canvas {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  min-height: 15.5rem;
-  border-radius: 28px;
-  border: 1px solid var(--line);
-  background:
-    radial-gradient(circle at 0% 0%, rgba(248, 111, 50, 0.14), transparent 72%),
-    rgba(18, 18, 26, 0.96);
-  backdrop-filter: blur(22px) saturate(140%);
-  padding: 1rem;
+  position: static;
+  isolation: auto;
+  overflow: visible;
+  min-height: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  backdrop-filter: none;
+  padding: 0;
 }
 
 .hero__mesh {
@@ -364,13 +362,11 @@ p {
   position: relative;
   z-index: 1;
   width: min(100%, 18.5rem);
-  border-radius: 24px;
-  padding: 0.75rem;
-  border: 1px solid var(--line);
-  background:
-    radial-gradient(circle at 0% 0%, rgba(248, 111, 50, 0.14), transparent 72%),
-    rgba(12, 12, 18, 0.96);
-  backdrop-filter: blur(20px) saturate(135%);
+  border-radius: 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  backdrop-filter: none;
 }
 
 .portrait-frame img {
