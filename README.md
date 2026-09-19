@@ -11,3 +11,4 @@ The current site is a single-page, dark glass-themed interface built with plain 
 
 Legacy Astro-based content and template files have been removed in favor of this simpler, custom archive.
 
+
