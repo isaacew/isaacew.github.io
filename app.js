@@ -112,7 +112,8 @@ function filteredPublications() {
 }
 
 function heroPublications() {
-  return sortPublications(state.publications).filter((publication) => publication.imagePath).slice(0, 5);
+  const items = sortPublications(state.publications).filter((publication) => publication.imagePath);
+  return items.length ? [items[0]] : [];
 }
 
 function computeStats() {
@@ -319,9 +320,7 @@ function startHeroMotion() {
 
   window.setInterval(() => {
     messageIndex = (messageIndex + 1) % HERO_MESSAGES.length;
-    state.spotlightIndex = (state.spotlightIndex + 1) % Math.max(heroPublications().length, 1);
     elements.heroFocusline.textContent = HERO_MESSAGES[messageIndex];
-    renderHeroSpotlight();
   }, 4200);
 }
 
