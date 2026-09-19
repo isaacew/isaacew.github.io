@@ -1778,5 +1778,142 @@
     "source": "scholar-stub",
     "pdfPath": "",
     "imagePath": ""
+  },
+  {
+    "id": "ringformationmaneuversingleintegratorkin",
+    "slug": "ringformationmaneuversingleintegratorkin",
+    "title": "Ring formation maneuver: Single-integrator kinematics",
+    "authors": [
+      "D. M. Tran",
+      "D. Casbeer",
+      "E. Garcia",
+      "I. E. Weintraub",
+      "D. Milutinovic",
+      "S. G. Manyam"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "ringformationmaneuveringwithdoubleintegr",
+    "slug": "ringformationmaneuveringwithdoubleintegr",
+    "title": "Ring formation maneuvering with double integrator dynamics",
+    "authors": [
+      "D. Tran",
+      "D. Casbeer",
+      "E. Garcia",
+      "I. E. Weintraub",
+      "D. Milutinovi\u0107"
+    ],
+    "year": 2021,
+    "venue": "2021 International Conference on Unmanned Aircraft Systems (ICUAS)",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "trajectoryoptimizationforrendezvousplann",
+    "slug": "trajectoryoptimizationforrendezvousplann",
+    "title": "Trajectory optimization for rendezvous planning using quadratic b\u00e9zier curves",
+    "authors": [
+      "S. G. Manyam",
+      "D. W. Casbeer",
+      "I. E. Weintraub",
+      "C. Taylor"
+    ],
+    "year": 2021,
+    "venue": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "optimalevasioninanactivetargetdefensesce",
+    "slug": "optimalevasioninanactivetargetdefensesce",
+    "title": "Optimal Evasion in an Active Target Defense Scenario",
+    "authors": [
+      "I. E. Weintraub",
+      "E. Garcia",
+      "D. Casbeer",
+      "M. Pachter"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "circularrejoinin3dusingb\u00e9zierpaths",
+    "slug": "circularrejoinin3dusingb\u00e9zierpaths",
+    "title": "Circular rejoin in 3d using b\u00e9zier paths",
+    "authors": [
+      "I. E. Weintraub",
+      "Z. J. L. Demers",
+      "J. Shroyer",
+      "N. P. Ritsema",
+      "D. P. Sluss"
+    ],
+    "year": 2020,
+    "venue": "2020 IEEE Conference on Control Technology and Applications (CCTA)",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "anoptimalguidancestrategyforthedefenseof",
+    "slug": "anoptimalguidancestrategyforthedefenseof",
+    "title": "An Optimal Guidance Strategy for the Defense of a Non-Maneuverable Target in 3-D",
+    "authors": [
+      "I. Weintraub",
+      "E. Garcia",
+      "M. Pachter"
+    ],
+    "year": 2020,
+    "venue": "IET Control Theory & Applications",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "wingflexibilityinducedcontrolreversalfor",
+    "slug": "wingflexibilityinducedcontrolreversalfor",
+    "title": "Wing flexibility induced control reversal for flapping wing vehicles: observation and evaluation",
+    "authors": [
+      "D. Sigthorsson",
+      "M. W. Oppenheimer",
+      "D. B. Doman",
+      "I. Weintraub"
+    ],
+    "year": 2017,
+    "venue": "AIAA Guidance, Navigation, and Control Conference",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "the5050lifelineonwhowantstobeamillionair",
+    "slug": "the5050lifelineonwhowantstobeamillionair",
+    "title": "THE 50: 50 LIFELINE ON \"WHO WANTS TO BE A MILLIONAIRE?\"",
+    "authors": [
+      "D. L. Evans",
+      "I. Weintraub"
+    ],
+    "year": 2009,
+    "venue": "Mathematics and Computer Education 43 (1), 69",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
   }
 ]
