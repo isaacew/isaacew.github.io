@@ -219,7 +219,7 @@ function renderHeroSpotlight() {
     .join(' / ');
   elements.heroSpotlightTitle.textContent = publication.title;
   elements.heroSpotlightSummary.textContent = truncate(publication.abstract, 160) || formatAuthors(publication.authors);
-  elements.heroSpotlightTicker.textContent = `0${(state.spotlightIndex % items.length) + 1} / 0${items.length}`;
+  elements.heroSpotlightTicker.textContent = '';
   elements.heroSpotlightLink.href = publication.pdfPath || '#publications';
   elements.heroSpotlightLinkLabel.textContent = publication.pdfPath ? 'PDF' : 'Archive';
 }
