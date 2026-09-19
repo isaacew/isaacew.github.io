@@ -139,8 +139,6 @@ function renderStats() {
     )
     .join('');
 
-  elements.heroLatestYear.textContent = String(stats[3].value);
-  elements.heroImageCount.textContent = String(stats[2].value);
 }
 
 function renderProfile() {

@@ -320,8 +320,9 @@ p {
   border-radius: 28px;
   border: 1px solid var(--line);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.54), rgba(255, 249, 242, 0.72)),
-    var(--surface-strong);
+    radial-gradient(circle at 0% 0%, rgba(248, 111, 50, 0.14), transparent 72%),
+    rgba(18, 18, 26, 0.96);
+  backdrop-filter: blur(22px) saturate(140%);
   padding: 1rem;
 }
 
@@ -369,7 +370,10 @@ p {
   border-radius: 24px;
   padding: 0.75rem;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.42);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(248, 111, 50, 0.14), transparent 72%),
+    rgba(12, 12, 18, 0.96);
+  backdrop-filter: blur(20px) saturate(135%);
 }
 
 .portrait-frame img {
@@ -389,7 +393,10 @@ p {
   padding: 0.65rem 0.8rem;
   border-radius: 16px;
   border: 1px solid var(--line);
-  background: rgba(255, 251, 247, 0.92);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(248, 111, 50, 0.14), transparent 72%),
+    rgba(12, 12, 18, 0.96);
+  backdrop-filter: blur(20px) saturate(135%);
 }
 
 .hero__mini-card span {
