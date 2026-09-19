@@ -1746,5 +1746,37 @@
     "source": "scholar-stub",
     "pdfPath": "",
     "imagePath": ""
+  },
+  {
+    "id": "virtualtargetselectionforamultiplepursue",
+    "slug": "virtualtargetselectionforamultiplepursue",
+    "title": "Virtual Target Selection for a Multiple-Pursuer\u2013Multiple-Evader Scenario",
+    "authors": [
+      "I. E. Weintraub",
+      "A. Von Moll",
+      "D. W. Casbeer",
+      "S. G. Manyam"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems 22 (5), 391-400",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
+  },
+  {
+    "id": "thesynthesisofoptimalcontrollawsusingisa",
+    "slug": "thesynthesisofoptimalcontrollawsusingisa",
+    "title": "The synthesis of optimal control laws using isaacs\u0019 method for the solution of differential games",
+    "authors": [
+      "M. Pachter",
+      "I. E. Weintraub"
+    ],
+    "year": 2024,
+    "venue": "Journal of Optimization Theory and Applications 202 (3), 1137-1157",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "",
+    "imagePath": ""
   }
 ]
