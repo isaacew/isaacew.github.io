@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "le2026comparison",
+    "slug": "le2026comparison",
+    "title": "A Comparison Of Reinforcement Learning And Optimal Control Methods For Path Planning",
+    "authors": [
+      "Le, Qiang",
+      "Yang, Yaguang",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2604.12628",
+    "abstract": "Path-planning for autonomous vehicles in threat-laden environments is a fundamental challenge. While traditional optimal control methods can find ideal paths, the computational time is often too slow for real-time decision-making. To solve this challenge, we propose a method based on Deep Deterministic Policy Gradient (DDPG) and model the threat as a simple, circular `no-go' zone. A mission failure is claimed if the vehicle enters this `no-go' zone at any time or does not reach a neighborhood of the destination. The DDPG agent is trained to learn a direct mapping from its current state (position and velocity) to a series of feasible actions that guide the agent to safely reach its goal. A reward function and two neural networks, critic and actor, are used to describe the environment and guide the control efforts. The DDPG trains the agent to find the largest possible set of starting points (\"feasible set\") wherein a safe path to the goal is guaranteed. This provides critical information for mission planning, showing beforehand whether a task is achievable from a given starting point, assisting pre-mission planning activities. The approach is validated in simulation. A comparison between the DDPG method and a traditional optimal control (pseudo-spectral) method is carried out. The results show that the learning-based agent may produce effective paths while being significantly faster, making it a better fit for real-time applications. However, there are areas (\"infeasible set\") where the DDPG agent cannot find paths to the destination, and the paths in the feasible set may not be optimal. These preliminary results guide our future research: (1) improve the reward function to enlarge the DDPG feasible set, (2) examine the feasible set obtained by the pseudo-spectral method, and (3) investigate the arc-search IPM method for the path planning problem.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/le2026comparison/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "bajaj2022competitive",
+    "slug": "bajaj2022competitive",
+    "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+    "authors": [
+      "Le, Qiang",
+      "Weintraub, Isaac E",
+      "Casbeer, David",
+      "Pachter, Meir"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "This work considers a Pursuer and Evader scenario wherein the Evader aims to plan a path around an engagement zone of the Pursuer. We investigate the feasibility of using the multiple time interval pseudospectral (PS) approach to obtain the path for the Evader to avoid the basic engagement zones (BEZ) posed by the Pursuer. The objective function is the Evader's travel time. Nonlinear constraints are imposed to ensure that the Evader not enter the Pursuer's BEZ at any portion of the Pursuer's trajectory. The resulting paths using the PS method to avoid the BEZs are provided for the various speed ratios of Pursuer and Evader.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/bajaj2022competitive/paper.pdf",
+    "imagePath": "images/public/publications/bajaj2022competitive/feature.png"
+  },
+  {
+    "id": "le2026basic",
+    "slug": "le2026basic",
+    "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+    "authors": [
+      "Le, Qiang",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "Aiaa Scitech 2026 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/le2026basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ganeshan2026bi",
+    "slug": "ganeshan2026bi",
+    "title": "Bi-Objective Dynamic Zone Navigation",
+    "authors": [
+      "Ganeshan, Reyanthan",
+      "Ranjan, Praveen",
+      "Chakravarthy, Animesh",
+      "Casbeer, David",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent’s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ganeshan2026bi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sharma2026collaborative",
+    "slug": "sharma2026collaborative",
+    "title": "Collaborative Threat-Aware Autonomy (Ctaa)",
+    "authors": [
+      "Sharma, Rajnikant",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2605.25741",
+    "abstract": "Navigating teams of unmanned vehicles through environments containing dynamic, adversarial Weapon Engagement Zones (WEZs) poses a fundamental challenge to mission success: a single vehicle, however capable its onboard guidance, remains a single point of failure. This paper presents a role-differentiated multi-agent framework for collaborative threat-aware trajectory planning in which a fleet of Autonomous Collaborative Platforms (ACPs) is assigned distinct roles — primary intercept, escort, and decoy — to improve team-level mission success probability while managing individual WEZ exposure. Each ACP independently employs a reactive guidance law derived from the Collision Sphere Boundary for Evader Zero-Set (CSBEZ), which accounts for pursuer maneuverability constraints imposed by minimum turn radius, and steers the vehicle toward the safest heading that also makes progress toward its goal. Role assignment and spatial route separation induce two complementary effects: probabilistic redundancy, in which N independent paths raise the team success probability to 1 − (1−p)^N, and threat saturation, in which lower-priority escorts and decoys draw adversary attention and free the primary vehicle to transit uncontested. Simulation results on a two-gate gauntlet scenario demonstrate that the three-vehicle team raises mission success probability from 0.72 (single CSBEZ-aware vehicle) to 0.978, a + 35.8 percentage-point improvement. Monte Carlo validation over 100 trials with perturbed threat range, position, and speed yields an empirical team success rate of 1.00 ± 0.00, against a single-vehicle rate of 0.66±0.09. Experiments with reactive PurePursuit threats confirm that the decoy-and-protect structure remains effective even when adversaries dynamically re-target the nearest ACP.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sharma2026collaborative/paper.pdf",
+    "imagePath": "images/public/publications/sharma2026collaborative/featured.png"
+  },
+  {
+    "id": "denton2026deep",
+    "slug": "denton2026deep",
+    "title": "Deep Neural Network As 5-D Image For Threat Avoidance",
+    "authors": [
+      "Denton, Alexander W",
+      "Riddick, Michael P",
+      "Weintraub, Isaac E",
+      "Kunz, Donald L"
+    ],
+    "year": 2026,
+    "venue": "AIAA Scitech 2026 Forum",
+    "abstract": "This paper proposes a method of threat avoidance using deep neural networks (DNN) from the aircraft frame of reference. The proposed technique uses an offline-trained DNN to generate first-order maneuver guidance as a fuzzy 5-D vector image. Once trained on two million simulation results from a set of two threats, a 2-D maneuver space diagram (bank-speed or bank-altitude) is created by plotting the DNN's binary \"capture\" or \"no capture\" predictions. Unlike a lookup table or a threat-specific simulation, a DNN can interpolate for unknown threats within its training range. Several suitable DNN models are compared to evaluate selection criteria based on simplicity and interpolation accuracy. Analytic threat engagement envelopes are compared to interpolated threat regions using intersection over union (IoU) to discriminate and select models based on performance. The best DNN in this study has five hidden layers of decreasing size and is selected because it has the highest mean IoU and the lowest standard deviation. The file size of this tapered model is also much smaller than that of the other deep models in this study, thereby increasing its relative utility for use onboard aircraft.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/denton2026deep/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sharma2026learning",
+    "slug": "sharma2026learning",
+    "title": "Learning-Augmented Adaptive Guidance For Target Interception",
+    "authors": [
+      "Sharma, Rajnikant",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA Scitech 2026 Forum",
+    "abstract": "This paper presents a hybrid learning-augmented guidance strategy in which Deep Reinforcement Learning (DRL) is employed to improve the Proportional-Navigation (PN) guidance for target interception involving a maneuvering target. Unlike classical PN guidance, where the navigation constant N is fixed, our approach learns N as a function of the states of the system, including the line-of-sight parameters and relative dynamics. This adaptive cooperative guidance enables the pursuers to respond dynamically to the evader's maneuvers, optimizing interception performance. We formulate the problem as a Markov Decision Process (MDP) and train an RL agent using the Proximal Policy Optimization (PPO) algorithm. The agent learns to control the pursuer's lateral acceleration by varying N based on real-time observations. Experimental results demonstrate the superiority of the proposed hybrid learning-augmented guidance strategy over classical PN with fixed N=3 in scenarios with a maneuvering target. In addition, we also discuss the role of reward shaping in enhancing convergence and interception performance.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sharma2026learning/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "stagg2026probabilistic",
+    "slug": "stagg2026probabilistic",
+    "title": "Probabilistic Weapon Engagement Zones For A Turn Constrained Pursuer",
+    "authors": [
+      "Stagg, Grant",
+      "Peterson, Carmy",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/stagg2026probabilistic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2026reactive",
+    "slug": "von2026reactive",
+    "title": "Reactive Vehicle Guidance Using Dynamic Maneuvering Cue",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E",
+      "Casbeer, David W"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Recent approaches for navigating among dynamic threat regions (i.e., weapon engagement zones) have focused on planning entire trajectories. Moreover, the allowance for penetration into these threat regions was based on heuristic measurements of risk. This paper offers an approach for a more reactive (i.e., feedback-based) guidance that is based on closed-form analytical expressions and thereby suitable for onboard, real-time execution. In addition, a risk measurement is formulated based upon the concept of Dynamic Maneuvering Cue (DMC), which measures the amount of turn a vehicle would need to take in its current state in order to put itself outside the threat region. This approach is then extended to handle multiple threat regions simultaneously (with minimal additional computational complexity). Finally, the DMC constraint is applied to a simple feedback controller as well as a model predictive controller (MPC). The MPC shows better performance, but at the cost of having to solve an optimization problem online, versus the meager computational burden associated with the simple controller. This approach, which is based on assuming the threats are adversarial, may be used as a conservative method for collision avoidance and deconfliction.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2026reactive/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "cao2026system",
+    "slug": "cao2026system",
+    "title": "System And Method For Flexible Relational Maneuvering Of Leader-Follower Unmanned Aerial Vehicles",
+    "authors": [
+      "Cao, Yongcan",
+      "Casebeer, David",
+      "Ranjan, Praveen",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac"
+    ],
+    "year": 2026,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/cao2026system/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2025optimal",
+    "slug": "weintraub2025optimal",
+    "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 1",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander L",
+      "Hansen, Alexander",
+      "Zollars, Michael D"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025optimal/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2025optimal/feature.png"
+  },
+  {
+    "id": "hansen2025optimal",
+    "slug": "hansen2025optimal",
+    "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 2",
+    "authors": [
+      "Hansen, Alexander",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander L"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/hansen2025optimal/paper.pdf",
+    "imagePath": "images/public/publications/hansen2025optimal/feature.png"
+  },
+  {
+    "id": "milutinovic2025cooperative",
+    "slug": "milutinovic2025cooperative",
+    "title": "Cooperative Pursuit-Evasion Games With A Flat Sphere Condition",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "IEEE Open Journal of Control Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025cooperative/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2025dubins",
+    "slug": "manyam2025dubins",
+    "title": "Dubins Path With Terminal Range And Field-Of-View Constraints",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2025dubins/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "chapman2025engagement",
+    "slug": "chapman2025engagement",
+    "title": "Engagement Zones For A Turn Constrained Pursuer",
+    "authors": [
+      "Chapman, Thomas",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy"
+    ],
+    "year": 2025,
+    "venue": "2025 International Conference On Unmanned Aircraft Systems (Icuas)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/chapman2025engagement/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "surve2025heterogeneous",
+    "slug": "surve2025heterogeneous",
+    "title": "Heterogeneous Pursuit Of An Active Target Under Sensing Constraints",
+    "authors": [
+      "Surve, Prajakta",
+      "Bopardikar, Shaunak D",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/surve2025heterogeneous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "mora2025influence",
+    "slug": "mora2025influence",
+    "title": "Influence Of Malicious Agents In A Team Seeking To Contain An Evader",
+    "authors": [
+      "Mora, Braulio",
+      "Chakravarthy, Animesh",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E",
+      "Casbeer, David"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/mora2025influence/paper.pdf",
+    "imagePath": "images/public/publications/mora2025influence/feature.png"
+  },
+  {
+    "id": "kashyap2025macroscopic",
+    "slug": "kashyap2025macroscopic",
+    "title": "Macroscopic-Model-Based Learning For Detection Of Cyber-Attacks In Uav Swarms",
+    "authors": [
+      "Kashyap, Abhishek",
+      "Chakravarthy, Animesh",
+      "Subbarao, Kamesh",
+      "Casbeer, David",
+      "Weintraub, Isaac",
+      "Hencey, Brandon"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kashyap2025macroscopic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "wolek2025maximum",
+    "slug": "wolek2025maximum",
+    "title": "Maximum Kinetic Energy Paths For A Decaying-Speed Dubins Vehicle",
+    "authors": [
+      "Wolek, Artur",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin’s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/wolek2025maximum/paper.pdf",
+    "imagePath": "images/public/publications/wolek2025maximum/feature.png"
+  },
+  {
+    "id": "weintraub2025min",
+    "slug": "weintraub2025min",
+    "title": "Min-Time Escape Of A Dubins Car From A Polygon",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G",
+      "Pachter, Meir",
+      "Taylor, Colin",
+      "Chapman, Thomas"
+    ],
+    "year": 2025,
+    "venue": "2025 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025min/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "surve2025mutual",
+    "slug": "surve2025mutual",
+    "title": "Mutual Support By Sensor-Attacker Team For A Passive Target",
+    "authors": [
+      "Surve, Prajakta",
+      "Bopardikar, Shaunak D",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2025,
+    "venue": "IEEE Open Journal of Control Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/surve2025mutual/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2025one",
+    "slug": "von2025one",
+    "title": "One-Vs-One Threat-Aware Weaponeering With Basic Engagement Zones",
+    "authors": [
+      "Von Moll, Alexander",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "2025 International Conference On Unmanned Aircraft Systems (Icuas)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2025one/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2025policy",
+    "slug": "milutinovic2025policy",
+    "title": "Policy For Optimal Avoidance Of Multiple Engagement Zones",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025policy/paper.pdf",
+    "imagePath": "images/public/publications/milutinovic2025policy/feature.png"
+  },
+  {
+    "id": "chapman2025safe",
+    "slug": "chapman2025safe",
+    "title": "Safe Navigation In The Presence Of Range-Limited Pursuers",
+    "authors": [
+      "Chapman, Thomas",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/chapman2025safe/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2025shortest",
+    "slug": "manyam2025shortest",
+    "title": "Shortest Dubins Path To A Moving Circle With Free Final Heading",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2025,
+    "venue": "2025 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2025shortest/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2025stochastic",
+    "slug": "milutinovic2025stochastic",
+    "title": "Stochastic Optimal Avoidance Of Multiple Engagement Zones",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025stochastic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "denton2025basic",
+    "slug": "denton2025basic",
+    "title": "The Basic Engagement Zone In 3-D",
+    "authors": [
+      "Denton, Alexander W",
+      "Kunz, Donald",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2025,
+    "venue": "Naecon 2025-Ieee National Aerospace And Electronics Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/denton2025basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2025virtual",
+    "slug": "weintraub2025virtual",
+    "title": "Virtual Target Selection For A Multiple-Pursuer--Multiple-Evader Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David W",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025virtual/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "gotwald2024leader",
+    "slug": "gotwald2024leader",
+    "title": "A Leader-Follower Control Strategy Built And Refined Using Relational Maneuver Primitives For Approximating Optimal Trajectories In Real-Time",
+    "authors": [
+      "Gotwald, Carl",
+      "Zollars, Michael D",
+      "Reeger, Jonah A",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2024leader/paper.pdf",
+    "imagePath": "images/public/publications/gotwald2024leader/feature.png"
+  },
+  {
+    "id": "gotwald2024aircraft",
+    "slug": "gotwald2024aircraft",
+    "title": "Aircraft Control Strategy Using Relational Maneuvering Primitives",
+    "authors": [
+      "Gotwald, Carl",
+      "Zollars, Michael",
+      "Weintraub, Isaac E.",
+      "Reeger, Jonah"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2024aircraft/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024basic",
+    "slug": "von2024basic",
+    "title": "Basic Engagement Zones",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2024,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2024deterministic",
+    "slug": "weintraub2024deterministic",
+    "title": "Deterministic Risk-Aware Path-Planning Around Multiple Threats",
+    "authors": [
+      "Weintraub, Isaac E.",
+      "Wolek, Artur, Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2024deterministic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024digitally",
+    "slug": "von2024digitally",
+    "title": "Digitally Enhanced Aim-Point For Capture Of Mobile Targets",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E."
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024digitally/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "mora2024escape",
+    "slug": "mora2024escape",
+    "title": "Escape From An Orbiting Pursuer With A Nonzero Capture Radius",
+    "authors": [
+      "Mora, Braulio",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W",
+      "Chakravarthy, Animesh"
+    ],
+    "year": 2024,
+    "venue": "Naecon 2024-Ieee National Aerospace And Electronics Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/mora2024escape/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2024minimum",
+    "slug": "weintraub2024minimum",
+    "title": "Minimum Time Escape From A Circular Region Of A Dubins Car",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Pachter, Meir"
+    ],
+    "year": 2024,
+    "venue": "arXiv preprint arXiv:2405.05725",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2024minimum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kashyap2024modeling",
+    "slug": "kashyap2024modeling",
+    "title": "Modeling And Detection Of Cyber-Attacks In Uav Swarms Using A 2d-Lwr Model And Gaussian Processes",
+    "authors": [
+      "Kashyap, Abhishek",
+      "Chakravarthy, Animesh",
+      "Subbarao, Kamesh",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Hencey, Brandon"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kashyap2024modeling/paper.pdf",
+    "imagePath": "images/public/publications/kashyap2024modeling/feature.png"
+  },
+  {
+    "id": "scott2024multi",
+    "slug": "scott2024multi",
+    "title": "Multi Agent Pathfinding For Noise Restricted Hybrid Fuel Unmanned Aerial Vehicles",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "2024 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2024multi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "scott2024noise",
+    "slug": "scott2024noise",
+    "title": "Noise Aware Path Planning And Power Management Of Hybrid Fuel Uavs",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Weintraub, Isaac E",
+      "Casbeer, David W",
+      "Kumar, Manish"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2024noise/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024pure",
+    "slug": "von2024pure",
+    "title": "Pure Pursuit Of A Target On A Circular Trajectory",
+    "authors": [
+      "Von Moll, Alexander L",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Pachter, Meir"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024pure/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2024pursuit",
+    "slug": "milutinovic2024pursuit",
+    "title": "Pursuit-Evasion On A Sphere And When It Can Be Considered Flat",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2024,
+    "venue": "2024 Ieee 63rd Conference On Decision And Control (Cdc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2024pursuit/paper.pdf",
+    "imagePath": "images/public/publications/milutinovic2024pursuit/feature.png"
+  },
+  {
+    "id": "ranjan2024relational",
+    "slug": "ranjan2024relational",
+    "title": "Relational Maneuvering Of Leader-Follower Unmanned Aerial Vehicles For Flexible Formation",
+    "authors": [
+      "Ranjan, Praveen Kumar",
+      "Sinha, Abhinav",
+      "Cao, Yongcan",
+      "Casbeer, David",
+      "Weintraub, Isaac"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Cybernetics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ranjan2024relational/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "wolek2024sampling",
+    "slug": "wolek2024sampling",
+    "title": "Sampling-Based Risk-Aware Path Planning Around Dynamic Engagement Zones",
+    "authors": [
+      "Wolek, Artur",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2024,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/wolek2024sampling/paper.pdf",
+    "imagePath": "images/public/publications/wolek2024sampling/feature.png"
+  },
+  {
+    "id": "milutinovic2024stochastic",
+    "slug": "milutinovic2024stochastic",
+    "title": "Stochastic Risk-Aware Path Planning Around Multiple Threats",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2024stochastic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "pachter2024synthesis",
+    "slug": "pachter2024synthesis",
+    "title": "The Synthesis Of Optimal Control Laws Using Isaacs’ Method For The Solution Of Differential Games",
+    "authors": [
+      "Pachter, Meir",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "Journal of Optimization Theory and Applications",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/pachter2024synthesis/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2023automatic",
+    "slug": "weintraub2023automatic",
+    "title": "Automatic Engagement Zone Avoidance: Theory And Practice",
+    "authors": [
+      "Weintraub, Isaac E.",
+      "Von Moll, Alexander",
+      "Hanlon, Nicholas"
+    ],
+    "year": 2023,
+    "venue": "Aiaa Defense",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023automatic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "gotwald2023determining",
+    "slug": "gotwald2023determining",
+    "title": "Determining Follower Aircraft's Optimal Trajectory In Relation To A Dynamic Formation Ring",
+    "authors": [
+      "Gotwald, Carl A",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2023,
+    "venue": "2023 Ieee Aerospace Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2023determining/paper.pdf",
+    "imagePath": "images/public/publications/gotwald2023determining/feature.png"
+  },
+  {
+    "id": "scott2023development",
+    "slug": "scott2023development",
+    "title": "Development Of Linear Battery Model For Path Planning With Mixed Integer Linear Programming: Simulated And Experimental Validation",
+    "authors": [
+      "Scott, Drew D",
+      "Weintraub, Isaac E",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Rothenberger, Michael J"
+    ],
+    "year": 2023,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2023development/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kumar2023energy",
+    "slug": "kumar2023energy",
+    "title": "Energy-Efficient Ring Formation Control With Constrained Inputs",
+    "authors": [
+      "Kumar Ranjan, Praveen",
+      "Sinha, Abhinav",
+      "Cao, Yongcan",
+      "Tran, Dzung",
+      "Casbeer, David",
+      "Weintraub, Isaac"
+    ],
+    "year": 2023,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kumar2023energy/paper.pdf",
+    "imagePath": "images/public/publications/kumar2023energy/feature.png"
+  },
+  {
+    "id": "von2023multi",
+    "slug": "von2023multi",
+    "title": "Multi-Agent Risk-Aware Teaming Under Uncertainty (Marty)",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2023,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2023multi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "scott2023optimal",
+    "slug": "scott2023optimal",
+    "title": "Optimal Generator Policy For Hybrid Fuel Uav Under Airspace Noise Restrictions",
+    "authors": [
+      "Scott, Drew D",
+      "Weintraub, Isaac E",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish"
+    ],
+    "year": 2023,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2023optimal/paper.pdf",
+    "imagePath": "images/public/publications/scott2023optimal/feature.png"
+  },
+  {
+    "id": "dillon2023optimal",
+    "slug": "dillon2023optimal",
+    "title": "Optimal Trajectories For Aircraft Avoidance Of Multiple Weapon Engagement Zones",
+    "authors": [
+      "Dillon, Patrick M",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2023,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/dillon2023optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "zollars2023optimal",
+    "slug": "zollars2023optimal",
+    "title": "Optimal Trajectories For Multiple-Uas Simultaneous Target Acquisition With Obstacle Avoidance",
+    "authors": [
+      "Zollars, Michael D",
+      "Grymin, David J",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2023,
+    "venue": "arXiv preprint arXiv:2303.16951",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/zollars2023optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2023range",
+    "slug": "weintraub2023range",
+    "title": "Range-Limited Pursuit-Evasion",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Pachter, Meir"
+    ],
+    "year": 2023,
+    "venue": "Naecon 2023-Ieee National Aerospace And Electronics Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023range/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2023range/feature.png"
+  },
+  {
+    "id": "weintraub2023surveillance",
+    "slug": "weintraub2023surveillance",
+    "title": "Surveillance Of A Faster Fixed-Course Target",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Casbeer, David W",
+      "Pachter, Meir"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023surveillance/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2023surveillance/feature.png"
+  },
+  {
+    "id": "weintraub2022optimal",
+    "slug": "weintraub2022optimal",
+    "title": "An Optimal Engagement Zone Avoidance Scenario In 2-D",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Carrizales, Christian A",
+      "Hanlon, Nicholas",
+      "Fuchs, Zachariah E"
+    ],
+    "year": 2022,
+    "venue": "Aiaa Scitech 2022 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2022optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "tabasso2022continuous",
+    "slug": "tabasso2022continuous",
+    "title": "Continuous Monitoring Of A Path-Constrained Moving Target By Multiple Unmanned Aerial Vehicles",
+    "authors": [
+      "Tabasso, Camilla",
+      "Kielas-Jensen, Calvin ‘",
+      "Cichella, Venanzio",
+      "Manyam, Satyanarayana",
+      "Casbeer, David W",
+      "Weintraub, Isaac"
+    ],
+    "year": 2022,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tabasso2022continuous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ranjan2022energy",
+    "slug": "ranjan2022energy",
+    "title": "Energy-Aware 3d Leader-Follower Flight Trajectory Optimization For Fixed-Wing Aircraft",
+    "authors": [
+      "Ranjan, Praveen",
+      "Votion, Johnathan",
+      "Cao, Yongcan",
+      "Tran, Dzung M",
+      "Casbeer, David",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2022,
+    "venue": "Aiaa Scitech 2022 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ranjan2022energy/paper.pdf",
+    "imagePath": "images/public/publications/ranjan2022energy/feature.png"
+  },
+  {
+    "id": "tran2022improving",
+    "slug": "tran2022improving",
+    "title": "On Improving The Potential Field Method For Ring Formation",
+    "authors": [
+      "Tran, Dzung",
+      "Casbeer, David W",
+      "Weintraub, Isaac E",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tran2022improving/paper.pdf",
+    "imagePath": "images/public/publications/tran2022improving/feature.png"
+  },
+  {
+    "id": "garcia2022optimal",
+    "slug": "garcia2022optimal",
+    "title": "Optimal Strategies For The Game Of Protecting A Plane In 3-D",
+    "authors": [
+      "Garcia, Eloy",
+      "Weintraub, Isaac",
+      "Casbeer, David W",
+      "Pachter, Meir"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/garcia2022optimal/paper.pdf",
+    "imagePath": "images/public/publications/garcia2022optimal/feature.png"
+  },
+  {
+    "id": "manyam2022path",
+    "slug": "manyam2022path",
+    "title": "Path Planning And Energy Management Of Hybrid Air Vehicles For Urban Air Mobility",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Darbha, Swaroop",
+      "Weintraub, Isaac E",
+      "Kalyanam, Krishna"
+    ],
+    "year": 2022,
+    "venue": "IEEE Robotics and Automation Letters",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2022path/paper.pdf",
+    "imagePath": "images/public/publications/manyam2022path/feature.png"
+  },
+  {
+    "id": "scott2022power",
+    "slug": "scott2022power",
+    "title": "Power Management For Noise Aware Path Planning Of Hybrid Uavs",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Rothenberger, Michael J",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2022power/paper.pdf",
+    "imagePath": "images/public/publications/scott2022power/feature.png"
+  },
+  {
+    "id": "weintraub2021engagement",
+    "slug": "weintraub2021engagement",
+    "title": "Engagement Zone Defense Of A Non-Maneuvering Evader",
+    "authors": [
+      "Weintraub, Isaac",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2021,
+    "venue": "2021 Ieee Conference On Control Technology And Applications (Ccta)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021engagement/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2021engagement/feature.png"
+  },
+  {
+    "id": "weintraub2021maximum",
+    "slug": "weintraub2021maximum",
+    "title": "Maximum Observation Of A Target By A Slower Observer In Three Dimensions",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2021,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021maximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "pachter2021synthesis",
+    "slug": "pachter2021synthesis",
+    "title": "On The Synthesis Of Optimal Control Laws",
+    "authors": [
+      "Pachter, Meir",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2021,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/pachter2021synthesis/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2021optimal",
+    "slug": "weintraub2021optimal",
+    "title": "Optimal Defense Of High Value Airborne Assets",
+    "authors": [
+      "Weintraub, Isaac"
+    ],
+    "year": 2021,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kielas2021persistent",
+    "slug": "kielas2021persistent",
+    "title": "Persistent Monitoring By Multiple Unmanned Aerial Vehicles Using Bernstein Polynomials",
+    "authors": [
+      "Kielas-Jensen, Calvin",
+      "Cichella, Venanzio",
+      "Casbeer, David",
+      "Manyam, Satyanarayana Gupta",
+      "Weintraub, Isaac"
+    ],
+    "year": 2021,
+    "venue": "Journal of Optimization Theory and Applications",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kielas2021persistent/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2021quadratic",
+    "slug": "manyam2021quadratic",
+    "title": "Quadratic Bezier Curves For Multi-Agent Coordinated Arrival In The Presence Of Obstacles",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Tran, Dzung M",
+      "Bradley, Justin M",
+      "Darbha, Swaroop"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2021quadratic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "tran2021ring",
+    "slug": "tran2021ring",
+    "title": "Ring Formation Maneuver: Double-Integrator Kinematics With Input Saturation",
+    "authors": [
+      "Tran, Dzung",
+      "Casbeer, David",
+      "Garcia, Eloy",
+      "Weintraub, Isaac E",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2021,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tran2021ring/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2021trajectory",
+    "slug": "manyam2021trajectory",
+    "title": "Trajectory Optimization For Rendezvous Planning Using Quadratic B{\\'E",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Weintraub, Isaac E",
+      "Taylor, Colin"
+    ],
+    "year": 2021,
+    "venue": "2021 Ieee/Rsj International Conference On Intelligent Robots And Systems (Iros)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2021trajectory/paper.pdf",
+    "imagePath": "images/public/publications/manyam2021trajectory/feature.png"
+  },
+  {
+    "id": "weintraub2020introduction",
+    "slug": "weintraub2020introduction",
+    "title": "An Introduction To Pursuit-Evasion Differential Games",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Pachter, Meir",
+      "Garcia, Eloy"
+    ],
+    "year": 2020,
+    "venue": "2020 American Control Conference (ACC)",
+    "abstract": "Pursuit and evasion conflicts represent challenging problems with important applications in aerospace and robotics. In pursuit-evasion problems, synthesis of intelligent actions must consider the adversary's potential strategies. Differential game theory provides an adequate framework to analyze possible outcomes of the conflict without assuming particular behaviors by the opponent. This article presents an organized introduction of pursuit-evasion differential games with an overview of recent advances in the area. First, a summary of the seminal work is outlined, highlighting important contributions. Next, more recent results are described by employing a classification based on the number of players: one-pursuer-one-evader, N-pursuers-one-evader, one-pursuer-M-evaders, and N-pursuer-M-evader games. In each scenario, a brief summary of the literature is presented. Finally, two representative pursuit-evasion differential games are studied in detail: the two-cutters and fugitive ship differential game and the active target defense differential game. These problems provide two important applications and, more importantly, they give great insight into the realization of cooperation between friendly agents in order to form a team and defeat the adversary.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020introduction/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2020circular",
+    "slug": "weintraub2020circular",
+    "title": "Circular Rejoin In 3d Using B{\\'E",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Demers, Zachary JL",
+      "Shroyer, Jason",
+      "Ritsema, Nathan P",
+      "Sluss, Dillon P"
+    ],
+    "year": 2020,
+    "venue": "2020 Ieee Conference On Control Technology And Applications (Ccta)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020circular/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2020circular/feature.png"
+  },
+  {
+    "id": "weintraub2020direct",
+    "slug": "weintraub2020direct",
+    "title": "Direct Methods Comparison For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Cobb, Richard G",
+      "Baker, William",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "Aiaa Scitech 2020 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020direct/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2020direct/feature.png"
+  },
+  {
+    "id": "weintraub2020maximum",
+    "slug": "weintraub2020maximum",
+    "title": "Maximum Observation Of A Faster Non-Maneuvering Target By A Slower Observer",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Casbeer, David",
+      "Demers, Zachary JL",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "2020 American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020maximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2020optimal",
+    "slug": "weintraub2020optimal",
+    "title": "Optimal Guidance Strategy For The Defense Of A Non-Manoeuvrable Target In 3-Dimensions",
+    "authors": [
+      "Weintraub, Isaac",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "IET Control Theory & Applications",
+    "abstract": "An engagement scenario involving the defence of a non-manoeuvrable agent, called the Target, is considered. A pursuing agent engages the non-manoeuvrable Target while a defending agent, which aims at intercepting the Pursuer to protect the Target, is considered in 3-dimensions. A zero-sum differential game is formulated where the objective of the Defender is to capture the Pursuer and maximise the terminal Pursuer-Target range at final time; while the Pursuer aims at minimising the terminal Pursuer-Target range at final time. The terminal time is not fixed and is determined by the interception of the Pursuer by the Defender. The saddle point state-feedback strategies for the Pursuer and the Defender are obtained using a gradient-based minimisation routine. A comparison of the saddle point strategy against a heuristic approach, Pure Pursuit, is conducted. The comparison demonstrates that poorer performance is achieved by players who deviate from the optimal saddle point strategy; and, as a result, the saddle point strategies outperform the heuristic method.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "clem2019intercept",
+    "slug": "clem2019intercept",
+    "title": "An Intercept And Following Strategy For A Multi-Rotor Platform Using A Modified Proportional Navigation",
+    "authors": [
+      "Clem, Garrett",
+      "Wilhelm, Jay",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Grymin, David J"
+    ],
+    "year": 2019,
+    "venue": "Aiaa Scitech 2019 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/clem2019intercept/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2018kinematic",
+    "slug": "weintraub2018kinematic",
+    "title": "A Kinematic Rejoin Method For Active Defense Of Non-Maneuverable Aircraft",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2018,
+    "venue": "2018 Annual American Control Conference (Acc)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2018kinematic/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2018kinematic/feature.png"
+  },
+  {
+    "id": "garcia2018adaptive",
+    "slug": "garcia2018adaptive",
+    "title": "Adaptive Event-Triggered Cooperative Control Of Uncertain Networked Systems",
+    "authors": [
+      "Garcia, Eloy",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2018,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/garcia2018adaptive/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2018optimal",
+    "slug": "weintraub2018optimal",
+    "title": "An Optimal-Stochastic Aircraft Defense Strategy For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2018,
+    "venue": "2018 Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2018optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2017optimal",
+    "slug": "weintraub2017optimal",
+    "title": "An Optimal Aircraft Defense Strategy For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac",
+      "Garcia, Eloy",
+      "Casbeer, David",
+      "Pachter, Meir"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2017optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2017wing",
+    "slug": "oppenheimer2017wing",
+    "title": "Wing Design And Testing For A Tailless Flapping Wing Micro-Air Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David",
+      "Doman, David B",
+      "Weintraub, Isaac"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2017wing/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sigthorsson2017wing",
+    "slug": "sigthorsson2017wing",
+    "title": "Wing Flexibility Induced Control Reversal For Flapping Wing Vehicles: Theoretical Analysis",
+    "authors": [
+      "Sigthorsson, David",
+      "Oppenheimer, Michael W",
+      "Doman, David B",
+      "Weintraub, Isaac"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sigthorsson2017wing/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2016kinematic",
+    "slug": "weintraub2016kinematic",
+    "title": "Kinematic Selection For A Tailless Flapping Wing Micro-Air Vehicle",
+    "authors": [
+      "Weintraub, Isaac",
+      "Sigthorsson, David",
+      "Oppenheimer, Michael W",
+      "Doman, David B"
+    ],
+    "year": 2016,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "A flapping wing micro air vehicle, which utilizes a four-bar linkage with amplified gearing to convert rotary motion of the prime movers into oscillatory motion of the wings, is described in this work. The four-bar linkage yields an asymmetric wingstroke, where the first half and second half of the wingstroke do not have the same angular velocity. This asymmetry results in undesired fore or aft translation and roll of the vehicle, which must be canceled with control effort in order to hover. During experiments, it was found that a large amount of control authority was required to trim out these undesired motions, leaving only a small amount of control authority for maneuvering. In this work, the four-bar linkage is optimized to reduce the asymmetric wingstroke and provide more constant torque transmission throughout the entire stroke. Experimental results show an improvement in the symmetry of the wingstroke after kinematic optimization",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2016kinematic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2016methods",
+    "slug": "oppenheimer2016methods",
+    "title": "Methods And Apparatus To Achieve Independent Six Degree Control Of Flapping Wing Micro Air Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2016,
+    "venue": "",
+    "abstract": "A method of configuring a wing velocity profile includes segmenting a complete wingbeat cycle into a set of quarter strokes including a first quarter-stroke, a second quarter stroke, a third quarter-stroke, and a fourth quarter-stroke. The method further includes generating time-varying quarter-stroke wing position commands for each of a first and second wing planforms to produce wing flapping trajectories that generate non-Zero, cycle averaged wing lift and drag and alter a cycle average center of pressure of each of the first and the second wing planforms relative to the aircraft. The wing position commands include Velocities and positions with temporally symmetric and asymmetric quarter stroke components for the first wing planform and the second wing planform. The first wing planform and the second wing planform produce controlled six-degrees-of freedom vehicle motion without using actuators in excess of the first actuator and the second actuator.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2016methods/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2015control",
+    "slug": "oppenheimer2015control",
+    "title": "Control Of A Minimally Actuated Biomimetic Vehicle Using Quarter-Cycle Wingbeat Modulation",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2015,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing’s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2015control/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2015experimental",
+    "slug": "oppenheimer2015experimental",
+    "title": "Experimental Measurements Of Cycle Averaged Forces For A Flapping Wing Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac",
+      "Sigthorsson, David",
+      "Doman, David B"
+    ],
+    "year": 2015,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "In this work, experimental measurements of cycle-averaged forces produced by a flapping wing micro air vehicle are provided. The measurements are taken with a one degree-of-freedom force balance. The vehicle is mounted in different orientations so that cycle-averaged lift and drag can be measured. A variety of wing flapping frequencies are examined as well as different split-cycle parameters. The cycle-averaged measurements are compared to theoretical values obtained with a blade element model. The primary objective of this work is to determine if a blade element based aerodynamic model can accurately predict the cycle-averaged forces produced by wing flapping.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2015experimental/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2014implementation",
+    "slug": "weintraub2014implementation",
+    "title": "Implementation Of Split-Cycle Control For Micro Aerial Vehicles",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Oppenheimer, Michael W",
+      "Doman, David B"
+    ],
+    "year": 2014,
+    "venue": "Robot Intelligence Technology And Applications 2: Results From The 2nd International Conference On Robot Intelligence Technology And Applications",
+    "abstract": "Flapping wing micro air vehicles have been of significant research interest in recent years due to the flight capabilities of their biological counterparts and their ability to hide in plain sight, inspiring applications for military and civilian surveillance. This work introduces the design, implementation, and fabrication of the circuitry used for split-cycle constant-period wingbeat capable flapping wing micro air vehicle platforms. Split-cycle constant-period modulation involves independent control of the upstroke and downstroke wing velocity profiles to provide the theoretical capability of manipulating five degrees of vehicle motion freedom using only two actuators, namely, a brushless direct current motor for each wing. The control circuitry mainly consists of a control circuit board, a wireless receiver, three micro-controllers, and drivers. The circuitry design is tested using a prototype vehicle mounted on an air-table platform. A human operated transmitter relays split-cycle constant-period commands to the vehicle to produce the desired vehicle motion.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2014implementation/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2014quarter",
+    "slug": "oppenheimer2014quarter",
+    "title": "Quarter Cycle Modulation Of A Minimally Actuated Biomimetic Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2014,
+    "venue": "AIAA Paper",
+    "abstract": "This paper describes a technique, called quarter cycle constant-period frequency modulation, to control the motion of wings on a flapping wing mi-cro air vehicle. This technique allows control over the wingbeat period and three additional points within a single wingbeat cycle, allowing modulation of the wing's velocity to provide control over multiple degrees-of-freedom of the vehicle. Using a blade element based aerodynamic model, both instantaneous and cycle averaged forces and moments are analytically computed for a specific type of wing beat motion that enables nearly decoupled, multiple degrees-of-freedom control of the aircraft. The wing positions are controlled using oscillators whose frequencies change once per wing beat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle averaged representation of the forces and moments. Control derivatives are calculated and a cycle-averaged control law is designed that provides control over multiple degrees-of-freedom of the vehicle.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2014quarter/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2013development",
+    "slug": "oppenheimer2013development",
+    "title": "Development Of A Flapping Wing Mechanism That Can Produce Lift Greater Than Weight",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David",
+      "Weintraub, Isaac",
+      "Smith, Todd J",
+      "Dawson, Jaderic",
+      "Doman, David B"
+    ],
+    "year": 2013,
+    "venue": "Aiaa Guidance, Navigation, And Control (Gnc) Conference",
+    "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55◦ while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2013development/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2013development/feature.png"
+  },
+  {
+    "id": "oppenheimer2013wing",
+    "slug": "oppenheimer2013wing",
+    "title": "Wing Velocity Control System For Testing Body Motion Control Methods For Flapping Wing Mavs",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David O",
+      "Weintraub, Isaac E",
+      "Doman, David B",
+      "Perseghetti, Ben"
+    ],
+    "year": 2013,
+    "venue": "51st Aiaa Aerospace Sciences Meeting Including The New Horizons Forum And Aerospace Exposition",
+    "abstract": "This work is focused on testing the viability of split-cycle constant-period frequency modulation for controlling a flapping wing micro air vehicle. By varying the velocities of the upstroke and downstroke portions of a flapping wings’ motion, non-zero cycle-averaged drag can be generated. This results in the ability to control the roll and horizontal translation of the vehicle by varying the split-cycle parameter. In this paper, a flapping wing prototype is developed for testing the split-cycle technique. A fuselage, wings, motor control electronics, and motor control software are created to allow wireless control of the motion of the flapping wing vehicle. The complete vehicle is then placed on an air table for experimental testing. The air table provides the lift equal to weight condition and constrains the pitch and yaw degrees of freedom while allowing for roll rotation and horizontal translation. In this way, testing of the degrees of freedom which can be manipulated via split-cycle, namely roll and horizontal translation, can be performed. The air table tests reveal that split-cycle can be used to control these two degrees of freedom.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2013wing/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2013wing/feature.png"
+  },
+  {
+    "id": "oppenheimer2012computation",
+    "slug": "oppenheimer2012computation",
+    "title": "Computation Of Inertial Forces And Torques Associated With Flapping Wings",
+    "authors": [
+      "Oppenheimer, Michael",
+      "Awtar, Shorya",
+      "Sigthorsson, David",
+      "Weintraub, Isaac",
+      "Doman, David"
+    ],
+    "year": 2012,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2012computation/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2012computation/feature.png"
+  },
+  {
+    "id": "hall2012flapping",
+    "slug": "hall2012flapping",
+    "title": "Flapping Wing Technology For Micro Air Vehicles Incorporating A Lead Zirconate Titanate (Pzt) Bimorph Actuator",
+    "authors": [
+      "Hall, Asha J",
+      "Roberts, Richard A",
+      "Weintraub, Isaac",
+      "Riddick, Jaret C"
+    ],
+    "year": 2012,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/hall2012flapping/paper.pdf",
+    "imagePath": "images/public/publications/hall2012flapping/feature.png"
+  },
+  {
+    "id": "sigthorsson2012structural",
+    "slug": "sigthorsson2012structural",
+    "title": "Structural Technology Evaluation And Analysis Program (Steap). Delivery Order 0035: Dynamics And Control And Computational Design Of Flapping Wing Micro Air Vehicles",
+    "authors": [
+      "Sigthorsson, David O",
+      "Weintraub, Isaac",
+      "Smithson, Christopher"
+    ],
+    "year": 2012,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sigthorsson2012structural/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "evans2009millionaire",
+    "slug": "evans2009millionaire",
+    "title": "The 50:50 Lifeline On \"Who Wants To Be A Millionaire?\"",
+    "authors": [
+      "Diane Evans",
+      "Isaac Weintraub"
+    ],
+    "year": 2009,
+    "venue": "Mathematics & Computer Education",
+    "abstract": "The Monty Hall problem can be a useful exercise in statistics and probability classes. Besides the lively interaction of students proposing various arguments (for or against) the answer, some students begin to consider problems and games where the Monty Hall dilemma may be hidden beneath the surface. Since Who Wants to Be a Millionaire? continues to be a popular game show, one problem raised in class is \"How does the probability of choosing the correct answer differ depending on the elimination method used by the 50:50 lifeline?\" This question is of particular interest to students since probabilistic choices determine a contestant's winnings. This paper will examine the probability calculations of two possible elimination methods.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/evans200950/paper.pdf",
+    "imagePath": "images/public/publications/evans200950/feature.png"
+  },
+  {
+    "id": "manyamcontinuous",
+    "slug": "manyamcontinuous",
+    "title": "Continuous Monitoring Of A Path-Constrained Moving Target By Multiple Uavs",
+    "authors": [
+      "Manyam, Satyanarayana",
+      "Casbeer, David W",
+      "Weintraub, Isaac"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyamcontinuous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraubmaximum",
+    "slug": "weintraubmaximum",
+    "title": "Maximum Observation Of A Target By A Slower Observer In 3-Dimensions",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraubmaximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "dongspecial",
+    "slug": "dongspecial",
+    "title": "Special Issue On Robust Cooperative Control For Heterogeneous Nonlinear Multiagent Systems",
+    "authors": [
+      "Dong, X",
+      "Chen, Z",
+      "Cao, M",
+      "Ren, W",
+      "Zhang, H",
+      "Wang, D",
+      "Ranjan, PK",
+      "Sinha, A",
+      "Cao, Y",
+      "Casbeer, D",
+      "others"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/dongspecial/paper.pdf",
+    "imagePath": ""
+  }
+]

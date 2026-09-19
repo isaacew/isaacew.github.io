@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Isaac Weintraub | Research Archive</title>
+    <meta
+      name="description"
+      content="Research archive and publication explorer for Isaac Weintraub."
+    />
+    <link rel="stylesheet" href="styles.css?v=dynamic6" />
+  </head>
+  <body>
+    <svg class="fx-defs" aria-hidden="true" focusable="false">
+      <filter id="wobble-soft">
+        <feTurbulence
+          id="wobble-soft-noise"
+          type="fractalNoise"
+          baseFrequency="0.008 0.012"
+          numOctaves="2"
+          seed="13"
+          result="noise"
+        />
+        <feDisplacementMap
+          id="wobble-soft-map"
+          in="SourceGraphic"
+          in2="noise"
+          scale="14"
+          xChannelSelector="R"
+          yChannelSelector="G"
+        />
+      </filter>
+      <filter id="wobble-strong">
+        <feTurbulence
+          id="wobble-strong-noise"
+          type="fractalNoise"
+          baseFrequency="0.016 0.02"
+          numOctaves="2"
+          seed="29"
+          result="noise"
+        />
+        <feDisplacementMap
+          id="wobble-strong-map"
+          in="SourceGraphic"
+          in2="noise"
+          scale="22"
+          xChannelSelector="R"
+          yChannelSelector="G"
+        />
+      </filter>
+      <filter id="goo-search">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+        <feColorMatrix
+          in="blur"
+          type="matrix"
+          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -15"
+          result="goo"
+        />
+        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+      </filter>
+    </svg>
+    <div class="ambient ambient--north wobble-soft"></div>
+    <div class="ambient ambient--east wobble-strong"></div>
+    <div class="ambient ambient--south wobble-soft"></div>
+    <div class="page-shell">
+      <header class="hero region-frame reveal reveal--from-top">
+        <div class="hero__copy">
+          <p class="eyebrow reveal__child">Research Archive</p>
+          <h1 class="reveal__child">Isaac Weintraub</h1>
+          <p class="hero__title reveal__child" id="profile-title"></p>
+          <p class="hero__summary reveal__child" id="profile-summary"></p>
+          <div class="hero__focusline reveal__child" id="hero-focusline"></div>
+          <div class="hero__actions reveal__child">
+            <a class="button button--solid" href="#publications">Browse Publications</a>
+            <a class="button button--ghost" id="cv-link" href="#">Open CV</a>
+          </div>
+          <dl class="stats reveal__child" id="stats"></dl>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__stack">
+            <div class="hero__canvas">
+              <div class="wobble-blob wobble-blob--hero-a wobble-soft"></div>
+              <div class="wobble-blob wobble-blob--hero-b wobble-strong"></div>
+              <div class="hero__mesh"></div>
+              <div class="portrait-frame">
+                <img id="portrait" alt="Portrait of Isaac Weintraub" />
+              </div>
+              <div class="hero__mini-card hero__mini-card--north">
+                <span>Archive Span</span>
+                <strong id="hero-latest-year">2026</strong>
+              </div>
+              <div class="hero__mini-card hero__mini-card--south">
+                <span>Featured Visuals</span>
+                <strong id="hero-image-count">0</strong>
+              </div>
+            </div>
+            <article class="hero-spotlight">
+              <div class="hero-spotlight__header">
+                <p class="signal-card__label">Live Spotlight</p>
+                <p class="hero-spotlight__ticker" id="hero-spotlight-ticker"></p>
+              </div>
+              <div class="hero-spotlight__content">
+                <div class="hero-spotlight__copy">
+                  <p class="hero-spotlight__meta" id="hero-spotlight-meta"></p>
+                  <h3 id="hero-spotlight-title"></h3>
+                  <p class="hero-spotlight__summary" id="hero-spotlight-summary"></p>
+                </div>
+                <a class="hero-spotlight__link" id="hero-spotlight-link" href="#">
+                  <span>Open paper</span>
+                  <strong id="hero-spotlight-link-label">PDF</strong>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section region-frame reveal">
+          <div class="section__header">
+            <p class="eyebrow reveal__child">Research Areas</p>
+            <h2 class="reveal__child">Work grounded in geometry, autonomy, and control.</h2>
+          </div>
+          <div class="pill-grid reveal__child" id="research-areas"></div>
+        </section>
+
+        <section class="section section--highlight region-frame reveal">
+          <div class="section__header">
+            <p class="eyebrow reveal__child">Capabilities</p>
+            <h2 class="reveal__child">Technical depth across analysis, autonomy, and experimentation.</h2>
+          </div>
+          <div class="capability-grid reveal__child" id="skills"></div>
+        </section>
+
+        <section class="section region-frame reveal" id="publications">
+          <div class="section__header section__header--split">
+            <div>
+              <p class="eyebrow">Publication Explorer</p>
+              <h2>Explore the retained publication archive.</h2>
+            </div>
+            <p class="section__note" id="publication-count"></p>
+          </div>
+          <div class="explorer-shell">
+            <div class="explorer-toolbar">
+              <div class="explorer-toolbar__group explorer-toolbar__group--search">
+                <div class="explorer-sidebar__block region-frame region-frame--tight">
+                  <p class="explorer-sidebar__label">Search</p>
+                  <div class="gooey-search" id="gooey-search">
+                    <div class="gooey-search__stage">
+                      <div class="gooey-search__results" id="search-suggestions" role="listbox" aria-label="Search suggestions"></div>
+                      <button class="gooey-search__button" id="search-trigger" type="button">
+                        <span class="gooey-search__button-label" id="search-trigger-label">Search</span>
+                        <input
+                          id="search-input"
+                          class="gooey-search__input"
+                          type="search"
+                          placeholder="Title, author, venue, or year"
+                          autocomplete="off"
+                        />
+                      </button>
+                      <button class="gooey-search__icon" id="search-icon" type="button" aria-label="Toggle search">
+                        <span class="gooey-search__icon-search"></span>
+                        <span class="gooey-search__icon-close"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explorer-toolbar__group explorer-toolbar__group--filters">
+                <div class="explorer-sidebar__block region-frame region-frame--tight">
+                  <p class="explorer-sidebar__label">Filters</p>
+                  <div class="explorer-sidebar__filters">
+                    <label class="field">
+                      <span>Year</span>
+                      <select id="year-filter">
+                        <option value="">All years</option>
+                      </select>
+                    </label>
+                    <label class="field">
+                      <span>Sort</span>
+                      <select id="sort-filter">
+                        <option value="newest">Newest first</option>
+                        <option value="oldest">Oldest first</option>
+                        <option value="title">Title A-Z</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="explorer-toolbar__group explorer-toolbar__group--meta">
+                <div class="explorer-sidebar__block explorer-sidebar__block--muted region-frame region-frame--tight">
+                  <p class="toolbar__hint">Focused browsing first. Expand only when you need more.</p>
+                </div>
+              </div>
+            </div>
+            <div class="explorer-results">
+              <div class="results-hero region-frame region-frame--tight" id="results-hero"></div>
+              <div class="publication-grid" id="publication-grid"></div>
+              <div class="archive-actions">
+                <button class="button button--ghost" id="load-more" type="button">Load more</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section region-frame reveal">
+          <div class="split-panels">
+            <div class="panel region-frame region-frame--tight">
+              <div class="section__header">
+                <p class="eyebrow">Experience</p>
+                <h2>Selected appointments.</h2>
+              </div>
+              <div class="timeline" id="experience-timeline"></div>
+            </div>
+            <div class="panel region-frame region-frame--tight">
+              <div class="section__header">
+                <p class="eyebrow">Education</p>
+                <h2>Academic path.</h2>
+              </div>
+              <div class="timeline" id="education-timeline"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="app.js?v=dynamic6"></script>
+  </body>
+</html>
