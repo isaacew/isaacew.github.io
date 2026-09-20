@@ -1,0 +1,66 @@
+1.5em 0pt
+
+Information-Theoretic Multi-Agent Path Planning for
+Risk-Aware Navigation Under Environmental Uncertainty
+Aditya Nimmagadda
+Old Dominion University, Norfolk, Virginia
+John Park
+Old Dominion University, Norfolk, Virginia
+Alexander Von Moll
+Air Force Research Laboratory
+Isaac Weintraaub
+Air Force Research Laboratory
+David Casbeer
+Air Force Research Laboratory
+Autonomous navigation in severe weather requires balancing information gathering and
+mission safety under extreme uncertainty. A novel multi-agent collaborative framework
+addresses this challenge through information-theoretic path planning that coordinates HighValue Aerial Assets (HVAA) with expendable Sensing Aerial Assets (SAA) in hurricane-like
+conditions. The framework employs modified Rapidly-exploring Random Tree star (RRT*)
+algorithms: Expected Travel Time RRT* for conservative HVAA planning and InformationTheoretic RRT* for SAA exploration that maximizes uncertainty reduction. To guide SAA
+behavior, an entropy-weighted utility function jointly optimizes travel cost and expected
+information gain, enabling targeted sampling of high-uncertainty regions characterized by
+bimodal wind distributions. A nonlinear trajectory-tracking controller with look-ahead guidance
+ensures feasible execution of planned path under strong wind disturbances. Hurricane Harvey
+2017 wind data validates the approach, demonstrating 28% path length reduction and 24.1%
+travel time improvement compared to baseline non-collaborative planning. Under moderate
+wind conditions (6-8 m/s), the system achieves 2.0-meter average tracking accuracy with 32meter maximum deviation during aggressive maneuvers. Performance analysis reveals clear
+operational boundaries, with acceptable operation below 14 m/s wind speeds and graceful
+degradation beyond these limits. The framework enables safer autonomous navigation in
+uncertain environments while quantifying operational constraints for deployment guidance.
+
+I. Nomenclature
+𝐴
+𝑎
+a𝑁 𝑀
+𝐶𝑝
+𝐶𝑥
+𝐶𝑦
+𝑑
+𝑑𝑖, 𝑗
+𝑑shift
+𝑑𝑡
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+amplitude of oscillation
+cylinder diameter, m
+normal acceleration command, m/s2
+pressure coefficient
+force coefficient in the 𝑥 direction
+force coefficient in the 𝑦 direction
+shift distance in look-ahead guidance, m
+distance between cells 𝑖 and 𝑗, m
+boundary layer shift distance, m
+time step, s
+1
+
+

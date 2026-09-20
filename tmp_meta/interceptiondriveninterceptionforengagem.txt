@@ -1,0 +1,58 @@
+Probabilistic Weapon Engagement Zones
+for a Turn Constrained Pursuer
+Grant Stagg∗ and Cameron K. Peterson†
+Brigham Young University, Provo, Utah, 84602, USA
+Isaac E. Weintraub‡
+Air Force Research Laboratory, Wright-Patterson AFB, Ohio, 45433, USA
+
+Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions
+an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following
+a curve–straight path with uncertain parameters (position, heading, velocity, range, and
+maximum turn rate). This paper presents methods for generating evader trajectories that
+minimize capture risk under such uncertainty. An analytic solution is first derived for the
+deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a
+probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization,
+quadratic approximation, and neural network regression. The accuracy and computational cost
+of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated
+into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer
+uncertainty.
+
+I. Introduction
+avigating hostile or contested areas is a common requirement in many mission scenarios, particularly for unmanned
+aerial vehicle (UAV) reconnaissance. These vehicles must often operate in environments where detection or
+engagement by adversaries presents a significant risk to the platform. To ensure mission success, it is essential to
+generate safe and efficient trajectories [1, 2] that minimize the need for abrupt evasive actions during execution [3]. A
+key challenge arises when knowledge of the adversarial environment—such as the positions or capabilities of threats—is
+incomplete or uncertain. If not properly accounted for, this uncertainty can lead to an over- or underestimation of the
+path risk. Therefore, robust planning approaches must explicitly model uncertainty to ensure viable and survivable
+routes.
+In this work, we use engagement zones (EZ) to model adversarial threats. EZs are regions an evader must avoid to
+guarantee non-engagement with a pursuer. Past work has defined EZs using cardioid shapes [4–6]. These works created
+path-planning algorithms for an evader to avoid engagements [4], for accounting for two EZs [5], and for many EZs [6].
+All these methods use cardioid-shaped EZs that do not directly represent the pursuer’s capabilities. These formulations
+also assume perfect knowledge of the pursuer’s parameters and do not account for pursuer or environmental uncertainty.
+Unlike cardioid-shaped EZs, basic engagement zones (BEZs) [3] are derived from the principles of differential
+games [7] and define the region in which a pursuer can capture a target. Assuming an infinite turn rate, the BEZ model
+was applied to generate safe trajectories around a single pursuer. Building on this, in a previous work [8], we extended
+the BEZ framework to account for uncertainty in the evader and pursuer parameters through probabilistic engagement
+zones (PEZs). We used a linear approximation to propagate uncertainty through the BEZ equation and developed a
+path-planning algorithm that incorporated the linear PEZ approximation as a constraint. However, the infinite–turn–rate
+assumption is overly conservative for real-world pursuers, and in this work, we provide a less conservative model that
+incorporates turn-rate-constrained vehicles.
+In recent work, the BEZ was extended to use a Dubin’s vehicle model [9] for the pursuer [10]. Two BEZ variants
+were introduced to better represent the pursuer’s maneuvering capabilities: the curve-only BEZ (CBEZ), in which the
+pursuer follows a single arc of constant curvature to intercept the evader, and the curve-straight BEZ (CSBEZ), in which
+
+N
+
+∗ PhD Student, Electrical and Computer Engineering, Brigham Young University.
+
+† Associate Professor, Electrical and Computer Engineering, Brigham Young University, and AIAA Senior Member.
+
+‡ Senior Engineer, Control Science Center, Air Force Research Laboratory, Wright-Patterson AFB OH 45433, AIAA Lifetime Associate Fellow
+
+Distribution Statement A. Approved for Public Release: Distribution is Unlimited (AFRL-2025-5483, Cleared 05 DEC 2025)
+
+1
+
+

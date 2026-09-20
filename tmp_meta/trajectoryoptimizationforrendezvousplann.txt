@@ -1,0 +1,109 @@
+Trajectory Optimization For Rendezvous Planning Using Quadratic
+Bézier Curves
+Satyanarayana G. Manyam1 , David W. Casbeer2 , Isaac E. Weintraub2 and Colin Taylor3
+Abstract— In this paper, we consider a trajectory planning
+problem where an autonomous vehicle aims to rendezvous with
+another cooperating vehicle in minimum time. The first vehicle
+has kinematic constraints, consequently feasible trajectories
+must have a maximum curvature less than a specified limit.
+Rendezvous is said to occur at the instant that the two vehicles
+are collocated with the same heading. We propose a technique
+to construct a trajectory, composed of piecewise quadratic
+Bézier curves, that satisfies the vehicle motion constraints and
+achieves rendezvous in minimum time. The methodology begins
+by finding safe flight corridors, which are constructed from
+sequences of triangles using constrained Delaunay triangulation
+of the feasible space; the triangles define the bounds of Bézier
+curves. We formulate the necessary constraints for continuity
+and feasibility as functions of the control points that define
+the Bézier curves, and the resulting optimization problem is
+solved using a nonlinear programming solver. The techniques
+developed were tested using simulated scenarios, and we present
+the results which highlight the efficacy of the proposed solution
+approach. Furthermore, the algorithm was implemented and
+tested in a field test and those results are presented.
+Index Terms— path planning, obstacle avoidance, mobile
+robots, kinematic constraints
+
+I. I NTRODUCTION
+Trajectory generation in the presence of obstacles for
+non-holonomic vehicles is an important research topic with
+several applications in autonomous mobility. The general
+objective is to determine the trajectory by which a mobile
+robot departs some initial state, arrives at a desired final state,
+and minimizes a given cost. In this paper, an autonomous airvehicle with kinematic constraints aims to rendezvous with
+a second vehicle in minimum time amid a field of static
+obstacles. Such rendezvous requirements are necessary in
+applications where multiple vehicles cooperatively perform
+data gathering missions, and where two vehicles need to
+exchange data. The kinematic constraints of the vehicle are
+due to the minimum turn radius, and therefore the trajectories
+should satisfy the maximum curvature constraints to be
+flyable. The two vehicles are cooperating and the planned
+trajectory of the second vehicle is known to the first vehicle.
+The rendezvous is defined as two vehicles arriving at a
+location at the same time with the same heading. In practice,
+This work has been supported in part by AFOSR LRIR No. 21RQCOR084.
+1 Satyanarayana G. Manyam is with Infoscitex corporation, a DCS
+Company, Dayton, OH, USA msngupta@gmail.com
+2 David W. Casbeer and Isaac E. Weintraub are with the Controls
+Center of Excellence, Air Force Research Laboratory, WPAFB,
+OH,
+USA
+david.casbeer@afresearchlab.com,
+
+isaac.weintraub.1@afresearchlab.com
+3 Colin Taylor is with Parallax Advanced Research, Dayton, OH, USA
+
+colin.taylor@parallaxresearch.org
+
+these two vehicles would fly at different altitudes, and a
+feasible rendezvous only requires the x, y coordinates and
+heading to be the same. The proposed solution approach
+is for the controlled vehicle to generate a trajectory using
+a concatenated set of quadratic Bézier curves (QBC). We
+assume the vehicles are traveling at constant speed and the
+objective to rendezvous in minimum time is addressed by
+optimizing the length of the trajectory. The trajectories are
+defined by a set of control points, and the constraints and
+objective are realized as functions of these control points.
+We formulate this as a nonlinear program with the sets of
+control points as decision variables, the solution of which
+gives a trajectory that avoids the obstacles and ensures a
+smooth path which does not exceed the maximum curvature
+limit.
+Dubins paths [1], [2] are very popular for path planning
+for vehicles with kinematic constraints in obstacle free
+environments. Sample based path planning methods, such as
+RRT [3]–[5], were developed to generate feasible paths in
+structures environments, and recent advances are proven to
+be probabilistically complete. Discrete search based methods
+such as hybrid A∗ [6] produce quick solutions and are
+thus viable for online planning. However, these methods
+are not suitable for the trajectory planning problems with
+temporal or length constraints. In our previous work [7],
+we proposed a Dubins based planning to address temporal
+constraints such as rendezvous problem. Dubins paths are
+highly discontinuous, and making fine adjustments requires
+careful attention to the discontinuities in the path length as
+a function of the path modality [8]. Such methods are not
+viable for environments with obstacles.
+Recently, trajectory generation using splines such as
+Bézier curves [9]–[13] have gained traction due to their
+flexibility. In [9], quartic Bézier curves, defined by Bernstein
+polynomials of degree four, are considered and trajectory
+generation is posed as a nonlinear program. To address the
+kinematic constraints, the maximum curvature is computed
+using a numerical root finding method in each iteration of
+the nonlinear program. Bézier curves of degree five are
+used to approximate a clothoids in [11]. In [12], a flight
+corridor is generated and trajectories are generated using
+piecewise Bézier curves, where the position and dynamics
+are bounded using Bézier properties. A similar method
+with piecewise Bézier curves was used in [13], where the
+trajectory generation is decoupled into timing variables and
+path variables. The curvature constraints on the paths due
+to the kinematics of the vehicles are not addressed in [12],
+[13].
+
+

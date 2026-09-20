@@ -1,0 +1,107 @@
+Optimal Evasion in an Active Target Defense Scenario
+Isaac E. Weintraub ∗ , Eloy Garcia† , and David Casbeer‡
+Control Science Center of Excellence, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433
+Meir Pachter§
+Air Force Institute of Technology, Wright-Patterson AFB, OH 45433
+A three-agent scenario is considered in 3-D Cartesian space, where a Pursuer aims at
+intercepting an Evader while the Evader aims to out-maneuver the Pursuer. A Defender
+working in cooperation with the Evader aims at intercepting the Pursuer before the Pursuer
+can capture the Evader. A proportional navigation strategy is implemented by the Defender
+and the Pursuer. The optimal control problem which strives at solving for the heading rate
+and flight path angle rate of the Evader is posed and solved. Using the even collocation method,
+the optimal controls for the Evader are found using a nonlinear program solver. An example is
+provided to illustrate the maneuvers made by the Evader to escape the Pursuer with maximum
+separation at final time.
+
+Nomenclature
+𝑔
+=
+ℎ
+=
+h
+=
+H
+=
+𝐽
+=
+𝑘
+=
+M
+=
+𝑁
+=
+𝑝
+=
+𝑅𝑥 𝑦
+=
+𝑡
+=
+u
+=
+𝜓¤ 𝐸 (𝑡) =
+𝛾¤ 𝐸
+=
+𝑉
+=
+𝑥
+=
+x
+=
+𝑦
+=
+𝑧
+=
+𝛼
+=
+𝛽
+=
+𝛾
+=
+𝜎
+=
+𝜙
+=
+𝜉
+=
+𝜓
+=
+𝜔
+=
+Subscript
+
+Inequality constraint
+Equality constraint
+Equality contraint vetor
+Hamiltonian
+Objective Cost Functional
+Discrete time step index
+Matrix for costate dynamics
+Total number of discrete time step
+Co-states
+Line of sight from an agent x to agent y
+Time
+Input vector
+Heading rate command
+Flight path angle rate command
+Velocity of an agent
+X position of an agent
+States
+Y position of an agent
+Z position of an agent
+Longitudinal line of sight angle
+Lateral line of sight angle
+Flight path angle of an agent
+Pursuit Angle (angle between an agent’s velocity vector and the line of sight to his target)
+Escape Angle (angle between the agent velocity vector and line of sight from its pursuer)
+Arbitrary variable used for compactness
+Heading of an agent
+Angular rate of motion
+
+∗ Control Science Center of Excellence, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, AIAA Senior Member
+† Control Science Center of Excellence, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, AIAA Senior Member
+‡ Control Science Center of Excellence, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, AIAA Associate Fellow
+§ Department of Electrical Engineering, Air Force Institute of Technology, Wright-Patterson AFB, OH 45433, AIAA Associate Fellow
+
+1
+
+

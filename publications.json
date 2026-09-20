@@ -60,7 +60,7 @@
     ],
     "year": 2026,
     "venue": "AIAA SCITECH 2026 Forum",
-    "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent\u2019s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated.",
+    "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent’s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/ganeshan2026bi/paper.pdf",
     "imagePath": ""
@@ -76,7 +76,7 @@
     ],
     "year": 2026,
     "venue": "arXiv preprint arXiv:2605.25741",
-    "abstract": "Navigating teams of unmanned vehicles through environments containing dynamic, adversarial Weapon Engagement Zones (WEZs) poses a fundamental challenge to mission success: a single vehicle, however capable its onboard guidance, remains a single point of failure. This paper presents a role-differentiated multi-agent framework for collaborative threat-aware trajectory planning in which a fleet of Autonomous Collaborative Platforms (ACPs) is assigned distinct roles \u2014 primary intercept, escort, and decoy \u2014 to improve team-level mission success probability while managing individual WEZ exposure. Each ACP independently employs a reactive guidance law derived from the Collision Sphere Boundary for Evader Zero-Set (CSBEZ), which accounts for pursuer maneuverability constraints imposed by minimum turn radius, and steers the vehicle toward the safest heading that also makes progress toward its goal. Role assignment and spatial route separation induce two complementary effects: probabilistic redundancy, in which N independent paths raise the team success probability to 1 \u2212 (1\u2212p)^N, and threat saturation, in which lower-priority escorts and decoys draw adversary attention and free the primary vehicle to transit uncontested. Simulation results on a two-gate gauntlet scenario demonstrate that the three-vehicle team raises mission success probability from 0.72 (single CSBEZ-aware vehicle) to 0.978, a + 35.8 percentage-point improvement. Monte Carlo validation over 100 trials with perturbed threat range, position, and speed yields an empirical team success rate of 1.00 \u00b1 0.00, against a single-vehicle rate of 0.66\u00b10.09. Experiments with reactive PurePursuit threats confirm that the decoy-and-protect structure remains effective even when adversaries dynamically re-target the nearest ACP.",
+    "abstract": "Navigating teams of unmanned vehicles through environments containing dynamic, adversarial Weapon Engagement Zones (WEZs) poses a fundamental challenge to mission success: a single vehicle, however capable its onboard guidance, remains a single point of failure. This paper presents a role-differentiated multi-agent framework for collaborative threat-aware trajectory planning in which a fleet of Autonomous Collaborative Platforms (ACPs) is assigned distinct roles — primary intercept, escort, and decoy — to improve team-level mission success probability while managing individual WEZ exposure. Each ACP independently employs a reactive guidance law derived from the Collision Sphere Boundary for Evader Zero-Set (CSBEZ), which accounts for pursuer maneuverability constraints imposed by minimum turn radius, and steers the vehicle toward the safest heading that also makes progress toward its goal. Role assignment and spatial route separation induce two complementary effects: probabilistic redundancy, in which N independent paths raise the team success probability to 1 − (1−p)^N, and threat saturation, in which lower-priority escorts and decoys draw adversary attention and free the primary vehicle to transit uncontested. Simulation results on a two-gate gauntlet scenario demonstrate that the three-vehicle team raises mission success probability from 0.72 (single CSBEZ-aware vehicle) to 0.978, a + 35.8 percentage-point improvement. Monte Carlo validation over 100 trials with perturbed threat range, position, and speed yields an empirical team success rate of 1.00 ± 0.00, against a single-vehicle rate of 0.66±0.09. Experiments with reactive PurePursuit threats confirm that the decoy-and-protect structure remains effective even when adversaries dynamically re-target the nearest ACP.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/sharma2026collaborative/paper.pdf",
     "imagePath": "images/public/publications/sharma2026collaborative/featured.png"
@@ -125,7 +125,7 @@
     ],
     "year": 2026,
     "venue": "AIAA SCITECH 2026 Forum",
-    "abstract": "Curve\u2013straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve\u2013straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve\u2013straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.",
+    "abstract": "Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/stagg2026probabilistic/paper.pdf",
     "imagePath": ""
@@ -313,7 +313,7 @@
     ],
     "year": 2025,
     "venue": "Aiaa Scitech 2025 Forum",
-    "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin\u2019s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples.",
+    "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin’s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/wolek2025maximum/paper.pdf",
     "imagePath": "images/public/publications/wolek2025maximum/feature.png"
@@ -720,7 +720,7 @@
   {
     "id": "pachter2024synthesis",
     "slug": "pachter2024synthesis",
-    "title": "The Synthesis Of Optimal Control Laws Using Isaacs\u2019 Method For The Solution Of Differential Games",
+    "title": "The Synthesis Of Optimal Control Laws Using Isaacs’ Method For The Solution Of Differential Games",
     "authors": [
       "Pachter, Meir",
       "Weintraub, Isaac E"
@@ -926,7 +926,7 @@
     "title": "Continuous Monitoring Of A Path-Constrained Moving Target By Multiple Unmanned Aerial Vehicles",
     "authors": [
       "Tabasso, Camilla",
-      "Kielas-Jensen, Calvin \u2018",
+      "Kielas-Jensen, Calvin ‘",
       "Cichella, Venanzio",
       "Manyam, Satyanarayana",
       "Casbeer, David W",
@@ -1414,7 +1414,7 @@
     ],
     "year": 2015,
     "venue": "Journal of Guidance, Control, and Dynamics",
-    "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing\u2019s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle.",
+    "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing’s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/oppenheimer2015control/paper.pdf",
     "imagePath": ""
@@ -1484,7 +1484,7 @@
     ],
     "year": 2013,
     "venue": "Aiaa Guidance, Navigation, And Control (Gnc) Conference",
-    "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55\u25e6 while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
+    "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55◦ while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/oppenheimer2013development/paper.pdf",
     "imagePath": "images/public/publications/oppenheimer2013development/feature.png"
@@ -1502,7 +1502,7 @@
     ],
     "year": 2013,
     "venue": "51st Aiaa Aerospace Sciences Meeting Including The New Horizons Forum And Aerospace Exposition",
-    "abstract": "This work is focused on testing the viability of split-cycle constant-period frequency modulation for controlling a flapping wing micro air vehicle. By varying the velocities of the upstroke and downstroke portions of a flapping wings\u2019 motion, non-zero cycle-averaged drag can be generated. This results in the ability to control the roll and horizontal translation of the vehicle by varying the split-cycle parameter. In this paper, a flapping wing prototype is developed for testing the split-cycle technique. A fuselage, wings, motor control electronics, and motor control software are created to allow wireless control of the motion of the flapping wing vehicle. The complete vehicle is then placed on an air table for experimental testing. The air table provides the lift equal to weight condition and constrains the pitch and yaw degrees of freedom while allowing for roll rotation and horizontal translation. In this way, testing of the degrees of freedom which can be manipulated via split-cycle, namely roll and horizontal translation, can be performed. The air table tests reveal that split-cycle can be used to control these two degrees of freedom.",
+    "abstract": "This work is focused on testing the viability of split-cycle constant-period frequency modulation for controlling a flapping wing micro air vehicle. By varying the velocities of the upstroke and downstroke portions of a flapping wings’ motion, non-zero cycle-averaged drag can be generated. This results in the ability to control the roll and horizontal translation of the vehicle by varying the split-cycle parameter. In this paper, a flapping wing prototype is developed for testing the split-cycle technique. A fuselage, wings, motor control electronics, and motor control software are created to allow wireless control of the motion of the flapping wing vehicle. The complete vehicle is then placed on an air table for experimental testing. The air table provides the lift equal to weight condition and constrains the pitch and yaw degrees of freedom while allowing for roll rotation and horizontal translation. In this way, testing of the degrees of freedom which can be manipulated via split-cycle, namely roll and horizontal translation, can be performed. The air table tests reveal that split-cycle can be used to control these two degrees of freedom.",
     "source": "metadata",
     "pdfPath": "pdfs/public/publications/oppenheimer2013wing/paper.pdf",
     "imagePath": "images/public/publications/oppenheimer2013wing/feature.png"
@@ -1644,8 +1644,9 @@
     "venue": "arXiv preprint arXiv:2607.03554",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
-    "imagePath": ""
+    "pdfPath": "pdfs/public/publications/interceptiondriveninterceptionforengagem/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2607.03554"
   },
   {
     "id": "interceptiondriveninversereachabilityfor",
@@ -1661,8 +1662,9 @@
     "venue": "arXiv preprint arXiv:2607.03554",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
-    "imagePath": ""
+    "pdfPath": "pdfs/public/publications/interceptiondriveninversereachabilityfor/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2607.03554"
   },
   {
     "id": "combiningreinforcementlearningwitharcsea",
@@ -1677,8 +1679,9 @@
     "venue": "arXiv preprint arXiv:2606.07920",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
-    "imagePath": ""
+    "pdfPath": "pdfs/public/publications/combiningreinforcementlearningwitharcsea/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2606.07920"
   },
   {
     "id": "pathplanningusingdeepdeterministicpolicy",
@@ -1693,8 +1696,9 @@
     "venue": "arXiv preprint arXiv:2606.07855",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
-    "imagePath": ""
+    "pdfPath": "pdfs/public/publications/pathplanningusingdeepdeterministicpolicy/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2606.07855"
   },
   {
     "id": "cooperativerelayassistedtravelingsalesma",
@@ -1709,7 +1713,7 @@
     "venue": "2026 American Control Conference (ACC)",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/cooperativerelayassistedtravelingsalesma/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1744,13 +1748,13 @@
     "venue": "AIAA AVIATION 2026 Forum",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/amultisalvomissiledefensestrategyusingvi/paper.pdf",
     "imagePath": ""
   },
   {
     "id": "virtualtargetselectionforamultiplepursue",
     "slug": "virtualtargetselectionforamultiplepursue",
-    "title": "Virtual Target Selection for a Multiple-Pursuer\u2013Multiple-Evader Scenario",
+    "title": "Virtual Target Selection for a Multiple-Pursuer–Multiple-Evader Scenario",
     "authors": [
       "I. E. Weintraub",
       "A. Von Moll",
@@ -1761,7 +1765,7 @@
     "venue": "Journal of Aerospace Information Systems 22 (5), 391-400",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/virtualtargetselectionforamultiplepursue/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1776,7 +1780,7 @@
     "venue": "Journal of Optimization Theory and Applications 202 (3), 1137-1157",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/thesynthesisofoptimalcontrollawsusingisa/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1795,7 +1799,7 @@
     "venue": "AIAA Scitech 2021 Forum",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/ringformationmaneuversingleintegratorkin/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1807,7 +1811,7 @@
       "D. Casbeer",
       "E. Garcia",
       "I. E. Weintraub",
-      "D. Milutinovi\u0107"
+      "D. Milutinović"
     ],
     "year": 2021,
     "venue": "2021 International Conference on Unmanned Aircraft Systems (ICUAS)",
@@ -1819,7 +1823,7 @@
   {
     "id": "trajectoryoptimizationforrendezvousplann",
     "slug": "trajectoryoptimizationforrendezvousplann",
-    "title": "Trajectory optimization for rendezvous planning using quadratic b\u00e9zier curves",
+    "title": "Trajectory optimization for rendezvous planning using quadratic bézier curves",
     "authors": [
       "S. G. Manyam",
       "D. W. Casbeer",
@@ -1830,7 +1834,7 @@
     "venue": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/trajectoryoptimizationforrendezvousplann/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1847,13 +1851,13 @@
     "venue": "AIAA Scitech 2021 Forum",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/optimalevasioninanactivetargetdefensesce/paper.pdf",
     "imagePath": ""
   },
   {
-    "id": "circularrejoinin3dusingb\u00e9zierpaths",
-    "slug": "circularrejoinin3dusingb\u00e9zierpaths",
-    "title": "Circular rejoin in 3d using b\u00e9zier paths",
+    "id": "circularrejoinin3dusingbézierpaths",
+    "slug": "circularrejoinin3dusingbézierpaths",
+    "title": "Circular rejoin in 3d using bézier paths",
     "authors": [
       "I. E. Weintraub",
       "Z. J. L. Demers",
@@ -1865,7 +1869,7 @@
     "venue": "2020 IEEE Conference on Control Technology and Applications (CCTA)",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/circularrejoinin3dusingbézierpaths/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1881,7 +1885,7 @@
     "venue": "IET Control Theory & Applications",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/anoptimalguidancestrategyforthedefenseof/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1898,7 +1902,7 @@
     "venue": "AIAA Guidance, Navigation, and Control Conference",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/wingflexibilityinducedcontrolreversalfor/paper.pdf",
     "imagePath": ""
   },
   {
@@ -1913,7 +1917,7 @@
     "venue": "Mathematics and Computer Education 43 (1), 69",
     "abstract": "",
     "source": "scholar-stub",
-    "pdfPath": "",
+    "pdfPath": "pdfs/public/publications/the5050lifelineonwhowantstobeamillionair/paper.pdf",
     "imagePath": ""
   }
 ]

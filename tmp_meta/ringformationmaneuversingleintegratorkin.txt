@@ -1,0 +1,55 @@
+Ring Formation Maneuver: Single-Integrator Kinematics
+Dzung Tran∗ , David Casbeer† , Eloy Garcia‡ , and Isaac E. Weintraub§
+U.S. Air Force Research Laboratory, Wright-Patterson Air Force Base, OH 45433
+Dejan Milutinović¶
+University of California Santa Cruz, Santa Cruz, CA 95064
+Satyanarayana G. Manyam‖
+Infoscitex Corporation, Dayton, OH 45431
+Most conventional formation control algorithms consider convergence towards a specific
+desired point (or a specific desired displacement) for each vehicle relative to their neighbors.
+However, this specification restricts the flexibility in the motion of the vehicles. Motivated from
+this standpoint, this paper considers a formation control problem, where the desired position
+of each vehicle in the formation is described by a set of points. In particular, we consider
+relative motion in a two-vehicle system consisting of a leader and a follower, which is scalable
+to a larger formation in a distributed manner. The leader is free to move in 3-dimensional
+space while the follower seeks to converge to the desired set of points. We especially consider
+the desired set to be a ring of a given radius located at a certain distance from the leader in
+this paper. In addition, we propose two control algorithms. Both of them allow the follower
+to alter the set point smoothly during the mission and thus increase the follower’s flexibility
+of motion. The stability of the formation under the proposed control algorithms is analyzed
+using the Lyapunov theory. Numerical examples are also provided to illustrate the efficacy of
+the control algorithms.
+
+I. Introduction
+any teamwork behaviors can be observed in nature such as migrating birds flying in V-shaped formation to reduce
+the drag force and save energy for long trips, ants working together to find and transport food back to their nest or
+fish swimming in schools not only to increase their sensing capability but also to confuse their predator, and hence boost
+survival rates [1–3]. Motivated by these benefits of teamwork, a lot of research effort has been made toward developing
+algorithms for multiagent systems, which consist of a group of robots or vehicles (i.e., agents) communicating and
+collaborating for achieving a global objective. One branch of multiagent systems is formation control, where control
+algorithms are designed to allow vehicles to form and maintain the desired formation under adverse conditions and
+dynamic environment. Several results on optimal relative positions for vehicles in formation flights are investigated in
+[4–7].
+Formation control has a wide range of applications including satellite clusters, search and rescue missions, security
+patrol, to name but a few examples (see, for example, [8] and references therein). Representative results in the fields are
+[8–31]. A common denominator of these formation control algorithms is that they define a specific desired point (or a
+specific desired displacement) for each vehicle relative to their neighbors. This, however, restricts the flexibility of
+the follower vehicles in space. For instance, when the lead vehicle is agile, it requires the follower vehicles to put a
+lot of effort to keep up. Therefore, it is crucial to come up with new schemes for allowing flexibility in the followers’
+movement while the original benefits of teamwork are still guaranteed.
+The contribution of this paper is to proposed novel control algorithms for solving a formation control problem,
+where the desired position of each vehicle in the formation is a set of points. In particular, we consider relative motion
+in a two-vehicle system consisting of a leader and a follower, which is scalable to a larger formation in a distributed
+
+M
+
+∗ Research Associate, Control Science Center of Excellence.
+† Team Lead, Control Science Center of Excellence, AIAA Associate Fellow.
+‡ Research Engineer, Control Science Center of Excellence, AIAA Member.
+§ Electronics Engineer, Aerospace Systems Directorate, Air Force Research Laboratory, AIAA Senior Member.
+¶ Professor, Department of Electrical and Computer Engineering.
+‖ Research Scientist, Contractor for Air Force Research Laboratory, AIAA Member.
+
+1
+
+

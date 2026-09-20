@@ -1,0 +1,1923 @@
+[
+  {
+    "id": "le2026comparison",
+    "slug": "le2026comparison",
+    "title": "A Comparison Of Reinforcement Learning And Optimal Control Methods For Path Planning",
+    "authors": [
+      "Le, Qiang",
+      "Yang, Yaguang",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2604.12628",
+    "abstract": "Path-planning for autonomous vehicles in threat-laden environments is a fundamental challenge. While traditional optimal control methods can find ideal paths, the computational time is often too slow for real-time decision-making. To solve this challenge, we propose a method based on Deep Deterministic Policy Gradient (DDPG) and model the threat as a simple, circular `no-go' zone. A mission failure is claimed if the vehicle enters this `no-go' zone at any time or does not reach a neighborhood of the destination. The DDPG agent is trained to learn a direct mapping from its current state (position and velocity) to a series of feasible actions that guide the agent to safely reach its goal. A reward function and two neural networks, critic and actor, are used to describe the environment and guide the control efforts. The DDPG trains the agent to find the largest possible set of starting points (\"feasible set\") wherein a safe path to the goal is guaranteed. This provides critical information for mission planning, showing beforehand whether a task is achievable from a given starting point, assisting pre-mission planning activities. The approach is validated in simulation. A comparison between the DDPG method and a traditional optimal control (pseudo-spectral) method is carried out. The results show that the learning-based agent may produce effective paths while being significantly faster, making it a better fit for real-time applications. However, there are areas (\"infeasible set\") where the DDPG agent cannot find paths to the destination, and the paths in the feasible set may not be optimal. These preliminary results guide our future research: (1) improve the reward function to enlarge the DDPG feasible set, (2) examine the feasible set obtained by the pseudo-spectral method, and (3) investigate the arc-search IPM method for the path planning problem.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/le2026comparison/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "bajaj2022competitive",
+    "slug": "bajaj2022competitive",
+    "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+    "authors": [
+      "Le, Qiang",
+      "Weintraub, Isaac E",
+      "Casbeer, David",
+      "Pachter, Meir"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "This work considers a Pursuer and Evader scenario wherein the Evader aims to plan a path around an engagement zone of the Pursuer. We investigate the feasibility of using the multiple time interval pseudospectral (PS) approach to obtain the path for the Evader to avoid the basic engagement zones (BEZ) posed by the Pursuer. The objective function is the Evader's travel time. Nonlinear constraints are imposed to ensure that the Evader not enter the Pursuer's BEZ at any portion of the Pursuer's trajectory. The resulting paths using the PS method to avoid the BEZs are provided for the various speed ratios of Pursuer and Evader.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/bajaj2022competitive/paper.pdf",
+    "imagePath": "images/public/publications/bajaj2022competitive/feature.png"
+  },
+  {
+    "id": "le2026basic",
+    "slug": "le2026basic",
+    "title": "Basic Engagement Zone Avoidance Using Pseudospectral Methods",
+    "authors": [
+      "Le, Qiang",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "Aiaa Scitech 2026 Forum",
+    "abstract": "This work considers a Pursuer and Evader scenario wherein the Evader aims to plan a path around an engagement zone of the Pursuer. We investigate the feasibility of using the multiple time interval pseudospectral (PS) approach to obtain the path for the Evader to avoid the basic engagement zones (BEZ) posed by the Pursuer. The objective function is the Evader’s travel time. Nonlinear constraints are imposed to ensure that the Evader not enter the Pursuer’s BEZ at any portion of the Pursuers trajectory. The resulting paths using the PS method to avoid the BEZs are provided for the various speed ratios of Pursuer and Evader.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/le2026basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ganeshan2026bi",
+    "slug": "ganeshan2026bi",
+    "title": "Bi-Objective Dynamic Zone Navigation",
+    "authors": [
+      "Ganeshan, Reyanthan",
+      "Ranjan, Praveen",
+      "Chakravarthy, Animesh",
+      "Casbeer, David",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Path planning algorithms such as A* and D* are widely recognized for their speed and reliability in finding shortest paths, particularly in structured or grid-based environments. However, their performance can degrade when faced with additional complexities such as motion constraints, dynamic environments (e.g., moving obstacles, temporary no-fly zones, contested space), and multiple, often conflicting objectives such as energy consumption and safety margins. In this paper, we address a dynamic, shape-changing zone avoidance problem, where a second objective termed \"risk\" is introduced, quantifying the penalty incurred when entering these dynamic zones. These zones evolve over time and may change based on the agent’s location and heading. We explore various approaches to solve this bi-objective problem and generate the Pareto optimal front. The quality and computational efficiency of the resulting solutions are evaluated.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ganeshan2026bi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sharma2026collaborative",
+    "slug": "sharma2026collaborative",
+    "title": "Collaborative Threat-Aware Autonomy (Ctaa)",
+    "authors": [
+      "Sharma, Rajnikant",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2605.25741",
+    "abstract": "Navigating teams of unmanned vehicles through environments containing dynamic, adversarial Weapon Engagement Zones (WEZs) poses a fundamental challenge to mission success: a single vehicle, however capable its onboard guidance, remains a single point of failure. This paper presents a role-differentiated multi-agent framework for collaborative threat-aware trajectory planning in which a fleet of Autonomous Collaborative Platforms (ACPs) is assigned distinct roles — primary intercept, escort, and decoy — to improve team-level mission success probability while managing individual WEZ exposure. Each ACP independently employs a reactive guidance law derived from the Collision Sphere Boundary for Evader Zero-Set (CSBEZ), which accounts for pursuer maneuverability constraints imposed by minimum turn radius, and steers the vehicle toward the safest heading that also makes progress toward its goal. Role assignment and spatial route separation induce two complementary effects: probabilistic redundancy, in which N independent paths raise the team success probability to 1 − (1−p)^N, and threat saturation, in which lower-priority escorts and decoys draw adversary attention and free the primary vehicle to transit uncontested. Simulation results on a two-gate gauntlet scenario demonstrate that the three-vehicle team raises mission success probability from 0.72 (single CSBEZ-aware vehicle) to 0.978, a + 35.8 percentage-point improvement. Monte Carlo validation over 100 trials with perturbed threat range, position, and speed yields an empirical team success rate of 1.00 ± 0.00, against a single-vehicle rate of 0.66±0.09. Experiments with reactive PurePursuit threats confirm that the decoy-and-protect structure remains effective even when adversaries dynamically re-target the nearest ACP.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sharma2026collaborative/paper.pdf",
+    "imagePath": "images/public/publications/sharma2026collaborative/featured.png"
+  },
+  {
+    "id": "denton2026deep",
+    "slug": "denton2026deep",
+    "title": "Deep Neural Network As 5-D Image For Threat Avoidance",
+    "authors": [
+      "Denton, Alexander W",
+      "Riddick, Michael P",
+      "Weintraub, Isaac E",
+      "Kunz, Donald L"
+    ],
+    "year": 2026,
+    "venue": "AIAA Scitech 2026 Forum",
+    "abstract": "This paper proposes a method of threat avoidance using deep neural networks (DNN) from the aircraft frame of reference. The proposed technique uses an offline-trained DNN to generate first-order maneuver guidance as a fuzzy 5-D vector image. Once trained on two million simulation results from a set of two threats, a 2-D maneuver space diagram (bank-speed or bank-altitude) is created by plotting the DNN's binary \"capture\" or \"no capture\" predictions. Unlike a lookup table or a threat-specific simulation, a DNN can interpolate for unknown threats within its training range. Several suitable DNN models are compared to evaluate selection criteria based on simplicity and interpolation accuracy. Analytic threat engagement envelopes are compared to interpolated threat regions using intersection over union (IoU) to discriminate and select models based on performance. The best DNN in this study has five hidden layers of decreasing size and is selected because it has the highest mean IoU and the lowest standard deviation. The file size of this tapered model is also much smaller than that of the other deep models in this study, thereby increasing its relative utility for use onboard aircraft.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/denton2026deep/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sharma2026learning",
+    "slug": "sharma2026learning",
+    "title": "Learning-Augmented Adaptive Guidance For Target Interception",
+    "authors": [
+      "Sharma, Rajnikant",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA Scitech 2026 Forum",
+    "abstract": "This paper presents a hybrid learning-augmented guidance strategy in which Deep Reinforcement Learning (DRL) is employed to improve the Proportional-Navigation (PN) guidance for target interception involving a maneuvering target. Unlike classical PN guidance, where the navigation constant N is fixed, our approach learns N as a function of the states of the system, including the line-of-sight parameters and relative dynamics. This adaptive cooperative guidance enables the pursuers to respond dynamically to the evader's maneuvers, optimizing interception performance. We formulate the problem as a Markov Decision Process (MDP) and train an RL agent using the Proximal Policy Optimization (PPO) algorithm. The agent learns to control the pursuer's lateral acceleration by varying N based on real-time observations. Experimental results demonstrate the superiority of the proposed hybrid learning-augmented guidance strategy over classical PN with fixed N=3 in scenarios with a maneuvering target. In addition, we also discuss the role of reward shaping in enhancing convergence and interception performance.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sharma2026learning/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "stagg2026probabilistic",
+    "slug": "stagg2026probabilistic",
+    "title": "Probabilistic Weapon Engagement Zones For A Turn Constrained Pursuer",
+    "authors": [
+      "Stagg, Grant",
+      "Peterson, Carmy",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Curve–straight probabilistic engagement zones (CSPEZ) quantify the spatial regions an evader should avoid to reduce capture risk from a turn-rate-limited pursuer following a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This paper presents methods for generating evader trajectories that minimize capture risk under such uncertainty. An analytic solution is first derived for the deterministic curve–straight basic engagement zone (CSBEZ), which is then extended to a probabilistic framework through sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression. The accuracy and computational cost of these approaches are evaluated in a simulation. Finally, CSPEZ constraints are incorporated into a trajectory optimization algorithm to produce safe paths that explicitly account for pursuer uncertainty.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/stagg2026probabilistic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2026reactive",
+    "slug": "von2026reactive",
+    "title": "Reactive Vehicle Guidance Using Dynamic Maneuvering Cue",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E",
+      "Casbeer, David W"
+    ],
+    "year": 2026,
+    "venue": "AIAA SCITECH 2026 Forum",
+    "abstract": "Recent approaches for navigating among dynamic threat regions (i.e., weapon engagement zones) have focused on planning entire trajectories. Moreover, the allowance for penetration into these threat regions was based on heuristic measurements of risk. This paper offers an approach for a more reactive (i.e., feedback-based) guidance that is based on closed-form analytical expressions and thereby suitable for onboard, real-time execution. In addition, a risk measurement is formulated based upon the concept of Dynamic Maneuvering Cue (DMC), which measures the amount of turn a vehicle would need to take in its current state in order to put itself outside the threat region. This approach is then extended to handle multiple threat regions simultaneously (with minimal additional computational complexity). Finally, the DMC constraint is applied to a simple feedback controller as well as a model predictive controller (MPC). The MPC shows better performance, but at the cost of having to solve an optimization problem online, versus the meager computational burden associated with the simple controller. This approach, which is based on assuming the threats are adversarial, may be used as a conservative method for collision avoidance and deconfliction.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2026reactive/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "cao2026system",
+    "slug": "cao2026system",
+    "title": "System And Method For Flexible Relational Maneuvering Of Leader-Follower Unmanned Aerial Vehicles",
+    "authors": [
+      "Cao, Yongcan",
+      "Casebeer, David",
+      "Ranjan, Praveen",
+      "Sinha, Abhinav",
+      "Weintraub, Isaac"
+    ],
+    "year": 2026,
+    "venue": "",
+    "abstract": "Graph neural networks (GNNs) have been extensively used in a wide variety of domains in recent years. Owing to their power in analyzing graph-structured data, they have become broadly popular in intelligent transportation systems (ITS) applications as well. Despite their widespread applications in different transportation domains, there is no comprehensive review of recent advancements and future research directions that covers all transportation areas. Accordingly, in this survey, for the first time, we provide an overview of GNN studies in the general domain of ITS. Unlike previous surveys, which have been limited to traffic forecasting problems, we explore how GNN frameworks have evolved for different ITS applications, including traffic forecasting, demand prediction, autonomous vehicles, intersection management, parking management, urban planning, and transportation safety. Also, we micro-categorize the studies based on their transportation application to identify domain-specific research directions, opportunities, and challenges, which have been missing in previous surveys. Moreover, we identify unique and undiscussed research opportunities and directions, which is the result of reviewing a wide range of transportation applications. The neglected role of edge and graph learning in ITS applications, developing multi-modal models, and exploiting the power of unsupervised and reinforcement learning methods for developing more powerful GNNs are some examples of such new discussions in this survey. Finally, we have identified popular baseline models and datasets in each transportation domain, which facilitate the development and evaluation of future GNN-based frameworks.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/cao2026system/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2025optimal",
+    "slug": "weintraub2025optimal",
+    "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 1",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander L",
+      "Hansen, Alexander",
+      "Zollars, Michael D"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "The time-optimal strategy for a pursuer, endowed with a guided off-board sensor, is found to place the range-limited sensor platform onto a non-maneuvering target. Leveraging optimal control theory, a feedback control strategy is obtained for the pursuer using the indirect optimal control method. The target is assumed to have constant speed and move slower than the off-board sensor and the pursuer. The limited-range off-board sensor is assumed to be faster than the pursuer and the target. The pursuer is assumed to have unlimited range and is faster than the target but slower than the off-board sensor platform. All agents' communication, location, and heading are assumed known by all; the scenario assumes communication between the pursuer and off-board sensor is ideal. This work presents how the optimal control approach can be leveraged as well as highlighted in example simulations and an accompanying discussion of those results.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025optimal/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2025optimal/feature.png"
+  },
+  {
+    "id": "hansen2025optimal",
+    "slug": "hansen2025optimal",
+    "title": "An Optimal Strategy For Off-Board Proximal Sensing Of A Target: Part 2",
+    "authors": [
+      "Hansen, Alexander",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander L"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "In an era of preparation for potential future conflict, it is of utter importance to uncover methods of amplifying crewed aircraft capability with novel un-crewed systems. To further that goal, this work considers a two-agent scenario of a faster, unmanned turn-constrained pursuer with an engagement zone (EZ) and a non-maneuvering mobile evader. The pursuer aims to capture an evader with its circular EZ. The pursuer's EZ is dynamic and shifts as a function of the evader's velocity vector in both magnitude and direction. Using nonlinear optimal control techniques, the optimal trajectory and minimum time to engage the evader are determined for various pursuer initial headings and positions through MATLAB simulation. The results build a control strategy given the scenario, with analytic solution validation. Results lay a foundation to model pursuer-evader capture scenarios with a dynamic EZ, leading to general guidelines for real-time control strategies. This work culminates in an attempt to find an algorithm that would yield a dispersal surface in any pursuer/evader scenario and establish a comparative angle for the pursuer to guarantee optimal turn direction to engage the evader in minimum time.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/hansen2025optimal/paper.pdf",
+    "imagePath": "images/public/publications/hansen2025optimal/feature.png"
+  },
+  {
+    "id": "milutinovic2025cooperative",
+    "slug": "milutinovic2025cooperative",
+    "title": "Cooperative Pursuit-Evasion Games With A Flat Sphere Condition",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "IEEE Open Journal of Control Systems",
+    "abstract": "In planar pursuit-evasion differential games considering a faster pursuer and a slower evader, the interception points resulting from equilibrium strategies lie on the Apollonius circle. This property is instrumental for leveraging geometric approaches for solving multiple pursuit-evasion scenarios in the plane. In this paper, we study a pursuit-evasion differential game on a sphere and generalize the planar Apollonius circle to the spherical domain. For the differential game, we provide equilibrium strategies for all initial positions of the pursuer and evader, including a special case when they are on the opposite sides of the sphere and on the same line with the center of the sphere when there are infinitely many geodesics between the two players. In contrast to planar scenarios, on the sphere we find that the interception point from the equilibrium strategies can leave the Apollonius domain boundary. We present a condition to ensure the intercept point remains on the boundary of the Apollonius domain. This condition allows for generalizing planar pursuit-evasion strategies to the sphere, and we show how these results are applied by analyzing the scenarios of target guarding and two-pursuer, single evader differential games on the sphere.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025cooperative/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2025dubins",
+    "slug": "manyam2025dubins",
+    "title": "Dubins Path With Terminal Range And Field-Of-View Constraints",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "This paper addresses a path planning problem for a turn-constrained vehicle equipped with a sensor that has a limited range and field of view (FOV). The vehicle is modeled using Dubins kinematics, and the objective is to determine the shortest path to point where that the target is detectable, i.e., within the sensor’s range and FOV. The limited sensor range imposes a constraint requiring the vehicle to reach a circle centered at the target’s position, with a radius equal to the sensor range. The field-of-view constraints are expressed as coupled conditions on the terminal position and heading. Pontryagin’s minimum principle restricts the optimal path to straight lines and arcs of minimum turn radius. Further analysis shows that the paths are limited to at most two segments. Straight-line segments occur exclusively when the final position lies on the boundary of the target circle. Furthermore, we present an analytical approach for computing optimal paths in scenarios where the optimality conditions result in complex geometric configurations.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2025dubins/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "chapman2025engagement",
+    "slug": "chapman2025engagement",
+    "title": "Engagement Zones For A Turn Constrained Pursuer",
+    "authors": [
+      "Chapman, Thomas",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy"
+    ],
+    "year": 2025,
+    "venue": "2025 International Conference On Unmanned Aircraft Systems (Icuas)",
+    "abstract": "This work derives two basic engagement zone models, describing regions of potential risk or capture for a mobile vehicle by a pursuer. The pursuer is modeled as having turnconstraints rather than simple motion. Turn-only (C-Paths) and turn-straight (CS-Paths) paths are considered for the pursuer of limited range. Following the derivation, a simulation of a vehicle avoiding the pursuer's engagement zone is provided.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/chapman2025engagement/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "surve2025heterogeneous",
+    "slug": "surve2025heterogeneous",
+    "title": "Heterogeneous Pursuit Of An Active Target Under Sensing Constraints",
+    "authors": [
+      "Surve, Prajakta",
+      "Bopardikar, Shaunak D",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "This article reviews both experimental and theoretical advances in the field of active matter which consists of natural and artificial objects capable of self-propulsion. Prime examples of active particles are Brownian particles, biological or manmade microscopic and nanoscopic objects, that can propel themselfes by taking up energy from their environment and converting it into directed motion. The review provides a guided tour through the basic principles and fabrication of active particles and discusses also many interesting future directions these manmade micromachines and nanomachines could take as autonomous agents for healthcare, sustainability, and security applications.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/surve2025heterogeneous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "mora2025influence",
+    "slug": "mora2025influence",
+    "title": "Influence Of Malicious Agents In A Team Seeking To Contain An Evader",
+    "authors": [
+      "Mora, Braulio",
+      "Chakravarthy, Animesh",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E",
+      "Casbeer, David"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "This paper explores a multi-agent containment problem, where a fast evader, modeled having constant speed and using constant heading, attempts to escape a circular containment region that is orbited by a slower team of pursuers with a nonzero capture radius. Two distinct multi-agent dynamic models cases are explored, the first uses a unicycle dynamics model with strict constraints, while the second uses a double integrator model with looser constraints and consensus laws implemented with a communication network. This paper considers the scenario wherein some of the pursuers get compromised and turn into malicious agents that suffer a delay in initiating the capture pursuit. A boost countermeasure is proposed and its effectiveness is investigated. This work provides a foundation for a consensus case that incorporates more restrictions in motion and extensions to larger teams of pursuers, as well as a more dynamic evader model.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/mora2025influence/paper.pdf",
+    "imagePath": "images/public/publications/mora2025influence/feature.png"
+  },
+  {
+    "id": "kashyap2025macroscopic",
+    "slug": "kashyap2025macroscopic",
+    "title": "Macroscopic-Model-Based Learning For Detection Of Cyber-Attacks In Uav Swarms",
+    "authors": [
+      "Kashyap, Abhishek",
+      "Chakravarthy, Animesh",
+      "Subbarao, Kamesh",
+      "Casbeer, David",
+      "Weintraub, Isaac",
+      "Hencey, Brandon"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "This paper considers a class of cyber-attacks aimed at a swarm of unmanned aerial vehicles (UAVs). Our focus is on scenarios wherein an attacker may hack into a subset of vehicles in the swarm and subtly modify their flight parameters. These hacked vehicles (referred to as malicious vehicles) are subsequently able to modify the behavior of the overall swarm. The swarm comprising the mix of malicious and normal vehicles is modeled using a system of coupled partial differential equations (PDEs) in a two-dimensional Lighthill–Whitham–Richards model. We develop a methodology that combines Gaussian processes with wave propagation analysis of this two-species PDE model and use this method for detecting the presence of malicious vehicles in the swarm. Simulation results demonstrate that this methodology performs successful detection of the malicious vehicles and also identifies their mode of attack on the UAV swarm.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kashyap2025macroscopic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "wolek2025maximum",
+    "slug": "wolek2025maximum",
+    "title": "Maximum Kinetic Energy Paths For A Decaying-Speed Dubins Vehicle",
+    "authors": [
+      "Wolek, Artur",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "This paper considers the optimal control problem of steering a Dubins vehicle with a decaying speed that depends linearly on the turn-rate to a terminal point and heading with maximum kinetic energy. Pontryagin’s minimum principle is applied and the extremals are identified as sequences of straight segments and spiral-shaped turns described by involutes of a circle. A method is proposed to exactly transcribe the optimal control problem into a series of finite dimensional optimizations. Each of these optimizations determines a locally optimal candidate path that reaches the terminal state. The lowest cost path among the candidate paths is then identified. The approach is demonstrated through several numerical examples.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/wolek2025maximum/paper.pdf",
+    "imagePath": "images/public/publications/wolek2025maximum/feature.png"
+  },
+  {
+    "id": "weintraub2025min",
+    "slug": "weintraub2025min",
+    "title": "Min-Time Escape Of A Dubins Car From A Polygon",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G",
+      "Pachter, Meir",
+      "Taylor, Colin",
+      "Chapman, Thomas"
+    ],
+    "year": 2025,
+    "venue": "2025 American Control Conference (Acc)",
+    "abstract": "A turn constrained vehicle is initially located inside a polygon region and desires to escape in minimum time. First, the method of characteristics is used to describe the time-optimal strategies for reaching a line of infinite length. Next, the approach is extended to polygons constructed of a series of line segments. Using this construction technique, the min-time path to reach each edge is obtained; the resulting minimum of the set of optimal trajectories is then selected for escaping the polygon.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025min/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "surve2025mutual",
+    "slug": "surve2025mutual",
+    "title": "Mutual Support By Sensor-Attacker Team For A Passive Target",
+    "authors": [
+      "Surve, Prajakta",
+      "Bopardikar, Shaunak D",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2025,
+    "venue": "IEEE Open Journal of Control Systems",
+    "abstract": "We introduce a pursuit game played between a team of a sensor and an attacker and a mobile target in the unbounded Euclidean plane. The target is faster than the sensor, but slower than the attacker. The sensor's objective is to keep the target within a sensing radius so that the attacker can capture the target, whereas the target seeks to escape by reaching beyond the sensing radius from the sensor without getting captured by the attacker. We assume that as long as the target is within the sensing radius from the sensor, the sensor-attacker team is able to measure the target's instantaneous position and velocity. We pose and solve this problem as agame of kindin which the target uses an open-loop strategy (passive target). Aside from the novel formulation, our contributions are four-fold. First, we present optimal strategies for both the sensor and the attacker, according to their respective objectives. Specifically, we design a sensor strategy that maximizes the duration for which the target remains within its sensing range, while the attacker uses proportional navigation to capture the target. Second, we characterize thesensable region– the region in the plane in which the target remains within the sensing radius of the sensor during the game – and show that capture is guaranteed if and only if the Apollonius circle between the attacker and the target is fully contained within this region. Third, we derive a lower bound on the target's speed below which capture is guaranteed, and an upper bound on the target speed above which there exists an escape strategy for the target, from an arbitrary initial orientation between the agents. Fourth, for a given initial orientation between the agents, we present a sharper upper bound on the target speed above which there exists an escape strategy for the target.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/surve2025mutual/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2025one",
+    "slug": "von2025one",
+    "title": "One-Vs-One Threat-Aware Weaponeering With Basic Engagement Zones",
+    "authors": [
+      "Von Moll, Alexander",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "2025 International Conference On Unmanned Aircraft Systems (Icuas)",
+    "abstract": "In this paper we address the problem of ‘weaponeering’, i.e., placing the weapon engagement zone (WEZ) of a vehicle on a moving target, while simultaneously avoiding the target's WEZ. A WEZ describes the lethality region of a range-limited weapon considering both the range of the weapon along with the state of the target. The weapons are assumed to have simple motion, while the vehicles carrying the weapons are modeled with Dubins dynamics. Three scenarios are investigated and are differentiated in the assumptions that can be made about the target in the process of the vehicle control design: 1) no knowledge of target control, 2) avoid unsafe positions assuming the target's optimal control, 3) full knowledge of target's optimal control. The engagement is formulated as a stochastic optimal control problem with uncertainty in the target's control modeled using a noise parameter applied to the target's control input. After discretizing the Hamilton-Jacobi-Bellman equation, Value iteration is then used to obtain an approximate solution for the optimal vehicle control and time-to-go. Simulation results support usage of the first paradigm: assume no knowledge of the target's control.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2025one/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2025policy",
+    "slug": "milutinovic2025policy",
+    "title": "Policy For Optimal Avoidance Of Multiple Engagement Zones",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "Aiaa Scitech 2025 Forum",
+    "abstract": "This work formulates the feedback control strategies for vehicles to reach a goal point amongst a field of dynamic risk regions. Whereas previous work has considered deterministic versions of this problem, we consider the scenario in the context of uncertainty. This uncertainty could be due to unknown wind or other external disturbances. The risk regions’ dynamics are tightly coupled to the state of the vehicle and as a result the task of navigating through a field dynamically changes as the vehicle traverses through it. Rather than using a nonlinear program solver, the approach taken here is one of formulating the problem as a stochastic optimal control problem wherein a feedback control law is derived. This feedback control law allows a single or multiple vehicles to reach the desired goal location efficiently and with minimal risk incursion. When inside a risk region, there is a probability rate of the vehicle being neutralized. The stochastic dynamical system is modeled as a hybrid system, i.e., regime switching diffusion. The hybrid system is comprised of continuous spatial dynamics and discrete operational states corresponding to “normal” and “neutralized”. The optimal control problem is discretized into a field of vehicle states and control. Using Value Iteration, the control signal at each discrete location is optimized, providing a feedback control strategy over the field. Following a discussion of the methods and approaches, this problem is formulated, simulations are performed, and conclusions and remarks are made.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025policy/paper.pdf",
+    "imagePath": "images/public/publications/milutinovic2025policy/feature.png"
+  },
+  {
+    "id": "chapman2025safe",
+    "slug": "chapman2025safe",
+    "title": "Safe Navigation In The Presence Of Range-Limited Pursuers",
+    "authors": [
+      "Chapman, Thomas",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2025,
+    "venue": "IEEE Control Systems Letters",
+    "abstract": "This paper examines the degree to which an evader seeking a safe and efficient path to a target location can benefit from increasing levels of knowledge regarding one or more range-limited pursuers seeking to intercept it. Unlike previous work, this research considers the time of flight of the pursuers actively attempting interception. It is shown that additional knowledge allows the evader to safely steer closer to the threats, shortening paths without accepting additional risk of capture. A control heuristic is presented, suitable for real-time implementation, which capitalizes on all knowledge available to the evader.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/chapman2025safe/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2025shortest",
+    "slug": "manyam2025shortest",
+    "title": "Shortest Dubins Path To A Moving Circle With Free Final Heading",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2025,
+    "venue": "2025 American Control Conference (Acc)",
+    "abstract": "In this paper the shortest time strategy of a turn-constrained vehicle for reaching a circle moving on a straight line is posed and solved. The shortest curvature constrained path to a circle is comprised of a left or right turning arc of minimum turn radius (L/R) and straight-line segment (S). An analysis of each of the candidate Dubins modes is provided. Under the condition that the agent’s initial position is not on the path of the moving circle, we prove that the length of the shortest Dubins path to the circle is a continuous function of the position of the target center. Leveraging this continuity, we propose an algorithm that uses the bisection search and finds the time-optimal solution. A lower bound to the solution is obtained when the agent’s initial position lies on the path of the moving circle, and a heuristic approach is discussed for such instances.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2025shortest/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2025stochastic",
+    "slug": "milutinovic2025stochastic",
+    "title": "Stochastic Optimal Avoidance Of Multiple Engagement Zones",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "This work formulates feedback control strategies for vehicles to reach a goal point amongst a field of dynamic risk regions. Whereas previous work has considered deterministic versions of this problem, this work considers the scenario in the context of uncertainty. This uncertainty could be due to unknown wind or other external disturbances. The risk regions’ dynamics are tightly coupled to the state of the vehicle, and as a result the task of navigating through a field dynamically changes as the vehicle traverses through it. Rather than using a nonlinear program solver, the approach taken here is one of formulating the problem as a stochastic optimal control problem wherein a feedback control law is derived. This feedback control law allows a single or multiple vehicles to reach the desired goal location efficiently and with a minimal risk incursion. When inside a risk region, there is a probability rate of the vehicle being neutralized. The stochastic dynamical system is modeled as a hybrid system, i.e., regime switching diffusion. The hybrid system is comprised of continuous spatial dynamics and discrete operational states corresponding to “normal” and “neutralized.” The optimal control problem is discretized into a field of vehicle states and control. Using Value Iteration, the control signal at each discrete location is optimized, providing a feedback control strategy over the field. Following a discussion of the methods and approaches, this problem is formulated, simulations are performed, and conclusions and remarks are made. ¶",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2025stochastic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "denton2025basic",
+    "slug": "denton2025basic",
+    "title": "The Basic Engagement Zone In 3-D",
+    "authors": [
+      "Denton, Alexander W",
+      "Kunz, Donald",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2025,
+    "venue": "Naecon 2025-Ieee National Aerospace And Electronics Conference",
+    "abstract": "A considerable body of work highlights the relevance of collaborative research, contract research, consulting and informal relationships for university–industry knowledge transfer. We present a systematic review of research on academic scientists’ involvement in these activities to which we refer as ‘academic engagement’. Apart from extracting findings that are generalisable across studies, we ask how academic engagement differs from commercialisation, defined as intellectual property creation and academic entrepreneurship. We identify the individual, organisational and institutional antecedents and consequences of academic engagement, and then compare these findings with the antecedents and consequences of commercialisation. Apart from being more widely practiced, academic engagement is distinct from commercialisation in that it is closely aligned with traditional academic research activities, and pursued by academics to access resources supporting their research agendas. We conclude by identifying future research needs, opportunities for methodological improvement and policy interventions.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/denton2025basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2025virtual",
+    "slug": "weintraub2025virtual",
+    "title": "Virtual Target Selection For A Multiple-Pursuer--Multiple-Evader Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David W",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "This paper considers an M-pursuer N-evader scenario involving virtual targets. The virtual targets serve as an intermediary target for the pursuers, allowing the pursuers to delay their final assignment to the evaders. However, upon reaching the virtual target, the pursuers must decide which evader to capture. It is assumed that there are more pursuers than evaders and that the pursuers are faster than the evaders. The objective is two-part: first, assign each pursuer to virtual target and evader such that the pursuer team's energy is minimized, and second, choose the virtual targets' locations for this minimization problem. The approach taken is to consider the Apollonius geometry between each pursuer's virtual target location and each evader. Using the constructed Apollonius circles, the pursuer's travel distance and maneuver at a virtual target are obtained. These metrics serve as a gauge for the total energy required to capture a particular evader and are used to solve the joint virtual target selection and pursuer-evader assignment problem. This paper provides a mathematical definition of this problem, the solution approach taken, and an example.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2025virtual/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "gotwald2024leader",
+    "slug": "gotwald2024leader",
+    "title": "A Leader-Follower Control Strategy Built And Refined Using Relational Maneuver Primitives For Approximating Optimal Trajectories In Real-Time",
+    "authors": [
+      "Gotwald, Carl",
+      "Zollars, Michael D",
+      "Reeger, Jonah A",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "The work herein presents a new approach to aircraft control within a leader-follower formation, and the refinement process used in its development. During autonomous flight, a follower aircraft is tasked to rejoin and maintain a designated formation position, which is defined dynamically in reference to a maneuvering leader aircraft. Simple control algorithms, named Relational Maneuver Primitives, are intelligently combined into a control strategy such that the autonomous follower aircraft’s response approximates the optimal trajectory. This research specifically addresses the control strategy refinement process where a genetic algorithm is implemented to determine the appropriate selection of Relational Maneuver Primitives based on the Time-To-Go between the follower aircraft and the desired goal position. The control strategy takes the form of a lookup table database based on the current state of the follower aircraft which provides the autopilot with the appropriate Relational Maneuver Primitive to use over the next time step. Two test cases are presented which demonstrate a 36% and 48% reduction in error between the follower response trajectory and the follower optimal trajectory when compared to using a single Relational Maneuver Primitive.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2024leader/paper.pdf",
+    "imagePath": "images/public/publications/gotwald2024leader/feature.png"
+  },
+  {
+    "id": "gotwald2024aircraft",
+    "slug": "gotwald2024aircraft",
+    "title": "Aircraft Control Strategy Using Relational Maneuvering Primitives",
+    "authors": [
+      "Gotwald, Carl",
+      "Zollars, Michael",
+      "Weintraub, Isaac E.",
+      "Reeger, Jonah"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "Selectional constraints are limitations on the applicability of predicates to arguments. For example, the statement “The number two is blue” may be syntactically well formed, but at some level it is anomalous — BLUE is not a predicate that can be applied to numbers.\\nAccording to the influential theory of (Katz and Fodor, 1964), a predicate associates a set of defining features with each argument, expressed within a restricted semantic vocabulary. Despite the persistence of this theory, however, there is widespread agreement about its empirical shortcomings (McCawley, 1968; Fodor, 1977). As an alternative, some critics of the Katz-Fodor theory (e.g. (Johnson-Laird, 1983)) have abandoned the treatment of selectional constraints as semantic, instead treating them as indistinguishable from inferences made on the basis of factual knowledge. This provides a better match for the empirical phenomena, but it opens up a different problem: if selectional constraints are the same as inferences in general, then accounting for them will require a much more complete understanding of knowledge representation and inference than we have at present.\\nThe problem, then, is this: how can a theory of selectional constraints be elaborated without first having either an empirically adequate theory of defining features or a comprehensive theory of inference?\\nIn this dissertation, I suggest that an answer to this question lies in the representation of conceptual knowledge. Following Miller (1990b), I adopt a “differential” approach to conceptual representation, in which a conceptual taxonomy is defined in terms of inferential relationships rather than definitional features. Crucially, however, the inferences underlying the stored knowledge are not made explicit. My hypothesis is that a theory of selectional constraints need make reference only to knowledge stored in such a taxonomy, without ever referring overtly to inferential processes. I propose such a theory, formalizing selectional relationships in probabilistic terms: the selectional behavior of a predicate is modeled as its distributional effect on the conceptual classes of its arguments. This is expressed using the information-theoretic measure of relative entropy (Kullback and Leibler, 1951), which leads to an illuminating interpretation of what selectional constraints are: the strength of a predicate’s selection for an argument is identified with the quantity of information it carries about that argument.\\nIn addition to arguing that the model is empirically adequate, I explore its application to two problems. The first concerns a linguistic question: why some transitive verbs permit implicit direct objects (“John ate Ø”) and others do not (“*John brought Ø”). It has often been observed informally that the omission of objects is connected to the ease with which the object can be inferred. I have made this observation more formal by positing a relationship between selectional constraints and inferability. This predicts (i) that verbs permitting implicit objects select more strongly for (i.e. carry more information about) that argument than verbs that do not, and (ii) that strength of selection is a predictor of how often verbs omit their objects in naturally occurring utterances. Computational experiments confirm these predictions.\\nSecond, I have explored the practical applications of the model in resolving syntactic ambiguity. A number of authors have recently begun investigating the use of corpus-based lexical statistics in automatic parsing; the results of computational experiments using the present model suggest that many lexical relationships are better viewed in terms of underlying conceptual relationships. Thus the information-theoretic measures proposed here can serve not only as components in a theory of selectional constraints, but also as tools for practical natural language processing.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2024aircraft/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024basic",
+    "slug": "von2024basic",
+    "title": "Basic Engagement Zones",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2024,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024basic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2024deterministic",
+    "slug": "weintraub2024deterministic",
+    "title": "Deterministic Risk-Aware Path-Planning Around Multiple Threats",
+    "authors": [
+      "Weintraub, Isaac E.",
+      "Wolek, Artur, Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "This paper presents recommended methodologies for the quantitative analysis of landslide hazard, vulnerability and risk at different spatial scales (site-specific, local, regional and national), as well as for the verification and validation of the results. The methodologies described focus on the evaluation of the probabilities of occurrence of different landslide types with certain characteristics. Methods used to determine the spatial distribution of landslide intensity, the characterisation of the elements at risk, the assessment of the potential degree of damage and the quantification of the vulnerability of the elements at risk, and those used to perform the quantitative risk analysis are also described. The paper is intended for use by scientists and practising engineers, geologists and other landslide experts.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2024deterministic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024digitally",
+    "slug": "von2024digitally",
+    "title": "Digitally Enhanced Aim-Point For Capture Of Mobile Targets",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac E."
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "Digital technology is the representation of information in bits. This technology has reduced the cost of storage, computation, and transmission of data. Research on digital economics examines whether and how digital technology changes economic activity. In this review, we emphasize the reduction in five distinct economic costs associated with digital economic activity: search costs, replication costs, transportation costs, tracking costs, and verification costs. (JEL D24, D83, L86, O33, R41)",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024digitally/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "mora2024escape",
+    "slug": "mora2024escape",
+    "title": "Escape From An Orbiting Pursuer With A Nonzero Capture Radius",
+    "authors": [
+      "Mora, Braulio",
+      "Von Moll, Alexander",
+      "Weintraub, Isaac",
+      "Casbeer, David W",
+      "Chakravarthy, Animesh"
+    ],
+    "year": 2024,
+    "venue": "Naecon 2024-Ieee National Aerospace And Electronics Conference",
+    "abstract": "This paper explores a multi-agent containment problem, where a fast evader, modeled having constant speed and using constant heading, attempts to escape a circular containment region that is orbited by a slower pursuer with a nonzero capture radius. The pursuer is constrained to move along the edge of the containment region and seeks to capture the evader. This paper presents an in-depth analysis of this pursuer-evader containment scenario. First, multiple types of capture conditions for a single-pursuer case are analyzed defining the worst-case initial position for the pursuer. Second, a parametric study is performed to demonstrate the effects of speed ratio, capture radius, and initial location of the evader. Finally, a reachability analysis is performed to investigate the viable escape headings and reachable regions by the evader. This work provides a foundation for the analysis of escape under more general evader inputs as well as a multinle- pursuer version of the scenario.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/mora2024escape/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2024minimum",
+    "slug": "weintraub2024minimum",
+    "title": "Minimum Time Escape From A Circular Region Of A Dubins Car",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Pachter, Meir"
+    ],
+    "year": 2024,
+    "venue": "arXiv preprint arXiv:2405.05725",
+    "abstract": "A turn-constrained evader strives to escape a circular region in minimum time.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2024minimum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kashyap2024modeling",
+    "slug": "kashyap2024modeling",
+    "title": "Modeling And Detection Of Cyber-Attacks In Uav Swarms Using A 2d-Lwr Model And Gaussian Processes",
+    "authors": [
+      "Kashyap, Abhishek",
+      "Chakravarthy, Animesh",
+      "Subbarao, Kamesh",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Hencey, Brandon"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "This paper considers a class of cyber-attacks attacking a swarm of Unmanned Aerial Vehicles (UAVs). Our focus is on scenarios wherein an attacker may hack into a subset of vehicles in the swarm and create subtle changes in their parameters. These hacked vehicles (referred to as malicious vehicles) are subsequently able to modify the behavior of the overall swarm. The swarm comprising the mix of malicious and normal vehicles is modeled using a system of coupled Partial Differential Equations (PDEs) in a two-dimensional LWR model. We develop a methodology that combines Gaussian Processes (GP) with this two-species 2D PDE model, and use this method for detecting the presence of such malicious vehicles in the swarm. A Bayesian Optimization scheme is employed to determine the optimal choice of basis and kernel functions that constitute the GP. Simulation results demonstrate that this detection architecture performs successful detection of the malicious vehicles, and also their mode of attack on the traffic.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kashyap2024modeling/paper.pdf",
+    "imagePath": "images/public/publications/kashyap2024modeling/feature.png"
+  },
+  {
+    "id": "scott2024multi",
+    "slug": "scott2024multi",
+    "title": "Multi Agent Pathfinding For Noise Restricted Hybrid Fuel Unmanned Aerial Vehicles",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "2024 American Control Conference (Acc)",
+    "abstract": "Multi Agent Path Finding (MAPF) seeks the optimal set of paths for multiple agents from respective start to goal locations such that no paths conflict. We address the MAPF problem for a fleet of hybrid-fuel unmanned aerial vehicles which are subject to location-dependent noise restrictions. We solve this problem by searching a constraint tree for which the subproblem at each node is a set of shortest path problems subject to the noise and fuel constraints and conflict zone avoidance. A labeling algorithm is presented to solve this subproblem, including the conflict zones which are treated as dynamic obstacles. We present the experimental results of the algorithms for various graph sizes and number of agents.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2024multi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "scott2024noise",
+    "slug": "scott2024noise",
+    "title": "Noise Aware Path Planning And Power Management Of Hybrid Fuel Uavs",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Weintraub, Isaac E",
+      "Casbeer, David W",
+      "Kumar, Manish"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "abstract": "Hybrid fuel Unmanned Aerial Vehicles (UAV), through their combination of multiple energy sources, offer several advantages over the standard single fuel source configuration, the primary one being increased range and efficiency. Multiple power or fuel sources also allow the distinct pitfalls of each source to be mitigated while exploiting the advantages within the mission or path planning. We consider here a UAV equipped with a combustion engine-generator and battery pack as energy sources. We consider the path planning and power-management of this platform in a noise-aware manner. To solve the path planning problem, we first present the Mixed Integer Linear Program (MILP) formulation of the problem. We then present and analyze a label-correcting algorithm, for which a pseudo-polynomial running time is proven. Results of extensive numerical testing are presented which analyze the performance and scalability of the labeling algorithm for various graph structures, problem parameters, and search heuristics. It is shown that the algorithm can solve instances on graphs as large as twenty thousand nodes in only a few seconds. Note to Practitioners—The problem and algorithms proposed in this paper are relevant to constrained planning problems in general and specifically to those focused on widespread usage of small aerial vehicles in congested, urban environments. We are concerned here with the path planning of hybrid-fuel aerial vehicles in a noise-aware manner. This is motivated by the increasing usage of aerial vehicles, envisioning a probable future restriction on noise production in certain airspaces and the planning of such vehicles in those airspaces. We explore this novel problem, and present an approach to quickly find the optimal path and power plan in the presence of the noise constraints. The approach here is a discrete one, where the solution is a discrete set of edges and discrete generator settings which must be smoothed to obtain control inputs for a real system. The discrete approach allows solutions to be found quickly while giving up the true optimal trajectory that can be found when considering from a continuous framework. In practice, environment sampling and graph construction will greatly affect time-to-solve and as overall solution quality relative to a continuous approach to the trajectory and generator control.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2024noise/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "von2024pure",
+    "slug": "von2024pure",
+    "title": "Pure Pursuit Of A Target On A Circular Trajectory",
+    "authors": [
+      "Von Moll, Alexander L",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Pachter, Meir"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Scitech 2024 Forum",
+    "abstract": "This investigation seeks to obtain estimates on the intercept time associated with a fast Pursuer implementing Pure Pursuit against a Target whose trajectory is a circular arc. The analytical solution of the kinematic equations of motion is not feasible and thus the baseline approach for computing the intercept time is numerical simulation, i.e., numerical integration of the kinematics. This method can obtain the intercept time in (essentially) real time for a single Pursuer against a single Target. Here, the goal is to estimate the intercept time using orders of magnitude less computational time. Although not explicitly explored in this work, the purpose of such approximations is to make feasible the rapid evaluation of Pursuer-to-Target assignments in a massive many-on-many engagement scenario wherein the intercept time may be a key measure. Several approximation methods are proposed here and their merits (or lack thereof) are demonstrated through simulation. Ultimately, assuming the Target is not actually turning may be suitable when its turn radius is relatively large, while assuming intercept occurs at the closest point on the turn circle may be suitable when its turn radius is relatively small.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2024pure/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "milutinovic2024pursuit",
+    "slug": "milutinovic2024pursuit",
+    "title": "Pursuit-Evasion On A Sphere And When It Can Be Considered Flat",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2024,
+    "venue": "2024 Ieee 63rd Conference On Decision And Control (Cdc)",
+    "abstract": "In planar pursuit-evasion differential games considering a faster pursuer and slower evader, the interception points resulting from equilibrium strategies lie on the Apollonius circle. This property is instrumental for leveraging geometric approaches for solving multiple pursuit-evasion scenarios in the plane. Here, we study a pursuit-evasion differential game on a sphere and generalize the planar Apollonius set to the spherical domain. We find that the interception point from the equilibrium strategies can leave the Apollonius set boundary and present a condition to keep the intercept point on the boundary. This condition allows for generalizing planar pursuitevasion strategies to the sphere.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2024pursuit/paper.pdf",
+    "imagePath": "images/public/publications/milutinovic2024pursuit/feature.png"
+  },
+  {
+    "id": "ranjan2024relational",
+    "slug": "ranjan2024relational",
+    "title": "Relational Maneuvering Of Leader-Follower Unmanned Aerial Vehicles For Flexible Formation",
+    "authors": [
+      "Ranjan, Praveen Kumar",
+      "Sinha, Abhinav",
+      "Cao, Yongcan",
+      "Casbeer, David",
+      "Weintraub, Isaac"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Cybernetics",
+    "abstract": "In this article, we propose a new formation scheme for a leader-follower unmanned aerial vehicle (UAV) system inspired by a human pilot's behavior wherein the formation geometry does not necessarily remain fixed as the vehicles maneuver. In other words, the position and the orientation of the follower with respect to the leader are subject to change as they maneuver while satisfying some constraints. Our strategy ensures that the follower UAV maintains a desired fixed relative distance with respect to the leader UAV, whereas its orientation with respect to the leader UAV may change to reduce its control effort and provide it with a tactical advantage. We call this new relational maneuvering scheme flexible since the set of feasible positions for the follower UAV is not fixed, as is common in close proximity two-ship formations in air-to-air combat. By assigning the follower UAV's linear and angular velocities as its control inputs, our approach tries to emulate a human pilot's behavior in UAVs by taking anticipatory maneuvers when the leader UAV makes aggressive turns. The proposed flexible-geometry formation scheme is robust to the leader's maneuver changes since the follower UAV's control law does not need the information of the leader's angular speed control and only uses relative measurements. This makes the design lucrative even when the vehicles are heterogeneous, global measurements are unavailable, or if the leader UAV is noncooperative. Finally, we present multiple simulations to highlight the merits of the flexible formation control laws.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ranjan2024relational/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "wolek2024sampling",
+    "slug": "wolek2024sampling",
+    "title": "Sampling-Based Risk-Aware Path Planning Around Dynamic Engagement Zones",
+    "authors": [
+      "Wolek, Artur",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Manyam, Satyanarayana G"
+    ],
+    "year": 2024,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/wolek2024sampling/paper.pdf",
+    "imagePath": "images/public/publications/wolek2024sampling/feature.png"
+  },
+  {
+    "id": "milutinovic2024stochastic",
+    "slug": "milutinovic2024stochastic",
+    "title": "Stochastic Risk-Aware Path Planning Around Multiple Threats",
+    "authors": [
+      "Milutinovi{\\'c"
+    ],
+    "year": 2024,
+    "venue": "Aiaa Defense Forum",
+    "abstract": "This paper presents recommended methodologies for the quantitative analysis of landslide hazard, vulnerability and risk at different spatial scales (site-specific, local, regional and national), as well as for the verification and validation of the results. The methodologies described focus on the evaluation of the probabilities of occurrence of different landslide types with certain characteristics. Methods used to determine the spatial distribution of landslide intensity, the characterisation of the elements at risk, the assessment of the potential degree of damage and the quantification of the vulnerability of the elements at risk, and those used to perform the quantitative risk analysis are also described. The paper is intended for use by scientists and practising engineers, geologists and other landslide experts.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/milutinovic2024stochastic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "pachter2024synthesis",
+    "slug": "pachter2024synthesis",
+    "title": "The Synthesis Of Optimal Control Laws Using Isaacs’ Method For The Solution Of Differential Games",
+    "authors": [
+      "Pachter, Meir",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2024,
+    "venue": "Journal of Optimization Theory and Applications",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/pachter2024synthesis/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2023automatic",
+    "slug": "weintraub2023automatic",
+    "title": "Automatic Engagement Zone Avoidance: Theory And Practice",
+    "authors": [
+      "Weintraub, Isaac E.",
+      "Von Moll, Alexander",
+      "Hanlon, Nicholas"
+    ],
+    "year": 2023,
+    "venue": "Aiaa Defense",
+    "abstract": "Abstract This paper explores the important role of critical science, and in particular of post-colonial and decolonial theories, in understanding and shaping the ongoing advances in artificial intelligence. Artificial intelligence (AI) is viewed as amongst the technological advances that will reshape modern societies and their relations. While the design and deployment of systems that continually adapt holds the promise of far-reaching positive change, they simultaneously pose significant risks, especially to already vulnerable peoples. Values and power are central to this discussion. Decolonial theories use historical hindsight to explain patterns of power that shape our intellectual, political, economic, and social world. By embedding a decolonial critical approach within its technical practice, AI communities can develop foresight and tactics that can better align research and technology development with established ethical principles, centring vulnerable peoples who continue to bear the brunt of negative impacts of innovation and scientific progress. We highlight problematic applications that are instances of coloniality, and using a decolonial lens, submit three tactics that can form a decolonial field of artificial intelligence: creating a critical technical practice of AI, seeking reverse tutelage and reverse pedagogies, and the renewal of affective and political communities. The years ahead will usher in a wave of new scientific breakthroughs and technologies driven by AI research, making it incumbent upon AI communities to strengthen the social contract through ethical foresight and the multiplicity of intellectual perspectives available to us, ultimately supporting future technologies that enable greater well-being, with the goal of beneficence and justice for all.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023automatic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "gotwald2023determining",
+    "slug": "gotwald2023determining",
+    "title": "Determining Follower Aircraft's Optimal Trajectory In Relation To A Dynamic Formation Ring",
+    "authors": [
+      "Gotwald, Carl A",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2023,
+    "venue": "2023 Ieee Aerospace Conference",
+    "abstract": "The specific objective of this paper is to develop a tool that calculates the optimal trajectory of the follower aircraft as it completes a formation rejoin, and then maintains the formation position, defined as a ring of points, until a fixed final time. The tool is designed to produce optimal trajectories for a variety of initial conditions and leader trajectories. Triple integrator dynamics are used to model the follower aircraft in three dimensions. Control is applied directly to the rate of acceleration. Both the follower's and leader's velocities and accelerations are bounded, as dictated by the aircraft's performance envelope. Lastly, a path constraint is used to ensure the follower avoids the leader's jet wash region. This optimal control problem is solved through numerical analysis using the direct orthogonal collocation solver GPOPS-II. Two leader trajectories are investigated, including a descending spiral and continuous vertical loops. Additionally, a study of the effect of various initial guesses is performed. All trajectories displayed a direct capture of the formation position, however changes in solver initial conditions demonstrate various behaviors in how the follower maintains the formation position. The developed tool has proven adequate to support future research in crafting real-time controllers capable of determining near-optimal trajectories.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/gotwald2023determining/paper.pdf",
+    "imagePath": "images/public/publications/gotwald2023determining/feature.png"
+  },
+  {
+    "id": "scott2023development",
+    "slug": "scott2023development",
+    "title": "Development Of Linear Battery Model For Path Planning With Mixed Integer Linear Programming: Simulated And Experimental Validation",
+    "authors": [
+      "Scott, Drew D",
+      "Weintraub, Isaac E",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Rothenberger, Michael J"
+    ],
+    "year": 2023,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "Mixed Integer Linear Programs (MILPs) are often used in the path planning of both ground and aerial vehicles. Such a formulation of the path planning problem requires a linear objective function and constraints, limiting the fidelity of the tracking of vehicle states. One such state often used is the charge level of the on board battery. High-fidelity battery state estimation requires nonlinear differential equations to be solved. This state estimation is vital in path planning to ensure flyable paths, however when using a linear path planning problem cannot implement these nonlinear models. Poor accuracy in battery estimation during the path planning runs the risk of the planned path being feasible by the estimation model but in reality will deplete the battery to a critical level, resulting in a dangerous planned path. To the end of higher accuracy battery estimation within a linear framework, we test a simple linear battery model which predicts the change in state-of-charge (SOC) of a battery given a power draw, time duration, and current SOC in the context of an a-priori path planning problem. This context differentiates itself from real-time estimation. In ahead-of-time path planning, the changes to battery draw are often assumed as a series of constant power draws as opposed to rapidly changing power draw which may occur in real-time battery tracking and estimation. The linear battery model is presented and then tested against alternate models in both numerical and in experimental tests. Further, the effect of the proposed linear model on the time-to-solve a resource constrained shortest path problem is also evaluated, where two different algorithms are used to solve the path planning problem. It is seen that the linear model performs well in battery state estimation while remaining implementable in a Linear Program or MILP, with minimal effect on the time-to-solve. This provides what we consider to be a worthwhile trade-off in improved accuracy relative to increased time-to-solve.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2023development/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kumar2023energy",
+    "slug": "kumar2023energy",
+    "title": "Energy-Efficient Ring Formation Control With Constrained Inputs",
+    "authors": [
+      "Kumar Ranjan, Praveen",
+      "Sinha, Abhinav",
+      "Cao, Yongcan",
+      "Tran, Dzung",
+      "Casbeer, David",
+      "Weintraub, Isaac"
+    ],
+    "year": 2023,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kumar2023energy/paper.pdf",
+    "imagePath": "images/public/publications/kumar2023energy/feature.png"
+  },
+  {
+    "id": "von2023multi",
+    "slug": "von2023multi",
+    "title": "Multi-Agent Risk-Aware Teaming Under Uncertainty (Marty)",
+    "authors": [
+      "Von Moll, Alexander",
+      "Weintraub, Isaac"
+    ],
+    "year": 2023,
+    "venue": "",
+    "abstract": "Supply Chain Management relies on human consensus in decision-making to avoid emergent problems like the bullwhip effect. Some routine consensus processes, especially those that are time-intensive, can be automated. Previously proposed supply chain automation solutions for consensus-seeking and coordination faced computational challenges, resulting in high entry barriers. Recent advances in Generative AI, particularly Large Language Model agents (LLM agents), could overcome these barriers. This paper explores how LLM agents can automate consensus-seeking in supply chains. We introduce a series of novel, supply chain-specific consensus-seeking frameworks and validate the effectiveness of our approach through a case study in inventory management, where agents that represent companies in a supply chain are able to balance selfish goals with systemic outcomes through conversation. Our results show that introducing LLM-based consensus-seeking frameworks reduces bullwhip effects. When equipped with appropriate tools, LLM agents can minimise bullwhip better than restocking policies and centralised demand approaches. Additionally, when LLM agents are handled within a negotiation framework, their behaviour converges to best practices in the supply chain literature on how to lessen the bullwhip effect. To provide a foundation for further advancements in LLM-based autonomous supply chain solutions, we open-source our code.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/von2023multi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "scott2023optimal",
+    "slug": "scott2023optimal",
+    "title": "Optimal Generator Policy For Hybrid Fuel Uav Under Airspace Noise Restrictions",
+    "authors": [
+      "Scott, Drew D",
+      "Weintraub, Isaac E",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish"
+    ],
+    "year": 2023,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "Here we study an optimal control problem involving energy management of a hybrid-fuel Unmanned Aerial Vehicle (UAV). The planning problem for a hybrid-fuel platform involves determining the path while managing the energy resources, which includes a policy for power modality switching whenever applicable. The hybrid-fuel platform considered here involves a generator and battery pack combined in a series fashion as energy sources on-board a UAV. Also included in the problem are the noise restrictions, which place constraints on generator operation depending on the airspace location. These emulate possible restrictions on UAV noise that occur in military surveillance missions or in urban path planning, where the collective noise of many UAVs, some with combustion engines, may be restricted in certain areas or times of the day. We present a hybrid methodology which starts from an initial path and generator pattern obtained from a mixed integer linear program (MILP) solution. The generator pattern from the discrete solution is then refined in an optimal control framework with an objective to minimize fuel usage, while considering the nonlinear battery and generator dynamics and noise-restriction constraints. Optimal control problem is solved with a nonlinear program solver, IPOPT. Numerical results are presented and analyzed with varying path lengths and scenarios. This work aims to serve as an initial study of this hybrid-fuel UAV problem within an optimal control framework, which can be extended to refinement of both the generator pattern and the trajectory in tandem, while considering vehicle and power dynamics that are often ignored in discrete path planning solutions.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2023optimal/paper.pdf",
+    "imagePath": "images/public/publications/scott2023optimal/feature.png"
+  },
+  {
+    "id": "dillon2023optimal",
+    "slug": "dillon2023optimal",
+    "title": "Optimal Trajectories For Aircraft Avoidance Of Multiple Weapon Engagement Zones",
+    "authors": [
+      "Dillon, Patrick M",
+      "Zollars, Michael D",
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander"
+    ],
+    "year": 2023,
+    "venue": "Journal of Aerospace Information Systems",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/dillon2023optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "zollars2023optimal",
+    "slug": "zollars2023optimal",
+    "title": "Optimal Trajectories For Multiple-Uas Simultaneous Target Acquisition With Obstacle Avoidance",
+    "authors": [
+      "Zollars, Michael D",
+      "Grymin, David J",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2023,
+    "venue": "arXiv preprint arXiv:2303.16951",
+    "abstract": "We discuss the evolution and state-of-the-art of the use of Unmanned Aerial Systems (UAS) in the field of Photogrammetry and Remote Sensing (PaRS). UAS, Remotely-Piloted Aerial Systems, Unmanned Aerial Vehicles or simply, drones are a hot topic comprising a diverse array of aspects including technology, privacy rights, safety and regulations, and even war and peace. Modern photogrammetry and remote sensing identified the potential of UAS-sourced imagery more than thirty years ago. In the last five years, these two sister disciplines have developed technology and methods that challenge the current aeronautical regulatory framework and their own traditional acquisition and processing methods. Navety and ingenuity have combined off-the-shelf, low-cost equipment with sophisticated computer vision, robotics and geomatic engineering. The results are cm-level resolution and accuracy products that can be generated even with cameras costing a few-hundred euros. In this review article, following a brief historic background and regulatory status analysis, we review the recent unmanned aircraft, sensing, navigation, orientation and general data processing developments for UAS photogrammetry and remote sensing with emphasis on the nano-micro-mini UAS segment.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/zollars2023optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2023range",
+    "slug": "weintraub2023range",
+    "title": "Range-Limited Pursuit-Evasion",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Pachter, Meir"
+    ],
+    "year": 2023,
+    "venue": "Naecon 2023-Ieee National Aerospace And Electronics Conference",
+    "abstract": "In pursuit-evasion the objective of the pursuer is to capture the evader. In this work, the faster pursuer is modeled to have limited range and therefore optimal strategies for the pursuer and evader change. Depending upon the range limits of the pursuer the evader may evade capture by the pursuer. This paper describes the optimal strategies and nuances that appear for point-capture or when the pursuer is endowed with a non-zero capture radius.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023range/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2023range/feature.png"
+  },
+  {
+    "id": "weintraub2023surveillance",
+    "slug": "weintraub2023surveillance",
+    "title": "Surveillance Of A Faster Fixed-Course Target",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Casbeer, David W",
+      "Pachter, Meir"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+    "abstract": "The maximum surveillance of a target which is holding course is considered, wherein an observer vehicle aims to maximize the time that a faster target remains within a fixed-range of the observer. This entails two coupled phases: 1) approach phase and 2) observation phase. In the approach phase, the observer strives to make contact with the faster target, such that in the observation phase, the observer is able to maximize the time where the target remains within range. Using Pontryagin's Minimum Principle, the optimal control laws for the observer are found in closed-form. Example scenarios highlight various aspects of the engagement.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2023surveillance/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2023surveillance/feature.png"
+  },
+  {
+    "id": "weintraub2022optimal",
+    "slug": "weintraub2022optimal",
+    "title": "An Optimal Engagement Zone Avoidance Scenario In 2-D",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Carrizales, Christian A",
+      "Hanlon, Nicholas",
+      "Fuchs, Zachariah E"
+    ],
+    "year": 2022,
+    "venue": "Aiaa Scitech 2022 Forum",
+    "abstract": "View Video Presentation: https://doi.org/10.2514/6.2022-1587.vid In this paper, an optimal control problem is considered where a target vehicle aims to reach a desired location in minimum time while avoiding a dynamic engagement zone. Using simple motion, four potential approaches are considered. First, the min-time strategy which ignores the engagement zone is posed and solved. Second, the min-time strategy which avoids the engagement zone entirely is considered. Third, the min-time strategy which allows for some time in the engagement zone; but, still strives to stay away from the center of the engagement zone is posed. Lastly, a fixed final-time strategy is considered, wherein the target tries to avoid the engagement zone; but, is required to arrive at the desired location at a specific time. Using a nonlinear program solver, the optimal strategies are numerically solved. From the results of the numeric solutions, the optimal strategies are discussed and comparisons are drawn.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2022optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "tabasso2022continuous",
+    "slug": "tabasso2022continuous",
+    "title": "Continuous Monitoring Of A Path-Constrained Moving Target By Multiple Unmanned Aerial Vehicles",
+    "authors": [
+      "Tabasso, Camilla",
+      "Kielas-Jensen, Calvin ‘",
+      "Cichella, Venanzio",
+      "Manyam, Satyanarayana",
+      "Casbeer, David W",
+      "Weintraub, Isaac"
+    ],
+    "year": 2022,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "In this work, a continuous monitoring scenario where multiple unmanned aerial vehicles are tasked to monitor a dynamic target moving along a path with unknown speed profile is addressed. Optimal trajectories based on the nominal trajectory of the target are generated offline. If changes in the speed profile of the target are detected, the agents’ trajectories can be modified online to ensure that the monitoring requirements are met, while still maintaining intervehicle safety guarantees. The time-coordination algorithm proposed as a solution to this problem is based on a leader–follower structure. The unmanned aerial vehicles are assumed to exchange information over a communication network where limited quality of service, switching topologies, and data package dropouts are considered. Finally, performance bounds and simulation results to prove the efficacy of our method are provided.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tabasso2022continuous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ranjan2022energy",
+    "slug": "ranjan2022energy",
+    "title": "Energy-Aware 3d Leader-Follower Flight Trajectory Optimization For Fixed-Wing Aircraft",
+    "authors": [
+      "Ranjan, Praveen",
+      "Votion, Johnathan",
+      "Cao, Yongcan",
+      "Tran, Dzung M",
+      "Casbeer, David",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2022,
+    "venue": "Aiaa Scitech 2022 Forum",
+    "abstract": "View Video Presentation: https://doi.org/10.2514/6.2022-2217.vid This paper focuses on optimizing the 3D flight trajectory of a fixed-wing follower aircraft in a leader-follower formation scenario. Instead of a rigid formation, the desired formation is defined as set of points configured as a ring located behind the leader. Both the leader and the wingman aircraft are modeled by high order dynamics. In particular, we formulate the optimization problem under three different system structures: (i) naturally constrained, (ii) ring angle constrained, and (iii) controller constrained. These system structures reflect the variation of possible inputs to the system under different levels of control freedom, from an unknown control structure to a known control structure. The optimization objective is to minimize the thrust profile so that the follower minimizes its consumed energy while also maintaining the desired wingman formation. Our simulation studies demonstrate that optimized solutions are attainable for all three cases. Moreover, for a naturally constrained system, there exists a convergent steady-state solution for the wingman’s position along the ring structure that represents a global solution, regardless of the wingman’s initial states.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/ranjan2022energy/paper.pdf",
+    "imagePath": "images/public/publications/ranjan2022energy/feature.png"
+  },
+  {
+    "id": "tran2022improving",
+    "slug": "tran2022improving",
+    "title": "On Improving The Potential Field Method For Ring Formation",
+    "authors": [
+      "Tran, Dzung",
+      "Casbeer, David W",
+      "Weintraub, Isaac E",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "We present an improved and extended version of our coarse grained lipid model. The new version, coined the MARTINI force field, is parametrized in a systematic way, based on the reproduction of partitioning free energies between polar and apolar phases of a large number of chemical compounds. To reproduce the free energies of these chemical building blocks, the number of possible interaction levels of the coarse-grained sites has increased compared to those of the previous model. Application of the new model to lipid bilayers shows an improved behavior in terms of the stress profile across the bilayer and the tendency to form pores. An extension of the force field now also allows the simulation of planar (ring) compounds, including sterols. Application to a bilayer/cholesterol system at various concentrations shows the typical cholesterol condensation effect similar to that observed in all atom representations.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tran2022improving/paper.pdf",
+    "imagePath": "images/public/publications/tran2022improving/feature.png"
+  },
+  {
+    "id": "garcia2022optimal",
+    "slug": "garcia2022optimal",
+    "title": "Optimal Strategies For The Game Of Protecting A Plane In 3-D",
+    "authors": [
+      "Garcia, Eloy",
+      "Weintraub, Isaac",
+      "Casbeer, David W",
+      "Pachter, Meir"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "A conflict between rational and autonomous agents is considered. The paper addresses a differential game of protecting a target in the 3-D space. This problem highlights the strong correlation between the highly dynamic scenario, the uncertainty on the behavior of the adversary, and the online and robust computation of state-feedback strategies which guarantee the required level of performance of each player. This work significantly expands previous results around this problem by providing the players’ state-feedback saddle-point strategies. Additionally, the continuously differentiable Value function of the multi-agent differential game is obtained and it is shown to be the solution of the Hamilton-Jacobi-Isaacs equation. Finally, the Barrier surface is explicitly obtained which defines the winning team according to the current state of the game.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/garcia2022optimal/paper.pdf",
+    "imagePath": "images/public/publications/garcia2022optimal/feature.png"
+  },
+  {
+    "id": "manyam2022path",
+    "slug": "manyam2022path",
+    "title": "Path Planning And Energy Management Of Hybrid Air Vehicles For Urban Air Mobility",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Darbha, Swaroop",
+      "Weintraub, Isaac E",
+      "Kalyanam, Krishna"
+    ],
+    "year": 2022,
+    "venue": "IEEE Robotics and Automation Letters",
+    "abstract": "A novel coupled path planning and energy management problem for a hybrid unmanned air vehicle is considered, where the hybrid vehicle is powered by a dual gas/electric system. Such an aerial robot is envisioned for use in an urban setting where noise restrictions are in place in certain zones necessitating battery only operation. We consider the discrete version of this problem, where a graph is constructed by sampling the boundaries of the restricted zones, and develop a path planning algorithm. The planner simultaneously solves the path planing along with the energy mode switching control, under battery constraints and noise restrictions. This is a coupled problem involving discrete decision making to find the path to travel, and determining the state of charge of the battery along the path, which is a continuous variable. A sampling based algorithm to find near optimal solution to this problem is presented. To quantify the efficacy of the solution, an algorithm that computes tight lower bounds is also presented. The algorithms presented are verified using numerical simulations, and the average gap between the feasible solutions (upper bounds) and the lower bounds are, empirically, shown to be within 15% of each other.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2022path/paper.pdf",
+    "imagePath": "images/public/publications/manyam2022path/feature.png"
+  },
+  {
+    "id": "scott2022power",
+    "slug": "scott2022power",
+    "title": "Power Management For Noise Aware Path Planning Of Hybrid Uavs",
+    "authors": [
+      "Scott, Drew",
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Kumar, Manish",
+      "Rothenberger, Michael J",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2022,
+    "venue": "2022 American Control Conference (Acc)",
+    "abstract": "Here we consider the problem of path planning for a hybrid fuel Unmanned Aerial Vehicle (UAV), equipped with both a battery and gasoline generator as two sources of energy. Routing the vehicle while considering this setup adds fuel constraints in addition to requiring the power source state to be specified along each edge along the path. We further add noise restrictions to the problem where certain edges (corresponding to certain portions of the path) have the restriction that the gasoline generator cannot be run. A solution to this path planning problem entails both a sequence of nodes, being the plain path the vehicle travels, and a sequence of values specifying the power source along each edge in the path. There is no work in the current literature regarding such a problem, with little at all concerning general planning or routing for hybrid fuel UAVs. Here, hybrid fuel UAV routing problem with noise restrictions is presented. The problem is first formulated as an Mixed Integer Linear Program. Then a dynamic programming algorithm is presented to solve the problem exactly. This algorithm is then compared to a branch-and-cut based method in terms of computational times for a variety of problem sizes. A case study is presented, using a graph which location data from an area surrounding an airport to produce goal nodes and noise restrictions to display the problem itself as well as the performance of the dynamic programming algorithm in a realistic scenario for this problem.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/scott2022power/paper.pdf",
+    "imagePath": "images/public/publications/scott2022power/feature.png"
+  },
+  {
+    "id": "weintraub2021engagement",
+    "slug": "weintraub2021engagement",
+    "title": "Engagement Zone Defense Of A Non-Maneuvering Evader",
+    "authors": [
+      "Weintraub, Isaac",
+      "Von Moll, Alexander",
+      "Casbeer, David",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2021,
+    "venue": "2021 Ieee Conference On Control Technology And Applications (Ccta)",
+    "abstract": "This paper considers a three agent scenario consisting of a pursuer, evader, and a defender. The pursuer’s objective is to capture the non-maneuvering evader in minimum time while a defender aims at maximize contact with the pursuer by keeping the pursuer inside his circular engagement zone for as long as possible; the pursuer is considered to be faster than both the evader and the defender. Using optimal control theory, the optimal control for the defender that maximizes contact with the pursuer is posed and solved. In the event that the evader is captured by the pursuer before the pursuer escapes the engagement zone of the defender, some suboptimal strategies of the defender provide equivalent contact time. A derivation of defender’s headings that maximize contact is presented along with examples that highlight the importance of the initial conditions of the engagement scenario.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021engagement/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2021engagement/feature.png"
+  },
+  {
+    "id": "weintraub2021maximum",
+    "slug": "weintraub2021maximum",
+    "title": "Maximum Observation Of A Target By A Slower Observer In Three Dimensions",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2021,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021maximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "pachter2021synthesis",
+    "slug": "pachter2021synthesis",
+    "title": "On The Synthesis Of Optimal Control Laws",
+    "authors": [
+      "Pachter, Meir",
+      "Weintraub, Isaac E"
+    ],
+    "year": 2021,
+    "venue": "",
+    "abstract": "ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTSynthesis of Transportation Fuels from Biomass: Chemistry, Catalysts, and EngineeringGeorge W. Huber, Sara Iborra, and Avelino CormaView Author Information Instituto de Tecnología Químicia, UPV-CSIC, Universidad Politénica de Valencia, Avda. de los Naranjos, s/n, Valencia, Spain Cite this: Chem. Rev. 2006, 106, 9, 4044–4098Publication Date (Web):June 27, 2006Publication History Received3 February 2006Published online27 June 2006Published inissue 1 September 2006https://pubs.acs.org/doi/10.1021/cr068360dhttps://doi.org/10.1021/cr068360dresearch-articleACS PublicationsCopyright © 2006 American Chemical SocietyRequest reuse permissionsArticle Views61161Altmetric-Citations6513LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail Other access optionsGet e-Alertsclose SUBJECTS:Alcohols,Biofuels,Biomass,Catalysts,Fossil fuels Get e-Alerts",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/pachter2021synthesis/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2021optimal",
+    "slug": "weintraub2021optimal",
+    "title": "Optimal Defense Of High Value Airborne Assets",
+    "authors": [
+      "Weintraub, Isaac"
+    ],
+    "year": 2021,
+    "venue": "",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2021optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "kielas2021persistent",
+    "slug": "kielas2021persistent",
+    "title": "Persistent Monitoring By Multiple Unmanned Aerial Vehicles Using Bernstein Polynomials",
+    "authors": [
+      "Kielas-Jensen, Calvin",
+      "Cichella, Venanzio",
+      "Casbeer, David",
+      "Manyam, Satyanarayana Gupta",
+      "Weintraub, Isaac"
+    ],
+    "year": 2021,
+    "venue": "Journal of Optimization Theory and Applications",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/kielas2021persistent/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2021quadratic",
+    "slug": "manyam2021quadratic",
+    "title": "Quadratic Bezier Curves For Multi-Agent Coordinated Arrival In The Presence Of Obstacles",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Tran, Dzung M",
+      "Bradley, Justin M",
+      "Darbha, Swaroop"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "View Video Presentation: https://doi.org/10.2514/6.2021-1879.vid We consider a multiple vehicle path planning problem with curvature constraints in the presence of obstacles, where multiple vehicles need to arrive at a given final location simultaneously. We aim to find the paths using a simplex framework that tessellates the feasible regions into hexagonal grids from which a graph is abstracted with nodes at the mid-point of every hexagon edge. The graph edges are defined over the adjacent nodes of the hexagons and each edge corresponds to a quadratic Bezier curve. We present an algorithm that finds the shortest path for each vehicle, and a path perturbation technique to make the path lengths equal with in a given error tolerance. We test the proposed approach using simulated scenarios and present the results.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2021quadratic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "tran2021ring",
+    "slug": "tran2021ring",
+    "title": "Ring Formation Maneuver: Double-Integrator Kinematics With Input Saturation",
+    "authors": [
+      "Tran, Dzung",
+      "Casbeer, David",
+      "Garcia, Eloy",
+      "Weintraub, Isaac E",
+      "Milutinovi{\\'c"
+    ],
+    "year": 2021,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/tran2021ring/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "manyam2021trajectory",
+    "slug": "manyam2021trajectory",
+    "title": "Trajectory Optimization For Rendezvous Planning Using Quadratic B{\\'E",
+    "authors": [
+      "Manyam, Satyanarayana G",
+      "Casbeer, David W",
+      "Weintraub, Isaac E",
+      "Taylor, Colin"
+    ],
+    "year": 2021,
+    "venue": "2021 Ieee/Rsj International Conference On Intelligent Robots And Systems (Iros)",
+    "abstract": "Rendezvous orbital dynamics and control (RODC) is a key technology for operating space rendezvous and docking missions. This paper surveys the studies on RODC. Firstly, the basic relative dynamics equation set is introduced and its improved versions are evaluated. Secondly, studies on rendezvous trajectory optimization are commented from three aspects: the linear rendezvous, the nonlinear two-body rendezvous, and the perturbed and constrained rendezvous. Thirdly, studies on relative navigation are briefly reviewed, and then close-range control methods including automated control, manual control, and telecontrol are analyzed. Fourthly, advances in rendezvous trajectory safety and robust analysis are surveyed, and their applications in trajectory optimization are discussed. Finally, conclusions are drawn and prospects of studies on RODC are presented.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyam2021trajectory/paper.pdf",
+    "imagePath": "images/public/publications/manyam2021trajectory/feature.png"
+  },
+  {
+    "id": "weintraub2020introduction",
+    "slug": "weintraub2020introduction",
+    "title": "An Introduction To Pursuit-Evasion Differential Games",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Pachter, Meir",
+      "Garcia, Eloy"
+    ],
+    "year": 2020,
+    "venue": "2020 American Control Conference (ACC)",
+    "abstract": "Pursuit and evasion conflicts represent challenging problems with important applications in aerospace and robotics. In pursuit-evasion problems, synthesis of intelligent actions must consider the adversary's potential strategies. Differential game theory provides an adequate framework to analyze possible outcomes of the conflict without assuming particular behaviors by the opponent. This article presents an organized introduction of pursuit-evasion differential games with an overview of recent advances in the area. First, a summary of the seminal work is outlined, highlighting important contributions. Next, more recent results are described by employing a classification based on the number of players: one-pursuer-one-evader, N-pursuers-one-evader, one-pursuer-M-evaders, and N-pursuer-M-evader games. In each scenario, a brief summary of the literature is presented. Finally, two representative pursuit-evasion differential games are studied in detail: the two-cutters and fugitive ship differential game and the active target defense differential game. These problems provide two important applications and, more importantly, they give great insight into the realization of cooperation between friendly agents in order to form a team and defeat the adversary.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020introduction/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2020circular",
+    "slug": "weintraub2020circular",
+    "title": "Circular Rejoin In 3d Using B{\\'E",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Demers, Zachary JL",
+      "Shroyer, Jason",
+      "Ritsema, Nathan P",
+      "Sluss, Dillon P"
+    ],
+    "year": 2020,
+    "venue": "2020 Ieee Conference On Control Technology And Applications (Ccta)",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020circular/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2020circular/feature.png"
+  },
+  {
+    "id": "weintraub2020direct",
+    "slug": "weintraub2020direct",
+    "title": "Direct Methods Comparison For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Cobb, Richard G",
+      "Baker, William",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "Aiaa Scitech 2020 Forum",
+    "abstract": "The goal of optimal control is to obtain an admissible function which minimizes an objective functional subject to specified constraints and boundary conditions. Four popular methods of computing the optimal control directly are the Single Shooting Method, Multiple Shootings Method, Even Collocation Method, and Pseudospectral Method. In this paper, the four direct methods of computing the optimal control for the Active Target Defense Scenario are presented and compared. The Active Target Defense Scenario is a three-agent engagement where an evading agent tries to escape a pursuing agent with the assistance of a defending agent. The goal of the Evader is to maneuver in such a way as to assist the Defender in capturing the Pursuer while maximizing his range from the Pursuer. This work begins by describing each direct method and summarizing advantages and disadvantages of each. Next, each method is used to solve the optimal control for the Active Target Defense Scenario; results are presented and a comparison of the performance of each method is made. Finally, concluding remarks describing the results, performance, and real-time implementation are presented.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020direct/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2020direct/feature.png"
+  },
+  {
+    "id": "weintraub2020maximum",
+    "slug": "weintraub2020maximum",
+    "title": "Maximum Observation Of A Faster Non-Maneuvering Target By A Slower Observer",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Casbeer, David",
+      "Demers, Zachary JL",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "2020 American Control Conference (Acc)",
+    "abstract": "This paper considers a two agent scenario containing an observer and a non-maneuvering target. The observer is maneuverable but is slower than the course-holding target. In this scenario, the observer is endowed with a nonzero radius of observation within which he strives at keeping the target for as long as possible. Using the calculus of variations, we pose and solve the optimal control problem, solving for the heading of the observer which maximizes the amount of time the target remains inside the radius of observation. Utilizing the optimal observer heading we compute the exposure time based upon the angle by which the target is initially captured. Presented, along with an example, are the zero-time of exposure heading, maximum time of observation heading, and proof that observation is persistent under optimal control.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020maximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2020optimal",
+    "slug": "weintraub2020optimal",
+    "title": "Optimal Guidance Strategy For The Defense Of A Non-Manoeuvrable Target In 3-Dimensions",
+    "authors": [
+      "Weintraub, Isaac",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2020,
+    "venue": "IET Control Theory & Applications",
+    "abstract": "An engagement scenario involving the defence of a non-manoeuvrable agent, called the Target, is considered. A pursuing agent engages the non-manoeuvrable Target while a defending agent, which aims at intercepting the Pursuer to protect the Target, is considered in 3-dimensions. A zero-sum differential game is formulated where the objective of the Defender is to capture the Pursuer and maximise the terminal Pursuer-Target range at final time; while the Pursuer aims at minimising the terminal Pursuer-Target range at final time. The terminal time is not fixed and is determined by the interception of the Pursuer by the Defender. The saddle point state-feedback strategies for the Pursuer and the Defender are obtained using a gradient-based minimisation routine. A comparison of the saddle point strategy against a heuristic approach, Pure Pursuit, is conducted. The comparison demonstrates that poorer performance is achieved by players who deviate from the optimal saddle point strategy; and, as a result, the saddle point strategies outperform the heuristic method.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2020optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "clem2019intercept",
+    "slug": "clem2019intercept",
+    "title": "An Intercept And Following Strategy For A Multi-Rotor Platform Using A Modified Proportional Navigation",
+    "authors": [
+      "Clem, Garrett",
+      "Wilhelm, Jay",
+      "Casbeer, David",
+      "Weintraub, Isaac E",
+      "Grymin, David J"
+    ],
+    "year": 2019,
+    "venue": "Aiaa Scitech 2019 Forum",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/clem2019intercept/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2018kinematic",
+    "slug": "weintraub2018kinematic",
+    "title": "A Kinematic Rejoin Method For Active Defense Of Non-Maneuverable Aircraft",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2018,
+    "venue": "2018 Annual American Control Conference (Acc)",
+    "abstract": "An engagement scenario involving the defense of a valuable and non-maneuverable aircraft is investigated in this paper. An Attacker missile pursuing a Target aircraft and a Defender missile which aims at intercepting the Attacker in order to protect the Target aircraft are considered. A zero-sum differential game is formulated where the objective of the Attacker is to minimize the terminal distance with respect to the Target aircraft and the objective of the Defender is to maximize the terminal Attacker-Target separation at the time of intercepting the Attacker. The saddle point state-feedback strategies for the Attacker and the Defender are obtained; these strategies are compared to other heuristic approaches. It is shown that better performance is obtained by implementation of the saddle point strategies derived in this paper.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2018kinematic/paper.pdf",
+    "imagePath": "images/public/publications/weintraub2018kinematic/feature.png"
+  },
+  {
+    "id": "garcia2018adaptive",
+    "slug": "garcia2018adaptive",
+    "title": "Adaptive Event-Triggered Cooperative Control Of Uncertain Networked Systems",
+    "authors": [
+      "Garcia, Eloy",
+      "Weintraub, Isaac",
+      "Casbeer, David W"
+    ],
+    "year": 2018,
+    "venue": "IFAC-PapersOnLine",
+    "abstract": "Coordination and cooperation of networked multi-agent systems is usually constrained by dynamic and communication limitations. In this work we consider the problem of distributed leader following of heterogeneous and uncertain multi-agent systems. Each agent or subsystem implements a local and completely decentralized adaptive controller in order to compensate for the uncertainty on its system parameters. At the inter-agent communication level and due to the limitations on broadcasting continuous signals, each agent employs a decentralized event-triggered multi-agent system (MAS) controller which tracks the state of the leader and reduces broadcasting of information. Hence, the two layer controller architecture provides a useful framework for the multiple agents to follow the leader in the presence of system uncertainties and absence of continuous exchange of information.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/garcia2018adaptive/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2018optimal",
+    "slug": "weintraub2018optimal",
+    "title": "An Optimal-Stochastic Aircraft Defense Strategy For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": 2018,
+    "venue": "2018 Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2018optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2017optimal",
+    "slug": "weintraub2017optimal",
+    "title": "An Optimal Aircraft Defense Strategy For The Active Target Defense Scenario",
+    "authors": [
+      "Weintraub, Isaac",
+      "Garcia, Eloy",
+      "Casbeer, David",
+      "Pachter, Meir"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2017optimal/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2017wing",
+    "slug": "oppenheimer2017wing",
+    "title": "Wing Design And Testing For A Tailless Flapping Wing Micro-Air Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David",
+      "Doman, David B",
+      "Weintraub, Isaac"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2017wing/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "sigthorsson2017wing",
+    "slug": "sigthorsson2017wing",
+    "title": "Wing Flexibility Induced Control Reversal For Flapping Wing Vehicles: Theoretical Analysis",
+    "authors": [
+      "Sigthorsson, David",
+      "Oppenheimer, Michael W",
+      "Doman, David B",
+      "Weintraub, Isaac"
+    ],
+    "year": 2017,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sigthorsson2017wing/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2016kinematic",
+    "slug": "weintraub2016kinematic",
+    "title": "Kinematic Selection For A Tailless Flapping Wing Micro-Air Vehicle",
+    "authors": [
+      "Weintraub, Isaac",
+      "Sigthorsson, David",
+      "Oppenheimer, Michael W",
+      "Doman, David B"
+    ],
+    "year": 2016,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "A flapping wing micro air vehicle, which utilizes a four-bar linkage with amplified gearing to convert rotary motion of the prime movers into oscillatory motion of the wings, is described in this work. The four-bar linkage yields an asymmetric wingstroke, where the first half and second half of the wingstroke do not have the same angular velocity. This asymmetry results in undesired fore or aft translation and roll of the vehicle, which must be canceled with control effort in order to hover. During experiments, it was found that a large amount of control authority was required to trim out these undesired motions, leaving only a small amount of control authority for maneuvering. In this work, the four-bar linkage is optimized to reduce the asymmetric wingstroke and provide more constant torque transmission throughout the entire stroke. Experimental results show an improvement in the symmetry of the wingstroke after kinematic optimization",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2016kinematic/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2016methods",
+    "slug": "oppenheimer2016methods",
+    "title": "Methods And Apparatus To Achieve Independent Six Degree Control Of Flapping Wing Micro Air Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2016,
+    "venue": "",
+    "abstract": "A method of configuring a wing velocity profile includes segmenting a complete wingbeat cycle into a set of quarter strokes including a first quarter-stroke, a second quarter stroke, a third quarter-stroke, and a fourth quarter-stroke. The method further includes generating time-varying quarter-stroke wing position commands for each of a first and second wing planforms to produce wing flapping trajectories that generate non-Zero, cycle averaged wing lift and drag and alter a cycle average center of pressure of each of the first and the second wing planforms relative to the aircraft. The wing position commands include Velocities and positions with temporally symmetric and asymmetric quarter stroke components for the first wing planform and the second wing planform. The first wing planform and the second wing planform produce controlled six-degrees-of freedom vehicle motion without using actuators in excess of the first actuator and the second actuator.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2016methods/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2015control",
+    "slug": "oppenheimer2015control",
+    "title": "Control Of A Minimally Actuated Biomimetic Vehicle Using Quarter-Cycle Wingbeat Modulation",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2015,
+    "venue": "Journal of Guidance, Control, and Dynamics",
+    "abstract": "This paper describes a technique, called quarter-cycle constant period frequency modulation, to control the motion of wings on a flapping wing micro-air vehicle. This technique allows control over the wingbeat period and three additional points (the two zero crossings and the reversal of wing direction) within a single wingbeat cycle, allowing modulation of the wing’s velocity to provide direct control over six degrees of freedom of overall vehicle motion. Using a blade element based aerodynamic model, both instantaneous and cycle-averaged forces and moments are analytically computed for a specific type of wingbeat motion that enables nearly decoupled, multi-degrees of freedom control of an aircraft. Wing motion is controlled using oscillators whose frequencies and three additional parameters change once per wingbeat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle-averaged representation of the forces and moments, and control derivatives are calculated. A cycle-averaged control law is designed to provide direct control over six degrees of freedom of the vehicle.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2015control/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2015experimental",
+    "slug": "oppenheimer2015experimental",
+    "title": "Experimental Measurements Of Cycle Averaged Forces For A Flapping Wing Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac",
+      "Sigthorsson, David",
+      "Doman, David B"
+    ],
+    "year": 2015,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "In this work, experimental measurements of cycle-averaged forces produced by a flapping wing micro air vehicle are provided. The measurements are taken with a one degree-of-freedom force balance. The vehicle is mounted in different orientations so that cycle-averaged lift and drag can be measured. A variety of wing flapping frequencies are examined as well as different split-cycle parameters. The cycle-averaged measurements are compared to theoretical values obtained with a blade element model. The primary objective of this work is to determine if a blade element based aerodynamic model can accurately predict the cycle-averaged forces produced by wing flapping.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2015experimental/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraub2014implementation",
+    "slug": "weintraub2014implementation",
+    "title": "Implementation Of Split-Cycle Control For Micro Aerial Vehicles",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Oppenheimer, Michael W",
+      "Doman, David B"
+    ],
+    "year": 2014,
+    "venue": "Robot Intelligence Technology And Applications 2: Results From The 2nd International Conference On Robot Intelligence Technology And Applications",
+    "abstract": "Flapping wing micro air vehicles have been of significant research interest in recent years due to the flight capabilities of their biological counterparts and their ability to hide in plain sight, inspiring applications for military and civilian surveillance. This work introduces the design, implementation, and fabrication of the circuitry used for split-cycle constant-period wingbeat capable flapping wing micro air vehicle platforms. Split-cycle constant-period modulation involves independent control of the upstroke and downstroke wing velocity profiles to provide the theoretical capability of manipulating five degrees of vehicle motion freedom using only two actuators, namely, a brushless direct current motor for each wing. The control circuitry mainly consists of a control circuit board, a wireless receiver, three micro-controllers, and drivers. The circuitry design is tested using a prototype vehicle mounted on an air-table platform. A human operated transmitter relays split-cycle constant-period commands to the vehicle to produce the desired vehicle motion.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraub2014implementation/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2014quarter",
+    "slug": "oppenheimer2014quarter",
+    "title": "Quarter Cycle Modulation Of A Minimally Actuated Biomimetic Vehicle",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Weintraub, Isaac E",
+      "Sigthorsson, David O",
+      "Doman, David B"
+    ],
+    "year": 2014,
+    "venue": "AIAA Paper",
+    "abstract": "This paper describes a technique, called quarter cycle constant-period frequency modulation, to control the motion of wings on a flapping wing mi-cro air vehicle. This technique allows control over the wingbeat period and three additional points within a single wingbeat cycle, allowing modulation of the wing's velocity to provide control over multiple degrees-of-freedom of the vehicle. Using a blade element based aerodynamic model, both instantaneous and cycle averaged forces and moments are analytically computed for a specific type of wing beat motion that enables nearly decoupled, multiple degrees-of-freedom control of the aircraft. The wing positions are controlled using oscillators whose frequencies change once per wing beat cycle. A control oriented dynamic model of the vehicle is derived, which is based on a cycle averaged representation of the forces and moments. Control derivatives are calculated and a cycle-averaged control law is designed that provides control over multiple degrees-of-freedom of the vehicle.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2014quarter/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "oppenheimer2013development",
+    "slug": "oppenheimer2013development",
+    "title": "Development Of A Flapping Wing Mechanism That Can Produce Lift Greater Than Weight",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David",
+      "Weintraub, Isaac",
+      "Smith, Todd J",
+      "Dawson, Jaderic",
+      "Doman, David B"
+    ],
+    "year": 2013,
+    "venue": "Aiaa Guidance, Navigation, And Control (Gnc) Conference",
+    "abstract": "This work is focused on testing multiple versions of flapping wing mechanisms to improve the lift generating capabilities of the mechanisms. Three mechanisms are considered in this work, a traditional four bar linkage version, a four bar mechanism which used ball joints, and a four bar mechanism with a sector and output gear for amplified motion. The traditional four bar version has a wing stroke amplitude of about 55◦ while the other two mechanisms have an amplitude of nearly 90 deg. The criteria for comparison is the lift force generating capacity of each mechanism. For each mechanism, the forward kinematics are derived for use in a table lookup so that symmetric and asymmetric flapping can be achieved as desired.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2013development/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2013development/feature.png"
+  },
+  {
+    "id": "oppenheimer2013wing",
+    "slug": "oppenheimer2013wing",
+    "title": "Wing Velocity Control System For Testing Body Motion Control Methods For Flapping Wing Mavs",
+    "authors": [
+      "Oppenheimer, Michael W",
+      "Sigthorsson, David O",
+      "Weintraub, Isaac E",
+      "Doman, David B",
+      "Perseghetti, Ben"
+    ],
+    "year": 2013,
+    "venue": "51st Aiaa Aerospace Sciences Meeting Including The New Horizons Forum And Aerospace Exposition",
+    "abstract": "This work is focused on testing the viability of split-cycle constant-period frequency modulation for controlling a flapping wing micro air vehicle. By varying the velocities of the upstroke and downstroke portions of a flapping wings’ motion, non-zero cycle-averaged drag can be generated. This results in the ability to control the roll and horizontal translation of the vehicle by varying the split-cycle parameter. In this paper, a flapping wing prototype is developed for testing the split-cycle technique. A fuselage, wings, motor control electronics, and motor control software are created to allow wireless control of the motion of the flapping wing vehicle. The complete vehicle is then placed on an air table for experimental testing. The air table provides the lift equal to weight condition and constrains the pitch and yaw degrees of freedom while allowing for roll rotation and horizontal translation. In this way, testing of the degrees of freedom which can be manipulated via split-cycle, namely roll and horizontal translation, can be performed. The air table tests reveal that split-cycle can be used to control these two degrees of freedom.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2013wing/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2013wing/feature.png"
+  },
+  {
+    "id": "oppenheimer2012computation",
+    "slug": "oppenheimer2012computation",
+    "title": "Computation Of Inertial Forces And Torques Associated With Flapping Wings",
+    "authors": [
+      "Oppenheimer, Michael",
+      "Awtar, Shorya",
+      "Sigthorsson, David",
+      "Weintraub, Isaac",
+      "Doman, David"
+    ],
+    "year": 2012,
+    "venue": "Aiaa Guidance, Navigation, And Control Conference",
+    "abstract": "Peer Reviewed",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/oppenheimer2012computation/paper.pdf",
+    "imagePath": "images/public/publications/oppenheimer2012computation/feature.png"
+  },
+  {
+    "id": "hall2012flapping",
+    "slug": "hall2012flapping",
+    "title": "Flapping Wing Technology For Micro Air Vehicles Incorporating A Lead Zirconate Titanate (Pzt) Bimorph Actuator",
+    "authors": [
+      "Hall, Asha J",
+      "Roberts, Richard A",
+      "Weintraub, Isaac",
+      "Riddick, Jaret C"
+    ],
+    "year": 2012,
+    "venue": "",
+    "abstract": "Abstract : Army operations have placed a high premium on reconnaissance missions for unmanned aerial vehicles (UAVs) and micro air vehicles (MAVs) (15 cm or less in dimension and less than 20 g in mass). One approach for accomplishing this mission is to develop a biologically inspired flapping wing insect-sized device that can maneuver into confined areas. Analysis of insect flight indicates that in addition to the bending excitation (flapping), simultaneous excitation of the twisting degree of freedom (pitching) is required to adequately control the vehicle. Traditionally, bimorph piezoelectric lead zirconate titanate (PZT) (Pb(Zr0.55Ti0.45)O3) actuators have been used to excite the bending degree of freedom. In laminated or layered structures, bend-twist coupling is governed by having at least one anisotropic layer not aligned with the primary plate axes. By adding a layer of off-axis PZT segments to a PZT bimorph actuator, a functionally modified bimorph now offers a bend-twist coupling, flexural response in the traditional bimorph actuator. This study presents an experimental investigation of both traditional bimorph and functionally modified PZT bimorph designs intended for active bend-twist actuation of cm-scale flapping wing devices. Results are shown comparing aerodynamic parameters for three wing shapes and two PZT designs.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/hall2012flapping/paper.pdf",
+    "imagePath": "images/public/publications/hall2012flapping/feature.png"
+  },
+  {
+    "id": "sigthorsson2012structural",
+    "slug": "sigthorsson2012structural",
+    "title": "Structural Technology Evaluation And Analysis Program (Steap). Delivery Order 0035: Dynamics And Control And Computational Design Of Flapping Wing Micro Air Vehicles",
+    "authors": [
+      "Sigthorsson, David O",
+      "Weintraub, Isaac",
+      "Smithson, Christopher"
+    ],
+    "year": 2012,
+    "venue": "",
+    "abstract": "Abstract : The task objectives were to: understand the flight dynamics of flapping-wing micro air vehicles (FWMAVs), design and test flight control laws on flapping FWMAV prototypes that enable controlled flight with the ability to hover and maneuver forward/backward and sideways. The effort was aimed at developing a knowledge base that will lead to intelligence, surveillance, and reconnaissance (ISR) platforms that can hide in plain sight, reject disturbances and operate in cluttered/confined spaces. The related key science issues were to develop a control-oriented model of the aerodynamics and structure; design and implementation of a control theory, where the control forces/moments are constrained to a periodic form, and to use these periodic forces to precisely direct ISR sensors in cluttered/confined spaces in the presence of disturbances such as gusts and steady winds.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/sigthorsson2012structural/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "evans2009millionaire",
+    "slug": "evans2009millionaire",
+    "title": "The 50:50 Lifeline On \"Who Wants To Be A Millionaire?\"",
+    "authors": [
+      "Diane Evans",
+      "Isaac Weintraub"
+    ],
+    "year": 2009,
+    "venue": "Mathematics & Computer Education",
+    "abstract": "The Monty Hall problem can be a useful exercise in statistics and probability classes. Besides the lively interaction of students proposing various arguments (for or against) the answer, some students begin to consider problems and games where the Monty Hall dilemma may be hidden beneath the surface. Since Who Wants to Be a Millionaire? continues to be a popular game show, one problem raised in class is \"How does the probability of choosing the correct answer differ depending on the elimination method used by the 50:50 lifeline?\" This question is of particular interest to students since probabilistic choices determine a contestant's winnings. This paper will examine the probability calculations of two possible elimination methods.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/evans200950/paper.pdf",
+    "imagePath": "images/public/publications/evans200950/feature.png"
+  },
+  {
+    "id": "manyamcontinuous",
+    "slug": "manyamcontinuous",
+    "title": "Continuous Monitoring Of A Path-Constrained Moving Target By Multiple Uavs",
+    "authors": [
+      "Manyam, Satyanarayana",
+      "Casbeer, David W",
+      "Weintraub, Isaac"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "The use of unmanned aerial vehicles (UAVs) is growing rapidly across many civil application domains, including real-time monitoring, providing wireless coverage, remote sensing, search and rescue, delivery of goods, security and surveillance, precision agriculture, and civil infrastructure inspection. Smart UAVs are the next big revolution in the UAV technology promising to provide new opportunities in different applications, especially in civil infrastructure in terms of reduced risks and lower cost. Civil infrastructure is expected to dominate more than $45 Billion market value of UAV usage. In this paper, we present UAV civil applications and their challenges. We also discuss the current research trends and provide future insights for potential UAV uses. Furthermore, we present the key challenges for UAV civil applications, including charging challenges, collision avoidance and swarming challenges, and networking and security-related challenges. Based on our review of the recent literature, we discuss open research challenges and draw high-level insights on how these challenges might be approached.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/manyamcontinuous/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "weintraubmaximum",
+    "slug": "weintraubmaximum",
+    "title": "Maximum Observation Of A Target By A Slower Observer In 3-Dimensions",
+    "authors": [
+      "Weintraub, Isaac E",
+      "Von Moll, Alexander",
+      "Garcia, Eloy",
+      "Pachter, Meir"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "DESI (Dark Energy Spectroscopic Instrument) is a Stage IV ground-based dark energy experiment that will study baryon acoustic oscillations (BAO) and the growth of structure through redshift-space distortions with a wide-area galaxy and quasar redshift survey. To trace the underlying dark matter distribution, spectroscopic targets will be selected in four classes from imaging data. We will measure luminous red galaxies up to $z=1.0$. To probe the Universe out to even higher redshift, DESI will target bright [O II] emission line galaxies up to $z=1.7$. Quasars will be targeted both as direct tracers of the underlying dark matter distribution and, at higher redshifts ($ 2.1 < z < 3.5$), for the Ly-$α$ forest absorption features in their spectra, which will be used to trace the distribution of neutral hydrogen. When moonlight prevents efficient observations of the faint targets of the baseline survey, DESI will conduct a magnitude-limited Bright Galaxy Survey comprising approximately 10 million galaxies with a median $z\\approx 0.2$. In total, more than 30 million galaxy and quasar redshifts will be obtained to measure the BAO feature and determine the matter power spectrum, including redshift space distortions.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/weintraubmaximum/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "dongspecial",
+    "slug": "dongspecial",
+    "title": "Special Issue On Robust Cooperative Control For Heterogeneous Nonlinear Multiagent Systems",
+    "authors": [
+      "Dong, X",
+      "Chen, Z",
+      "Cao, M",
+      "Ren, W",
+      "Zhang, H",
+      "Wang, D",
+      "Ranjan, PK",
+      "Sinha, A",
+      "Cao, Y",
+      "Casbeer, D",
+      "others"
+    ],
+    "year": null,
+    "venue": "",
+    "abstract": "Multiagent systems are rapidly finding applications in a variety of domains, including robotics, distributed control, telecommunications, and economics. The complexity of many tasks arising in these domains makes them difficult to solve with preprogrammed agent behaviors. The agents must, instead, discover a solution on their own, using learning. A significant part of the research on multiagent learning concerns reinforcement learning techniques. This paper provides a comprehensive survey of multiagent reinforcement learning (MARL). A central issue in the field is the formal statement of the multiagent learning goal. Different viewpoints on this issue have led to the proposal of many different goals, among which two focal points can be distinguished: stability of the agents' learning dynamics, and adaptation to the changing behavior of the other agents. The MARL algorithms described in the literature aim---either explicitly or implicitly---at one of these two goals or at a combination of both, in a fully cooperative, fully competitive, or more general setting. A representative selection of these algorithms is discussed in detail in this paper, together with the specific issues that arise in each category. Additionally, the benefits and challenges of MARL are described along with some of the problem domains where the MARL techniques have been applied. Finally, an outlook for the field is provided.",
+    "source": "metadata",
+    "pdfPath": "pdfs/public/publications/dongspecial/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "interceptiondriveninterceptionforengagem",
+    "slug": "interceptiondriveninterceptionforengagem",
+    "title": "Interception-Driven Interception for Engagement Zone Construction",
+    "authors": [
+      "G. Stagg",
+      "C. K. Peterson",
+      "A. Von Moll",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2607.03554",
+    "abstract": "We analyze an extensive proprietary database of corporate social responsibility engagements with U.S. public companies from 1999–2009. Engagements address environmental, social, and governance concerns. Successful (unsuccessful) engagements are followed by positive (zero) abnormal returns. Companies with inferior governance and socially conscious institutional investors are more likely to be engaged. Success in engagements is more probable if the engaged firm has reputational concerns and higher capacity to implement changes. Collaboration among activists is instrumental in increasing the success rate of environmental/social engagements. After successful engagements, particularly on environmental/social issues, companies experience improved accounting performance and governance and increased institutional ownership.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/interceptiondriveninterceptionforengagem/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2607.03554"
+  },
+  {
+    "id": "interceptiondriveninversereachabilityfor",
+    "slug": "interceptiondriveninversereachabilityfor",
+    "title": "Interception-Driven Inverse Reachability for Engagement Zone Construction",
+    "authors": [
+      "G. Stagg",
+      "C. K. Peterson",
+      "A. Von Moll",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2607.03554",
+    "abstract": "In contested environments, autonomous vehicles may need to plan around adversarial pursuers whose launch locations are unknown. This paper presents an interception-driven inverse-reachability framework for inferring a feasible pursuer launch region directly from observed interception events for a single pursuer. Each interception induces a geometric constraint on the unknown launch location, and intersecting these constraints yields a bounded set guaranteed to contain the true origin under maximum-capability assumptions. Mapping this inferred set through the pursuer reachable region produces deterministic engagement zones with an explicit worst-case safety interpretation. A probabilistic extension models uncertainty in the pursuer launch location and yields graded engagement-risk fields for risk-aware planning. To accelerate localization, we introduce an information-driven planner for sacrificial agents that selects trajectories to maximize expected contraction of the feasible launch region. Monte Carlo simulations show that the proposed framework rapidly reduces launch-location uncertainty and enables substantially shorter safe trajectories after only a small number of sacrificial deployments.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/interceptiondriveninversereachabilityfor/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2607.03554"
+  },
+  {
+    "id": "combiningreinforcementlearningwitharcsea",
+    "slug": "combiningreinforcementlearningwitharcsea",
+    "title": "Combining Reinforcement Learning with Arc-search Interior-Point Method for Path Planning",
+    "authors": [
+      "Y. Yang",
+      "Q. Le",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2606.07920",
+    "abstract": "This article presents a state-of-the-art review of the applications of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) in building and construction industry 4.0 in the facets of architectural design and visualization; material design and optimization; structural design and analysis; offsite manufacturing and automation; construction management, progress monitoring, and safety; smart operation, building management and health monitoring; and durability, life cycle analysis, and circular economy. This paper presents a unique perspective on applications of AI/DL/ML in these domains for the complete building lifecycle, from conceptual stage, design stage, construction stage, operational and maintenance stage until the end of life. Furthermore, data collection strategies using smart vision and sensors, data cleaning methods (post-processing), data storage for developing these models are discussed, and the challenges in model development and strategies to overcome these challenges are elaborated. Future trends in these domains and possible research avenues are also presented.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/combiningreinforcementlearningwitharcsea/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2606.07920"
+  },
+  {
+    "id": "pathplanningusingdeepdeterministicpolicy",
+    "slug": "pathplanningusingdeepdeterministicpolicy",
+    "title": "Path Planning Using Deep Deterministic Policy Gradient: A Reinforcement Learning Approach",
+    "authors": [
+      "Q. Le",
+      "Y. Yang",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2606.07855",
+    "abstract": "This paper surveys the field of reinforcement learning from a computer-science perspective. It is written to be accessible to researchers familiar with machine learning. Both the historical basis of the field and a broad selection of current work are summarized. Reinforcement learning is the problem faced by an agent that learns behavior through trial-and-error interactions with a dynamic environment. The work described here has a resemblance to work in psychology, but differs considerably in the details and in the use of the word ``reinforcement.'' The paper discusses central issues of reinforcement learning, including trading off exploration and exploitation, establishing the foundations of the field via Markov decision theory, learning from delayed reinforcement, constructing empirical models to accelerate learning, making use of generalization and hierarchy, and coping with hidden state. It concludes with a survey of some implemented systems and an assessment of the practical utility of current methods for reinforcement learning.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/pathplanningusingdeepdeterministicpolicy/paper.pdf",
+    "imagePath": "",
+    "url": "https://arxiv.org/abs/2606.07855"
+  },
+  {
+    "id": "cooperativerelayassistedtravelingsalesma",
+    "slug": "cooperativerelayassistedtravelingsalesma",
+    "title": "Cooperative Relay-Assisted Traveling Salesman Problem using Graphs of Convex Sets",
+    "authors": [
+      "S. G. Manyam",
+      "D. W. Casbeer",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "2026 American Control Conference (ACC)",
+    "abstract": "Unmanned aerial vehicles (UAVs), or aerial drones, are an emerging technology with significant market potential. UAVs may lead to substantial cost savings in, for instance, monitoring of difficult‐to‐access infrastructure, spraying fields and performing surveillance in precision agriculture, as well as in deliveries of packages. In some applications, like disaster management, transport of medical supplies, or environmental monitoring, aerial drones may even help save lives. In this article, we provide a literature survey on optimization approaches to civil applications of UAVs. Our goal is to provide a fast point of entry into the topic for interested researchers and operations planning specialists. We describe the most promising aerial drone applications and outline characteristics of aerial drones relevant to operations planning. In this review of more than 200 articles, we provide insights into widespread and emerging modeling approaches. We conclude by suggesting promising directions for future research.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/cooperativerelayassistedtravelingsalesma/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "informationtheoreticmultiagentpathplanni",
+    "slug": "informationtheoreticmultiagentpathplanni",
+    "title": "Information-Theoretic Multi-Agent Path Planning for Risk-Aware Navigation Under Environmental Uncertainty",
+    "authors": [
+      "A. Nimmagadda",
+      "J. Park",
+      "A. Von Moll",
+      "D. Casbeer",
+      "I. E. Weintraub"
+    ],
+    "year": 2026,
+    "venue": "AIAA AVIATION 2026 Forum",
+    "abstract": "In this review, we provide an overview of emerging trends and challenges in the field of intelligent and autonomous, or self-driving, vehicles. Recent advances in the field of perception, planning, and decision-making for autonomous vehicles have led to great improvements in functional capabilities, with several prototypes already driving on our roads and streets. Yet challenges remain regarding guaranteed performance and safety under all driving circumstances. For instance, planning methods that provide safe and system-compliant performance in complex, cluttered environments while modeling the uncertain interaction with other traffic participants are required. Furthermore, new paradigms, such as interactive planning and end-to-end learning, open up questions regarding safety and reliability that need to be addressed. In this survey, we emphasize recent approaches for integrated perception and planning and for behavior-aware planning, many of which rely on machine learning. This raises the question of verification and safety, which we also touch upon. Finally, we discuss the state of the art and remaining challenges for managing fleets of autonomous vehicles.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/informationtheoreticmultiagentpathplanni/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "amultisalvomissiledefensestrategyusingvi",
+    "slug": "amultisalvomissiledefensestrategyusingvi",
+    "title": "A Multi-Salvo Missile Defense Strategy Using Virtual Targets",
+    "authors": [
+      "J. A. Graham",
+      "D. R. Jacques",
+      "I. E. Weintraub",
+      "E. D. White"
+    ],
+    "year": 2026,
+    "venue": "AIAA AVIATION 2026 Forum",
+    "abstract": "This paper provides an extensive review of the popular multi-objective optimization algorithm NSGA-II for selected combinatorial optimization problems viz. assignment problem, allocation problem, travelling salesman problem, vehicle routing problem, scheduling problem, and knapsack problem. It is identified that based on the manner in which NSGA-II has been implemented for solving the aforementioned group of problems, there can be three categories: Conventional NSGA-II, where the authors have implemented the basic version of NSGA-II, without making any changes in the operators; the second one is Modified NSGA-II, where the researchers have implemented NSGA-II after making some changes into it and finally, Hybrid NSGA-II variants, where the researchers have hybridized the conventional and modified NSGA-II with some other technique. The article analyses the modifications in NSGA-II and also discusses the various performance assessment techniques used by the researchers, i.e., test instances, performance metrics, statistical tests, case studies, benchmarking with other state-of-the-art algorithms. Additionally, the paper also provides a brief bibliometric analysis based on the work done in this study.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/amultisalvomissiledefensestrategyusingvi/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "virtualtargetselectionforamultiplepursue",
+    "slug": "virtualtargetselectionforamultiplepursue",
+    "title": "Virtual Target Selection for a Multiple-Pursuer–Multiple-Evader Scenario",
+    "authors": [
+      "I. E. Weintraub",
+      "A. Von Moll",
+      "D. W. Casbeer",
+      "S. G. Manyam"
+    ],
+    "year": 2025,
+    "venue": "Journal of Aerospace Information Systems 22 (5), 391-400",
+    "abstract": "This paper considers an M-pursuer N-evader scenario involving virtual targets. The virtual targets serve as an intermediary target for the pursuers, allowing the pursuers to delay their final assignment to the evaders. However, upon reaching the virtual target, the pursuers must decide which evader to capture. It is assumed that there are more pursuers than evaders and that the pursuers are faster than the evaders. The objective is two-part: first, assign each pursuer to virtual target and evader such that the pursuer team's energy is minimized, and second, choose the virtual targets' locations for this minimization problem. The approach taken is to consider the Apollonius geometry between each pursuer's virtual target location and each evader. Using the constructed Apollonius circles, the pursuer's travel distance and maneuver at a virtual target are obtained. These metrics serve as a gauge for the total energy required to capture a particular evader and are used to solve the joint virtual target selection and pursuer-evader assignment problem. This paper provides a mathematical definition of this problem, the solution approach taken, and an example.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/virtualtargetselectionforamultiplepursue/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "thesynthesisofoptimalcontrollawsusingisa",
+    "slug": "thesynthesisofoptimalcontrollawsusingisa",
+    "title": "The synthesis of optimal control laws using isaacs\u0019 method for the solution of differential games",
+    "authors": [
+      "M. Pachter",
+      "I. E. Weintraub"
+    ],
+    "year": 2024,
+    "venue": "Journal of Optimization Theory and Applications 202 (3), 1137-1157",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/thesynthesisofoptimalcontrollawsusingisa/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ringformationmaneuversingleintegratorkin",
+    "slug": "ringformationmaneuversingleintegratorkin",
+    "title": "Ring formation maneuver: Single-integrator kinematics",
+    "authors": [
+      "D. M. Tran",
+      "D. Casbeer",
+      "E. Garcia",
+      "I. E. Weintraub",
+      "D. Milutinovic",
+      "S. G. Manyam"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "View Video Presentation: https://doi.org/10.2514/6.2021-0978.vid Most conventional formation control algorithms consider convergence towards a specific desired point (or a specific desired displacement) for each vehicle relative to their neighbors. However, this specification restricts the flexibility in the motion of the vehicles. Motivated from this standpoint, this paper considers a formation control problem, where the desired position of each vehicle in the formation is described by a set of points. In particular, we consider relative motion in a two-vehicle system consisting of a leader and a follower, which is scalable to a larger formation in a distributed manner. The leader is free to move in 3-dimensional space while the follower seeks to converge to the desired set of points. We especially consider the desired set to be a ring of a given radius located at a certain distance from the leader in this paper. In addition, we propose two control algorithms. Both of them allow the follower to alter the set point smoothly during the mission and thus increase the follower's flexibility of motion. The stability of the formation under the proposed control algorithms is analyzed using the Lyapunov theory. Numerical examples are also provided to illustrate the efficacy of the control algorithms.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/ringformationmaneuversingleintegratorkin/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "ringformationmaneuveringwithdoubleintegr",
+    "slug": "ringformationmaneuveringwithdoubleintegr",
+    "title": "Ring formation maneuvering with double integrator dynamics",
+    "authors": [
+      "D. Tran",
+      "D. Casbeer",
+      "E. Garcia",
+      "I. E. Weintraub",
+      "D. Milutinović"
+    ],
+    "year": 2021,
+    "venue": "2021 International Conference on Unmanned Aircraft Systems (ICUAS)",
+    "abstract": "Conventional leader-follower formations restrict the follower to a single desired position relative to the leader. To give the follower more flexibility in motion and to replicate typical human pilot operations, in this paper we propose a control architecture allowing the follower to converge to a ring, which is a set of desired points, relative to the leader. The follower is considered subject to a point-mass aircraft model, which can be transformed into the double integrator kinematics. For that reason, the nonlinear backstepping method is first utilized to design the controller for the double integrator kinematics with input saturation constraints being taken into account. The controller is then converted into control variables for the point-mass model. The stability of the proposed architecture is analyzed. Finally, a numerical example is presented to illustrate the efficacy of the proposed controller.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/ringformationmaneuveringwithdoubleintegr/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "trajectoryoptimizationforrendezvousplann",
+    "slug": "trajectoryoptimizationforrendezvousplann",
+    "title": "Trajectory optimization for rendezvous planning using quadratic bézier curves",
+    "authors": [
+      "S. G. Manyam",
+      "D. W. Casbeer",
+      "I. E. Weintraub",
+      "C. Taylor"
+    ],
+    "year": 2021,
+    "venue": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "abstract": "In this paper, we consider a trajectory planning problem where an autonomous vehicle aims to rendezvous with another cooperating vehicle in minimum time. The first vehicle has kinematic constraints, consequently feasible trajectories must have a maximum curvature less than a specified limit. Rendezvous is said to occur at the instant that the two vehicles are collocated with the same heading. We propose a technique to construct a trajectory, composed of piecewise quadratic Bézier curves, that satisfies the vehicle motion constraints and achieves rendezvous in minimum time. The methodology begins by finding safe flight corridors, which are constructed from sequences of triangles using constrained Delaunay triangulation of the feasible space; the triangles define the bounds of Bézier curves. We formulate the necessary constraints for continuity and feasibility as functions of the control points that define the Bézier curves, and the resulting optimization problem is solved using a nonlinear programming solver. The techniques developed were tested using simulated scenarios, and we present the results which highlight the efficacy of the proposed solution approach. Furthermore, the algorithm was implemented and tested in a field test and those results are presented.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/trajectoryoptimizationforrendezvousplann/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "optimalevasioninanactivetargetdefensesce",
+    "slug": "optimalevasioninanactivetargetdefensesce",
+    "title": "Optimal Evasion in an Active Target Defense Scenario",
+    "authors": [
+      "I. E. Weintraub",
+      "E. Garcia",
+      "D. Casbeer",
+      "M. Pachter"
+    ],
+    "year": 2021,
+    "venue": "AIAA Scitech 2021 Forum",
+    "abstract": "View Video Presentation: https://doi.org/10.2514/6.2021-1881.vid A three-agent scenario is considered in 3-D Cartesian space, where a Pursuer aims at intercepting an Evader while the Evader aims to out-maneuver the Pursuer. A Defender working in cooperation with the Evader aims at intercepting the Pursuer before the Pursuer can capture the Evader. A proportional navigation strategy is implemented by the Defender and the Pursuer. The optimal control problem which strives at solving for the heading rate and flight path angle rate of the Evader is posed and solved. Using the even collocation method, the optimal controls for the Evader are found using a nonlinear program solver. An example is provided to illustrate the maneuvers made by the Evader to escape the Pursuer with maximum separation at final time.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/optimalevasioninanactivetargetdefensesce/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "circularrejoinin3dusingbézierpaths",
+    "slug": "circularrejoinin3dusingbézierpaths",
+    "title": "Circular rejoin in 3d using bézier paths",
+    "authors": [
+      "I. E. Weintraub",
+      "Z. J. L. Demers",
+      "J. Shroyer",
+      "N. P. Ritsema",
+      "D. P. Sluss"
+    ],
+    "year": 2020,
+    "venue": "2020 IEEE Conference on Control Technology and Applications (CCTA)",
+    "abstract": "In this paper, the interception of a target vehicle is presented utilizing a Bézier path. Utilizing the Bézier path, the controlled vehicle is navigated from an initial point and velocity vector to a desired target waypoint and velocity vector. To ensure a flyable path, control points of the Bézier are adjusted using a nonlinear program that takes into account maximum path curvature and vehicle performance criteria. A model predictive controller is designed to provide the real-time controls that drive the controlled vehicle along the Bézier path with minimal flight path error and control effort. A numerical simulation, which demonstrates the ability to navigate to a desired waypoint and velocity vector for circular rejoin, is provided as an example.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/circularrejoinin3dusingbézierpaths/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "anoptimalguidancestrategyforthedefenseof",
+    "slug": "anoptimalguidancestrategyforthedefenseof",
+    "title": "An Optimal Guidance Strategy for the Defense of a Non-Maneuverable Target in 3-D",
+    "authors": [
+      "I. Weintraub",
+      "E. Garcia",
+      "M. Pachter"
+    ],
+    "year": 2020,
+    "venue": "IET Control Theory & Applications",
+    "abstract": "The optimal guidance problem for an interceptor against a ballistic missile with active defense is investigated in this paper. A class of optimal guidance schemes are proposed based on linear quadratic differential game method and numerical solution of Riccati differential equation. By choosing proper parameters, the proposed guidance schemes are able to drive the interceptor to the target and away from the defender simultaneously. Additionally, fuel cost, control saturation, chattering phenomenon and parameters selection were taken into account. Satisfaction of the proposed guidance schemes of the saddle point condition is proven theoretically. Finally, nonlinear numerical examples are included to demonstrate the effectiveness and performance of the developed guidance approaches. Comparison of control performance between different guidance schemes are presented and analysis.",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/anoptimalguidancestrategyforthedefenseof/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "wingflexibilityinducedcontrolreversalfor",
+    "slug": "wingflexibilityinducedcontrolreversalfor",
+    "title": "Wing flexibility induced control reversal for flapping wing vehicles: observation and evaluation",
+    "authors": [
+      "D. Sigthorsson",
+      "M. W. Oppenheimer",
+      "D. B. Doman",
+      "I. Weintraub"
+    ],
+    "year": 2017,
+    "venue": "AIAA Guidance, Navigation, and Control Conference",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/wingflexibilityinducedcontrolreversalfor/paper.pdf",
+    "imagePath": ""
+  },
+  {
+    "id": "the5050lifelineonwhowantstobeamillionair",
+    "slug": "the5050lifelineonwhowantstobeamillionair",
+    "title": "THE 50: 50 LIFELINE ON \"WHO WANTS TO BE A MILLIONAIRE?\"",
+    "authors": [
+      "D. L. Evans",
+      "I. Weintraub"
+    ],
+    "year": 2009,
+    "venue": "Mathematics and Computer Education 43 (1), 69",
+    "abstract": "",
+    "source": "scholar-stub",
+    "pdfPath": "pdfs/public/publications/the5050lifelineonwhowantstobeamillionair/paper.pdf",
+    "imagePath": ""
+  }
+]

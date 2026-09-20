@@ -1,0 +1,106 @@
+IET Research Journals
+Brief Paper
+
+An Optimal Guidance Strategy for the
+Defense of a Non-Maneuverable Target in
+3-Dimensions
+
+ISSN 1751-8644
+doi: 0000000000
+www.ietdl.org
+
+Isaac Weintraub1∗ , Eloy Garcia2 , Meir Pachter3
+1
+
+Aerospace Systems Directorate, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, USA
+Control Science Center of Excellence, Air Force Research Laboratory, Wright-Patterson AFB, OH 45433 USA
+3
+Department of Electrical Engineering, Air Force Institute of Technology, Wright-Patterson AFB, OH 45433, USA
+* E-mail: isaac.weintraub.1@us.af.mil
+2
+
+Abstract: An engagement scenario involving the defense of a non-maneuverable agent, called the Target, is considered. A pursuing agent, engages the non-maneuverable Target while a defending agent, which aims at intercepting the Pursuer in order to
+protect the Target, is considered in 3-Dimensions. A zero-sum differential game is formulated where the objective of the Defender
+is to capture the Pursuer and maximize the terminal Pursuer-Target range at final time; while the Pursuer aims at minimizing the
+terminal Pursuer-Target range at final time. The terminal time is not fixed and is determined by the interception of the Pursuer by
+the Defender. The saddle point state-feedback strategies for the Pursuer and the Defender are obtained using a gradient-based
+minimization routine. A comparison of the saddle point strategy against a heuristic approach, Pure Pursuit, is conducted. The
+comparison demonstrates that poorer performance is achieved by players who deviate from the optimal saddle point strategy;
+and, as a result, the saddle point strategies outperform the heuristic method.
+
+1
+
+Introduction
+
+The modeling and analysis of pursuit-evasion scenarios involving multiple agents represent an important area of interest for the
+military, aerospace, and controls community. The utilization of differential games to accomplish the analysis of pursuit-evasion was
+originally outlined by Isaacs [1]. While Isaacs’ notable work considered pursuit-evasion in the plane, others extended his work to
+include pursuit-evasion in 3-Dimensions. One example of a closed
+form solution to a three-dimensional missile-aircraft pursuit-evasion
+game was posed by Shinar and Gutman [2]. Shinar also investigated
+a realistic pursuit-evasion engagement involving missile-air and airair scenarios using variational methods [3]. Hillberg and Chalmers
+investigated a pursuit-evasion game between two realistic aircraft in
+a dogfight using distance as a metric for optimization. They took into
+account physical aircraft limits such as structural and stall limits [4].
+Greenwood designed a realistic differential game in 3-Dimensions
+by modeling fighter aircraft [5]. Greenwood used dynamics of two
+fighter aircraft in space and even considered firing envelopes as part
+of this barrier analysis. Imado and Kuroda proposed a differential
+game involving a missile-aircraft pursuit-evasion engagement where
+a nonlinear miss-distance was used as a payoff function [6]. Shinar,
+Glizer, and Turetsky, investigated a pursuit-evasion game where the
+dynamics of the pursuer could be changed during the pursuit a finite
+number of times similar to multi-stage missiles [7]. In their paper [8],
+the Target had the ability to change its dynamics during the engagement a finite number of times. Merz proposed a problem of pursuit
+or evasion selection if both agents were tactical and role assignment
+had not yet happened [9]. Related to dog-fights and aerial combat,
+Merz’s concern was with the differential game assignment and the
+outcome of the engagement.
+The consideration of multiple agents engaged in pursuit and
+defense of a moving or stationary target has been considered in the
+past. Introduced by Boyell [10, 11], the defense of a ship from an
+incoming torpedo using a counter-weapon was described. The twoplayers one evader game of Cardaliaguet [12] is an early version of
+target defense. In the paper, a two-player differential game is played
+wherein one of the players wants the state of the system to reach
+an evader, while the other player wants the state of the system to
+
+IET Research Journals, pp. 1–7
+c The Institution of Engineering and Technology 2015
+
+avoid this evader. Yamasaki and Balakrishnan proposed the defense
+of active Target by the launching of a defensive missile [13, 14].
+In their work, they proposed a closed-loop feedback control law to
+defend a target aircraft successfully. Using simple motion, Pachter,
+Garcia, and Casbeer [15] consider a zero-sum three-agent pursuitevasion differential game. Additionally they considered a case in
+2-Dimensions when the Defender was faster than both the Pursuer
+and the Target [16].
+Previous works have considered target defense but have restricted
+the game to the 2-Dimensional plane [16–20]. Rather than consider
+the defense of a non-maneuvering target in 2-Dimensions, we consider the problem in 3-Dimensions. By considering the engagement
+in 3-Dimensions, we are able to introduce the concept of altitude
+to the differential game described in [18]. The inclusion of altitude
+and dynamics in 3-Dimensions, are in-general, more realistic for the
+modeling of aerial engagements. Utilizing geometry of Apollonius,
+we are able to not only set-up the differential game, but solve its
+numerically.
+One common issue with posing differential games in 3Dimensions when compared to those in 2-Dimensions is the
+tractability of analytic solutions. The added spatial dimension begs
+the use of spherical coordinates as well as additional controls. In
+the 2-Dimensional problem one control for each agent is considered (agent headings). However, in 3-Dimensions, each agent has
+two controls, one for azimuth and one for elevation. In total, the
+dynamics become more nonlinear, more controls are required to pose
+and solve 3-Dimensional differential games, and as a result, tractable
+solutions are challenging to find.
+In this work we consider an engagement scenario involving the
+defense of a non-maneuverable agent, called the Target. A Pursuer,
+engages the non-maneuverable Target while the Defender, which
+aims at intercepting the Pursuer in order to protect the Target, is considered in 3-Dimensions. By posing a scenario of a non-maneuvering
+Target, we consider the differential game which develops between
+two players: Pursuer and Defender. Preventing the Target from
+maneuvering, a differential game is posed where it is the goal of the
+Defender to capture the Pursuer as far from the Target as possible.
+A non-maneuvering Target would be representative of aircraft which
+
+1
+
+

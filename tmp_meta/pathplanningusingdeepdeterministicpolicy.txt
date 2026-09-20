@@ -1,0 +1,52 @@
+Path Planning Using Deep Deterministic Policy Gradient: a
+Reinforcement Learning Approach ∗
+Qiang Le†
+Hampton University, Hampton, VA 23669, USA
+Yaguang Yang‡
+Hampton University, Hampton, VA 23669, USA
+Isaac E. Weintraub§
+Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, USA
+Path-planning for autonomous vehicles in threat-laden environments is a fundamental
+challenge because the problem is nonlinear and nonconvex even in simplest scenarios. While
+traditional optimal control methods can be used to find ideal paths, the computational time
+is often too slow for real-time decision-making. To solve this challenge, we propose a method
+based on Deep Deterministic Policy Gradient (DDPG) and model the threat as possibly multiple
+circular ’no-go’ zones. A mission is regarded as a failure if the vehicle enters this restricted zone
+at any time or does not reach a neighborhood of the destination. The DDPG agent is trained
+through trial and error in a simulated environment, learning a direct mapping from its current
+state (position and heading) to a series of feasible actions that guide the agent to safely reach its
+destination. The reword function has three parts: (a) an attractive field centered at the final
+destination, (b) some repulsive fields centered at the origins of circular obstacles, and (c) a
+penalty of control energy consumption (the magnitude of heading change) that indirectly in favor
+for straight path. The DDPG trains the agent using these incentives to find a largest possible set
+of starting points wherein a safe path to the destination is guaranteed. This provides critical
+information for mission planning, showing beforehand whether a task is achievable from a given
+starting point, assisting pre-mission planning activities. The approach is validated in simulation.
+A comparison between the DDPG method and a traditional optimal control (pseudo-spectral)
+method is carried out. The results show that the learning-based agent produces effective paths
+while being significantly faster, making it a better fit for real-time applications.
+
+I. Introduction
+Path planning in the presence of obstacles has many applications, for example, in engagement zone avoidance [? ? ?
+], robotics path planning [? ], automatic driving [? ], video games [? ], space debris avoidance [? ], printed circuit board
+routing [? ], geographical information system [? ], and practical VLSI systems [? ], and many more. Different methods,
+such as optimal control (pseudo spectral and model predictive control method) [? ], machine learning [? ], Genetic
+Algorithm (GA), and Voronoi diagram [? ], have been developed to solve the path planning problem in the presence of
+obstacles. While the traditional optimal control method can find an optimal path, developing a high-fidelity model can
+be difficult and time-consuming. Moreover, the computational time is often too slow for real-time decision-making.
+Genetic Algorithm and Voronoi diagram may not need a high-fidelity model, but the computational time can still be a
+problem for real-time decision-making. Recently, reinforcement learning emerged as a popular method for path planning
+in the presence of obstacles because it does not require a high-fidelity model and a well-trained agent can find a feasible
+path in real-time in most scenarios.
+Some popular reinforcement learning methods for path planning in the presence of obstacles include Q-learning,
+Deep Q-Network (DQN), and Deep Deterministic Policy Gradient (DDPG). Q-learning was first proposed by Watkins
+∗ DISTRIBUTION STATEMENT A. Approved for public release: distribution is unlimited (AFRL-2026-2026-1882) Cleared 16 Apr 2026
+† Associate Professor, Department of Electrical and Computer Engineering Hampton University, Hampton, VA
+‡ Research Scientist, Department of Electrical and Computer Engineering Hampton University, Hampton, VA
+
+§ Control Science Center, Air Force Research Laboratory, AIAA Associate Fellow. This paper is based on work performed at the Air Force
+Research Laboratory (AFRL) Control Science Center and is supported by AFOSR LRIR #24RQCOR002 (funded by Dr. Frederick Leve).
+
+1
+
+

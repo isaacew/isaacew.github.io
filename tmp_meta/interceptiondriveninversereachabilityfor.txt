@@ -1,0 +1,38 @@
+Interception-Driven Inverse Reachability for Engagement Zone
+Construction
+Grant Stagg∗ and Cameron K. Peterson†
+Brigham Young University, Provo, Utah, 84602, USA
+Alexander Von Moll‡ and Isaac Weintraub§
+Air Force Research Laboratory, WPAFB, Ohio, 45433, USA
+
+In contested environments, autonomous vehicles may need to plan around adversarial
+pursuers whose launch locations are unknown. This paper presents an interception-driven
+inverse-reachability framework for inferring a feasible pursuer launch region directly from
+observed interception events for a single pursuer. Each interception induces a geometric
+constraint on the unknown launch location, and intersecting these constraints yields a bounded
+set guaranteed to contain the true origin under maximum-capability assumptions. Mapping
+this inferred set through the pursuer reachable region produces deterministic engagement zones
+with an explicit worst-case safety interpretation. A probabilistic extension models uncertainty
+in the pursuer launch location and yields graded engagement-risk fields for risk-aware planning.
+To accelerate localization, we introduce an information-driven planner for sacrificial agents that
+selects trajectories to maximize expected contraction of the feasible launch region. Monte Carlo
+simulations show that the proposed framework rapidly reduces launch-location uncertainty
+and enables substantially shorter safe trajectories after only a small number of sacrificial
+deployments.
+
+I. Introduction
+Autonomous vehicles operating in contested environments must reason about adversarial threats whose launch
+locations are often unknown [1]. Traditional engagement analysis typically assumes that pursuer parameters—such as
+launch position, range, and maneuverability—are available a priori or described by a known probability distribution [2, 3].
+In many operational settings, however, threat locations must instead be inferred from indirect, sparse, or event-driven
+observations, motivating active localization methods that infer hidden sources from sparse binary contacts or geometrydependent measurements [4, 5]. This creates a coupled estimation–planning problem in which agents must gather
+∗ PhD Candidate, Electrical and Computer Engineering, Brigham Young University.
+
+† Associate Professor, Electrical and Computer Engineering, Brigham Young University, and AIAA Senior Member.
+‡ Aerospace Engineer, Control Science Center, Air Force Research Laboratory, AIAA Member.
+
+§ Electronics Engineer, Control Science Center, Air Force Research Laboratory, AIAA Associate Fellow.
+
+Distribution Statement A. Approved for public release: distribution is unlimited. AFRL-2026-1807. Cleared 13 Apr 2026.
+
+

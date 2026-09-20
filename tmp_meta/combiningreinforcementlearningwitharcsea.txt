@@ -1,0 +1,51 @@
+Combining Reinforcement Learning with Arc-search
+Interior-Point Method for Path Planning∗
+Yaguang Yang†
+Hampton University, Hampton, VA 23669, USA
+Qiang Le‡
+Hampton University, Hampton, VA 23669, USA
+Isaac E. Weintraub§
+Air Force Research Laboratory, Wright-Patterson AFB, OH 45433, USA.
+Path planning in environments containing obstacles has numerous practical applications.
+The problem is challenging because it is inherently nonlinear and nonconvex. Consequently,
+a variety of techniques have been developed to address this problem, among which machine
+learning and optimal control (or optimization) have emerged as two prominent approaches.
+In general, machine learning methods do not require a high-fidelity model, and a trained
+agent can often generate a feasible path in real time. However, the resulting path is not
+necessarily optimal with respect to performance objectives such as minimizing path length or
+travel time. In contrast, optimal control and optimization methods typically rely on high-fidelity
+models and often require computational effort that may not satisfy real-time constraints.
+Nevertheless, these methods are more likely to produce optimal or near-optimal solutions. To
+overcome the limitations of each approach while exploiting their respective strengths, this paper
+proposes a framework that combines reinforcement learning with an arc-search interior-point
+method for path planning. Numerical simulations demonstrate that the proposed approach
+effectively integrates the real-time decision-making capability of reinforcement learning with
+the optimization performance of the arc-search interior-point method, resulting in improved
+path-planning performance.
+Keywords: Path planning, obstacle avoidance, nonlinear optimization, arc-search.
+
+I. Introduction
+Path planning is an active area of research because of its wide range of applications [? ? ]. In real-world scenarios,
+path-planning problems are often subject to restricted zones or obstacles [? ? ? ]. Consequently, these problems are
+generally not only nonlinear but also nonconvex, making them intrinsically more challenging than linear or convex
+optimization problems. Therefore, a variety of methods have been developed to address such problems [? ].
+Among the available approaches, two classes of methods are particularly attractive because of their respective
+advantages. The first class is based on optimal control and optimization techniques, including nonlinear optimal
+control [? ], adaptive control [? ], model predictive control [? ], and pseudospectral methods [? ]. The second class is
+based on machine learning techniques, particularly reinforcement learning methods such as Q-learning [? ], Deep Q
+Networks (DQN) [? ], and Deep Deterministic Policy Gradient (DDPG) [? ].
+Optimal control methods typically rely on high-fidelity system models and, when successful, can produce optimal
+solutions. However, the computational effort required to solve the resulting optimization problems is often substantial,
+making these methods less suitable for real-time applications. In contrast, reinforcement learning methods generally do
+not require high-fidelity models. Although significant computational resources may be needed during the training phase,
+a trained agent can generate feasible paths much faster than optimization-based methods, making reinforcement learning
+particularly attractive for real-time applications [? ]. Nevertheless, reinforcement learning methods typically produce
+† Department of Electrical and Computer Engineering Hampton University, Hampton, VA
+‡ Department of Electrical and Computer Engineering Hampton University, Hampton, VA
+§ Control Science Center, Air Force Research Laboratory, AIAA Associate Fellow. This paper is based on work performed at the Air Force Research
+Laboratory (AFRL) Control Science Center and is supported by AFOSR LRIR #24RQCOR002 (funded by Dr. Frederick Leve). DISTRIBUTION
+STATEMENT A. Approved for public release: distribution is unlimited AFRL-2026-1808 Cleared 13 APR 2026.
+
+1
+
+

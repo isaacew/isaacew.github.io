@@ -1,0 +1,65 @@
+Multi-Salvo Ballistic Missile Defense Using Virtual Targets
+Jordan A. Graham∗ and David R. Jacques†
+Air Force Institute of Technology, Wright-Patterson AFB, OH, 45433, USA
+Isaac E. Weintraub‡
+Air Force Research Lab, Wright-Patterson AFB, OH, 45433, USA
+Edward D. White§
+Air Force Institute of Technology, Wright-Patterson AFB, OH, 45433, USA
+
+The proliferation of advanced ballistic threats necessitates adaptive defensive strategies.
+This paper builds upon previous research in a 2-D environment by investigating the performance
+of multi-salvo doctrines in a three-dimensional simulation featuring ballistic trajectories [1].
+We evaluate three strategies: a single-salvo baseline, a sequential shoot-look-shoot engagement,
+and a proactive multi-salvo strategy employing Virtual Targets (VTs). Optimal Weapon-Target
+Assignments are determined using a multi-objective optimization model, implemented in Julia,
+which balances kinematic intercept costs with a time-dependent Probability of Kill (Pk) model.
+A full factorial Monte Carlo simulation was conducted to analyze the sensitivity of mission
+outcomes to force ratios, kinematic advantages, and weapon lethality. Results confirm that
+multi-salvo strategies remain significantly superior to a single salvo in reducing the number
+of surviving attackers ("leakers"). The use of VTs consistently increases standoff distance,
+enhancing the defensive posture. These findings provide quantitative insights to inform the
+development of next-generation battle management systems for countering complex threats.
+
+Nomenclature
+𝛼
+
+=
+
+Multi-objective weighting factor, 𝛼 ∈ [0, 1]
+
+𝛽
+
+=
+
+Cost function scaling factor
+
+𝐶
+
+=
+
+Global multi-objective cost function value
+
+𝑃 𝑘,0
+
+=
+
+Maximum kill probability at zero intercept time
+
+𝑃 𝑘, 𝑗 (𝑡)
+
+=
+
+Probability of kill for a single defender
+
+∗ Masters Student, AFIT/ENV, jordan.graham.9@us.af.mil.
+
+† Professor, AFIT/ENV, david.jacques@us.af.mil, Associate fellow, AIAA
+
+‡ Senior Engineer, Control Science Center, Air Force Research Laboratory, Lifetime Associate Fellow, AIAA.
+§ Professor, AFIT/ENC, Stat.Associates@gmail.com, and AIAA Member Grade (if any) for fourth author (etc.).
+
+This paper is based on work performed at the Air Force Research Laboratory (AFRL) _Control Science Center_ and is supported by
+AFOSR LRIR #24RQCOR002 (funded by Dr. Frederick Leve). DISTRIBUTION STATEMENT A. Approved fo public release: distribution
+is unlimited (AFRL-2026-1845) Cleared 15 APR 2026.
+
+

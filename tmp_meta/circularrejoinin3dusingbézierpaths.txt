@@ -1,0 +1,96 @@
+Circular Rejoin in 3D Using Bézier Paths
+Isaac E. Weintraub1 , Zachary J. L. Demers1 , Jason Shroyer1 , Nathan P. Ritsema2 , and Dillon P. Sluss2
+
+Abstract— In this paper, the interception of a target vehicle is
+presented utilizing a Bézier path. Utilizing the Bézier path, the
+controlled vehicle is navigated from an initial point and velocity
+vector to a desired target waypoint and velocity vector. In
+order to ensure a flyable path, control points of the Bézier are
+adjusted using a nonlinear program which takes into account
+maximum path curvature and vehicle performance criteria. A
+model predictive controller is designed to provide the realtime controls which drive the controlled vehicle along the
+Bézier path with minimal flight path error and control effort.
+A numerical simulation, which demonstrates the ability to
+navigate to a desired waypoint and velocity vector for the
+purpose of circular rejoin, is provided as an example.
+
+I. I NTRODUCTION
+Aircraft guidance, navigation, and control are of significant interest to the aerospace community [1], [2]. One
+specific scenario of interest is the method of rejoining on
+another aircraft from various initial conditions [3], [4]. In
+the rejoin scenario, a target vehicle flies a prescribed flight
+path while a controlled vehicle aims at intercepting the target
+vehicle. Interception occurs when the controlled vehicle is
+within some desired region and orientation relative to the
+target vehicle and is accomplished through leveraging flight
+geometry and expending energy of the controlled aircraft. In
+general, many trade-offs can be made between the control
+effort required to reach the target location and the time-tointercept.
+A classic means of path planning is described by Dubins
+[5]. The concept of turn-straight-turn, made popular by Dubins, kinematically guarantees that vehicles reached a desired
+waypoint at a desired heading. It is well accepted that Dubins
+paths are time-optimal means of path planning. However,
+in three-dimensional Cartesian space, feasible Dubins paths
+may not exist. Moreover, looping of the path may occur when
+points are close to one another.
+A popular guidance strategy which reaches a desired
+waypoint is through proportional navigation (PN) [6]. The
+PN control law achieves interception by steering a controlled
+vehicle so that its direct line of sight to the target does
+not change direction as the controlled vehicle closes on its
+target waypoint. Utilizing PN, a guided vehicle is capable of
+intercepting a desired target; however, the velocity vector by
+Distribution Statement Here
+1 Isaac Weintraub, Zachary Demers, and Jason Shroyer are with the
+Aerospace Systems Directorate, Air Force Research Laboratory, WrightPatterson AFB, OH 45433, USA. isaac.weintraub.1@us.af.mil;
+zachary.demers@us.af.mil; jason.shroyer.1@us.af.mil
+2 Nathan Ritsema and Dillon Sluss are with InfoSciTex Corporation, Dayton, OH 45431, USA. nritsema@infoscitex.com;
+dsluss@infoscitex.com
+
+which interception occurs is not guaranteed to be tangent to
+a moving target.
+A novel guidance strategy is defined which is capable of
+reaching desired waypoints and headings in a work by Park
+[7]. The Park guidance algorithm selects a reference point
+on a desired trajectory and generates a lateral acceleration
+command using the reference point. In order to perform the
+desired longitudinal control, Park utilized a linear quadratic
+regulator (LQR). In the final approach, the Park guidance
+strategy implements PN.
+Bézier paths have been used to generate path plans for
+autonomous ground vehicles [8], marine vehicles [9], and air
+vehicles [10]. Named for Pierre Bézier , who used curves for
+the bodywork of Renault automobiles in the early 1960’s [11,
+pp119], the Bézier is a parametric polynomial shaped using
+control points. Bézier paths have various desirable properties
+including the fact that the curve always lies in the convex hull
+of the control points and the path is tangent to the beginning
+and ending nodes to their adjacent control point. In Choi et
+al. [8], Bézier paths were used to avoid obstacles in a twodimensional plane. Similarly, Hassani and Lande [9] used
+Bézier paths to avoid obstacles, but used differential flatness
+as a metric for incorporating vehicle capabilities to the path
+plan. This paper extends the two-dimensional usage of differential flatness, used in [9], to three-dimensional Cartesian
+space. Utilizing the path curvature, feasible path plans are
+generated using Bézier paths. One advantage Bézier paths
+have over other path generation geometries is their ability
+to ensure tangency at a specified waypoint. By selecting the
+control points of a Bézier path, one may ensure that arrival
+at a waypoint occurs from a specific direction. The curvature
+by which arrival occurs is tuned by adjusting control points
+of a Bézier path.
+Model Predictive Control (MPC) is an optimal control
+method capable of tracking a desired trajectory with minimal
+control effort. MPC makes use of a moving time horizon to
+compute optimal control rather than an entire trajectory. The
+advantage of using a subset of a trajectory, opposed to the
+entire track, is that the computational effort is reduced and
+optimal control may be applied in real-time [12]–[14]. In a
+work by Bhattacharjee et al. [14], an MPC is used to formulate a closed-loop missile guidance controller. The controller
+regulates the nonlinear missile engagement using a quadratic
+program (QP). In a work by Kamyar and Taheri [13], an
+MPC is used to control a three-dimensional terrain following/avoidance trajectory optimization. Rather than linearize
+the dynamics at each time step, the MPC works directly with
+the nonlinear system to formulate the closed-loop guidance
+strategy. Similarly, a receding horizon controller is developed
+
+

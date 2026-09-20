@@ -1,0 +1,38 @@
+JOTA manuscript No.
+(will be inserted by the editor)
+
+The Synthesis of Optimal Control Laws Using Isaacs’
+Method for the Solution of Differential Games
+Meir Pachter and Isaac E. Weintraub
+
+Received: date / Accepted: date
+
+Abstract In this paper we advocate for Isaacs’ method for the solution of
+differential games to be applied to the solution of optimal control problems.
+To make the argument, the vehicle employed is Pontryagin’s canonical optimal control example, which entails a double integrator plant. However, rather
+than controlling the state to the origin, we require the end state to reach a
+terminal set that contains the origin in its interior. Indeed, in practice, it is
+required to control to a prescribed tolerance rather than reach a desired end
+state; constraining the end state to a terminal manifold of co-dimension n-1
+renders the optimal control problem easier to solve. The global solution of the
+optimal control problem is obtained and the synthesized optimal control law
+is in state feedback form. In this respect, two target sets are considered: a
+smooth circular target and a square target with corners. Closed-loop statefeedback control laws are synthesized that drive the double integrator plant
+from an arbitrary initial state to the target set in minimum time. This is accomplished using Isaacs’ method for the solution of differential games, which
+entails Dynamic Programming (DP), working backward from the Usable Part
+(UP) of the target set, as opposed to obtaining the optimal trajectories using
+the necessary conditions for optimality provided by Pontryagin’s Maximum
+Principle (PMP). In this paper, the case is made for Isaacs’ method for the
+solution of differential games to be applied to the solution of optimal control
+problems by way of the juxtaposition of the PMP and DP methods.
+Communicated by Jason L. Speyer.
+Meir Pachter
+Air Force Institute of Technology
+Wright-Patterson AFB, OH 45433
+meir.pachter@afit.edu
+Isaac E. Weintraub
+Air Force Research Laboratory
+Wright-Patterson AFB, OH 45433
+isaac.weintraub.1@us.af.mil
+
+

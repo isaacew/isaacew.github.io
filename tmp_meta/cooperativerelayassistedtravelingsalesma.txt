@@ -1,0 +1,113 @@
+Cooperative Relay-Assisted Traveling Salesman Problem using Graphs
+of Convex Sets
+Satyanarayana G. Manyam1 , David W. Casbeer2 and Isaac E. Weintraub2
+Abstract— A cooperative routing problem involving two vehicles, a sensing agent and a relay agent, is considered. The
+sensing agent must visit a given set of targets to collect data and
+transmit it to a ground station. Hardware limitations restrict
+the transmission range, requiring the second agent to act as a
+relay between the sensing agent and the ground station. The
+collected data is transmitted through a two-hop network: from
+the sensing agent to the relay agent, and then to the ground
+station. Given a set of target locations, the routing problem
+aims to determine the optimal sequence of targets to be visited
+by the sensing agent, along with the corresponding positions of
+the relay agent, to minimize the combined travel cost of both
+vehicles. This problem is formulated as a mixed-integer convex
+program utilizing the framework of graphs of convex sets. The
+formulation avoids “big-M” constraints, resulting in a tighter
+convex relaxation. Furthermore, this approach is shown to be
+applicable to the neighborhood traveling salesman problem
+and can be extended to a three-agent scenario with two relay
+agents. Computational experiments are conducted to evaluate
+the proposed formulations and validate the tightness of the
+lower bounds obtained via convex relaxation.
+
+I. I NTRODUCTION
+The Traveling Salesman Problem (TSP) [1] is a fundamental combinatorial problem that arises in several surveillance
+and reconnaissance applications [2], [3]. Given a set of cities
+and the cost of travel between every pair of cities, the TSP
+aims to find a minimum-cost tour that originates from the
+start location, referred to as the depot, visits every city
+exactly once, and returns to the depot. The TSP is often
+adapted to suit various applications; consequently, several
+variants, each with different additional constraints, have been
+formulated and solved in the literature.
+Unmanned Aerial Systems (UAS) are widely used in
+monitoring and surveillance applications, and therefore, solving the TSP for such systems naturally introduces new
+constraints. In this paper, we consider a variant of the TSP
+with communication constraints. Specifically, we consider
+a surveillance application where small aircraft must visit
+a given set of target locations and gather data using onboard sensors. Due to the criticality of the application, the
+data must be relayed to a ground station as soon as it
+is collected. However, it is established that the available
+communication bandwidth is inversely proportional to the
+1 Satyanarayana G. Manyam is with DCS Corporation, Dayton, OH,
+45431, USA msngupta@gmail.com
+2 David Casbeer and Isaac Weintraub are with the Control
+Science
+Center,
+Air-Force
+Research
+Laboratory,
+WPAFB,
+OH,
+45431,
+USA
+david.casbeer@us.af.mil,
+
+isaac.weintraub.1@us.af.mil
+DISTRIBUTION STATEMENT A. Approved for public release. Distribution is unlimited. Case number: AFRL-2025-4701 ; Cleared 18 Sep 2025.
+
+transmission distance [4]. This limits the maximum distance
+from the ground station at which a target can be sensed by a
+UAS. In the proposed application, two UAS are considered:
+one UAS collects data from the targets, while the second
+acts as a relay between the sensing UAS and the ground
+station. This setup allows the sensing UAS to collect data
+from targets located beyond the distance limit imposed when
+using a single UAS. However, to ensure successful data
+transfer, both the distance between the two UAS and the
+distance between the relay UAS and the ground station must
+be less than a specified threshold distance. We refer to this
+threshold distance, which guarantees the necessary available
+bandwidth, as the communication radius.
+An illustration of this setup with two UAS and two-hop
+communication links is shown in Fig. 1. In general, the
+communication distance may depend on the directionality of
+the antennas, obstacles present in the environment, and other
+factors. For simplicity, we assume that this communication
+radius is constant in all directions. The feasible communication radius between the sensing UAS and the relay UAS
+could be different from the communication radius between
+the relay UAS and the ground station.
+Sensing
+UAS (As)
+
+Comm. link
+
+Relay
+UAS (Ar )
+
+Comm. link
+
+Target
+locations
+
+Ground
+Station
+
+Fig. 1. Communication through a two-hop relay network, the blue lines
+represent the path plan while the green lines represent communication
+between systems.
+
+The objective of this paper is to find a minimum-cost
+tour for the two UAS that starts from the ground station
+(the depot), visits every target, and returns to the depot, all
+while maintaining a feasible communication link from the
+sensing UAS to the ground station. We refer to this problem
+as the Communication Relay-Assisted TSP (CRATSP). An
+important distinction to observe is that while the route of the
+sensing UAS is defined over a discrete set of target locations,
+no such discrete set exists for the relay UAS. When the
+sensing UAS visits a target, the position of the relay UAS
+
+

@@ -1,0 +1,62 @@
+AIAA SciTech Forum
+9 - 13 January 2017, Grapevine, Texas
+AIAA Guidance, Navigation, and Control Conference
+
+10.2514/6.2017-1272
+
+Downloaded by AFRL D'Azzo Wright-Patterson on September 19, 2026 | http://arc.aiaa.org | DOI: 10.2514/6.2017-1272
+
+Wing Flexibility Induced Control Reversal For
+Flapping Wing Vehicles: Theoretical Analysis
+David O. Sigthorsson ⇤
+Michael W. Oppenheimer †
+David B. Doman ‡
+Isaac E. Weintraub §
+
+Control reversal due to wing flexibility is of concern when designing maneuverable aircrafts. Experiments with prototype minimally actuated flapping wing
+micro air vehicles using split-cycle constant period frequency modulation for control revealed a control e↵ect reversal when using flexible wings to produce desired wing rotations. When controlling the cycle-averaged forward translational
+force and rolling moment using split-cycle constant period frequency modulation;
+as wing stroke symmetric frequency is increased, the e↵ect of a given split-cycle
+command reverses. This study investigates how a simple spring model augmentation of a quasi-steady aerodynamics model with a rigid body vehicle can account
+for the observed reversal as the dynamic pressure on the wing becomes coupled
+with the angle-of-attack. Furthermore, the feasibility of employing split-cycle constant period frequency modulation for control around a practical hover condition
+is established despite the e↵ect reversal. A companion paper investigates the same
+phenomenon using observations and empirical analysis.
+
+I.
+
+Introduction
+
+Flapping wing micro air vehicles (FWMAV) have been of particular research interest for the
+past decade due to the impressive flight capabilities of insects and small birds, and their potential
+application for military and civilian surveillance, remote sensing, low impact infiltration, and entertainment. Several researchers have shown success or great promise in developing FWMAVs.1–4 The
+work in this study focuses on minimally actuated FWMAVs utilizing split-cycle constant-period
+(SCCP) frequency wingbeat modulation to implement controlled flight around hover with only two
+actuators.5, 6 In theoretical works and early prototypes, a fixed angle-of-attack (AOA) was enforced
+on each wing over each half stroke4, 5 which enables SCCP modulation to control a cycle-averaged
+translational force and the rolling moment. Recent works relied on dynamic pressure and wing
+flexibility to produce passive wing rotation resulting in a desirable AOA distribution over the span
+⇤
+Research Scientist IV, InfoSciTex DCS Corp, 2210 Eighth Street, Bldg. 146, Rm. 301, Air Force Research
+Laboratory, WPAFB, OH 45433-7531 Email David.Sigthorsson.ctr.is@us.af.mil, Fax (937) 656-4000, Member AIAA
+†
+Senior Electronics Engineer, Control Science Center, 2210 Eighth Street, Bldg. 146, Rm. 301, Air Force Research
+Laboratory, WPAFB, OH 45433-7531 Email Michael.Oppenheimer@us.af.mil, Fax (937) 656-4000, Associate Fellow
+AIAA
+‡
+Principal Aerospace Engineer, Control Science Center, 2210 Eighth Street, Bldg. 146, Rm. 301, Air Force
+Research Laboratory, WPAFB, OH 45433-7531 Email David.Doman@us.af.mil, Fax (937) 656-4000, Fellow AIAA
+§
+Electronics Engineer, Aerospace Vehicle Technology Assessment And Simulation Branch, 2210 Eighth Street,
+Bldg. 145, Rm. 40, Air Force Research Laboratory, WPAFB, OH 45433-7531 Email IsaacWeintraub.1@us.af.mil,
+Fax (937) 656-4000, Member AIAA
+
+1 of 15
+American
+Institute
+This material is declared a work of the U.S. Government and is not subject
+to copyright
+protectionofinAeronautics
+the United States.and Astronautics
+
+
